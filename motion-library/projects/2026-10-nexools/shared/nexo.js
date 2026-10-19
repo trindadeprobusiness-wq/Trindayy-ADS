@@ -365,13 +365,13 @@
   N.calc = function (tl, o) {
     const s = scene(tl, "dark", o.t0, o.t1, { noExit: true });
     const tiles = Array.from({ length: o.months }, (_, i) => `<div class="mtile">${i + 1}<div class="on">${i + 1}</div></div>`).join("");
-    const c = el(`<div class="center" style="padding-bottom:120px"><div class="lbl" style="font-size:44px">${o.kicker}</div>
+    const c = el(`<div class="center" style="padding-bottom:120px"><div class="h1" style="color:#fff;font-size:84px">${o.kicker}</div>
       <div class="calc-line" style="margin-top:30px">${o.monthly} <span>×</span> ${o.months}</div>
       <div class="mgrid">${tiles}</div>
       <div class="ctot"><span class="num">R$ 0,00</span><div class="strike"></div></div>
       <div class="price" style="margin-top:0"><div class="rays"></div><div class="glow"></div><span class="cur">R$</span><span class="val" style="font-size:220px">${o.price}</span></div>
         <div style="position:relative;height:120px;width:400px;margin-top:-10px"><div class="stamp" style="left:40px;top:0">À VISTA</div></div></div>`, s);
-    words(tl, c.children[0], [o.t0 + 0.05]);
+    words(tl, c.children[0], o.kickTimes || [o.t0 + 0.05]);
     tl.fromTo(q(c, ".calc-line"), { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.5, ease: E.enter }, o.lineAt);
     N.sfx("pop", o.lineAt, -8);
     const mt = qa(c, ".mtile");
@@ -401,7 +401,7 @@
   N.priceFlip = function (tl, o) {
     const s = scene(tl, "", o.t0, o.t1, { exitScale: 3.2, exit: 0.35 });
     const c = el(`<div class="center"><div class="h2" style="margin-bottom:60px">${o.head}</div>
-      <div class="flip-wrap"><div class="flip">
+      <div class="flip-wrap"><div class="flip" data-layout-allow-overlap data-layout-allow-occlusion>
         <div class="face"><div class="sm" style="margin:0 0 10px">${o.frontTop}</div><div class="big"><span class="pv">US$ 0</span></div><div class="sm">${o.frontSub}</div></div>
         <div class="face back"><div class="sm" style="margin:0 0 10px">${o.backTop}</div><div class="big">${o.back}</div><div class="sm">${o.backSub}</div></div>
       </div></div><div class="lbl" style="margin-top:50px">${o.note}</div></div>`, s);
@@ -462,7 +462,7 @@
       ["Cibersegurança", "Tecnologia", "tec"], ["Visão Computacional", "Inteligência artificial", "ia"], ["Excel Avançado", "Negócios", "neg"],
       ["SQL Essencial", "Tecnologia", "tec"], ["Ética em IA", "Inteligência artificial", "ia"], ["Comunicação", "Carreira", "mais"],
     ];
-    const m = el(`<div class="mosaic"></div>`, s);
+    const m = el(`<div class="mosaic" data-layout-allow-overlap data-layout-allow-occlusion aria-hidden="true"></div>`, s);
     const colsN = 4, per = Math.ceil(courses.length / colsN);
     const cols = [];
     for (let k = 0; k < colsN; k++) {
@@ -475,10 +475,10 @@
       tl.fromTo(col, { y: k % 2 ? -300 : 0 }, { y: k % 2 ? 0 : -300, duration: o.t1 - o.t0, ease: "none" }, o.t0);
     }
     tl.fromTo(m, { opacity: 0, scale: 1.15 }, { opacity: 1, scale: 1, duration: 0.7, ease: E.enter }, o.t0);
-    const chip = el(`<div class="topchip">+ milhares de cursos</div>`, s);
+    const chip = el(`<div class="topchip" data-layout-allow-overlap data-layout-allow-occlusion>+ milhares de cursos</div>`, s);
     tl.fromTo(chip, { opacity: 0, y: -40 }, { opacity: 1, y: 0, duration: 0.5, ease: E.pop }, o.chipAt);
     N.sfx("pop", o.chipAt, -6);
-    const word = el(`<div class="catword"><span></span></div>`, s);
+    const word = el(`<div class="catword" data-layout-allow-overlap data-layout-allow-occlusion><span></span></div>`, s);
     const ws = q(word, "span");
     o.cats.forEach((cat, i) => {
       tl.set(ws, { textContent: cat.label }, cat.t - 0.05);
@@ -488,7 +488,7 @@
       N.sfx("tick", cat.t, -8);
     });
     // certificado
-    const cert = el(`<div class="center"><div class="cert"><div class="ct">Certificado de conclusão</div><div class="cn">${o.certTitle}</div><div class="cl"></div><div class="cs">${o.certSub}</div>
+    const cert = el(`<div class="center" data-layout-allow-overlap data-layout-allow-occlusion><div class="cert"><div class="ct">Certificado de conclusão</div><div class="cn">${o.certTitle}</div><div class="cl"></div><div class="cs">${o.certSub}</div>
       <svg class="seal" viewBox="0 0 100 100"><circle id="sl" cx="50" cy="50" r="40" fill="none" stroke="#005afc" stroke-width="6"/><path id="sk" d="M32 51l12 12 24-26" fill="none" stroke="#005afc" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/></svg></div></div>`, s);
     tl.to([m, chip, word], { filter: "blur(10px)", opacity: 0.35, duration: 0.5, ease: E.move }, o.certAt - 0.1);
     tl.fromTo(q(cert, ".cert"), { opacity: 0, y: 200, rotation: 6, scale: 0.9 }, { opacity: 1, y: 0, rotation: -2, scale: 1, duration: 0.7, ease: E.enter }, o.certAt - 0.1);
