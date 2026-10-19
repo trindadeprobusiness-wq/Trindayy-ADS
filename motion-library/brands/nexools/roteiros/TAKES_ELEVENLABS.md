@@ -5,47 +5,55 @@ Números já estão escritos por extenso. Os hooks alternativos ficam no fim (su
 
 ## Gemini Pro
 
-### GEM-A · A — Contraste de preço · 25–30 s
-> ⚠️ Validar origem/equivalência do benefício de 18 meses antes de publicar.
+### GEM-A · A — Contraste de preço + licença oficial · v2 · ~30–35 s
+> ⚠️ Só publicar se a entrega for exatamente assim: licença ativada no e-mail do próprio cliente. v1 em `takes/_v1/`.
 
 ```
 Dezoito meses de Gemini Pro por apenas quarenta e sete reais.
 
-É essa a oferta que a Nexools preparou para quem quer aproveitar mais a inteligência artificial no trabalho, nos estudos e na criação de conteúdo.
+E antes que você pergunte: não é link compartilhado, nem conta dividida com outras pessoas.
 
-São ferramentas para pesquisar, desenvolver ideias e organizar projetos com mais possibilidades.
+É uma licença oficial de dezoito meses, ativada no seu próprio e-mail. Você mesmo ativa, na sua conta, e o acesso é só seu.
 
-O preço chamou sua atenção? Então toque em Saiba Mais e confira as condições de ativação.
+Com o Gemini Pro, você pesquisa, desenvolve ideias e organiza projetos no trabalho, nos estudos e na criação de conteúdo.
+
+Tudo isso por menos de três reais por mês.
+
+Toque em Saiba Mais e garanta a sua licença com a Nexools.
 ```
 
-### GEM-B · B — Identificação · 25–30 s
-> ⚠️ Validar origem/equivalência do benefício de 18 meses antes de publicar.
+### GEM-B · B — Identificação + licença oficial · v2 · ~30–35 s
+> ⚠️ Só publicar se a entrega for exatamente assim: licença ativada no e-mail do próprio cliente. v1 em `takes/_v1/`.
 
 ```
-Você abre a inteligência artificial para resolver uma dúvida rápida.
+Você abre a inteligência artificial só para resolver uma dúvida rápida.
 
-Mas ela também pode ajudar a estruturar uma apresentação, pesquisar um assunto complexo ou planejar o conteúdo da semana inteira.
+Mas ela também pode estruturar uma apresentação, pesquisar um assunto complexo e planejar o conteúdo da semana inteira.
 
-O Gemini Pro oferece recursos avançados para esse tipo de tarefa.
+É para isso que existe o Gemini Pro.
 
-E a Nexools tem uma oferta de dezoito meses por quarenta e sete reais.
+E na Nexools você tem dezoito meses de acesso por quarenta e sete reais.
 
-Veja os detalhes e confira se você pode aproveitar.
+Sem link compartilhado e sem conta de outra pessoa. É uma licença oficial, ativada no seu próprio e-mail, e o acesso fica com você durante os dezoito meses.
+
+Toque em Saiba Mais e ative a sua.
 ```
 
-### GEM-C · C — Quebra de objeção · 25–30 s
-> ⚠️ Validar origem/equivalência do benefício de 18 meses antes de publicar.
+### GEM-C · C — Quebra de objeção (não é link compartilhado) · v2 · ~30–35 s
+> ⚠️ Só publicar se a entrega for exatamente assim: licença ativada no e-mail do próprio cliente. v1 em `takes/_v1/`.
 
 ```
-Quarenta e sete reais por dezoito meses de Gemini Pro?
+Quarenta e sete reais por dezoito meses de Gemini Pro? Parece bom demais?
 
-É normal querer entender como funciona uma oferta tão diferente do preço mensal.
+Então vamos direto ao ponto.
 
-O importante é conferir o benefício oferecido, os requisitos de ativação e as condições antes de comprar.
+Não é link compartilhado. Não é conta dividida. Não é login de outra pessoa.
 
-Na Nexools, você pode consultar os detalhes dessa oferta.
+É uma licença oficial de dezoito meses, que você ativa no seu próprio e-mail. A conta é sua, e o acesso também.
 
-Acesse o catálogo e veja se ela é adequada para você.
+São dezoito meses de inteligência artificial avançada para estudar, trabalhar e criar, por menos de três reais por mês.
+
+Toque em Saiba Mais e garanta a sua na Nexools.
 ```
 
 ## Coursera Plus
