@@ -39,6 +39,9 @@ Baseada no `MOTION_PLAYBOOK.md` e no acervo (`INDEX.md`). É o ponto de partida:
 | **Coursera** | Tipografia cinética + prova | REF-006, REF-004 (lista que cresce) | R-01, R-17, R-09 | 12–15 s | Compra |
 | **ElevenLabs Creator** | Demonstração com áudio | REF-008 (forma de onda), REF-003 | R-01, R-19, onda de áudio sincronizada à voz | 15–20 s | Compra |
 
+## Estratégia de Meta Ads e roteiros
+Ver `ESTRATEGIA_META_ADS.md` (comparação com preços oficiais, Big Ideas, testes, auditoria) e `roteiros/TAKES_ELEVENLABS.md` (15 falas + 9 hooks).
+
 ## Pendências para produzir
 
 - **Identidade visual da Nexools:** logo (SVG/PNG), cores, fonte com licença. Sem isso, uso tokens neutros e o nome em texto.

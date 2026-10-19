@@ -1,0 +1,7 @@
+Chega um novo lead. Você copia os dados para uma planilha. Depois avisa a equipe. E repete o mesmo processo no dia seguinte.
+
+Com o n8n, você pode conectar essas etapas e criar uma automação para reduzir o trabalho manual.
+
+A Nexools está oferecendo doze meses do Starter por duzentos e noventa e sete reais.
+
+Confira as condições e descubra como começar a estruturar seus próprios fluxos.

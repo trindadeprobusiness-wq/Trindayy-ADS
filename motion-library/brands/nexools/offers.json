@@ -2,7 +2,7 @@
   "brand": "Nexools",
   "currency": "BRL",
   "updated": "2026-10-19",
-  "note": "Campos em 'internal' (custo, lucro, margem) NUNCA aparecem em vídeo, legenda ou anúncio. Só 'public' vai para as composições.",
+  "note": "Campos em 'internal' (custo, lucro, margem) NUNCA aparecem em vídeo, legenda ou anúncio. Só 'public' vai para as composições. 'reference_price' só pode ir para anúncio quando approved_for_ads=true.",
   "offers": [
     {
       "id": "gemini-pro-18m",
@@ -18,7 +18,24 @@
         "price_label": "R$ 47,00",
         "per_month_label": "R$ 2,61/mês"
       },
-      "internal": { "cost": 5.0, "gross_profit": 42.0, "margin_pct": 89.4, "markup_x": 9.4 }
+      "internal": {
+        "cost": 5.0,
+        "gross_profit": 42.0,
+        "margin_pct": 89.4,
+        "markup_x": 9.4
+      },
+      "reference_price": {
+        "official_label": "Google AI Pro R$ 96,99/mês (BR)",
+        "official_total_brl": 1745.82,
+        "savings_pct": null,
+        "status": "a validar: origem, elegibilidade, comercialização",
+        "approved_for_ads": false,
+        "researched": "2026-10-19",
+        "fx": {
+          "EUR_BRL": 5.65931,
+          "USD_BRL": 5.0461
+        }
+      }
     },
     {
       "id": "coursera-12m",
@@ -34,7 +51,24 @@
         "price_label": "R$ 89,90",
         "per_month_label": "R$ 7,49/mês"
       },
-      "internal": { "cost": 18.69, "gross_profit": 71.21, "margin_pct": 79.2, "markup_x": 4.8 }
+      "internal": {
+        "cost": 18.69,
+        "gross_profit": 71.21,
+        "margin_pct": 79.2,
+        "markup_x": 4.8
+      },
+      "reference_price": {
+        "official_label": "Coursera Plus US$ 399/ano",
+        "official_total_brl": 2013.39,
+        "savings_pct": 95.5,
+        "status": "a validar: equivalência ao Coursera Plus e permissão de revenda",
+        "approved_for_ads": false,
+        "researched": "2026-10-19",
+        "fx": {
+          "EUR_BRL": 5.65931,
+          "USD_BRL": 5.0461
+        }
+      }
     },
     {
       "id": "elevenlabs-creator-3m",
@@ -50,7 +84,24 @@
         "price_label": "R$ 149,90",
         "per_month_label": "R$ 49,97/mês"
       },
-      "internal": { "cost": 60.63, "gross_profit": 89.27, "margin_pct": 59.6, "markup_x": 2.5 }
+      "internal": {
+        "cost": 60.63,
+        "gross_profit": 89.27,
+        "margin_pct": 59.6,
+        "markup_x": 2.5
+      },
+      "reference_price": {
+        "official_label": "Creator US$ 22/mês",
+        "official_total_brl": 333.04,
+        "savings_pct": 55.0,
+        "status": "a validar: limites do plano",
+        "approved_for_ads": false,
+        "researched": "2026-10-19",
+        "fx": {
+          "EUR_BRL": 5.65931,
+          "USD_BRL": 5.0461
+        }
+      }
     },
     {
       "id": "n8n-starter-12m",
@@ -66,7 +117,25 @@
         "price_label": "R$ 297,00",
         "per_month_label": "R$ 24,75/mês"
       },
-      "internal": { "cost": 85.89, "gross_profit": 211.11, "margin_pct": 71.1, "markup_x": 3.5 }
+      "internal": {
+        "cost": 85.89,
+        "gross_profit": 211.11,
+        "margin_pct": 71.1,
+        "markup_x": 3.5
+      },
+      "reference_price": {
+        "official_label": "n8n Cloud Starter € 20/mês (anual)",
+        "official_total_brl": 1358.23,
+        "savings_pct": 78.1,
+        "savings_brl": 1061.23,
+        "status": "a validar: Cloud oficial, mesmo limite de execuções, permissão de revenda",
+        "approved_for_ads": false,
+        "researched": "2026-10-19",
+        "fx": {
+          "EUR_BRL": 5.65931,
+          "USD_BRL": 5.0461
+        }
+      }
     },
     {
       "id": "manus-pro-12m",
@@ -82,7 +151,24 @@
         "price_label": "R$ 597,00",
         "per_month_label": "R$ 49,75/mês"
       },
-      "internal": { "cost": 227.37, "gross_profit": 369.63, "margin_pct": 61.9, "markup_x": 2.6 }
+      "internal": {
+        "cost": 227.37,
+        "gross_profit": 369.63,
+        "margin_pct": 61.9,
+        "markup_x": 2.6
+      },
+      "reference_price": {
+        "official_label": "Manus Pro a partir de US$ 20/mês, ~17% off anual",
+        "official_total_brl": 1005.0,
+        "savings_pct": 40.6,
+        "status": "a validar: nível de créditos",
+        "approved_for_ads": false,
+        "researched": "2026-10-19",
+        "fx": {
+          "EUR_BRL": 5.65931,
+          "USD_BRL": 5.0461
+        }
+      }
     }
   ]
 }
