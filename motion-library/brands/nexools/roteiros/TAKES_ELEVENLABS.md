@@ -15,7 +15,7 @@ E antes que você pergunte: não é link compartilhado, nem conta dividida com o
 
 É uma licença oficial de dezoito meses, ativada no seu próprio e-mail. Você mesmo ativa, na sua conta, e o acesso é só seu.
 
-Além do Gemini Pro, você ainda tem mais espaço no Google Drive e acesso ao Google Flow, para criar imagens e vídeos com inteligência artificial.
+Além do Gemini Pro, você ainda tem cinco terabytes de armazenamento no Google Drive e acesso ao Google Flow, para criar imagens e vídeos com inteligência artificial.
 
 Tudo isso por menos de três reais por mês.
 
@@ -30,7 +30,7 @@ Você abre a inteligência artificial só para resolver uma dúvida rápida.
 
 Mas com o Gemini Pro ela pode estruturar uma apresentação, pesquisar um assunto complexo e planejar o conteúdo da semana inteira.
 
-E não para por aí: você ainda tem mais espaço no Google Drive e acesso ao Google Flow, para criar imagens e vídeos com inteligência artificial.
+E não para por aí: você ainda tem cinco terabytes de armazenamento no Google Drive e acesso ao Google Flow, para criar imagens e vídeos com inteligência artificial.
 
 Na Nexools, são dezoito meses por quarenta e sete reais.
 
