@@ -1,0 +1,18 @@
+# REF-004 — transcrição automática BRUTA (Whisper tiny q8, offline)
+# Modelo pequeno: erra palavras e ALUCINA texto em trechos só com música.
+# Use apenas para localizar fala no tempo. Interpretação validada está em analysis.md.
+
+## idioma forçado: portuguese
+[0.0-undefined]  E nunca
+
+## idioma forçado: english
+[0.0-3.0]  Ever had a problem in which one guy could fix it all?
+[3.0-4.3]  Meet Johnny Sins.
+[4.3-6.4]  Dr. He's got the stuff to go.
+[6.4-8.4]  Astronaut, already in space.
+[8.4-10.6]  Plumber, teacher, fitness coach.
+[10.6-12.6]  Yep, somehow, also him.
+[12.6-15.3]  Johnny can do everything except that you're video.
+[15.3-16.3]  That's my job.
+[16.3-18.2]  So, let's make something good.
+

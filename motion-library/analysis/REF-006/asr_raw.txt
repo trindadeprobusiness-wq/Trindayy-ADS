@@ -1,0 +1,24 @@
+# REF-006 — transcrição automática BRUTA (Whisper tiny q8, offline)
+# Modelo pequeno: erra palavras e ALUCINA texto em trechos só com música.
+# Use apenas para localizar fala no tempo. Interpretação validada está em analysis.md.
+
+## idioma forçado: portuguese
+[0.0-3.8]  D'apresistiando de criativos e realmente chamem atenção.
+[3.8-6.3]  Então você chegou ao lugar certo.
+[6.3-8.8]  Eu queria um dos seus condensos de funcionar,
+[8.8-11.7]  edição de Namica e de alta qualidade,
+[11.7-15.5]  para fazer as pessoas para ar em de rolar pela cada projeto,
+[15.5-17.7]  é pensar do ponto de extracassionar
+[17.7-22.3]  a transmitir mais autoridade e aumentar o impacto da sua mensagem.
+[22.3-24.1]  Com a relação em modernas,
+[24.1-26.2]  é feito os sonores em um vídeo de pressão profissional. Se. Com a relação em modernos, em factores sonores e no Brasil,
+[26.2-27.5]  é um vídeo tradicional.
+[27.5-29.0]  Se eu continuo do Daniel Maysval,
+[29.0-30.3]  eu vou dizer a sua empresa,
+[30.3-31.4]  e, em um comentário,
+[31.4-33.9]  e vamos criar um objetivo que faça sua empresa
+[33.9-35.7]  se desparte a com-organidade.
+
+## idioma forçado: english
+[0.0-undefined]  The reason why I'm using this is to be able to use the most important things of the community.
+

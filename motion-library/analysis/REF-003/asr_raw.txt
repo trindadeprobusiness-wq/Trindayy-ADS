@@ -1,0 +1,10 @@
+# REF-003 — transcrição automática BRUTA (Whisper tiny q8, offline)
+# Modelo pequeno: erra palavras e ALUCINA texto em trechos só com música.
+# Use apenas para localizar fala no tempo. Interpretação validada está em analysis.md.
+
+## idioma forçado: portuguese
+[0.0-2.0]  Eu não sei o que eu vou fazer isso.
+
+## idioma forçado: english
+[0.0-undefined]  I'm not gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna let you down, but I'm gonna
+

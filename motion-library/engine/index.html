@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="pt-BR" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>Laboratório de receitas</title>
+    <!-- Laboratório de receitas: prova técnica do pipeline, NÃO é um anúncio.
+         Exercita R-01..R-12 de motion-library/recipes com texto neutro. -->
+    <link rel="stylesheet" href="lib/tokens.css" />
+    <script src="vendor/gsap.min.js"></script>
+    <script src="lib/recipes.js"></script>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--paper); }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; font-family: var(--font-display); }
+      .clip { position: absolute; inset: 0; overflow: hidden; }
+      .center { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+
+      /* Cena A — Apple Style claro */
+      #sA { background: var(--paper); }
+      .hero { font-size: var(--t-h1); font-weight: 600; letter-spacing: var(--tracking-tight); color: var(--ink); text-align: center; line-height: 1.05; width: 900px; text-wrap: balance; }
+      .hero .w:last-child { color: var(--accent); }
+      .kicker { margin-top: 36px; font-family: var(--font-ui); font-size: var(--t-label); color: var(--ink-2); }
+      #pillWrap { position: absolute; left: 0; right: 0; top: 1180px; display: flex; justify-content: center; }
+      #pill { position: relative; width: 760px; height: 300px; background: var(--ink); border-radius: var(--r-card); overflow: hidden; box-shadow: var(--shadow-soft); display: flex; align-items: center; justify-content: center; }
+      #pillLabel { font-size: var(--t-h2); font-weight: 600; color: var(--paper); letter-spacing: var(--tracking-tight); }
+      #sheen { position: absolute; top: -40px; bottom: -40px; left: 300px; width: 140px; background: linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,0.35), rgba(255,255,255,0)); }
+
+      /* Cena B — escuro, ticker de anos + contador */
+      #sB { background: var(--night); }
+      #flash { position: absolute; inset: 0; background: #8e8e96; opacity: 0; }
+      #tickerMask { position: relative; width: 520px; height: 360px; overflow: hidden; -webkit-mask-image: linear-gradient(180deg, transparent 0%, #000 30%, #000 70%, transparent 100%); mask-image: linear-gradient(180deg, transparent 0%, #000 30%, #000 70%, transparent 100%); }
+      #tickerCol { position: absolute; left: 0; right: 0; top: 120px; }
+      .yr { height: 120px; line-height: 120px; text-align: center; font-size: 112px; font-weight: 700; color: #f5f5f7; letter-spacing: -0.03em; font-variant-numeric: tabular-nums; }
+      .yr.on { color: var(--accent); }
+      #badge { margin-top: 48px; padding: 18px 34px; border-radius: var(--r-pill); background: var(--accent); color: #fff; font-size: 56px; font-weight: 700; font-variant-numeric: tabular-nums; }
+      #disc { position: absolute; width: 4600px; height: 4600px; left: -1760px; top: -1170px; border-radius: 50%; background: var(--paper); }
+
+      /* Cena C — bento + câmera 3D */
+      #sC { background: radial-gradient(120% 80% at 50% 45%, #f7f7f9 0%, #d9d9de 100%); }
+      .stage { position: absolute; inset: 0; perspective: 1800px; }
+      #world { position: absolute; left: 90px; top: 360px; width: 900px; height: 1200px; transform-style: preserve-3d; transform-origin: 50% 50%; }
+      .tile { position: absolute; border-radius: var(--r-tile); background: #fff; box-shadow: var(--shadow-soft); display: flex; flex-direction: column; justify-content: flex-end; padding: 40px; font-family: var(--font-ui); }
+      .tile.dark { background: var(--night-2); color: #f5f5f7; }
+      .tile .lbl { font-size: 30px; font-weight: 500; opacity: 0.7; }
+      .tile .big { font-family: var(--font-display); font-size: 120px; font-weight: 700; letter-spacing: -0.04em; line-height: 1; font-variant-numeric: tabular-nums; }
+      .bar { margin-top: 26px; height: 18px; border-radius: 9px; background: rgba(255,255,255,0.12); overflow: hidden; }
+      #barFill { width: 100%; height: 100%; background: var(--accent-2); transform-origin: 0 50%; }
+      #lockup { font-size: 72px; font-weight: 700; letter-spacing: -0.03em; color: var(--ink); opacity: 0; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="10" data-width="1080" data-height="1920">
+      <!-- A: 0–3.2s -->
+      <section id="sA" class="clip" data-start="0" data-duration="3.2" data-track-index="0">
+        <div class="center" id="aText">
+          <h1 class="hero" id="hero">Clareza em cada quadro.</h1>
+          <p class="kicker" id="kicker">Laboratório de receitas · 9:16</p>
+        </div>
+        <div id="pillWrap"><div id="pill"><span id="pillLabel">Movimento preciso</span><div id="sheen" data-layout-allow-overflow></div></div></div>
+      </section>
+
+      <!-- B: 3.2–5.9s -->
+      <section id="sB" class="clip" data-start="3.2" data-duration="2.7" data-track-index="1">
+        <div class="center">
+          <div id="tickerMask"><div id="tickerCol" data-layout-allow-overflow>
+            <div class="yr">2020</div><div class="yr">2021</div><div class="yr">2022</div><div class="yr">2023</div><div class="yr">2024</div><div class="yr">2025</div><div class="yr on">2026</div><div class="yr">2027</div>
+          </div></div>
+          <div id="badge">+0%</div>
+        </div>
+        <div id="disc"></div>
+        <div id="flash"></div>
+      </section>
+
+      <!-- C: 5.9–10s -->
+      <section id="sC" class="clip" data-start="5.9" data-duration="4.1" data-track-index="2">
+        <div class="stage"><div id="world" data-layout-allow-overflow>
+          <div class="tile" style="left:0;top:0;width:430px;height:430px"><span class="lbl">Ritmo</span><span class="big">1</span></div>
+          <div class="tile dark" style="left:470px;top:0;width:430px;height:200px"><span class="lbl">Tipografia</span></div>
+          <div class="tile" style="left:470px;top:230px;width:430px;height:200px"><span class="lbl">Espaço</span></div>
+          <div class="tile dark" id="focus" style="left:0;top:470px;width:900px;height:380px"><span class="lbl">Acabamento</span><span class="big" id="pct">0%</span><div class="bar"><div id="barFill"></div></div></div>
+          <div class="tile" style="left:0;top:890px;width:280px;height:310px"><span class="lbl">Luz</span></div>
+          <div class="tile" style="left:310px;top:890px;width:280px;height:310px"><span class="lbl">Cor</span></div>
+          <div class="tile dark" style="left:620px;top:890px;width:280px;height:310px"><span class="lbl">Som</span></div>
+        </div></div>
+        <div class="center" style="justify-content:flex-end;padding-bottom:300px"><div id="lockup">SUA MARCA</div></div>
+      </section>
+    </div>
+
+    <script>
+      const R = window.MotionRecipes;
+      const tl = gsap.timeline({ paused: true });
+
+      // ---- Cena A (Apple Style claro): R-01 blur-in, R-04 morph, R-10 sweep, R-02 saída
+      // 1º quadro já mostra o título (miniatura/gancho): começa em t=0 com 25% de opacidade
+      R.blurWordsIn(tl, document.getElementById("hero"), { at: 0, stagger: 0.11, dur: 0.7, fromOpacity: 0.25, blur: 10 });
+      tl.fromTo("#kicker", { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.5, ease: R.ease.enter }, 0.9);
+      tl.fromTo("#pill", { opacity: 0 }, { opacity: 1, duration: 0.15 }, 1.1);
+      R.shapeMorph(tl, "#pill", { at: 1.1, dur: 0.55, fromScaleX: 0.3, fromScaleY: 0.22 });
+      tl.fromTo("#pillLabel", { opacity: 0, filter: "blur(10px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.4, ease: R.ease.enter }, 1.5);
+      R.lightSweep(tl, "#sheen", { at: 1.9, dur: 0.7, fromX: -720, toX: 720 });
+      R.blurOut(tl, ["#aText", "#pillWrap"], { at: 2.85, dur: 0.35 });
+
+      // ---- Cena B (escuro): R-12 flash, R-05 ticker, R-06 contador, R-07 revelação circular
+      R.flashCut(tl, "#flash", { at: 3.2, frames: 2 });
+      R.slotTicker(tl, "#tickerCol", { at: 3.3, dur: 1.2, rowH: 120, fromIndex: 0, toIndex: 6 });
+      R.staggerPop(tl, ["#badge"], { at: 4.35, dur: 0.45, from: 0.3 });
+      R.countUp(tl, document.getElementById("badge"), { at: 4.4, dur: 0.8, from: 0, to: 38, prefix: "+", suffix: "%" });
+      R.circleReveal(tl, "#disc", { at: 5.35, dur: 0.55 });
+
+      // ---- Cena C (bento + câmera 3D): R-03 montagem, R-08 câmera, R-11 profundidade, R-06
+      const tiles = Array.from(document.querySelectorAll("#world .tile"));
+      R.staggerPop(tl, tiles, { at: 5.95, dur: 0.6, stagger: 0.06, from: 0.55 });
+      R.camera(tl, document.getElementById("world"), { z: -260, rx: 0, ry: 0 }, [
+        { at: 6.9, dur: 1.1, z: 120, rx: 18, ry: -10, y: -40, ease: R.ease.land },
+        { at: 8.5, dur: 0.9, z: -180, rx: 0, ry: 0, y: -60, ease: R.ease.move },
+      ]);
+      R.depthBlur(tl, tiles.filter((t) => t.id !== "focus"), { at: 6.9, dur: 0.8, blur: 8, dim: 0.6 });
+      tl.to(tiles.filter((t) => t.id !== "focus"), { filter: "blur(0px)", opacity: 1, duration: 0.7, ease: R.ease.move }, 8.5);
+      R.countUp(tl, document.getElementById("pct"), { at: 7.1, dur: 1.1, from: 0, to: 87, suffix: "%" });
+      tl.fromTo("#barFill", { scaleX: 0 }, { scaleX: 0.87, duration: 1.1, ease: "power2.out" }, 7.1);
+      R.blurWordsIn(tl, document.getElementById("lockup"), { at: 9.0, dur: 0.6, stagger: 0.08 });
+      tl.fromTo("#lockup", { opacity: 0 }, { opacity: 1, duration: 0.01 }, 9.0);
+
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

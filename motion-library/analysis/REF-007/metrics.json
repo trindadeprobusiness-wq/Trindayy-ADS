@@ -1,0 +1,147 @@
+{
+  "ref_id": "REF-007",
+  "file": "references/REF-007_refinedmotion.mp4",
+  "metadata": {
+    "duration_s": 16.833,
+    "width": 576,
+    "height": 1024,
+    "aspect": "9:16",
+    "aspect_family": "9:16",
+    "fps": 30.0,
+    "video_codec": "h264",
+    "bitrate_kbps": 575,
+    "audio": {
+      "codec": "aac",
+      "sample_rate": 44100,
+      "channels": 2
+    }
+  },
+  "cuts": {
+    "threshold_scene_score": 0.3,
+    "hard_cut_times_s": [
+      15.6
+    ],
+    "soft_change_times_s": [],
+    "multi_frame_flash_cuts_s": [],
+    "shot_count": 2,
+    "avg_shot_length_s": 8.42,
+    "median_shot_length_s": 8.42
+  },
+  "motion": {
+    "energy_p50": 0.0209,
+    "energy_p90": 0.0598,
+    "energy_p99": 0.1096,
+    "near_static_holds_s": [
+      [
+        14.6,
+        15.6
+      ],
+      [
+        15.63,
+        16.8
+      ]
+    ],
+    "mean_luma": 0.466,
+    "luma_range": [
+      0.006,
+      0.742
+    ]
+  },
+  "audio": {
+    "integrated_lufs": -17.0,
+    "loudness_range_lu": 7.5,
+    "onset_count": 74,
+    "onsets_per_second": 4.4,
+    "tempo": {
+      "bpm_estimate": 95.7,
+      "confidence_autocorr": 0.225,
+      "note": "estimativa por autocorrelação; confiança < 0.15 = sem pulso claro"
+    },
+    "spectral_centroid_hz_median": 1593.0,
+    "low_freq_energy_ratio_below_150hz": 0.188,
+    "silences": []
+  },
+  "audio_onsets_s": [
+    0.07,
+    0.139,
+    1.393,
+    1.486,
+    1.579,
+    1.649,
+    1.741,
+    1.811,
+    1.881,
+    1.95,
+    2.02,
+    2.113,
+    2.206,
+    2.299,
+    2.368,
+    2.461,
+    2.554,
+    2.972,
+    3.46,
+    4.087,
+    4.435,
+    4.737,
+    4.853,
+    4.946,
+    5.016,
+    5.108,
+    5.178,
+    5.248,
+    5.317,
+    5.387,
+    5.48,
+    5.573,
+    5.642,
+    5.735,
+    5.828,
+    5.921,
+    6.014,
+    6.2,
+    6.502,
+    6.618,
+    6.757,
+    6.896,
+    6.989,
+    7.291,
+    7.941,
+    8.173,
+    8.545,
+    8.638,
+    8.893,
+    9.033,
+    9.288,
+    9.381,
+    9.613,
+    9.845,
+    10.147,
+    10.612,
+    10.82,
+    11.099,
+    11.656,
+    11.726,
+    11.796,
+    11.935,
+    12.005,
+    12.144,
+    12.283,
+    12.376,
+    12.469,
+    12.539,
+    12.608,
+    13.63,
+    14.28,
+    14.93,
+    15.279,
+    16.208
+  ],
+  "cut_audio_sync": {
+    "chance_baseline": 0.59,
+    "cuts_within_2_frames_of_onset": 0.0,
+    "median_cut_to_onset_s": 0.321
+  },
+  "generated": "2026-10-19",
+  "notes": "Métricas automáticas. Cortes = score de cena do ffmpeg >= limiar; transições suaves (blur, wipe, morph) podem não aparecer como corte."
+}

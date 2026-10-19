@@ -1,0 +1,126 @@
+{
+  "references": {
+    "REF-001": {
+      "file": "references/REF-001_zei-app-lista-compras.mp4",
+      "sha256": "71372bd8104ef3e1e48063b87f67cd2cb09b88b7053622cddd2424700b958e2d",
+      "size_bytes": 1207187,
+      "duration_s": 37.545,
+      "width": 576,
+      "height": 1024,
+      "aspect": "9:16",
+      "aspect_family": "9:16",
+      "fps": 30.0,
+      "has_audio": true,
+      "original_name": "Criativo_de_Motion_din_mico_sempre_ret_m_mais__motiondesignm.mp4",
+      "added": "2026-10-19"
+    },
+    "REF-002": {
+      "file": "references/REF-002_h4-digital-institucional.mp4",
+      "sha256": "3bf69ab699f1bb429abf296645607ebb039a3b8988de84f0425dc3be9332587c",
+      "size_bytes": 979253,
+      "duration_s": 45.767,
+      "width": 576,
+      "height": 1024,
+      "aspect": "9:16",
+      "aspect_family": "9:16",
+      "fps": 30.0,
+      "has_audio": true,
+      "original_name": "Mais_um_finalizado_dessa_vez_pra_H4_Digital____motion_motion.mp4",
+      "added": "2026-10-19"
+    },
+    "REF-003": {
+      "file": "references/REF-003_spotify-concept-apple-style.mp4",
+      "sha256": "eee41bf78b83855fec418fcb508a2fe4fee76faef8326cfb46e3fbefc7670969",
+      "size_bytes": 1351296,
+      "duration_s": 15.857,
+      "width": 1024,
+      "height": 576,
+      "aspect": "16:9",
+      "aspect_family": "16:9",
+      "fps": 29.97,
+      "has_audio": true,
+      "original_name": "What_if_Apple_made_ad_for_Spotify_Personal_project_not_spons.mp4",
+      "added": "2026-10-19"
+    },
+    "REF-004": {
+      "file": "references/REF-004_lets-edit-kinetic.mp4",
+      "sha256": "5abfd36d3808e72a3b15e2a128326536ef33c181f221e75d838d69de98e34ccd",
+      "size_bytes": 522773,
+      "duration_s": 18.261,
+      "width": 576,
+      "height": 1024,
+      "aspect": "9:16",
+      "aspect_family": "9:16",
+      "fps": 29.97,
+      "has_audio": true,
+      "original_name": "Lets_Edit__videoviral_editing_motiongraphics_motiongraphics_.mp4",
+      "added": "2026-10-19"
+    },
+    "REF-005": {
+      "file": "references/REF-005_uber-concept-ui-story.mp4",
+      "sha256": "2b709eb7cdac4d9a002fbba76fe5808155b738255db772f59fc73c7553c82d17",
+      "size_bytes": 399151,
+      "duration_s": 22.976,
+      "width": 1024,
+      "height": 576,
+      "aspect": "16:9",
+      "aspect_family": "16:9",
+      "fps": 30.0,
+      "has_audio": true,
+      "original_name": "iwkii_tt.mp4",
+      "added": "2026-10-19"
+    },
+    "REF-006": {
+      "file": "references/REF-006_parkcriativo.mp4",
+      "sha256": "284f00d718ec1910f12670274559b49d6a3ef811e5d9511a49861f4a41ff123b",
+      "size_bytes": 584474,
+      "duration_s": 35.9,
+      "width": 576,
+      "height": 1024,
+      "aspect": "9:16",
+      "aspect_family": "9:16",
+      "fps": 30.0,
+      "has_audio": true,
+      "original_name": "parkcriativo.mp4",
+      "added": "2026-10-19"
+    },
+    "REF-007": {
+      "file": "references/REF-007_refinedmotion.mp4",
+      "sha256": "d8657e2267d26cc008e0fd9afffd8db65f1c2366cf7d2cee06981337d6f3a734",
+      "size_bytes": 1210178,
+      "duration_s": 16.833,
+      "width": 576,
+      "height": 1024,
+      "aspect": "9:16",
+      "aspect_family": "9:16",
+      "fps": 30.0,
+      "has_audio": true,
+      "original_name": "refinedmotion.mp4",
+      "added": "2026-10-19"
+    },
+    "REF-008": {
+      "file": "references/REF-008_apple-style-alightmotion.mp4",
+      "sha256": "39bc21037a522d3088630fcf79b9da61cc759c31b5386c39759e074283395a8c",
+      "size_bytes": 746993,
+      "duration_s": 27.767,
+      "width": 576,
+      "height": 1024,
+      "aspect": "9:16",
+      "aspect_family": "9:16",
+      "fps": 30.0,
+      "has_audio": true,
+      "original_name": "E_se_eu_fizesse_um_criativo_Apple_Style_no_AlightMotion__ali.mp4",
+      "added": "2026-10-19"
+    }
+  },
+  "notes": {
+    "duplicates": [
+      {
+        "upload": "2b469fa8-Criativo_de_Motion_din_mico_sempre_ret_m_mais__motiondesignm.mp4",
+        "same_as": "REF-001",
+        "sha256": "71372bd8104ef3e1e48063b87f67cd2cb09b88b7053622cddd2424700b958e2d",
+        "date": "2026-10-19"
+      }
+    ]
+  }
+}

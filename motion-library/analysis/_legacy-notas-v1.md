@@ -1,3 +1,5 @@
+> **Nota de correção (2026-10-19, v1 da biblioteca):** estas são as notas do 1º envio, preservadas como registro. Os arquivos foram renomeados para `references/REF-001…005_*.mp4`. Correções: (1) o REF-005 é assinado "made by kas", e "iwkii" era só o nome do arquivo; (2) os REF-001 e REF-002 são filmagens de tela, não exports limpos. As análises atuais estão em `analysis/REF-xxx/analysis.md`.
+
 # Referências de Motion Design
 
 Biblioteca de vídeos de referência para criativos de anúncio em motion.

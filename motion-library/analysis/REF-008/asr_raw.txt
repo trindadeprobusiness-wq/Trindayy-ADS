@@ -1,0 +1,40 @@
+# REF-008 — transcrição automática BRUTA (Whisper tiny q8, offline)
+# Modelo pequeno: erra palavras e ALUCINA texto em trechos só com música.
+# Use apenas para localizar fala no tempo. Interpretação validada está em analysis.md.
+
+## idioma forçado: portuguese
+[0.0-2.4]  A precição do dia-tibro é que você vai pagar barato.
+[2.4-3.8]  Então, você chegou em um lugar certo.
+[3.8-6.2]  O objetivo da parte de diferente é que você é garantir a não-suita
+[6.2-9.1]  de ser um profissional dinâmica e de extrema qualidade.
+[9.1-11.2]  Tudo no estilo é, por exemplo, os seus melhores recursos
+[11.2-15.4]  que os seus clientes estão em um processo de profissional.
+[15.4-18.2]  E o melhor, se eu ver como eu vou ficar por um dia em 2 dias.
+[18.2-20.4]  Então, se eu assisti a ser um qualidade em segurança,
+[20.4-22.6]  e que não sei para mais, ele ainda fazia um seu objetivo.
+[22.6-23.6]  Doutes esperando aqui.
+
+## idioma forçado: english
+[0.0-2.5]  The main reason is to have a device to be able to use it.
+[2.5-3.8]  So you have to get into the game.
+[3.8-5.2]  The main reason is to have a device to be able to use it.
+[5.2-6.2]  The main reason is to have a device to be able to use it.
+[6.2-8.2]  The main reason is to have a device to be able to use it.
+[8.2-10.2]  The main reason is to have a device to be able to use it.
+[10.2-12.2]  The main reason is to have a device to be able to use it.
+[12.2-13.2]  The main reason is to have a device to be able to use it.
+[13.2-15.2]  The main reason is to have a device to be able to use it.
+[15.2-17.2]  The main reason is to have a device to be able to use it.
+[17.2-18.2]  The main reason is to have a device to be able to use it.
+[18.2-19.2]  The main reason is to have a device to be able to use it.
+[19.2-20.2]  The main reason is to have a device to be able to use it.
+[20.2-21.2]  The main reason is to have a device to be able to use it. The main reason is to have a device to use it.
+[21.2-22.2]  The main reason is to have a device to use it.
+[22.2-23.2]  The main reason is to have a device to use it. The main reason is to have a device to use it.
+[23.2-24.2]  The main reason is to have a device to use it.
+[24.2-25.2]  The main reason is to have a device to use it.
+[25.2-26.2]  The main reason is to have a device to use it.
+[26.2-27.2]  The main reason is to have a device to use it.
+[27.2-28.2]  The main reason is to have a device to use it.
+[28.2-30.0]  Thank you.
+

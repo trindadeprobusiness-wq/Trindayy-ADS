@@ -1,0 +1,29 @@
+# REF-001 — transcrição automática BRUTA (Whisper tiny q8, offline)
+# Modelo pequeno: erra palavras e ALUCINA texto em trechos só com música.
+# Use apenas para localizar fala no tempo. Interpretação validada está em analysis.md.
+
+## idioma forçado: portuguese
+[0.0-2.2]  Imagina não saber o valor da sua comprensimento,
+[2.2-3.9]  e, por exemplo, de sair de casa.
+[3.9-8.5]  É uma plataforma inteligente que comparei os produtos dos mercados mais próximos de sua região.
+[8.5-10.5]  E mostra bem a gente de valor da sua comprensenta.
+[10.5-11.6]  Cada um deles.
+[11.6-13.8]  Você monta sua lista e a gente é uma organização.
+[13.8-17.7]  Tudo para você para os usuários de escaneir um produto e a direção de sobremarcas.
+[17.7-19.8]  E a gente é de um momento atualizado.
+[19.8-21.2]  A gente é praticamente.
+[21.2-24.7]  Assim, você encontra um produto e sua acompanha valor de seu mercado favorito.
+[24.7-25.1]  E aí, eu descobrii novos as pessoas recomendadas por outros usuários. Tudo direto é a pessoa civilista. mas basicamente. Assim, você encontra o produto e sua acompanhabilidade do seu mercado favorito e ainda
+[25.1-28.3]  descobre novas pessoas de comentar de por outros usuários.
+[28.3-29.9]  Tudo direto é a belação celular.
+[29.9-30.9]  Simples rápidos.
+[30.9-31.9]  Muito inteligente.
+[31.9-32.9]  Ei, sua compra começa.
+
+## idioma forçado: english
+[26.0-28.0]  I don't know what to say, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I can't say it, but I to find the product, and you have to find the product, and you have to find the product, and you have to find the product, and you have to find the product, Please comment on other users.
+[28.0-30.0]  I'm very happy to share this video with you.
+[30.0-31.0]  Thank you very much.
+[31.0-32.0]  Thank you very much.
+[32.0-33.0]  Thank you very much.
+

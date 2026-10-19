@@ -1,0 +1,10 @@
+{
+  "name": "motion-library-asr",
+  "private": true,
+  "type": "module",
+  "description": "Transcrição offline (Whisper tiny q8) para localizar fala nas referências",
+  "dependencies": {
+    "@huggingface/transformers": "4.3.1",
+    "sts-whisper-tiny": "1.0.0"
+  }
+}

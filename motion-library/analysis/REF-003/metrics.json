@@ -1,0 +1,119 @@
+{
+  "ref_id": "REF-003",
+  "file": "references/REF-003_spotify-concept-apple-style.mp4",
+  "metadata": {
+    "duration_s": 15.857,
+    "width": 1024,
+    "height": 576,
+    "aspect": "16:9",
+    "aspect_family": "16:9",
+    "fps": 29.97,
+    "video_codec": "h264",
+    "bitrate_kbps": 682,
+    "audio": {
+      "codec": "aac",
+      "sample_rate": 44100,
+      "channels": 2
+    }
+  },
+  "cuts": {
+    "threshold_scene_score": 0.3,
+    "hard_cut_times_s": [
+      15.816
+    ],
+    "soft_change_times_s": [],
+    "multi_frame_flash_cuts_s": [],
+    "shot_count": 2,
+    "avg_shot_length_s": 7.93,
+    "median_shot_length_s": 7.93
+  },
+  "motion": {
+    "energy_p50": 0.0106,
+    "energy_p90": 0.0841,
+    "energy_p99": 0.1127,
+    "near_static_holds_s": [
+      [
+        14.38,
+        15.42
+      ]
+    ],
+    "mean_luma": 0.278,
+    "luma_range": [
+      0.011,
+      0.529
+    ]
+  },
+  "audio": {
+    "integrated_lufs": -37.6,
+    "loudness_range_lu": 2.1,
+    "onset_count": 45,
+    "onsets_per_second": 2.84,
+    "tempo": {
+      "bpm_estimate": 136.0,
+      "confidence_autocorr": 0.252,
+      "note": "estimativa por autocorrelação; confiança < 0.15 = sem pulso claro"
+    },
+    "spectral_centroid_hz_median": 1536.0,
+    "low_freq_energy_ratio_below_150hz": 0.298,
+    "silences": [
+      {
+        "start": 14.5429,
+        "end": 15.8606
+      }
+    ]
+  },
+  "audio_onsets_s": [
+    0.116,
+    0.441,
+    0.789,
+    1.672,
+    1.974,
+    2.554,
+    2.949,
+    3.437,
+    3.878,
+    4.203,
+    4.319,
+    4.76,
+    4.992,
+    5.201,
+    5.642,
+    6.084,
+    6.316,
+    6.525,
+    6.943,
+    7.407,
+    7.663,
+    7.848,
+    8.29,
+    8.591,
+    8.731,
+    8.963,
+    9.613,
+    9.985,
+    10.054,
+    10.495,
+    10.937,
+    11.378,
+    11.61,
+    11.819,
+    12.051,
+    12.26,
+    12.678,
+    12.934,
+    13.142,
+    13.375,
+    13.584,
+    13.816,
+    14.025,
+    14.118,
+    14.466
+  ],
+  "cut_audio_sync": {
+    "chance_baseline": 0.38,
+    "cuts_within_2_frames_of_onset": 0.0,
+    "median_cut_to_onset_s": 1.35
+  },
+  "generated": "2026-10-19",
+  "notes": "Métricas automáticas. Cortes = score de cena do ffmpeg >= limiar; transições suaves (blur, wipe, morph) podem não aparecer como corte."
+}
