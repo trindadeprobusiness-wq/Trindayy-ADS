@@ -5,8 +5,8 @@ Números já estão escritos por extenso. Os hooks alternativos ficam no fim (su
 
 ## Gemini Pro
 
-### GEM-A · A — Contraste de preço + licença oficial · v2 (escolhida) · ~34 s
-> Versão preferida pelo usuário. v3 em `takes/_v3/`.
+### GEM-A · A — Contraste de preço + licença oficial + Drive e Flow · v5 · ~34 s
+> Anteriores em `takes/_v2/` a `_v4/`.
 
 ```
 Dezoito meses de Gemini Pro por apenas quarenta e sete reais.
@@ -15,7 +15,7 @@ E antes que você pergunte: não é link compartilhado, nem conta dividida com o
 
 É uma licença oficial de dezoito meses, ativada no seu próprio e-mail. Você mesmo ativa, na sua conta, e o acesso é só seu.
 
-Com o Gemini Pro, você pesquisa, desenvolve ideias e organiza projetos no trabalho, nos estudos e na criação de conteúdo.
+Além do Gemini Pro, você ainda tem mais espaço no Google Drive e acesso ao Google Flow, para criar imagens e vídeos com inteligência artificial.
 
 Tudo isso por menos de três reais por mês.
 
@@ -39,21 +39,19 @@ Sem link compartilhado e sem conta de outra pessoa. É uma licença oficial, ati
 Toque em Saiba Mais e ative a sua.
 ```
 
-### GEM-C · C — Objeção + comparação à vista × mensal · v4 · ~31 s
-> ⚠️ Comparação: R$ 96,99 × 18 = R$ 1.745,82. Só publicar se for o mesmo plano (Google AI Pro). v3 em `takes/_v3/`.
+### GEM-C · C — Objeção, com a comparação à vista × mensal no fim · v5 · ~29 s
+> ⚠️ R$ 96,99 × 18 = R$ 1.745,82. Só publicar se for o mesmo plano (Google AI Pro).
 
 ```
 Quarenta e sete reais por dezoito meses de Gemini Pro? Parece bom demais?
 
-Não é link compartilhado, nem conta dividida.
+Não é link compartilhado. Não é conta dividida. Não é login de outra pessoa.
 
-É uma licença oficial, ativada no seu próprio e-mail. A conta é sua.
+É uma licença oficial, que você ativa no seu próprio e-mail. A conta é sua, e o acesso também.
 
-E faz a conta: pagando noventa e seis e noventa e nove por mês, dezoito meses passariam de mil e setecentos reais. Aqui, são quarenta e sete, à vista.
+E faz a conta: pagando noventa e seis e noventa e nove por mês, dezoito meses passariam de mil e setecentos reais. Na Nexools, são quarenta e sete reais, à vista.
 
-Ainda vem com mais espaço no Google Drive e o Google Flow para criar imagens e vídeos.
-
-Toque em Saiba Mais e garanta a sua na Nexools.
+Toque em Saiba Mais e garanta a sua.
 ```
 
 ## Coursera Plus
