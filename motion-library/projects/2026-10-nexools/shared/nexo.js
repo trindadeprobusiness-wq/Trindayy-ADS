@@ -26,6 +26,19 @@
   };
   N.ICON = ICON;
 
+  /* ---------- logos oficiais (simple-icons, CC0; marcas pertencem aos donos) ---------- */
+  const LP = {"googlegemini": "M11.04 19.32Q12 21.51 12 24q0-2.49.93-4.68.96-2.19 2.58-3.81t3.81-2.55Q21.51 12 24 12q-2.49 0-4.68-.93a12.3 12.3 0 0 1-3.81-2.58 12.3 12.3 0 0 1-2.58-3.81Q12 2.49 12 0q0 2.49-.96 4.68-.93 2.19-2.55 3.81a12.3 12.3 0 0 1-3.81 2.58Q2.49 12 0 12q2.49 0 4.68.96 2.19.93 3.81 2.55t2.55 3.81", "google": "M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z", "googledrive": "M12.01 1.485c-2.082 0-3.754.02-3.743.047.01.02 1.708 3.001 3.774 6.62l3.76 6.574h3.76c2.081 0 3.753-.02 3.742-.047-.005-.02-1.708-3.001-3.775-6.62l-3.76-6.574zm-4.76 1.73a789.828 789.861 0 0 0-3.63 6.319L0 15.868l1.89 3.298 1.885 3.297 3.62-6.335 3.618-6.33-1.88-3.287C8.1 4.704 7.255 3.22 7.25 3.214zm2.259 12.653-.203.348c-.114.198-.96 1.672-1.88 3.287a423.93 423.948 0 0 1-1.698 2.97c-.01.026 3.24.042 7.222.042h7.244l1.796-3.157c.992-1.734 1.85-3.23 1.906-3.323l.104-.167h-7.249z", "coursera": "M11.374 23.977c-4.183-.21-8.006-2.626-9.959-6.347-2.097-3.858-1.871-8.864.732-12.454C4.748 1.338 9.497-.698 14.281.23c4.583.857 8.351 4.494 9.358 8.911 1.122 4.344-.423 9.173-3.925 12.04-2.289 1.953-5.295 2.956-8.34 2.797zm7.705-8.05a588.737 588.737 0 0 0-3.171-1.887c-.903 1.483-2.885 2.248-4.57 1.665-2.024-.639-3.394-2.987-2.488-5.134.801-2.009 2.79-2.707 4.357-2.464a4.19 4.19 0 0 1 2.623 1.669c1.077-.631 2.128-1.218 3.173-1.855-2.03-3.118-6.151-4.294-9.656-2.754-3.13 1.423-4.89 4.68-4.388 7.919.54 3.598 3.73 6.486 7.716 6.404a7.664 7.664 0 0 0 6.404-3.563z", "elevenlabs": "M4.6035 0v24h4.9317V0zm9.8613 0v24h4.9317V0z", "n8n": "M21.4737 5.6842c-1.1772 0-2.1663.8051-2.4468 1.8947h-2.8955c-1.235 0-2.289.893-2.492 2.111l-.1038.623a1.263 1.263 0 0 1-1.246 1.0555H11.289c-.2805-1.0896-1.2696-1.8947-2.4468-1.8947s-2.1663.8051-2.4467 1.8947H4.973c-.2805-1.0896-1.2696-1.8947-2.4468-1.8947C1.1311 9.4737 0 10.6047 0 12s1.131 2.5263 2.5263 2.5263c1.1772 0 2.1663-.8051 2.4468-1.8947h1.4223c.2804 1.0896 1.2696 1.8947 2.4467 1.8947 1.1772 0 2.1663-.8051 2.4468-1.8947h1.0008a1.263 1.263 0 0 1 1.2459 1.0555l.1038.623c.203 1.218 1.257 2.111 2.492 2.111h.3692c.2804 1.0895 1.2696 1.8947 2.4468 1.8947 1.3952 0 2.5263-1.131 2.5263-2.5263s-1.131-2.5263-2.5263-2.5263c-1.1772 0-2.1664.805-2.4468 1.8947h-.3692a1.263 1.263 0 0 1-1.246-1.0555l-.1037-.623A2.52 2.52 0 0 0 13.9607 12a2.52 2.52 0 0 0 .821-1.4794l.1038-.623a1.263 1.263 0 0 1 1.2459-1.0555h2.8955c.2805 1.0896 1.2696 1.8947 2.4468 1.8947 1.3952 0 2.5263-1.131 2.5263-2.5263s-1.131-2.5263-2.5263-2.5263m0 1.2632a1.263 1.263 0 0 1 1.2631 1.2631 1.263 1.263 0 0 1-1.2631 1.2632 1.263 1.263 0 0 1-1.2632-1.2632 1.263 1.263 0 0 1 1.2632-1.2631M2.5263 10.7368A1.263 1.263 0 0 1 3.7895 12a1.263 1.263 0 0 1-1.2632 1.2632A1.263 1.263 0 0 1 1.2632 12a1.263 1.263 0 0 1 1.2631-1.2632m6.3158 0A1.263 1.263 0 0 1 10.1053 12a1.263 1.263 0 0 1-1.2632 1.2632A1.263 1.263 0 0 1 7.579 12a1.263 1.263 0 0 1 1.2632-1.2632m10.1053 3.7895a1.263 1.263 0 0 1 1.2631 1.2632 1.263 1.263 0 0 1-1.2631 1.2631 1.263 1.263 0 0 1-1.2632-1.2631 1.263 1.263 0 0 1 1.2632-1.2632"};
+  let gid = 0;
+  N.logo = function (name, size, o = {}) {
+    const d = LP[name]; const id = "lg" + (gid++);
+    const sz = `width="${size}" height="${size}"`;
+    if (name === "googlegemini") return `<svg viewBox="0 0 24 24" ${sz}><defs><linearGradient id="${id}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4285F4"/><stop offset=".55" stop-color="#9B72CB"/><stop offset="1" stop-color="#D96570"/></linearGradient></defs><path d="${d}" fill="url(#${id})"/></svg>`;
+    if (name === "google" && !o.mono) return `<svg viewBox="0 0 24 24" ${sz}><defs>${["a","b","c","d"].map((k)=>`<clipPath id="${id}${k}"><rect ${{a:'x="0" y="0" width="24" height="9.3"',b:'x="0" y="9.3" width="8.2" height="7"',c:'x="0" y="15" width="24" height="9"',d:'x="12" y="9.3" width="12" height="6"'}[k]}/></clipPath>`).join("")}</defs>${[["a","#EA4335"],["b","#FBBC05"],["c","#34A853"],["d","#4285F4"]].map(([k,c])=>`<path d="${d}" fill="${c}" clip-path="url(#${id}${k})"/>`).join("")}</svg>`;
+    if (name === "googledrive" && !o.mono) return `<svg viewBox="0 0 24 24" ${sz}><defs><clipPath id="${id}a"><polygon points="0,0 9,0 4.5,24 0,24"/></clipPath><clipPath id="${id}b"><rect x="0" y="15.5" width="24" height="9"/></clipPath><clipPath id="${id}c"><polygon points="9,0 24,0 24,15.5 12,15.5"/></clipPath></defs><path d="${d}" fill="#0F9D58" clip-path="url(#${id}a)"/><path d="${d}" fill="#4285F4" clip-path="url(#${id}b)"/><path d="${d}" fill="#FFBA00" clip-path="url(#${id}c)"/></svg>`;
+    const col = o.color || { coursera: "#0056D2", elevenlabs: "#000000", n8n: "#EA4B71", google: "#4285F4", googledrive: "#4285F4" }[name];
+    return `<svg viewBox="0 0 24 24" ${sz}><path d="${d}" fill="${col}"/></svg>`;
+  };
+
   let stage;
   const el = (html, parent) => {
     const t = document.createElement("template");
@@ -66,16 +79,34 @@
   /* janela da cena: aparece em t0, sai com blur até t1 */
   function scene(tl, cls, t0, t1, o = {}) {
     const s = el(`<div class="scene ${cls || ""}"></div>`);
+    const cam = el(`<div class="cam"></div>`, s);
     tl.set(s, { autoAlpha: 1 }, t0);
+    // entrada: zoom cruzado suave
+    if (!o.noEnter) tl.fromTo(s, { scale: 0.94, filter: "blur(10px)" }, { scale: 1, filter: "blur(0px)", duration: 0.45, ease: E.enter }, t0);
+    // câmera viva: nunca fica parada
+    tl.fromTo(cam, { scale: 1, y: 0 }, { scale: o.breath || 1.045, y: -14, duration: Math.max(0.5, t1 - t0), ease: "sine.inOut" }, t0);
     if (o.noExit) tl.set(s, { autoAlpha: 0 }, t1);
     else {
       const d = o.exit || 0.3;
-      tl.fromTo(s, { opacity: 1, filter: "blur(0px)", scale: 1 }, { opacity: 0, filter: "blur(18px)", scale: o.exitScale || 1.04, duration: d, ease: E.exit, immediateRender: false }, t1 - d);
+      tl.fromTo(s, { opacity: 1, filter: "blur(0px)", scale: 1 }, { opacity: 0, filter: "blur(16px)", scale: o.exitScale || 1.12, duration: d, ease: E.exit, immediateRender: false }, t1 - d);
       tl.set(s, { autoAlpha: 0 }, t1);
+      if (!o.quiet) N.sfx("whoosh", t1 - d - 0.12, -14);
     }
-    return s;
+    cam.__outer = s;
+    return cam;
   }
   N.scene = scene;
+
+  /* logos flutuando em profundidade (parallax + flutuação) */
+  N.floats = function (tl, parent, list, at, dur) {
+    list.forEach((f, i) => {
+      const sz = f.s || 150;
+      const e = el(`<div class="floaty" style="left:${f.x}px;top:${f.y}px;width:${sz}px;height:${sz}px;border-radius:${sz * 0.3}px">${N.logo(f.name, Math.round(sz * 0.56))}</div>`, parent);
+      tl.fromTo(e, { opacity: 0, scale: 0.3, rotation: -14 }, { opacity: 1, scale: 1, rotation: f.r || 0, duration: 0.6, ease: E.pop }, at + i * 0.12);
+      tl.fromTo(e, { y: 0, x: 0 }, { y: f.dy != null ? f.dy : -50, x: f.dx || 0, duration: Math.max(0.6, dur), ease: "sine.inOut" }, at);
+      N.sfx("pop", at + i * 0.12, -13);
+    });
+  };
 
   /* base: fundo vivo + marca persistente + camada escura controlável */
   N.base = function (tl, root, dur, o = {}) {
@@ -117,7 +148,7 @@
     const rows = Array.from({ length: n }, (_, i) => `<div class="trow">${String(i + 1).padStart(2, "0")}</div>`).join("");
     const c = el(`<div class="center">
       <div class="ph-num"><div class="tmask"><div class="tcol">${rows}</div></div><div class="unit">${o.unit || "meses"}</div></div>
-      <div class="prod">${o.product}</div>
+      <div class="prod prodrow">${o.productLogo ? `<span class="lg plogo">${N.logo(o.productLogo, 84)}</span>` : ""}<span class="ptxt">${o.product}</span></div>
       <div class="price"><div class="rays"></div><div class="glow"></div><span class="cur">R$</span><span class="val">${o.price}</span></div>
       ${o.sub ? `<div class="lbl" style="margin-top:30px">${o.sub}</div>` : ""}
     </div>`, s);
@@ -127,7 +158,9 @@
     tl.fromTo(q(c, ".ph-num"), { opacity: o.firstFrame ? 1 : 0, scale: 0.9 }, { opacity: 1, scale: 1, duration: 0.5, ease: E.enter }, ts);
     tl.fromTo(q(c, ".unit"), { opacity: o.firstFrame ? 1 : 0, x: o.firstFrame ? 0 : -30 }, { opacity: 1, x: 0, duration: 0.5, ease: E.enter }, ts + 0.3);
     for (let i = 0; i < 9; i++) N.sfx("tick", ts + 0.02 + 0.9 * Math.pow(i / 9, 2), -10 - i);
-    words(tl, q(c, ".prod"), [o.productAt]);
+    words(tl, q(c, ".ptxt"), [o.productAt]);
+    if (o.productLogo) tl.fromTo(q(c, ".plogo"), { opacity: 0, scale: 0.3, rotation: -90 }, { opacity: 1, scale: 1, rotation: 0, duration: 0.6, ease: E.pop }, o.productAt - 0.1);
+    if (o.floats) N.floats(tl, s, o.floats, o.floatAt || o.priceAt, o.t1 - (o.floatAt || o.priceAt));
     const pr = q(c, ".price");
     tl.fromTo(pr, { opacity: 0, scale: 0.6, filter: "blur(20px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.6, ease: "back.out(1.4)" }, o.priceAt - 0.1);
     tl.fromTo(q(c, ".rays"), { rotation: 0, opacity: 0 }, { rotation: 40, opacity: 1, duration: 3, ease: "sine.out" }, o.priceAt - 0.1);
@@ -180,8 +213,8 @@
     const c = el(`<div class="center"><div class="lic-wrap"><div class="lic">
       <div class="toast"><div class="dot">${ICON.check}</div><span>${o.toast || "Ativado na sua conta"}</span></div>
       <div class="lic-top"><div class="lic-title"><img src="assets/nexools-mark.png" alt="">${o.title || "Licença oficial"}</div><div class="badge">${o.badge}</div></div>
-      <div class="lic-prod">${o.product}<small>${o.productSub || ""}</small></div>
-      <div class="fieldlbl">${o.fieldLabel || "Seu e-mail"}</div>
+      <div class="lic-prod"><span class="prodrow" style="justify-content:flex-start">${o.productLogo ? N.logo(o.productLogo, 78) : ""}${o.product}</span><small>${o.productSub || ""}</small></div>
+      <div class="fieldlbl acct">${o.account === "google" ? N.logo("google", 40) : ""}${o.fieldLabel || (o.account === "google" ? "Sua conta Google" : "Seu e-mail")}</div>
       <div class="field"><span class="typed"></span><span class="caret"></span><span class="ph">${o.placeholder || "voce@email.com"}</span></div>
       <div class="btn" data-layout-allow-overlap><span class="lab">${o.button || "Ativar licença"}</span><div class="ok">${ICON.check}<span>${o.done || "Ativado"}</span></div></div>
       <div class="owner">${o.owner || "<b>1</b> conta · <b>1</b> dono"}</div>
@@ -226,11 +259,11 @@
 
   /* ---------- 4. Bento de benefícios (IA, 5 TB, Flow) com câmera ---------- */
   N.bento = function (tl, o) {
-    const s = scene(tl, "", o.t0, o.t1, { exitScale: 0.9 });
+    const s = scene(tl, "", o.t0, o.t1, { exitScale: 0.9, breath: 1.02 });
     const b = el(`<div class="bento">
-      <div class="tile" id="${o.id}-ai" style="top:0;height:300px"><div class="ico">${ICON.spark}</div><div class="tt">${o.aiTitle || "Gemini Pro"}</div><div class="ts">${o.aiSub || "IA avançada para estudar, trabalhar e criar"}</div></div>
-      <div class="tile" id="${o.id}-tb" style="top:340px;height:360px"><div class="ico">${ICON.cloud}</div><div style="display:flex;align-items:baseline;gap:18px"><span class="tb-big">0</span><span class="tt">TB</span></div><div class="ts">de armazenamento no Google Drive</div><div class="bar"><div></div></div></div>
-      <div class="tile dark" id="${o.id}-flow" style="top:740px;height:430px"><div class="ico">${ICON.film}</div><div class="tt">Google Flow</div><div class="ts" style="width:430px">Crie imagens e vídeos com inteligência artificial</div>
+      <div class="tile" id="${o.id}-ai" style="top:0;height:300px"><div class="ico" style="background:#f1ecfb">${N.logo("googlegemini", 62)}</div><div class="tt">${o.aiTitle || "Gemini Pro"}</div><div class="ts">${o.aiSub || "IA avançada para estudar, trabalhar e criar"}</div></div>
+      <div class="tile" id="${o.id}-tb" style="top:340px;height:360px"><div class="ico" style="background:#eef4ff">${N.logo("googledrive", 60)}</div><div style="display:flex;align-items:baseline;gap:18px"><span class="tb-big">0</span><span class="tt">TB</span></div><div class="ts">de armazenamento no Google Drive</div><div class="bar"><div></div></div></div>
+      <div class="tile dark" id="${o.id}-flow" style="top:740px;height:430px"><div class="ico" style="background:#fff">${N.logo("google", 58)}</div><div class="tt">Google Flow</div><div class="ts" style="width:430px">Crie imagens e vídeos com inteligência artificial</div>
         <div class="frames">${["#0a3dbd,#4d8dff", "#ff7a59,#ffb020", "#12b76a,#0a8f86", "#7c5cff,#ff5ca8"].map((g) => `<div style="background:linear-gradient(135deg,${g})"></div>`).join("")}<div class="play">${ICON.play}</div></div></div>
     </div>`, s);
     const tiles = ["ai", "tb", "flow"].map((k) => q(b, `#${o.id}-${k}`));
@@ -250,7 +283,7 @@
     // câmera: o bento sobe para manter o tile ativo no centro
     tl.fromTo(b, { y: 220 }, { y: 110, duration: 0.8, ease: E.move }, o.aiAt - 0.15);
     tl.to(b, { y: 0, duration: 0.8, ease: E.move }, o.tbAt - 0.2);
-    tl.to(b, { y: -110, duration: 0.8, ease: E.move }, o.flowAt - 0.2);
+    tl.to(b, { y: -50, duration: 0.8, ease: E.move }, o.flowAt - 0.2);
     tl.to(b, { y: 0, scale: 0.92, duration: 0.8, ease: "power4.out" }, o.t1 - 1.1);
     // 5 TB
     const big = q(b, ".tb-big"), px = { v: 0 };
@@ -280,10 +313,13 @@
   /* ---------- 6. CTA final ---------- */
   N.cta = function (tl, o) {
     const s = scene(tl, "", o.t0, o.t1, { noExit: true });
-    const cat = o.catalog ? `<div class="cat">${["Gemini Pro", "Coursera", "ElevenLabs", "n8n", "Manus"].map((p) => `<div class="${p === o.catalog ? "hl" : ""}">${p}</div>`).join("")}</div>` : "";
+    const LG = { "Gemini Pro": "googlegemini", Coursera: "coursera", ElevenLabs: "elevenlabs", n8n: "n8n" };
+    const cat = o.catalog ? `<div class="cat">${["Gemini Pro", "Coursera", "ElevenLabs", "n8n", "Manus"].map((p) => `<div class="${p === o.catalog ? "hl" : ""}" style="flex-direction:column;gap:10px">${LG[p] ? `<span style="width:64px;height:64px;border-radius:20px;background:#fff;display:flex;align-items:center;justify-content:center">${N.logo(LG[p], 42)}</span>` : `<span style="width:64px;height:64px;border-radius:20px;background:#0b162a;color:#fff;display:flex;align-items:center;justify-content:center;font-size:34px">M</span>`}<span>${p}</span></div>`).join("")}</div>` : "";
     const c = el(`<div class="center"><div class="cta-logo"><img src="assets/nexools-wordmark.png" alt="Nexools"></div>
       <div class="h2" style="margin-top:70px">${o.headline}</div>${cat}
       <div class="pill">${o.button || "Saiba Mais"}<div class="sheen"></div></div><div class="arrow">${ICON.arrow}</div></div>`, s);
+    const legal = el(`<div class="legal">Nexools é revendedora independente. Marcas citadas pertencem aos seus respectivos donos.</div>`, s);
+    tl.fromTo(legal, { opacity: 0 }, { opacity: 1, duration: 0.5 }, o.buttonAt + 0.6);
     N.hideBrand(tl, o.t0 - 0.2);
     tl.fromTo(q(c, ".cta-logo"), { opacity: 0, scale: 0.85, filter: "blur(16px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.7, ease: E.enter }, o.t0);
     N.sfx("whoosh", o.t0 - 0.25, -6);
@@ -308,8 +344,8 @@
   N.chatGrow = function (tl, o) {
     const s1 = scene(tl, "", o.t0, o.mid, { exit: 0.2 });
     const c = el(`<div class="center"><div class="h2" style="margin-bottom:60px">${o.kicker}</div>
-      <div style="display:flex;flex-direction:column;width:900px"><div class="bubble">${o.q}</div><div class="answer">${o.a}</div></div>
-      <div class="chatbar" style="margin-top:50px"><span style="color:#6b7890">Pergunte algo…</span></div></div>`, s1);
+      <div style="display:flex;flex-direction:column;width:900px"><div class="bubble">${o.q}</div><div class="answer acct">${N.logo("googlegemini", 46)}<span>${o.a}</span></div></div>
+      <div class="chatbar" style="margin-top:50px">${N.logo("googlegemini", 52)}<span style="color:#6b7890">Pergunte ao Gemini…</span></div></div>`, s1);
     words(tl, c.children[0], o.kickTimes || { at: o.t0 + 0.1, stagger: 0.07 }, { from: 0.3 });
     tl.fromTo(q(c, ".bubble"), { opacity: 0, scale: 0.6, y: 30 }, { opacity: 1, scale: 1, y: 0, duration: 0.45, ease: E.pop, transformOrigin: "100% 100%" }, o.qAt);
     N.sfx("pop", o.qAt, -8);
@@ -352,6 +388,7 @@
     tl.fromTo(qm, { strokeDashoffset: len }, { strokeDashoffset: 0, duration: 0.45, ease: E.move }, o.qAt);
     tl.fromTo(q(c, "#qd"), { opacity: 0, scale: 0 }, { opacity: 1, scale: 1, duration: 0.25, ease: E.pop, transformOrigin: "50% 50%" }, o.qAt + 0.4);
     words(tl, c.children[1], o.subTimes, { from: 0.25 });
+    if (o.floats) N.floats(tl, s, o.floats, o.floatAt || 1.3, o.t1 - (o.floatAt || 1.3));
     const pw = words(tl, c.children[2], o.punchTimes);
     tl.fromTo(stage, { scale: 1 }, { scale: 1.05, duration: 0.15, ease: "power3.out", immediateRender: false }, o.punchTimes[o.punchTimes.length - 1]);
     tl.to(stage, { scale: 1, duration: 0.4, ease: E.move }, o.punchTimes[o.punchTimes.length - 1] + 0.2);
@@ -366,12 +403,13 @@
     const s = scene(tl, "dark", o.t0, o.t1, { noExit: true });
     const tiles = Array.from({ length: o.months }, (_, i) => `<div class="mtile">${i + 1}<div class="on">${i + 1}</div></div>`).join("");
     const c = el(`<div class="center" style="padding-bottom:120px"><div class="h1" style="color:#fff;font-size:84px">${o.kicker}</div>
-      <div class="calc-line" style="margin-top:30px">${o.monthly} <span>×</span> ${o.months}</div>
+      <div class="lbl acct" style="justify-content:center;margin-top:26px;color:rgba(255,255,255,.8)">${o.planLogo ? N.logo(o.planLogo, 40) : ""}${o.planLabel || ""}</div><div class="calc-line" style="margin-top:14px">${o.monthly} <span>×</span> ${o.months}</div>
       <div class="mgrid">${tiles}</div>
       <div class="ctot"><span class="num">R$ 0,00</span><div class="strike"></div></div>
       <div class="price" style="margin-top:0"><div class="rays"></div><div class="glow"></div><span class="cur">R$</span><span class="val" style="font-size:220px">${o.price}</span></div>
         <div style="position:relative;height:120px;width:400px;margin-top:-10px"><div class="stamp" style="left:40px;top:0">À VISTA</div></div></div>`, s);
     words(tl, c.children[0], o.kickTimes || [o.t0 + 0.05]);
+    tl.fromTo(c.children[1], { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4, ease: E.enter }, o.lineAt - 0.2);
     tl.fromTo(q(c, ".calc-line"), { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.5, ease: E.enter }, o.lineAt);
     N.sfx("pop", o.lineAt, -8);
     const mt = qa(c, ".mtile");
@@ -400,18 +438,19 @@
   /* ---------- COU: flip de preço ---------- */
   N.priceFlip = function (tl, o) {
     const s = scene(tl, "", o.t0, o.t1, { exitScale: 3.2, exit: 0.35 });
-    const c = el(`<div class="center"><div class="h2" style="margin-bottom:60px">${o.head}</div>
+    const c = el(`<div class="center"><div class="floaty brandlogo" style="position:relative;margin-bottom:40px;width:150px;height:150px">${N.logo(o.logo || "coursera", 88)}</div><div class="h2" style="margin-bottom:60px">${o.head}</div>
       <div class="flip-wrap"><div class="flip" data-layout-allow-overlap data-layout-allow-occlusion>
         <div class="face"><div class="sm" style="margin:0 0 10px">${o.frontTop}</div><div class="big"><span class="pv">US$ 0</span></div><div class="sm">${o.frontSub}</div></div>
         <div class="face back"><div class="sm" style="margin:0 0 10px">${o.backTop}</div><div class="big">${o.back}</div><div class="sm">${o.backSub}</div></div>
       </div></div><div class="lbl" style="margin-top:50px">${o.note}</div></div>`, s);
-    words(tl, c.children[0], o.headTimes, { from: 0.2 });
+    tl.fromTo(q(c, ".brandlogo"), { opacity: 1, scale: 0.6, rotation: -20 }, { opacity: 1, scale: 1, rotation: 0, duration: 0.6, ease: E.pop }, 0.0);
+    words(tl, c.children[1], o.headTimes, { from: 0.2 });
     tl.fromTo(q(c, ".flip"), { opacity: 0, y: 80, scale: 0.9 }, { opacity: 1, y: 0, scale: 1, duration: 0.6, ease: E.enter }, o.cardAt);
     const pv = q(c, ".pv"), px = { v: 0 };
     tl.fromTo(pv, { opacity: 0 }, { opacity: 1, duration: 0.2 }, o.priceAt);
     tl.fromTo(px, { v: 0 }, { v: o.front, duration: 0.8, ease: "power2.out", onUpdate: () => (pv.textContent = "US$ " + Math.round(px.v)) }, o.priceAt);
     for (let i = 0; i < 5; i++) N.sfx("tick", o.priceAt + i * 0.12, -12);
-    words(tl, c.children[2], [o.noteAt]);
+    words(tl, c.children[3], [o.noteAt]);
     tl.fromTo(q(c, ".flip"), { rotationY: 0 }, { rotationY: 180, duration: 0.7, ease: E.snap, immediateRender: false }, o.flipAt);
     N.sfx("whoosh", o.flipAt - 0.1, -10);
     N.sfx("whoosh", o.t1 - 0.4, -4);
@@ -434,11 +473,12 @@
     const s = scene(tl, o.dark ? "dark" : "", o.t0, o.t1);
     const R = 250, C = 2 * Math.PI * R, seg = C / o.months;
     const arcs = Array.from({ length: o.months }, (_, i) => `<circle cx="280" cy="280" r="${R}" fill="none" stroke="#005afc" stroke-width="34" stroke-dasharray="${seg - 10} ${C}" stroke-dashoffset="${-i * seg}" transform="rotate(-90 280 280)" class="arc"/>`).join("");
-    const c = el(`<div class="center"><div class="oldp">${o.old}<div class="strike"></div></div>
+    const c = el(`<div class="center">${o.logo ? `<div class="floaty rlogo" style="position:relative;width:120px;height:120px;margin-bottom:30px">${N.logo(o.logo, 70)}</div>` : ""}<div class="oldp">${o.old}<div class="strike"></div></div>
       <div class="ring-wrap" style="margin-top:50px"><svg class="ring" viewBox="0 0 560 560"><circle cx="280" cy="280" r="${R}" fill="none" stroke="${o.dark ? "rgba(255,255,255,.1)" : "#e3ebfa"}" stroke-width="34"/>${arcs}</svg>
         <div class="ring-in"><div class="m">${o.months}</div><div class="u">meses</div></div></div>
       <div class="price" style="margin-top:20px"><div class="glow"></div><span class="cur">R$</span><span class="val" style="font-size:210px">${o.price}</span></div></div>`, s);
     if (o.dark) { qa(c, ".m,.u").forEach((n) => (n.style.color = "#fff")); q(c, ".oldp").style.color = "rgba(255,255,255,.6)"; q(c, ".price .val").style.color = "#fff"; }
+    if (o.logo) tl.fromTo(q(c, ".rlogo"), { opacity: 0, scale: 0.4, rotation: -30 }, { opacity: 1, scale: 1, rotation: 0, duration: 0.5, ease: E.pop }, o.t0 + 0.05);
     tl.fromTo(q(c, ".oldp"), { opacity: 0 }, { opacity: 1, duration: 0.3 }, o.t0);
     tl.fromTo(q(c, ".oldp .strike"), { scaleX: 0 }, { scaleX: 1, duration: 0.3, ease: E.move }, o.t0 + 0.3);
     tl.fromTo(qa(c, ".arc"), { opacity: 0 }, { opacity: 1, duration: 0.12, stagger: (o.ringDur || 0.8) / o.months }, o.ringAt);
@@ -475,7 +515,7 @@
       tl.fromTo(col, { y: k % 2 ? -300 : 0 }, { y: k % 2 ? 0 : -300, duration: o.t1 - o.t0, ease: "none" }, o.t0);
     }
     tl.fromTo(m, { opacity: 0, scale: 1.15 }, { opacity: 1, scale: 1, duration: 0.7, ease: E.enter }, o.t0);
-    const chip = el(`<div class="topchip" data-layout-allow-overlap data-layout-allow-occlusion>+ milhares de cursos</div>`, s);
+    const chip = el(`<div class="topchip acct" style="justify-content:center" data-layout-allow-overlap data-layout-allow-occlusion><span style="width:70px;height:70px;border-radius:22px;background:#fff;display:flex;align-items:center;justify-content:center">${N.logo("coursera", 48)}</span>+ milhares de cursos</div>`, s);
     tl.fromTo(chip, { opacity: 0, y: -40 }, { opacity: 1, y: 0, duration: 0.5, ease: E.pop }, o.chipAt);
     N.sfx("pop", o.chipAt, -6);
     const word = el(`<div class="catword" data-layout-allow-overlap data-layout-allow-occlusion><span></span></div>`, s);
@@ -547,7 +587,7 @@
     tl.fromTo(L, { opacity: 0, x: -300 }, { opacity: 1, x: 0, duration: 0.6, ease: E.enter }, o.leftAt - 0.1);
     tl.fromTo(Rr, { opacity: 0, x: 300 }, { opacity: 1, x: 0, duration: 0.6, ease: E.enter }, o.rightAt - 0.1);
     N.sfx("whoosh", o.leftAt - 0.3, -10); N.sfx("whoosh", o.rightAt - 0.3, -10);
-    const pl = el(`<div class="player"><div class="scr"><div class="play" style="background:rgba(255,255,255,.95)">${ICON.play}</div></div><div class="pb"><div></div></div><div class="speed">Velocidade <b class="sp">1x</b></div></div>`, s);
+    const pl = el(`<div class="player"><div class="acct" style="margin-bottom:26px;font-size:40px;font-weight:700"><span style="width:70px;height:70px;border-radius:22px;background:#fff;display:flex;align-items:center;justify-content:center">${N.logo("coursera", 48)}</span>Coursera</div><div class="scr"><div class="play" style="background:rgba(255,255,255,.95)">${ICON.play}</div></div><div class="pb"><div></div></div><div class="speed">Velocidade <b class="sp">1x</b></div></div>`, s);
     tl.to([L, Rr], { y: -160, scale: 0.8, opacity: 0.5, duration: 0.6, ease: E.move }, o.playerAt - 0.2);
     tl.fromTo(pl, { opacity: 0, y: 200, scale: 0.9 }, { opacity: 1, y: 0, scale: 1, duration: 0.6, ease: E.enter }, o.playerAt - 0.1);
     N.sfx("pop", o.playerAt, -8);
