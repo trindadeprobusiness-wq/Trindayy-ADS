@@ -1,7 +1,7 @@
 Chega um novo lead. Você copia os dados para uma planilha. Depois avisa a equipe. E repete o mesmo processo no dia seguinte.
 
-Com o n8n, você pode conectar essas etapas e criar uma automação para reduzir o trabalho manual.
+Com o n8n, você conecta essas etapas e cria uma automação que faz isso por você.
 
-A Nexools está oferecendo doze meses do Starter por duzentos e noventa e sete reais.
+Na Nexools, você recebe um cupom oficial, aplica na sua própria conta do n8n e libera doze meses do plano Starter por duzentos e noventa e sete reais.
 
-Confira as condições e descubra como começar a estruturar seus próprios fluxos.
+Toque em Saiba Mais e comece a automatizar.

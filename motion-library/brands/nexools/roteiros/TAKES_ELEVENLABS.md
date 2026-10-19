@@ -145,50 +145,49 @@ Toque em Saiba Mais e garanta o seu.
 
 ## n8n Starter
 
-### N8N-A · A — Comparação de preço · 25–35 s
-> ⚠️ Usa referência de preço (R$ 1.300+): publicar só após validar que é o n8n Cloud Starter oficial.
+### N8N-A · A — Comparação de preço · 25–35 s · v2 (cupom na conta do cliente)
 
 ```
-Mais de mil e trezentos reais. Essa é a referência anual do n8n Cloud Starter, convertida para reais.
+Mais de mil e trezentos reais. Esse é o valor anual do n8n Cloud Starter, convertido para reais.
 
-Agora compara com a oferta da Nexools: doze meses por duzentos e noventa e sete reais.
+Na Nexools, você paga duzentos e noventa e sete reais, uma vez só.
 
-O n8n permite conectar aplicações, construir automações e trabalhar com agentes de inteligência artificial.
+Funciona assim: você recebe um cupom oficial, aplica na sua própria conta do n8n e o plano Starter é liberado por doze meses, sem mensalidade.
 
-Se você quer começar a automatizar processos, confira os recursos, limites e condições dessa oferta.
+É a sua conta, com as suas automações, conectando aplicações e agentes de inteligência artificial.
 
-Acesse a Nexools e saiba mais.
+Toque em Saiba Mais e garanta o seu cupom.
 ```
 
-### N8N-B · B — Dor real · 25–30 s
+### N8N-B · B — Dor real · 25–30 s · v2 (cupom na conta do cliente)
 
 ```
 Chega um novo lead. Você copia os dados para uma planilha. Depois avisa a equipe. E repete o mesmo processo no dia seguinte.
 
-Com o n8n, você pode conectar essas etapas e criar uma automação para reduzir o trabalho manual.
+Com o n8n, você conecta essas etapas e cria uma automação que faz isso por você.
 
-A Nexools está oferecendo doze meses do Starter por duzentos e noventa e sete reais.
+Na Nexools, você recebe um cupom oficial, aplica na sua própria conta do n8n e libera doze meses do plano Starter por duzentos e noventa e sete reais.
 
-Confira as condições e descubra como começar a estruturar seus próprios fluxos.
+Toque em Saiba Mais e comece a automatizar.
 ```
 
-### N8N-C · C — Quebra de crença · 25–30 s
+### N8N-C · C — Quebra de crença · 25–30 s · v2 (cupom na conta do cliente)
 
 ```
 Automação não precisa começar com um sistema caro e complexo.
 
 Às vezes, o primeiro passo é conectar duas ferramentas e eliminar uma tarefa repetitiva.
 
-O n8n permite construir fluxos visualmente, integrar aplicações e adicionar inteligência artificial aos processos.
+E não é link compartilhado nem conta de terceiros. É um cupom oficial, aplicado na sua própria conta do n8n, que libera doze meses do plano Starter.
 
-E a Nexools tem uma oferta do Starter por doze meses, por duzentos e noventa e sete reais.
+Tudo isso por duzentos e noventa e sete reais, à vista.
 
-Veja o que está incluído e confira as condições de ativação.
+Toque em Saiba Mais e garanta o seu.
 ```
 
 ## Manus Pro
 
-### MAN-A · A — Diferença entre conversar e executar · 25–30 s
+### MAN-A · A — Diferença entre conversar e executar · 25–30 s · v2 (cupom na conta do cliente)
 
 ```
 Uma coisa é pedir uma resposta para uma inteligência artificial.
@@ -197,37 +196,35 @@ Outra é usar uma IA para pesquisar um tema, estruturar uma apresentação e org
 
 Essa é a proposta do Manus.
 
-E a Nexools tem uma oferta de doze meses do Manus Pro por quinhentos e noventa e sete reais.
+Na Nexools, você recebe um cupom oficial, aplica na área do plano Pro da sua própria conta e o acesso é liberado automaticamente por doze meses, por quinhentos e noventa e sete reais.
 
-Confira o pacote de créditos, os recursos incluídos e as condições para ativar.
+Toque em Saiba Mais e confira os créditos incluídos.
 ```
 
-### MAN-B · B — Produtividade profissional · 25–30 s
+### MAN-B · B — Produtividade profissional · 25–30 s · v2 (cupom na conta do cliente)
 
 ```
 Você recebe uma tarefa que exige pesquisa, comparação de informações e um relatório completo.
 
 O problema não é só encontrar a resposta. É organizar todas as etapas.
 
-O Manus pode ajudar nesse processo, desde a pesquisa até a preparação do material, sempre com sua revisão.
+O Manus ajuda nesse processo, da pesquisa até a preparação do material, sempre com a sua revisão.
 
-Na Nexools, a oferta do Pro é de doze meses por quinhentos e noventa e sete reais.
+Com a Nexools, é só aplicar o cupom na sua conta e o plano Pro é liberado por doze meses, por quinhentos e noventa e sete reais.
 
-Veja os detalhes e conheça a ferramenta.
+Toque em Saiba Mais e conheça a ferramenta.
 ```
 
-### MAN-C · C — Objeção e diferenciação · 25–30 s
+### MAN-C · C — Objeção e diferenciação · 25–30 s · v2 (cupom na conta do cliente)
 
 ```
 Mais uma inteligência artificial? Calma. O Manus tem uma proposta diferente.
 
-Em vez de funcionar apenas como uma conversa, ele ajuda a executar tarefas que envolvem pesquisa, organização e criação de materiais.
+Em vez de só conversar, ele executa tarefas que envolvem pesquisa, organização e criação de materiais.
 
-Você define o objetivo, acompanha o trabalho e valida a entrega.
+E faz a conta: no plano anual oficial, o Manus Pro passa de mil reais. Na Nexools, você aplica um cupom na sua própria conta e libera doze meses do Pro por quinhentos e noventa e sete reais.
 
-A Nexools está oferecendo doze meses do Manus Pro por quinhentos e noventa e sete reais.
-
-Confira os créditos e as condições dessa oferta.
+Toque em Saiba Mais e garanta o seu.
 ```
 
 ## Hooks alternativos (substituem só a 1ª frase)
