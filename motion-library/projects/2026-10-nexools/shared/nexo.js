@@ -469,7 +469,7 @@
       const col = el(`<div class="mcol" style="left:${k * 360}px"></div>`, m);
       for (let r = 0; r < per + 2; r++) {
         const cc = courses[(k * per + r) % courses.length];
-        el(`<div class="ccard" data-cat="${cc[2]}"><div class="top" style="background:linear-gradient(135deg,${cats[cc[2]]})"></div><div class="t">${cc[0]}</div><div class="g">${cc[1]}</div><div class="hl"></div></div>`, col);
+        el(`<div class="ccard" data-cat="${cc[2]}" data-layout-allow-overlap data-layout-allow-occlusion><div class="top" style="background:linear-gradient(135deg,${cats[cc[2]]})"></div><div class="t" data-layout-allow-overlap data-layout-allow-occlusion>${cc[0]}</div><div class="g" data-layout-allow-overlap data-layout-allow-occlusion>${cc[1]}</div><div class="hl"></div></div>`, col);
       }
       cols.push(col);
       tl.fromTo(col, { y: k % 2 ? -300 : 0 }, { y: k % 2 ? 0 : -300, duration: o.t1 - o.t0, ease: "none" }, o.t0);
