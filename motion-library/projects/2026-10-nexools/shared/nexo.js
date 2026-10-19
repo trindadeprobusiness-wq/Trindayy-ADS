@@ -140,8 +140,11 @@
   /* ---------- 2. Selos de objeção riscados ---------- */
   N.objections = function (tl, o) {
     const s = scene(tl, "", o.t0, o.t1);
-    const c = el(`<div class="center"><div class="h2" style="margin-bottom:80px;color:#5b6b85">${o.kicker || ""}</div><div class="chips"></div></div>`, s);
-    if (o.kicker) words(tl, q(c, ".h2"), { at: o.t0 + 0.05, stagger: 0.06 });
+    const c = el(`<div class="center"><div class="h1 kick" style="margin-bottom:90px" data-accent="pergunte:">${o.kicker || ""}</div><div class="chips"></div></div>`, s);
+    if (o.kicker) {
+      words(tl, q(c, ".kick"), o.kickTimes || { at: o.t0 + 0.05, stagger: 0.12 });
+      tl.fromTo(q(c, ".kick"), { scale: 1.12 }, { scale: 0.8, duration: 0.6, ease: E.move, immediateRender: false }, o.items[0].t - 0.4);
+    }
     o.items.forEach((it) => {
       const ch = el(`<div class="chip">${ICON[it.icon]}<span>${it.text}</span><div class="strike"></div></div>`, q(c, ".chips"));
       tl.fromTo(ch, { opacity: 0, scale: 0.7, y: 40 }, { opacity: 1, scale: 1, y: 0, duration: 0.55, ease: E.pop }, it.t - 0.1);
@@ -263,7 +266,7 @@
   /* ---------- 5. Preço por mês ---------- */
   N.perMonth = function (tl, o) {
     const s = scene(tl, "", o.t0, o.t1);
-    const c = el(`<div class="center"><div class="lbl" style="font-size:48px">${o.pre}</div>
+    const c = el(`<div class="center"><div class="h2">${o.pre}</div>
       <div class="price" style="margin-top:20px"><div class="glow"></div><span class="cur">R$</span><span class="val">${o.big}</span></div>
       <div class="h2" style="margin-top:10px">${o.post}</div><div class="lbl" style="margin-top:40px">${o.foot || ""}</div></div>`, s);
     words(tl, c.children[0], [o.preAt]);
@@ -303,11 +306,11 @@
 
   /* ---------- GEM-B: chat que vira entregáveis ---------- */
   N.chatGrow = function (tl, o) {
-    const s1 = scene(tl, "", o.t0, o.mid);
+    const s1 = scene(tl, "", o.t0, o.mid, { exit: 0.2 });
     const c = el(`<div class="center"><div class="h2" style="margin-bottom:60px">${o.kicker}</div>
       <div style="display:flex;flex-direction:column;width:900px"><div class="bubble">${o.q}</div><div class="answer">${o.a}</div></div>
-      <div class="chatbar" style="margin-top:50px"><span style="color:#9aa8bf">Pergunte algo…</span></div></div>`, s1);
-    words(tl, c.children[0], { at: o.t0 + 0.1, stagger: 0.07 });
+      <div class="chatbar" style="margin-top:50px"><span style="color:#6b7890">Pergunte algo…</span></div></div>`, s1);
+    words(tl, c.children[0], o.kickTimes || { at: o.t0 + 0.1, stagger: 0.07 }, { from: 0.3 });
     tl.fromTo(q(c, ".bubble"), { opacity: 0, scale: 0.6, y: 30 }, { opacity: 1, scale: 1, y: 0, duration: 0.45, ease: E.pop, transformOrigin: "100% 100%" }, o.qAt);
     N.sfx("pop", o.qAt, -8);
     tl.fromTo(q(c, ".answer"), { opacity: 0, scale: 0.6, y: 30 }, { opacity: 1, scale: 1, y: 0, duration: 0.45, ease: E.pop, transformOrigin: "0% 100%" }, o.aAt);
