@@ -1,0 +1,4 @@
+build/
+renders/work-*
+renders/.*
+*_qa/LAB*

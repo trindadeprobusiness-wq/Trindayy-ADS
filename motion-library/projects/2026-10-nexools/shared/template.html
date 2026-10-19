@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="pt-BR" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>Nexools · {ID}</title>
+    <link rel="stylesheet" href="nexo.css" />
+    <script src="gsap.min.js"></script>
+    <script>window.__timelines = window.__timelines || {};</script>
+    <script src="nexo.js"></script>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="{DUR}" data-width="1080" data-height="1920">
+      <section id="stage" class="clip" data-start="0" data-duration="{DUR}" data-track-index="0" data-layout-allow-overflow></section>
+      <audio id="mix" src="audio/mix.wav" data-start="0" data-duration="{DUR}" data-track-index="1"></audio>
+    </div>
+    <script>const DUR = {DUR};</script>
+    <script src="video.js"></script>
+  </body>
+</html>

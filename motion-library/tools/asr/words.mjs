@@ -1,0 +1,10 @@
+import { pipeline, env } from '@huggingface/transformers';
+import { execFileSync } from 'child_process';
+env.localModelPath = new URL('./node_modules/sts-whisper-tiny/models/', import.meta.url).pathname;
+env.allowRemoteModels = false;
+const asr = await pipeline('automatic-speech-recognition', 'Xenova/whisper-tiny', { dtype: 'q8' });
+const f = process.argv[2];
+const buf = execFileSync('ffmpeg', ['-v','error','-i',f,'-ac','1','-ar','16000','-f','f32le','-'], {maxBuffer:1e9});
+const audio = new Float32Array(new Uint8Array(buf).buffer);
+const r = await asr(audio, { language:'portuguese', task:'transcribe', return_timestamps:'word', chunk_length_s:30, stride_length_s:5 });
+console.log(r.chunks.map(c=>`${c.timestamp[0]?.toFixed(2)} ${c.text.trim()}`).join('\n'));
