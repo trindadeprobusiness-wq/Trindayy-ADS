@@ -5,42 +5,40 @@ Números já estão escritos por extenso. Os hooks alternativos ficam no fim (su
 
 ## Gemini Pro
 
-### GEM-A · A — Contraste de preço + licença oficial · v2 · ~30–35 s
-> ⚠️ Só publicar se a entrega for exatamente assim: licença ativada no e-mail do próprio cliente. v1 em `takes/_v1/`.
+### GEM-A · A — Comparação à vista × mensal + licença oficial · v3 · ~30 s
+> ⚠️ Comparação: R$ 96,99 × 18 = R$ 1.745,82. Só publicar se a licença for o mesmo plano (Google AI Pro). v2 em `takes/_v2/`. Licença no e-mail do cliente, Drive e Flow: confirmar que a entrega é exatamente assim.
 
 ```
-Dezoito meses de Gemini Pro por apenas quarenta e sete reais.
+Dezoito meses de Gemini Pro por quarenta e sete reais. À vista, uma vez só.
 
-E antes que você pergunte: não é link compartilhado, nem conta dividida com outras pessoas.
+Pagando a mensalidade de noventa e seis reais e noventa e nove centavos, esses mesmos dezoito meses passariam de mil e setecentos reais.
 
-É uma licença oficial de dezoito meses, ativada no seu próprio e-mail. Você mesmo ativa, na sua conta, e o acesso é só seu.
+E não é link compartilhado nem conta dividida. É uma licença oficial, ativada no seu próprio e-mail.
 
-Com o Gemini Pro, você pesquisa, desenvolve ideias e organiza projetos no trabalho, nos estudos e na criação de conteúdo.
-
-Tudo isso por menos de três reais por mês.
+Você leva o Gemini Pro, mais espaço no Google Drive e acesso ao Google Flow, para criar imagens e vídeos com inteligência artificial.
 
 Toque em Saiba Mais e garanta a sua licença com a Nexools.
 ```
 
-### GEM-B · B — Identificação + licença oficial · v2 · ~30–35 s
-> ⚠️ Só publicar se a entrega for exatamente assim: licença ativada no e-mail do próprio cliente. v1 em `takes/_v1/`.
+### GEM-B · B — Identificação + Drive e Flow + licença oficial · v3 · ~30 s
+> v2 em `takes/_v2/`. Licença no e-mail do cliente, Drive e Flow: confirmar que a entrega é exatamente assim.
 
 ```
 Você abre a inteligência artificial só para resolver uma dúvida rápida.
 
-Mas ela também pode estruturar uma apresentação, pesquisar um assunto complexo e planejar o conteúdo da semana inteira.
+Mas com o Gemini Pro ela pode estruturar uma apresentação, pesquisar um assunto complexo e planejar o conteúdo da semana inteira.
 
-É para isso que existe o Gemini Pro.
+E não para por aí: você ainda tem mais espaço no Google Drive e acesso ao Google Flow, para criar imagens e vídeos com inteligência artificial.
 
-E na Nexools você tem dezoito meses de acesso por quarenta e sete reais.
+Na Nexools, são dezoito meses por quarenta e sete reais.
 
-Sem link compartilhado e sem conta de outra pessoa. É uma licença oficial, ativada no seu próprio e-mail, e o acesso fica com você durante os dezoito meses.
+Sem link compartilhado e sem conta de outra pessoa. É uma licença oficial, ativada no seu próprio e-mail.
 
 Toque em Saiba Mais e ative a sua.
 ```
 
-### GEM-C · C — Quebra de objeção (não é link compartilhado) · v2 · ~30–35 s
-> ⚠️ Só publicar se a entrega for exatamente assim: licença ativada no e-mail do próprio cliente. v1 em `takes/_v1/`.
+### GEM-C · C — Quebra de objeção + o que vem no plano · v3 · ~30 s
+> v2 em `takes/_v2/`. Licença no e-mail do cliente, Drive e Flow: confirmar que a entrega é exatamente assim.
 
 ```
 Quarenta e sete reais por dezoito meses de Gemini Pro? Parece bom demais?
@@ -51,7 +49,7 @@ Não é link compartilhado. Não é conta dividida. Não é login de outra pesso
 
 É uma licença oficial de dezoito meses, que você ativa no seu próprio e-mail. A conta é sua, e o acesso também.
 
-São dezoito meses de inteligência artificial avançada para estudar, trabalhar e criar, por menos de três reais por mês.
+E vem completo: Gemini Pro, mais espaço no Google Drive e o Google Flow para criar imagens e vídeos com inteligência artificial.
 
 Toque em Saiba Mais e garanta a sua na Nexools.
 ```

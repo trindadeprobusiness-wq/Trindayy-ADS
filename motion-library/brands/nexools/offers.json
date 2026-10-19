@@ -16,7 +16,13 @@
         "duration_months": 18,
         "price": 47.0,
         "price_label": "R$ 47,00",
-        "per_month_label": "R$ 2,61/mês"
+        "per_month_label": "R$ 2,61/mês",
+        "includes": [
+          "Gemini Pro",
+          "Mais espaço no Google Drive (quantidade a confirmar)",
+          "Google Flow (imagens e vídeos com IA)"
+        ],
+        "delivery_claim": "Licença oficial de 18 meses ativada no e-mail do próprio cliente (não é link compartilhado nem conta dividida) — confirmar antes de publicar"
       },
       "internal": {
         "cost": 5.0,
@@ -34,7 +40,8 @@
         "fx": {
           "EUR_BRL": 5.65931,
           "USD_BRL": 5.0461
-        }
+        },
+        "comparison_line": "Mensal R$ 96,99 × 18 = R$ 1.745,82 vs R$ 47 à vista"
       }
     },
     {
