@@ -14,6 +14,7 @@ Acervo de referências de motion design + sistema de criação (playbook, receit
 | `recipes/` | 23 receitas (R-01 a R-23). R-01 a R-12 implementadas em `engine/lib/recipes.js` |
 | `design-system/` | Tokens base (cor, tipo, forma, área segura) e tokens de movimento |
 | `engine/` | Projeto HyperFrames modelo (GSAP local, fontes Inter, receitas, laboratório) |
+| `brands/` | Marcas atendidas: ofertas (`offers.json`), direção por produto, roteiros. **Nexools:** `brands/nexools/OFFERS.md` |
 | `projects/` | Um diretório por vídeo produzido + `BRIEF_TEMPLATE.md` |
 | `assets/` | Ativos licenciados reutilizáveis (política de licença) |
 | `tools/` | `analyze.py`, `strip.py`, `asr/transcribe.mjs`, `setup.sh` |
@@ -63,4 +64,5 @@ Tags rápidas → receitas: blur/foco **R-01, R-02, R-11** · morph **R-04** · 
 9. Commit + push. **Nunca apagar análises anteriores**: corrija acrescentando uma nota de correção.
 
 ## Histórico
+- 2026-10-19 · Marca Nexools registrada: catálogo de 5 ofertas, direção de motion por produto e modelo de roteiro.
 - 2026-10-19 · v1: REF-001 a REF-005 (1º envio) + REF-006 a REF-008 (2º envio). Playbook v1, 23 receitas, motor HyperFrames com laboratório renderizado. A nota anterior foi preservada em `analysis/_legacy-notas-v1.md`.

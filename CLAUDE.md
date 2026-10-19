@@ -8,3 +8,6 @@ Para qualquer pedido de vídeo, anúncio em motion ou referência nova:
 4. Referência nova: siga "Como adicionar novas referências" no INDEX. Nunca apague análises anteriores: acrescente uma correção.
 5. Não declare um vídeo pronto sem renderizar e revisar os frames (`tools/analyze.py --qa`, `tools/strip.py`).
 6. Não use marcas, músicas, imagens ou fontes de terceiros vistas nas referências como ativos.
+
+## Marca ativa: Nexools
+Catálogo e direção por produto em `motion-library/brands/nexools/OFFERS.md` (dados em `offers.json`; custo/lucro são internos e nunca vão para vídeo). Roteiros em `motion-library/brands/nexools/roteiros/`.
