@@ -39,19 +39,19 @@ Sem link compartilhado e sem conta de outra pessoa. É uma licença oficial, ati
 Toque em Saiba Mais e ative a sua.
 ```
 
-### GEM-C · C — Objeção + comparação à vista × mensal · v4 · ~35 s
+### GEM-C · C — Objeção + comparação à vista × mensal · v4 · ~31 s
 > ⚠️ Comparação: R$ 96,99 × 18 = R$ 1.745,82. Só publicar se for o mesmo plano (Google AI Pro). v3 em `takes/_v3/`.
 
 ```
 Quarenta e sete reais por dezoito meses de Gemini Pro? Parece bom demais?
 
-Não é link compartilhado. Não é conta dividida. Não é login de outra pessoa.
+Não é link compartilhado, nem conta dividida.
 
-É uma licença oficial, que você ativa no seu próprio e-mail. A conta é sua, e o acesso também.
+É uma licença oficial, ativada no seu próprio e-mail. A conta é sua.
 
-E faz a conta: no plano mensal, de noventa e seis reais e noventa e nove centavos, dezoito meses passariam de mil e setecentos reais. Aqui, são quarenta e sete reais, à vista.
+E faz a conta: pagando noventa e seis e noventa e nove por mês, dezoito meses passariam de mil e setecentos reais. Aqui, são quarenta e sete, à vista.
 
-Com Gemini Pro, mais espaço no Google Drive e o Google Flow para criar imagens e vídeos com inteligência artificial.
+Ainda vem com mais espaço no Google Drive e o Google Flow para criar imagens e vídeos.
 
 Toque em Saiba Mais e garanta a sua na Nexools.
 ```
