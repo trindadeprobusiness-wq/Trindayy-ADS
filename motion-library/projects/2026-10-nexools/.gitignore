@@ -2,3 +2,4 @@ build/
 renders/work-*
 renders/.*
 *_qa/LAB*
+renders/*_qa/
