@@ -68,8 +68,8 @@
         "official_label": "Coursera Plus US$ 399/ano",
         "official_total_brl": 2013.39,
         "savings_pct": 95.5,
-        "status": "a validar: equivalência ao Coursera Plus e permissão de revenda",
-        "approved_for_ads": false,
+        "status": "validado pelo usuário em 2026-10-19",
+        "approved_for_ads": true,
         "researched": "2026-10-19",
         "fx": {
           "EUR_BRL": 5.65931,
@@ -107,7 +107,8 @@
         "fx": {
           "EUR_BRL": 5.65931,
           "USD_BRL": 5.0461
-        }
+        },
+        "comparison_line": "Oficial US$ 22 × 3 = US$ 66 ≈ R$ 333,04 vs R$ 149,90"
       }
     },
     {

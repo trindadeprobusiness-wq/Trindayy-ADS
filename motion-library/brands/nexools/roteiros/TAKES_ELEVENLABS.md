@@ -57,7 +57,7 @@ Toque em Saiba Mais e garanta a sua.
 ## Coursera Plus
 
 ### COU-A · A — Economia e valor · 25–30 s
-> ⚠️ Usa referência de preço (US$ 399): publicar só após validar equivalência ao Coursera Plus.
+> ✅ Coursera validado pelo usuário em 19/10/2026.
 
 ```
 Um ano de Coursera Plus custa trezentos e noventa e nove dólares na referência internacional.
@@ -99,18 +99,19 @@ Confira a oferta e escolha o que faz sentido para sua carreira.
 
 ## ElevenLabs Creator
 
-### ELV-A · A — Demonstração de benefício · 25–30 s
+### ELV-A · A — "A voz que você está ouvindo" (metalinguagem) · v2 · ~27 s
+> A locução deste anúncio PRECISA ser gerada no ElevenLabs (é a prova). v1 em `takes/_v1/`.
 
 ```
-Sabe aquela narração profissional que você ouve em anúncios e vídeos na internet?
+Sabe essa voz que você está ouvindo agora? Ela foi criada com inteligência artificial, no ElevenLabs.
 
-Com o ElevenLabs, você consegue transformar texto em áudio com vozes de inteligência artificial.
+É assim que dá para fazer vídeos e anúncios como este, sem gravar uma palavra sequer.
 
-Isso abre possibilidades para criar anúncios, apresentações e conteúdos em diferentes estilos.
+Você escreve o roteiro, escolhe a voz e, em segundos, tem uma narração profissional, em vários estilos e idiomas.
 
-E a Nexools está oferecendo três meses do plano Creator por cento e quarenta e nove reais e noventa centavos.
+E na Nexools, você tem três meses do plano Creator por cento e quarenta e nove reais e noventa centavos.
 
-Confira as condições e comece a explorar.
+Toque em Saiba Mais e comece a criar.
 ```
 
 ### ELV-B · B — Identificação do criador · 25–30 s
@@ -127,18 +128,19 @@ Na Nexools, são três meses de Creator por cento e quarenta e nove reais e nove
 Veja a oferta completa.
 ```
 
-### ELV-C · C — Quebra de crença · 25–30 s
+### ELV-C · C — Quebra de crença, com a comparação de preço no fim · v2 · ~29 s
+> ⚠️ US$ 22 × 3 = US$ 66 ≈ R$ 333,04 (USD 5,0461, sem IOF). Validar limites do plano antes de publicar.
 
 ```
-Uma narração de qualidade não depende obrigatoriamente de montar um estúdio em casa.
+Uma narração de qualidade não depende de montar um estúdio em casa.
 
-Hoje, você pode transformar um roteiro em voz usando inteligência artificial e ajustar a interpretação conforme o projeto.
+Hoje, você transforma um roteiro em voz com inteligência artificial e ajusta a interpretação conforme o projeto.
 
-O ElevenLabs Creator é uma ferramenta para quem trabalha com vídeo, anúncios e produção de conteúdo.
+É isso que o ElevenLabs Creator faz por quem trabalha com vídeo, anúncios e conteúdo.
 
-E a Nexools tem uma oferta de três meses por cento e quarenta e nove reais e noventa centavos.
+E faz a conta: na assinatura oficial, paga em dólar, três meses do Creator passam de trezentos e trinta reais. Na Nexools, são cento e quarenta e nove e noventa.
 
-Confira os detalhes.
+Toque em Saiba Mais e garanta o seu.
 ```
 
 ## n8n Starter
