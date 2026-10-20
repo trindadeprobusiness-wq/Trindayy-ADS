@@ -12,3 +12,6 @@ Para qualquer pedido de vídeo, anúncio em motion ou referência nova:
 
 ## Marca ativa: Nexools
 Catálogo e direção por produto em `motion-library/brands/nexools/OFFERS.md` (dados em `offers.json`; custo/lucro são internos e nunca vão para vídeo). Roteiros em `motion-library/brands/nexools/roteiros/`.
+
+## Estratégia de criativos
+Antes de propor novos criativos, testes ou escala, siga `motion-library/strategy/PROMPT_MESTRE_CREATIVE_STRATEGY.md` (prompt-mestre do usuário, 20/10/2026). Estratégia atual da Nexools: `motion-library/brands/nexools/ESTRATEGIA_CRIATIVOS_v1.md` (também no Google Drive, pasta "Nexools — Criativos Meta Ads (out 2026)"). Registre resultados de testes no "Banco de aprendizados" desse arquivo.
