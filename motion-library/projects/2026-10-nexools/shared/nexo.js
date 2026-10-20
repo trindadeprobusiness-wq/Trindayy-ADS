@@ -31,6 +31,8 @@
   let gid = 0;
   N.logo = function (name, size, o = {}) {
     const d = LP[name]; const id = "lg" + (gid++);
+    // Manus não tem logo no simple-icons: usamos só o nome em tipografia neutra (não é o logo da marca)
+    if (!d) return `<span style="display:inline-flex;width:${size}px;height:${size}px;border-radius:${size * 0.28}px;background:${o.color === "#fff" ? "#fff" : "#0b162a"};color:${o.color === "#fff" ? "#0b162a" : "#fff"};align-items:center;justify-content:center;font-weight:700;font-size:${size * 0.56}px;line-height:1">${(name[0] || "?").toUpperCase()}</span>`;
     const sz = `width="${size}" height="${size}"`;
     if (name === "googlegemini") return `<svg viewBox="0 0 24 24" ${sz}><defs><linearGradient id="${id}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4285F4"/><stop offset=".55" stop-color="#9B72CB"/><stop offset="1" stop-color="#D96570"/></linearGradient></defs><path d="${d}" fill="url(#${id})"/></svg>`;
     if (name === "google" && !o.mono) return `<svg viewBox="0 0 24 24" ${sz}><defs>${["a","b","c","d"].map((k)=>`<clipPath id="${id}${k}"><rect ${{a:'x="0" y="0" width="24" height="9.3"',b:'x="0" y="9.3" width="8.2" height="7"',c:'x="0" y="15" width="24" height="9"',d:'x="12" y="9.3" width="12" height="6"'}[k]}/></clipPath>`).join("")}</defs>${[["a","#EA4335"],["b","#FBBC05"],["c","#34A853"],["d","#4285F4"]].map(([k,c])=>`<path d="${d}" fill="${c}" clip-path="url(#${id}${k})"/>`).join("")}</svg>`;

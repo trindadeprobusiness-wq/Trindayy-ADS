@@ -25,7 +25,7 @@ def main():
     if os.path.exists(B): shutil.rmtree(B)
     os.makedirs(os.path.join(B, "audio")); os.makedirs(os.path.join(B, "assets"))
     shutil.copytree(os.path.join(ENGINE, "assets/fonts"), os.path.join(B, "fonts"))
-    for f in ["nexo.css", "nexo.js", "nexo2.js"]: shutil.copy(os.path.join(P, "shared", f), B)
+    for f in ["nexo.css", "nexo.js", "nexo2.js", "nexo3.js"]: shutil.copy(os.path.join(P, "shared", f), B)
     shutil.copy(os.path.join(ENGINE, "vendor/gsap.min.js"), B)
     for f in ["hyperframes.json", "meta.json"]: shutil.copy(os.path.join(ENGINE, f), B)
     for f in os.listdir(BRAND):

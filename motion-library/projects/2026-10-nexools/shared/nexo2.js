@@ -180,7 +180,7 @@
     const s = scene(tl, "", o.t0, o.t1);
     const c = el(`<div class="center"><div class="h1 top1" style="font-size:80px">${o.head}</div>
       <div class="oldbox" style="position:relative;margin-top:40px;display:inline-block"><span style="font-size:190px;font-weight:700;letter-spacing:-.05em;color:#0b162a;font-variant-numeric:tabular-nums">${o.old}</span><div class="strike" style="height:14px;left:-20px;right:-20px"></div></div>
-      <div class="lbl acct oldl" style="justify-content:center;margin-top:10px">${N.logo(o.logo, 46)}${o.oldLabel}</div>
+      <div class="lbl acct oldl" style="justify-content:center;margin-top:10px">${o.logo ? N.logo(o.logo, 46) : ""}${o.oldLabel}</div>
       <div class="price np" style="margin-top:70px"><div class="rays"></div><div class="glow"></div><span class="cur">R$</span><span class="val" style="font-size:230px">${o.price}</span></div>
       <div class="stamp st2" style="position:relative;margin-top:44px;transform:rotate(-6deg)">${o.stamp}</div></div>`, s);
     words(tl, c.children[0], o.headTimes, { from: 0.3 });
@@ -203,15 +203,15 @@
   N.coupon = function (tl, o) {
     const s = scene(tl, "", o.t0, o.t1);
     const c = el(`<div class="center">
-      <div class="tk" style="position:relative;width:820px;height:250px;border-radius:40px;background:linear-gradient(135deg,#ea4b71,#ff7a59);color:#fff;display:flex;align-items:center;gap:34px;padding:0 50px;box-shadow:0 40px 90px rgba(234,75,113,.35);text-align:left">
-        <div style="width:120px;height:120px;border-radius:34px;background:#fff;display:flex;align-items:center;justify-content:center">${N.logo("n8n", 76)}</div>
-        <div><div style="font-family:var(--f-ui);font-size:30px;opacity:.9">Cupom oficial</div><div style="font-size:60px;font-weight:700;letter-spacing:-.02em">n8n Starter · 12 meses</div></div>
+      <div class="tk" style="position:relative;width:820px;height:250px;border-radius:40px;background:${o.grad || "linear-gradient(135deg,#ea4b71,#ff7a59)"};color:#fff;display:flex;align-items:center;gap:34px;padding:0 50px;box-shadow:0 40px 90px ${o.shadow || "rgba(234,75,113,.35)"};text-align:left">
+        <div style="width:120px;height:120px;border-radius:34px;background:#fff;display:flex;align-items:center;justify-content:center">${N.logo(o.logo || "n8n", 76)}</div>
+        <div><div style="font-family:var(--f-ui);font-size:30px;opacity:.9">Cupom oficial</div><div style="font-size:60px;font-weight:700;letter-spacing:-.02em">${o.ticket || "n8n Starter · 12 meses"}</div></div>
         <div style="position:absolute;left:-26px;top:98px;width:52px;height:52px;border-radius:50%;background:#f4f7fd"></div><div style="position:absolute;right:-26px;top:98px;width:52px;height:52px;border-radius:50%;background:#f4f7fd"></div></div>
       <div class="acc lic" style="margin-top:60px;width:900px">
-        <div class="lic-top"><div class="lic-title">${N.logo("n8n", 54)}Sua conta n8n</div><div class="badge">Plano</div></div>
+        <div class="lic-top"><div class="lic-title">${N.logo(o.logo || "n8n", 54)}${o.account || "Sua conta n8n"}</div><div class="badge">${o.badge || "Plano"}</div></div>
         <div class="fieldlbl">Código do cupom</div><div class="field"><span class="code" style="letter-spacing:.2em"></span><span class="caret"></span></div>
-        <div class="btn" data-layout-allow-overlap><span class="lab">Aplicar cupom</span><div class="ok">${N.ICON.check}<span>Starter liberado · 12 meses</span></div></div>
-        <div class="owner nomens" style="right:-20px">Sem mensalidade</div></div></div>`, s);
+        <div class="btn" data-layout-allow-overlap><span class="lab">Aplicar cupom</span><div class="ok">${N.ICON.check}<span>${o.okText || "Starter liberado · 12 meses"}</span></div></div>
+        <div class="owner nomens" style="right:-20px">${o.noFee || "Sem mensalidade"}</div></div></div>`, s);
     const tk = q(c, ".tk");
     tl.fromTo(tk, { opacity: 0, y: -160, rotation: -10, scale: 0.8 }, { opacity: 1, y: 0, rotation: -3, scale: 1, duration: 0.7, ease: "back.out(1.5)" }, o.receiveAt - 0.15);
     N.sfx("whoosh", o.receiveAt - 0.35, -6);
@@ -228,6 +228,7 @@
     tl.fromTo(q(btn, ".lab"), { opacity: 1 }, { opacity: 0, duration: 0.15, immediateRender: false }, o.okAt);
     N.sfx("click", o.okAt - 0.15, -2); N.sfx("chime", o.okAt, -6);
     const nm = q(c, ".nomens");
+    if (o.noFeeAt == null) { nm.style.display = "none"; return s; }
     tl.fromTo(nm, { opacity: 0, scale: 0.6, rotation: -6 }, { opacity: 1, scale: 1, rotation: 0, duration: 0.45, ease: E.pop }, o.noFeeAt);
     N.sfx("pop", o.noFeeAt, -6);
     return s;
