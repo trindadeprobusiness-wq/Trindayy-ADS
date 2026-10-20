@@ -75,3 +75,15 @@ Hipóteses por produto (pessimista / realista / otimista):
 | Otimista | R$ 350 | ~100 | ~21 | ~R$ 1.820 | **+R$ 1.470** |
 
 Sem taxas de pagamento, impostos nem reembolsos.
+
+## Projeção mensal após validar (hipótese)
+
+Base: lucro bruto gerado por R$ 1 de anúncio. Realista ≈ 1,8 e otimista ≈ 4,0, já cortando os perdedores. O retorno cai ~10% a cada vez que a verba dobra. Desconto de ~6% de taxas de pagamento.
+
+| Verba/dia | Verba/mês | Realista | Otimista |
+|---|---|---|---|
+| R$ 50 | R$ 1.500 | ~R$ 1.000 | ~R$ 4.100 |
+| R$ 100 | R$ 3.000 | ~R$ 1.600 | ~R$ 7.200 |
+| R$ 200 | R$ 6.000 | ~R$ 2.100 | ~R$ 12.000 |
+
+No cenário pessimista não se escala: o teste para e o funil é revisto.
