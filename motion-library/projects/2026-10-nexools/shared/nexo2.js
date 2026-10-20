@@ -190,6 +190,7 @@
     N.sfx("strike", o.strikeAt, -4);
     tl.to([q(c, ".oldbox"), q(c, ".oldl")], { opacity: 0.4, scale: 0.8, duration: 0.4, ease: E.move }, o.strikeAt + 0.3);
     const np = q(c, ".np");
+    if (!o.price) { np.style.display = "none"; q(c, ".st2").style.display = "none"; return s; }
     tl.fromTo(np, { opacity: 0, scale: 0.5, filter: "blur(20px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.6, ease: "back.out(1.4)" }, o.priceAt - 0.1);
     tl.fromTo(q(np, ".rays"), { rotation: 0, opacity: 0 }, { rotation: 30, opacity: 1, duration: 3 }, o.priceAt - 0.1);
     N.sfx("impact", o.priceAt - 0.1, -2);
