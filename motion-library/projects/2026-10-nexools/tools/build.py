@@ -68,5 +68,11 @@ def main():
         if ck.returncode and "--force" not in sys.argv: raise SystemExit("check falhou")
         o = run([HF, "render", "-o", os.path.join(P, "renders", f"NEXOOLS_{vid}.mp4"), "--quality", "high"], cwd=B)
         print(o[-600:])
+        # entrega limpa: sem metadados, sem assinatura de encoder/renderer (vídeo copiado sem perda)
+        out = os.path.join(P, "renders", f"NEXOOLS_{vid}.mp4"); tmp = out + ".clean.mp4"
+        run(["ffmpeg", "-v", "error", "-y", "-i", out, "-map", "0", "-c:v", "copy", "-bsf:v", "filter_units=remove_types=6",
+             "-c:a", "aac", "-b:a", "192k", "-map_metadata", "-1", "-fflags", "+bitexact", "-flags:v", "+bitexact",
+             "-flags:a", "+bitexact", "-movflags", "+faststart", tmp])
+        os.replace(tmp, out); print("metadados removidos")
 
 main()
