@@ -50,6 +50,7 @@
   const q = (root, s) => root.querySelector(s);
   const qa = (root, s) => Array.from(root.querySelectorAll(s));
   N.el = el;
+  N.q = q; N.qa = qa; N.split = split;
 
   function split(node) {
     const words = node.textContent.trim().split(/\s+/);
@@ -149,7 +150,7 @@
     const c = el(`<div class="center">
       <div class="ph-num"><div class="tmask"><div class="tcol">${rows}</div></div><div class="unit">${o.unit || "meses"}</div></div>
       <div class="prod prodrow">${o.productLogo ? `<span class="lg plogo">${N.logo(o.productLogo, 84)}</span>` : ""}<span class="ptxt">${o.product}</span></div>
-      <div class="price"><div class="rays"></div><div class="glow"></div><span class="cur">R$</span><span class="val">${o.price}</span></div>
+      <div class="price"><div class="rays"></div><div class="glow"></div><span class="cur">R$</span><span class="val" style="${o.priceSize ? `font-size:${o.priceSize}px` : ""}">${o.price}</span></div>
       ${o.sub ? `<div class="lbl" style="margin-top:30px">${o.sub}</div>` : ""}
     </div>`, s);
     const col = q(c, ".tcol");
@@ -403,11 +404,11 @@
     const s = scene(tl, "dark", o.t0, o.t1, { noExit: true });
     const tiles = Array.from({ length: o.months }, (_, i) => `<div class="mtile">${i + 1}<div class="on">${i + 1}</div></div>`).join("");
     const c = el(`<div class="center" style="padding-bottom:120px"><div class="h1" style="color:#fff;font-size:84px">${o.kicker}</div>
-      <div class="lbl acct" style="justify-content:center;margin-top:26px;color:rgba(255,255,255,.8)">${o.planLogo ? N.logo(o.planLogo, 40) : ""}${o.planLabel || ""}</div><div class="calc-line" style="margin-top:14px">${o.monthly} <span>×</span> ${o.months}</div>
-      <div class="mgrid">${tiles}</div>
+      <div class="lbl acct" style="justify-content:center;margin-top:26px;color:rgba(255,255,255,.8)">${o.planLogo ? N.logo(o.planLogo, 40, { color: o.planLogoColor }) : ""}${o.planLabel || ""}</div><div class="calc-line" style="margin-top:14px">${o.monthly} <span>×</span> ${o.months}</div>
+      <div class="mgrid" style="grid-template-columns:repeat(${Math.min(6, o.months)}, ${o.months <= 3 ? 150 : 104}px)">${tiles}</div>
       <div class="ctot"><span class="num">R$ 0,00</span><div class="strike"></div></div>
-      <div class="price" style="margin-top:0"><div class="rays"></div><div class="glow"></div><span class="cur">R$</span><span class="val" style="font-size:220px">${o.price}</span></div>
-        <div style="position:relative;height:120px;width:400px;margin-top:-10px"><div class="stamp" style="left:40px;top:0">À VISTA</div></div></div>`, s);
+      <div class="price" style="margin-top:0"><div class="rays"></div><div class="glow"></div><span class="cur">R$</span><span class="val" style="font-size:${o.priceSize || 220}px">${o.price}</span></div>
+        <div style="position:relative;height:120px;width:400px;margin-top:-10px"><div class="stamp" style="left:40px;top:0">${o.stamp || "À VISTA"}</div></div></div>`, s);
     words(tl, c.children[0], o.kickTimes || [o.t0 + 0.05]);
     tl.fromTo(c.children[1], { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4, ease: E.enter }, o.lineAt - 0.2);
     tl.fromTo(q(c, ".calc-line"), { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.5, ease: E.enter }, o.lineAt);
@@ -429,8 +430,10 @@
     tl.fromTo(q(pr, ".rays"), { rotation: 0, opacity: 0 }, { rotation: 30, opacity: 1, duration: 2.5 }, o.priceAt - 0.1);
     N.sfx("impact", o.priceAt - 0.1, -2);
     const st = q(c, ".stamp");
-    tl.fromTo(st, { opacity: 0, scale: 1.8, rotation: -20 }, { opacity: 1, scale: 1, rotation: -10, duration: 0.35, ease: "back.out(2)" }, o.vistaAt);
-    N.sfx("stamp", o.vistaAt, -2);
+    if (o.vistaAt != null) {
+      tl.fromTo(st, { opacity: 0, scale: 1.8, rotation: -20 }, { opacity: 1, scale: 1, rotation: -10, duration: 0.35, ease: "back.out(2)" }, o.vistaAt);
+      N.sfx("stamp", o.vistaAt, -2);
+    } else tl.set(st, { opacity: 0 }, o.t0);
     tl.fromTo(s, { opacity: 1, filter: "blur(0px)" }, { opacity: 0, filter: "blur(18px)", duration: 0.3, immediateRender: false }, o.t1 - 0.3);
     return s;
   };

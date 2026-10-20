@@ -25,12 +25,19 @@ def main():
     if os.path.exists(B): shutil.rmtree(B)
     os.makedirs(os.path.join(B, "audio")); os.makedirs(os.path.join(B, "assets"))
     shutil.copytree(os.path.join(ENGINE, "assets/fonts"), os.path.join(B, "fonts"))
-    for f in ["nexo.css", "nexo.js"]: shutil.copy(os.path.join(P, "shared", f), B)
+    for f in ["nexo.css", "nexo.js", "nexo2.js"]: shutil.copy(os.path.join(P, "shared", f), B)
     shutil.copy(os.path.join(ENGINE, "vendor/gsap.min.js"), B)
     for f in ["hyperframes.json", "meta.json"]: shutil.copy(os.path.join(ENGINE, f), B)
     for f in os.listdir(BRAND):
         if f.endswith(".png"): shutil.copy(os.path.join(BRAND, f), os.path.join(B, "assets"))
     shutil.copy(os.path.join(P, "videos", f"{vid}.js"), os.path.join(B, "video.js"))
+    # envelope da locução (30 fps) para visuais que reagem à voz
+    import numpy as np
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", vo, "-ac", "1", "-ar", "16000", "-f", "f32le", "-"], capture_output=True).stdout
+    y = np.frombuffer(raw, np.float32); hop = 16000 // 30
+    env = [float(np.sqrt(np.mean(y[i:i + hop] ** 2))) for i in range(0, len(y), hop)]
+    m = max(env) or 1; env = [round(min(1, v / m * 1.3), 2) for v in env]
+    open(os.path.join(B, "env.js"), "w").write("window.VO_ENV=" + json.dumps(env) + ";window.VO_FPS=30;")
     html = open(os.path.join(P, "shared/template.html")).read().replace("{DUR}", str(dur)).replace("{ID}", vid)
     open(os.path.join(B, "index.html"), "w").write(html)
     # efeitos sonoros declarados pelas cenas
