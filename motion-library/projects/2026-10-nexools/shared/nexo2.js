@@ -182,7 +182,7 @@
       <div class="oldbox" style="position:relative;margin-top:40px;display:inline-block"><span style="font-size:190px;font-weight:700;letter-spacing:-.05em;color:#0b162a;font-variant-numeric:tabular-nums">${o.old}</span><div class="strike" style="height:14px;left:-20px;right:-20px"></div></div>
       <div class="lbl acct oldl" style="justify-content:center;margin-top:10px">${N.logo(o.logo, 46)}${o.oldLabel}</div>
       <div class="price np" style="margin-top:70px"><div class="rays"></div><div class="glow"></div><span class="cur">R$</span><span class="val" style="font-size:230px">${o.price}</span></div>
-      <div class="stamp st2" style="position:relative;margin-top:10px;transform:rotate(-6deg)">${o.stamp}</div></div>`, s);
+      <div class="stamp st2" style="position:relative;margin-top:44px;transform:rotate(-6deg)">${o.stamp}</div></div>`, s);
     words(tl, c.children[0], o.headTimes, { from: 0.3 });
     tl.fromTo(q(c, ".oldbox"), { opacity: 1, scale: 0.9 }, { opacity: 1, scale: 1, duration: 0.6, ease: E.enter }, o.t0);
     tl.fromTo(q(c, ".oldl"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4 }, o.labelAt);
@@ -254,8 +254,8 @@
         tl.fromTo(lines[i - 1], { strokeDashoffset: 600 }, { strokeDashoffset: 0, duration: 0.4, ease: E.move }, n.t - 0.35);
         // pulso de dados percorrendo a ligação
         const a = pos[i - 1], b = pos[i];
-        const dot = el(`<div style="position:absolute;left:${a[0] + 165 - 16}px;top:${a[1] + 110 - 16}px;width:32px;height:32px;border-radius:50%;background:#ea4b71;box-shadow:0 0 0 10px rgba(234,75,113,.2)"></div>`, s);
-        for (let k = 0; k < 3; k++) tl.fromTo(dot, { x: 0, y: 0, opacity: 1 }, { x: b[0] - a[0], y: b[1] - a[1], opacity: 1, duration: 0.7, ease: "power1.inOut", immediateRender: k === 0 }, n.t + 0.1 + k * 0.9);
+        const dot = el(`<div style="position:absolute;left:${a[0] + 165 - 16}px;top:${a[1] + 110 - 16}px;width:32px;height:32px;border-radius:50%;opacity:0;background:#ea4b71;box-shadow:0 0 0 10px rgba(234,75,113,.2)"></div>`, s);
+        for (let k = 0; k < 3; k++) tl.fromTo(dot, { x: 0, y: 0, opacity: 1 }, { x: b[0] - a[0], y: b[1] - a[1], opacity: 1, duration: 0.7, ease: "power1.inOut", immediateRender: false }, n.t + 0.1 + k * 0.9);
       }
     });
     return s;
