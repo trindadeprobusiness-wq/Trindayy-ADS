@@ -8,7 +8,7 @@ Para qualquer pedido de vídeo, anúncio em motion ou referência nova:
 4. Referência nova: siga "Como adicionar novas referências" no INDEX. Nunca apague análises anteriores: acrescente uma correção.
 5. Não declare um vídeo pronto sem renderizar e revisar os frames (`tools/analyze.py --qa`, `tools/strip.py`).
 6. Não use marcas, músicas, imagens ou fontes de terceiros vistas nas referências como ativos.
-7. Exceção autorizada pelo usuário (19/10/2026): nos anúncios da Nexools podem aparecer os logos oficiais dos produtos revendidos (Gemini/Google, Coursera, ElevenLabs, n8n), via `simple-icons` (CC0), sempre com o rodapé "Nexools é revendedora independente. Marcas citadas pertencem aos seus respectivos donos." Prints reais só se o usuário enviar.
+7. Exceção autorizada pelo usuário (19/10/2026): nos anúncios da Nexools podem aparecer os logos oficiais dos produtos revendidos (Gemini/Google, Coursera, ElevenLabs, n8n via `simple-icons`, CC0; Manus via `@lobehub/icons-static-svg`, MIT, autorizado em 20/10/2026), sempre com o rodapé "Nexools é revendedora independente. Marcas citadas pertencem aos seus respectivos donos." Prints reais só se o usuário enviar.
 
 ## Marca ativa: Nexools
 Catálogo e direção por produto em `motion-library/brands/nexools/OFFERS.md` (dados em `offers.json`; custo/lucro são internos e nunca vão para vídeo). Roteiros em `motion-library/brands/nexools/roteiros/`.

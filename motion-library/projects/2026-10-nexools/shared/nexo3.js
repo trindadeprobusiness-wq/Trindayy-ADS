@@ -172,7 +172,7 @@
   N.nameReveal = function (tl, o) {
     const s = scene(tl, "", o.t0, o.t1);
     const c = el(`<div class="center">${o.pre ? `<div class="h2 pre">${o.pre}</div>` : ""}
-      <div class="nm prodrow" style="margin-top:50px;gap:34px"><span class="nt">${N.logo("manus", 170)}</span><span style="font-size:190px;font-weight:700;letter-spacing:-.05em">${o.name}</span></div>
+      <div class="nm prodrow" style="margin-top:50px;gap:34px"><span class="nt">${N.logo("manus", 160)}</span><span style="display:block;line-height:0">${N.logo("manus-text", 116)}</span></div>
       <div class="rays" style="position:absolute;left:50%;top:50%;width:1600px;height:1600px;margin:-800px 0 0 -800px;z-index:-1"></div>
       ${o.sub ? `<div class="h2 sub" style="margin-top:50px" data-accent="diferente">${o.sub}</div>` : ""}</div>`, s);
     if (o.pre) words(tl, q(c, ".pre"), o.preTimes);
