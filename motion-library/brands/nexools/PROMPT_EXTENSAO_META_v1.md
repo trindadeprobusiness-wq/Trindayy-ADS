@@ -61,3 +61,17 @@ Conjunto GEMINI — boas-vindas: "Olá! Quero o Gemini Pro 18 meses."
 | Gemini | R$ 56 | conversa > R$ 8 depois de R$ 30 gastos, ou nenhuma venda até o fim | — |
 
 Em 7 dias, com essa verba, o mais seguro é ler o **custo por conversa**. Vendas suficientes para decidir com segurança dependem de mais tempo.
+
+## Projeção dos 7 dias (hipóteses, não dados — comparar com o resultado real)
+
+Hipóteses por produto (pessimista / realista / otimista):
+- custo por conversa: Coursera 8/5/3 · ElevenLabs 10/6/4 · n8n 15/9/5 · Gemini 6/4/2,5
+- fechamento no WhatsApp: Coursera 8/15/25% · ElevenLabs 6/12/20% · n8n 4/8/15% · Gemini 5/10/18%
+
+| Cenário | Gasto | Conversas | Vendas | Lucro bruto das vendas | Resultado |
+|---|---|---|---|---|---|
+| Pessimista | R$ 350 | ~39 | ~2–3 | ~R$ 200 | **−R$ 150** |
+| Realista | R$ 350 | ~63 | ~7–8 | ~R$ 640 | **+R$ 290** |
+| Otimista | R$ 350 | ~100 | ~21 | ~R$ 1.820 | **+R$ 1.470** |
+
+Sem taxas de pagamento, impostos nem reembolsos.
