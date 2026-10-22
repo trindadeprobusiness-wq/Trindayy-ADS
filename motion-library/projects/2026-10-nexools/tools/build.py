@@ -46,13 +46,22 @@ def main():
     cues = out["cues"]; json.dump(cues, open(os.path.join(B, "cues.json"), "w"), indent=1)
     # mix: VO normalizada + trilha com ducking + efeitos
     A = os.path.join(BRAND, "audio")
-    ins = ["-i", vo, "-i", os.path.join(A, "bed_tech.wav")]
+    # trilha de retenção gerada para este vídeo: build antes do CTA e drop no CTA
+    import re
+    m_cta = re.search(r"N\.cta\(tl, \{ t0: ([0-9.]+)", open(os.path.join(P, "videos", f"{vid}.js")).read())
+    bed = os.path.join(B, "audio", "bed.wav")
+    if m_cta:
+        run(["python3", os.path.join(LIB, "tools/audio/synth.py"), "bed", bed, str(dur), m_cta.group(1)])
+        bed_db = -11
+    else:
+        bed = os.path.join(A, "bed_tech.wav"); bed_db = -17
+    ins = ["-i", vo, "-i", bed]
     fx = [c for c in cues if c["name"] != "bed"]
     for c in fx: ins += ["-i", os.path.join(A, SFX[c["name"]])]
     g = [f"[0:a]aresample=44100,aformat=channel_layouts=stereo,loudnorm=I=-16:TP=-2:LRA=7,adelay=0|0,apad=whole_dur={dur}[vo]",
          "[vo]asplit=2[vo1][vo2]",
-         f"[1:a]atrim=0:{dur},volume=-17dB,afade=t=out:st={dur-1.6}:d=1.6[bed]",
-         "[bed][vo2]sidechaincompress=threshold=0.04:ratio=5:attack=15:release=350:makeup=1[bedd]"]
+         f"[1:a]aresample=44100,atrim=0:{dur},volume={bed_db}dB,afade=t=out:st={dur-1.6}:d=1.6[bed]",
+         "[bed][vo2]sidechaincompress=threshold=0.05:ratio=4:attack=15:release=300:makeup=1[bedd]"]
     labels = ["[vo1]", "[bedd]"]
     for i, c in enumerate(fx):
         ms = max(0, int(c["t"] * 1000))

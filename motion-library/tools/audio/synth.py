@@ -12,7 +12,7 @@ from scipy.io import wavfile
 
 SR = 44100
 rng = np.random.default_rng(7)
-OUT = sys.argv[1] if len(sys.argv) > 1 else "."
+OUT = sys.argv[1] if len(sys.argv) > 1 and sys.argv[1] != "bed" else "."
 os.makedirs(OUT, exist_ok=True)
 
 
@@ -174,7 +174,91 @@ def bed(dur=44.0, bpm=112, root=57):
     return out * (fi * fo)[:, None]
 
 
+# ---------------- Trilha de retenção (gerada por vídeo, sincronizada com o CTA) ----------------
+def bed_drive(dur=30.0, cta=25.0, bpm=120, root=57, seed=11):
+    """Pulso constante desde o 1º segundo, brilho subindo aos poucos (retém),
+    'build' nos 2 s antes do CTA (riser + caixa acelerando) e 'drop' no CTA (convida ao clique)."""
+    r = np.random.default_rng(seed)
+    n = int(dur * SR); t = np.arange(n) / SR
+    beat = 60 / bpm; bar = beat * 4; s16 = beat / 4
+    midi = lambda m: 440 * 2 ** ((m - 69) / 12)
+    prog = [[0, 3, 7, 12], [-4, 0, 3, 8], [-9, -5, 0, 3], [-2, 2, 5, 10]]  # Am F C G
+    out = np.zeros((n, 2))
+    b0 = max(1.0, cta - 2.0)  # início do build
+    def add(x, start, ch=None, g=1.0):
+        s = int(start * SR)
+        if s >= n or s < 0: return
+        e = min(n, s + len(x)); seg = x[: e - s] * g
+        if ch is None: out[s:e] += seg[:, None]
+        else: out[s:e, ch] += seg
+    # kick: todo tempo (some no build, volta forte no drop)
+    k = lp(impact(0.32), 2200) * 0.5
+    for i in range(int(dur / beat) + 1):
+        tt = i * beat
+        if b0 <= tt < cta: continue
+        add(k, tt, g=(0.75 if tt < bar else 1.0) * (1.15 if tt >= cta else 1.0))
+    # hat no contratempo + 16ths depois do drop
+    hl = int(0.035 * SR); hat = hp(r.standard_normal(hl), 7000) * np.exp(-np.arange(hl) / SR / 0.010)
+    for i in range(int(dur / s16) + 1):
+        tt = i * s16
+        if b0 <= tt < cta: continue
+        off = (i % 4 == 2); sixteenth = tt >= cta
+        if off or (sixteenth and i % 2):
+            add(hat, tt, ch=i % 2, g=0.07 if off else 0.035)
+    # sub em colcheias
+    for i in range(int(dur / (beat / 2)) + 1):
+        tt = i * beat / 2
+        if b0 <= tt < cta: continue
+        ch = prog[int(tt / bar) % 4]; ln = int(beat / 2 * 0.85 * SR); x = np.arange(ln) / SR
+        add(np.sin(2 * np.pi * midi(root + ch[0] - 12) * x) * np.exp(-x / 0.16) * 0.20, tt)
+    # pluck em arpejo 16ths, filtro abrindo com o tempo (sensação de progresso)
+    pl = np.zeros(n)
+    for i in range(int(dur / s16) + 1):
+        tt = i * s16
+        if b0 <= tt < cta and i % 2: continue
+        ch = prog[int(tt / bar) % 4]; f = midi(root + 12 + ch[[0, 1, 2, 3, 2, 1, 3, 2][i % 8]])
+        ln = int(0.22 * SR); x = np.arange(ln) / SR
+        w = (np.sign(np.sin(2 * np.pi * f * x)) * 0.35 + np.sin(2 * np.pi * f * x)) * np.exp(-x / 0.07)
+        s = int(tt * SR); e = min(n, s + ln)
+        if s < n: pl[s:e] += w[: e - s] * 0.16
+    blk = int(bar * SR / 2)
+    for s in range(0, n, blk):
+        tt = s / SR
+        prog_ = min(1, tt / max(1, b0)) if tt < cta else 1.0
+        fc = 900 + 3800 * prog_ ** 1.4 + (1800 if tt >= cta else 0)
+        seg = pl[max(0, s - 512): s + blk]
+        y = lp(seg, min(fc, 9000), 2)[(s - max(0, s - 512)):]
+        pl[s:s + len(y)] = y
+    out[:, 0] += pl; out[:, 1] += np.roll(pl, 220)
+    # pad (mais aberto no drop)
+    for i in range(int(dur / bar) + 1):
+        tt = i * bar; s = int(tt * SR); e = min(n, int((tt + bar + 0.3) * SR))
+        if s >= n: break
+        x = np.arange(e - s) / SR; ch = prog[i % 4]
+        seg = sum(np.sin(2 * np.pi * midi(root + iv) * x + j) + 0.25 * np.sin(2 * np.pi * midi(root + iv) * 2.004 * x) for j, iv in enumerate(ch))
+        a = np.minimum(1, x / 0.5) * np.minimum(1, (x[-1] - x + 0.01) / 0.3)
+        seg = lp(seg * a, 3000 if tt >= cta - 0.01 else 1600) * (0.07 if tt >= cta else 0.05)
+        out[s:e, 0] += seg; out[s:e, 1] += np.roll(seg, 300)
+    # build: riser + caixa acelerando
+    bl = cta - b0
+    rz = riser(bl) * 0.55; add(rz, b0)
+    sn_l = int(0.12 * SR); xs = np.arange(sn_l) / SR
+    snare = bp(r.standard_normal(sn_l), 1200, 6000) * np.exp(-xs / 0.05) + np.sin(2 * np.pi * 190 * xs) * np.exp(-xs / 0.04) * 0.5
+    tt = b0; step = beat / 2
+    while tt < cta - 0.04:
+        add(snare, tt, g=0.10 + 0.22 * (tt - b0) / bl); tt += step; step = max(beat / 8, step * 0.82)
+    # drop: impacto + acorde cheio
+    add(impact(1.4) * 0.8, cta)
+    x = np.arange(int(1.2 * SR)) / SR; ch = prog[int(cta / bar) % 4]
+    stab = sum(np.sin(2 * np.pi * midi(root + 12 + iv) * x) for iv in ch) * np.exp(-x / 0.35) * 0.09
+    add(stab, cta)
+    fi = np.minimum(1, t / 0.25); fo = np.minimum(1, (dur - t) / 1.5)
+    return out * (fi * fo)[:, None]
+
+
 if __name__ == "__main__":
+    if len(sys.argv) > 1 and sys.argv[1] == "bed":
+        OUT = os.path.dirname(os.path.abspath(sys.argv[2])); save(os.path.basename(sys.argv[2]), bed_drive(float(sys.argv[3]), float(sys.argv[4])), 0.7); sys.exit(0)
     save("bed_tech.wav", bed(), 0.7)
     save("sfx_whoosh.wav", whoosh())
     save("sfx_whoosh_down.wav", whoosh(0.5, up=False))
