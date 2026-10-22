@@ -142,3 +142,20 @@ DEPOIS DE ATIVAR (acompanhamento)
   Gemini: custo por conversa > R$ 8 após R$ 30 gastos
   Dentro de cada conjunto, depois de 3 dias, sugerir pausar o anúncio com custo por conversa 30% pior.
 ```
+
+---
+
+## Execução via MCP (22/10/2026)
+
+Conta: **Trindade** (1118522067814410), negócio Segredos do Silício · Página: **Gabriel Trindade** (1269240469594904, com WhatsApp; a Expert Trindade não tem WhatsApp conectado) · Instagram: @trindayy
+
+| Objeto | ID | Orçamento | Status |
+|---|---|---|---|
+| Campanha NEXOOLS \| WHATSAPP \| TESTE 7D \| V2 (Engajamento, ABO) | 120248746777380765 | — | pausada |
+| COURSERA \| BR \| 18-54 | 120248746781190765 | R$ 18/dia | pausado |
+| ELEVENLABS \| BR \| 18-54 | 120248746783030765 | R$ 12/dia | pausado |
+| N8N \| BR \| 22-55 | 120248746783510765 | R$ 12/dia | pausado |
+| GEMINI \| BR \| 18-54 | 120248746783870765 | R$ 8/dia | pausado |
+
+Todos: otimização para conversas no WhatsApp, maior volume, Brasil, Advantage+, término 29/10/2026 23:59.
+Pendente: subir os 7 vídeos na biblioteca de mídia da conta → criar criativos e anúncios.
