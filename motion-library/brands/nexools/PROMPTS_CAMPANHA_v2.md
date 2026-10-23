@@ -159,3 +159,22 @@ Conta: **Trindade** (1118522067814410), negócio Segredos do Silício · Página
 
 Todos: otimização para conversas no WhatsApp, maior volume, Brasil, Advantage+, término 29/10/2026 23:59.
 Pendente: subir os 7 vídeos na biblioteca de mídia da conta → criar criativos e anúncios.
+
+### Anúncios criados via MCP (23/10/2026) — todos PAUSADOS
+Identidade: página Gabriel Trindade (1269240469594904) + Instagram @trindayy (17841479648607267). Botão WhatsApp. Texto + rodapé legal.
+
+| Anúncio | Conjunto | Vídeo | Ad ID |
+|---|---|---|---|
+| COU-A | COURSERA | 1436634284547477 | 120248753030610765 |
+| COU-B | COURSERA | 2352593018821559 | 120248753039580765 |
+| ELV-A | ELEVENLABS | 1830649831296356 | 120248753039990765 |
+| ELV-B | ELEVENLABS | 1670400971311686 | 120248753040260765 |
+| N8N-B | N8N | 4736237556604345 | 120248753040720765 |
+| N8N-C | N8N | 1122266400550020 | 120248753041330765 |
+| GEM-B | GEMINI | 1112552381541885 | 120248753042160765 |
+
+Pendências manuais no Gerenciador:
+- ELV-A: marcar a declaração de conteúdo com IA (decisão do usuário: só no ELV-A). A conta não permitiu criar o criativo separado, onde esse campo existe.
+- Trocar a miniatura pelas capas `renders/capas/CAPA_<ID>.jpg` (a automática é o 1º quadro, quase vazio).
+- Mensagem de boas-vindas por produto (modelo de mensagem do WhatsApp).
+- Vídeo COU-B duplicado na biblioteca (1786703519208224), não usado.
