@@ -252,7 +252,7 @@ export const EndCard: React.FC<{at: number; headline: string; sub?: string; cta?
   const arrow = Math.sin((frame - at) / 6) * 8;
   return (
     <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', flexDirection: 'column', fontFamily: F}}>
-      <Img src={staticFile('moovi/logo_full_white.png')} style={{width: 470, opacity: logo, transform: `translateY(${(1 - logo) * 30}px) scale(${mix(0.9, 1, logo)})`}} />
+      <div style={{background: '#fff', borderRadius: 44, padding: 0, overflow: 'hidden', boxShadow: '0 30px 80px -20px rgba(0,0,0,0.8)', opacity: logo, transform: `translateY(${(1 - logo) * 30}px) scale(${mix(0.9, 1, logo)})`}}><Img src={staticFile('moovi/logo_card.png')} style={{width: 560, display: 'block'}} /></div>
       <div style={{marginTop: 70}}>
         <WordReveal text={headline} start={at + 8} stagger={3} fontSize={68} weight={700} family={F} color="#FFFFFF" maxWidth={900} />
       </div>

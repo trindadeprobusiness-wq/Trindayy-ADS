@@ -66,7 +66,7 @@ const BrandIs: React.FC<{at: number}> = ({at}) => {
   const e = springIn(frame, fps, at, 'calm');
   return (
     <div style={{position: 'absolute', top: 560, width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-      <Img src={staticFile('moovi/logo_full_white.png')} style={{width: 520, opacity: e, transform: `scale(${mix(0.9, 1, e)})`}} />
+      <div style={{background: '#fff', borderRadius: 44, padding: 0, overflow: 'hidden', boxShadow: '0 30px 80px -20px rgba(0,0,0,0.8)', opacity: e, transform: `scale(${mix(0.9, 1, e)})`}}><Img src={staticFile('moovi/logo_card.png')} style={{width: 600, display: 'block'}} /></div>
     </div>
   );
 };
