@@ -1,0 +1,44 @@
+{
+  "id": "MooviDemo05",
+  "style": "C+A — SaaS cinematic com contenção Apple; palco escuro, app claro real da Moovi",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 1290,
+  "concept": "Um único celular atravessa a peça: acende, mostra o painel, gira para o assistente e termina com o extrato virando lançamentos. Causa → efeito sempre na mesma tela.",
+  "timingSource": "Whisper word timestamps de public/moovi/voice05.mp3 (MOOVI_05); texto conferido com o roteiro enviado pelo usuário.",
+  "scenes": [
+    {"id": "hook", "from": 0, "duration": 96, "intent": "Gancho: celular em isometria, câmera mergulha, tela acende com o logo.", "text": "Deixa eu te mostrar a Moovi funcionando.", "sound": "whoosh_soft na descida"},
+    {"id": "panel", "from": 84, "duration": 204, "intent": "Painel: 4 cards em cascata com count-up no ritmo da fala (saldo, entrou, saiu, resultado).", "transitionIn": {"type": "cut", "frames": 12}},
+    {"id": "donut", "from": 282, "duration": 216, "intent": "Gráfico por categoria desenha; toque na fatia Alimentação mostra o valor.", "transitionIn": {"type": "cut", "frames": 6}},
+    {"id": "compare", "from": 498, "duration": 140, "intent": "Comparação com o mês passado; selo verde de economia; giro do celular para o assistente.", "transitionIn": {"type": "cut", "frames": 0}},
+    {"id": "assistant", "from": 638, "duration": 180, "intent": "Causa→efeito: digita 'gastei 30 no almoço', resposta, card flutuante de Alimentação sobe +30.", "transitionIn": {"type": "cut", "frames": 0}},
+    {"id": "ask", "from": 818, "duration": 135, "intent": "Pergunta sobre delivery; digitando…; resposta com números.", "transitionIn": {"type": "cut", "frames": 0}},
+    {"id": "scan", "from": 953, "duration": 253, "intent": "Print do extrato → varredura → lista categorizada → 'sim' → lançado.", "transitionIn": {"type": "cut", "frames": 0}},
+    {"id": "end", "from": 1196, "duration": 94, "intent": "Assinatura: logo, promessa, garantia e endereço; hold ≥ 1,5 s.", "transitionIn": {"type": "fade", "frames": 10}}
+  ],
+  "audio": {
+    "music": {"src": "moovi/bed.wav", "volume": 0.34},
+    "narration": {"src": "moovi/voice05.mp3", "volume": 1},
+    "sfx": [
+      {"at": 8, "src": "sfx/whoosh_soft.wav", "volume": 0.4, "why": "câmera mergulha no celular"},
+      {"at": 84, "src": "sfx/whoosh_fast.wav", "volume": 0.22, "why": "swipe do splash para o painel"},
+      {"at": 170, "src": "moovi/counter_roll.wav", "volume": 0.5, "why": "saldo contando"},
+      {"at": 248, "src": "moovi/counter_roll.wav", "volume": 0.45, "why": "resultado do mês contando"},
+      {"at": 436, "src": "sfx/pop_soft.wav", "volume": 0.5, "why": "toque na fatia"},
+      {"at": 612, "src": "sfx/whoosh_soft.wav", "volume": 0.35, "why": "celular gira para o assistente"},
+      {"at": 745, "src": "moovi/msg_send.wav", "volume": 0.5, "why": "mensagem enviada"},
+      {"at": 756, "src": "moovi/msg_recv.wav", "volume": 0.45, "why": "resposta do assistente"},
+      {"at": 788, "src": "sfx/tick.wav", "volume": 0.4, "why": "Alimentação atualiza no card"},
+      {"at": 885, "src": "moovi/msg_send.wav", "volume": 0.45, "why": "pergunta enviada"},
+      {"at": 906, "src": "moovi/msg_recv.wav", "volume": 0.45, "why": "resposta com os números"},
+      {"at": 1018, "src": "moovi/msg_send.wav", "volume": 0.45, "why": "print do extrato enviado"},
+      {"at": 1075, "src": "moovi/scan.wav", "volume": 0.4, "why": "leitura do extrato"},
+      {"at": 1117, "src": "moovi/msg_recv.wav", "volume": 0.45, "why": "lista para conferir"},
+      {"at": 1180, "src": "moovi/msg_send.wav", "volume": 0.45, "why": "'sim'"},
+      {"at": 1192, "src": "moovi/ding.wav", "volume": 0.4, "why": "tudo lançado"},
+      {"at": 1212, "src": "sfx/shimmer.wav", "volume": 0.3, "why": "assinatura da marca"}
+    ]
+  },
+  "assets": ["moovi/logo_full.png", "moovi/logo_full_white.png", "moovi/pig.png"]
+}

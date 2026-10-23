@@ -26,18 +26,21 @@ if (!existsSync(join(root, 'public/sfx/bed_minimal.wav'))) {
 }
 
 const browserExecutable = findBrowser();
+// Full Chromium (no headless shell available): use the new headless mode.
+const chromeMode = process.env.REMOTION_CHROME_MODE ?? (browserExecutable && !browserExecutable.includes('headless') ? 'chrome-for-testing' : undefined);
+const extra = chromeMode ? {chromeMode} : {};
 const serveUrl = await bundle({entryPoint: join(root, 'src/index.ts'), publicDir: join(root, 'public')});
-const all = await getCompositions(serveUrl, {inputProps, browserExecutable});
+const all = await getCompositions(serveUrl, {inputProps, browserExecutable, ...extra});
 const ids = target === 'all' ? all.map((c) => c.id) : target.split(',');
 mkdirSync(outDir, {recursive: true});
 
 for (const id of ids) {
-  const composition = await selectComposition({serveUrl, id, inputProps, browserExecutable});
+  const composition = await selectComposition({serveUrl, id, inputProps, browserExecutable, ...extra});
   if (stills) {
     mkdirSync(join(outDir, 'frames'), {recursive: true});
     for (const frame of stills) {
       const output = join(outDir, 'frames', `${id}_${String(frame).padStart(4, '0')}.png`);
-      await renderStill({composition, serveUrl, output, frame, inputProps, browserExecutable});
+      await renderStill({composition, serveUrl, output, frame, inputProps, browserExecutable, ...extra});
       console.log(`[still] ${output}`);
     }
     continue;
@@ -46,7 +49,7 @@ for (const id of ids) {
   const t0 = Date.now();
   let last = -1;
   await renderMedia({
-    composition, serveUrl, codec: 'h264', outputLocation, inputProps, browserExecutable, crf: 18, pixelFormat: 'yuv420p',
+    composition, serveUrl, codec: 'h264', outputLocation, inputProps, browserExecutable, ...extra, crf: 18, pixelFormat: 'yuv420p',
     audioCodec: 'aac', audioBitrate: '192k', concurrency: Math.max(1, os.cpus().length - 1),
     onProgress: ({progress}) => {
       const pct = Math.floor(progress * 10);

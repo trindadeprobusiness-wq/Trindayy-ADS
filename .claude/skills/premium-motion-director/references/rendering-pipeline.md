@@ -5,6 +5,8 @@ Node 22, Remotion 4.0.538 (+ bundler, renderer, cli, transitions, paths), React 
 
 **Licença do Remotion**: gratuito para indivíduos e empresas pequenas; empresas maiores precisam de licença da Remotion. Confirme no site oficial antes de uso comercial.
 
+**Neste container (out/2026):** não existe `chrome-headless-shell` e o download do Remotion é bloqueado. Rode com `export REMOTION_BROWSER=/opt/pw-browsers/chromium-1194/chrome-linux/chrome`; o `render.mjs` detecta Chromium completo e usa `chromeMode: 'chrome-for-testing'` (headless novo). Sobrescreva com `REMOTION_CHROME_MODE` se precisar.
+
 ## Criar/atualizar o estúdio num projeto
 ```bash
 bash ${CLAUDE_SKILL_DIR}/scripts/init-studio.sh motion-studio            # copia engine/ + ferramentas + npm install
