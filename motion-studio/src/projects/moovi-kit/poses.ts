@@ -9,6 +9,7 @@ export const POSES = {
   lock: {S: 1.3, ty: 235},
   lockWide: {S: 1.16, ty: 150},
   page: {S: 1.1, ty: 260},
+  low: {S: 0.8, ty: 290},
   hidden: {S: 0.9, ty: 2100},
 } as const;
 export type Pose = keyof typeof POSES;

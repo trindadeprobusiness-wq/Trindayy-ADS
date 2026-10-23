@@ -227,13 +227,13 @@ export const InfoList: React.FC<{items: {icon: IconName; text: string; at: numbe
 };
 
 /** Question header for FAQ sections. */
-export const Question: React.FC<{text: string; at: number; y?: number}> = ({text, at, y = 380}) => {
+export const Question: React.FC<{text: string; at: number; y?: number; size?: number}> = ({text, at, y = 380, size = 78}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const e = springIn(frame, fps, at, 'snappy');
   return (
     <div style={{position: 'absolute', top: y, width: '100%', display: 'flex', justifyContent: 'center'}}>
-      <div style={{fontFamily: F, fontWeight: 800, fontSize: 78, color: '#fff', letterSpacing: '-0.03em', opacity: e, transform: `translateY(${(1 - e) * 30}px) scale(${mix(0.92, 1, e)})`,
+      <div style={{fontFamily: F, fontWeight: 800, fontSize: size, color: '#fff', letterSpacing: '-0.03em', opacity: e, transform: `translateY(${(1 - e) * 30}px) scale(${mix(0.92, 1, e)})`,
         display: 'flex', alignItems: 'center', gap: 22}}>
         <span style={{width: 70, height: 70, borderRadius: 35, background: C.brandBright, color: '#04140A', fontSize: 48, display: 'flex', alignItems: 'center', justifyContent: 'center'}}>?</span>
         {text}

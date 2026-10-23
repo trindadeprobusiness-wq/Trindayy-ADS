@@ -104,3 +104,7 @@ Celular, 590×1276, ~60 fps, sem áudio. Mesmo cuidado com dados reais.
 | `03_assistente_ia.mp4` | 8,0 s | Assistente com IA |
 | `04_cartoes_contas.mp4` | 16,0 s | Cartões e contas |
 | `05_orcamento_metas.mp4` | 19,0 s | Orçamento e metas |
+
+## Vídeos prontos (23/10/2026) — `renders/`, todos sem metadados
+MOOVI_DEMO05 (sem o selo "Valores ilustrativos"), MOOVI_01, MOOVI_02, MOOVI_03, MOOVI_04, MOOVI_06.
+Fonte: `motion-studio/src/projects/moovi-kit/` (kit) + `moovi-0N/`; notas em `moovi-kit/BRIEF.md`.
