@@ -178,3 +178,14 @@ Pendências manuais no Gerenciador:
 - Trocar a miniatura pelas capas `renders/capas/CAPA_<ID>.jpg` (a automática é o 1º quadro, quase vazio).
 - Mensagem de boas-vindas por produto (modelo de mensagem do WhatsApp).
 - Vídeo COU-B duplicado na biblioteca (1786703519208224), não usado.
+
+### Conferência e projeção com R$ 40/dia (23/10/2026)
+Conferido via API: os 7 anúncios passaram na análise (PAUSED, sem reprovação), botão WhatsApp, textos e rodapé corretos. Orçamentos atuais: 18/12/12/8 = R$ 50/dia, fim em 29/10 23:59.
+
+Projeção de 7 dias (hipóteses, mesmas do PROMPT_EXTENSAO_META_v1; lucro bruto do offers.json):
+
+| Verba | Divisão | Pessimista | Realista | Otimista |
+|---|---|---|---|---|
+| R$ 50/dia (R$ 350) | 18/12/12/8 | 39 conv · 2–3 vendas · −R$ 148 | 63 conv · 7–8 vendas · +R$ 286 | 102 conv · 21 vendas · +R$ 1.474 |
+| R$ 40/dia (R$ 280) A | 15/10/10/5 | 31 conv · 2 vendas · −R$ 116 | 49 conv · 6 vendas · +R$ 237 | 80 conv · 17 vendas · +R$ 1.205 |
+| R$ 40/dia (R$ 280) B | 18/11/11/0 (Gemini pausado) | 29 conv · 2 vendas · −R$ 106 | 47 conv · 6 vendas · +R$ 271 | 77 conv · 17 vendas · +R$ 1.299 |
