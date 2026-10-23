@@ -197,3 +197,6 @@ Projeção 7 dias (R$ 350): pessimista 36 conv · ~2 vendas · −R$ 133 | reali
 ### Ativação (23/10/2026)
 Ativados via MCP após "pode ativar": campanha, conjuntos COURSERA/ELEVENLABS/N8N e anúncios COU-A, COU-B, ELV-A, ELV-B, N8N-B, N8N-C (status ACTIVE, em análise final da Meta). GEMINI e GEM-B seguem pausados. Fim programado: 29/10 23:59.
 Primeira leitura: 26/10 (3 dias) — pausar o anúncio mais fraco de cada conjunto se houver diferença clara de custo por conversa.
+
+### Regra de leitura (pedido do usuário, 23/10/2026)
+Métrica principal = **conversas iniciadas no WhatsApp** e **custo por conversa iniciada**. Cliques e taxa de clique são só apoio, nunca critério de decisão. Os 3 conjuntos estão otimizados para CONVERSATIONS → WHATSAPP (conferido via API).
