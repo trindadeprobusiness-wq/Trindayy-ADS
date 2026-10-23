@@ -32,3 +32,21 @@ Um único celular atravessa a peça inteira. Ele acende, mostra o painel, gira p
 - **Cena 3 — tooltip com linha:** o app real mostra o valor no centro da rosca e marca o chip da categoria; segui o real.
 - **Cena 7 — linha azul neon / botão "Confirmar":** a varredura é verde (cor da marca), e a confirmação é o "sim" no chat, como diz a fala e como o app funciona.
 - **Extrato:** fictício e sem marca de banco (não temos um extrato real sem dados pessoais).
+
+## Validação técnica (validate-render.py, arquivo final)
+1080×1920 @30 · 43,0 s · H.264 yuv420p + AAC 48 kHz · −13,9 LUFS · pico −3,6 dBTP · sem pretos · sem congelamentos (o hold de 1,5 s no gráfico foi corrigido com push-in lento) · metadados e SEI do x264 removidos → **PASS**.
+Arquivo: `motion-library/brands/moovi/renders/MOOVI_DEMO05.mp4`.
+
+## Rubrica — 87/100 (abaixo da meta de 90)
+| Critério | Nota | Evidência |
+|---|---|---|
+| Direção criativa | 18/20 | Celular persistente atravessa as 7 cenas; causa→efeito visível (card de Alimentação sobe +30 no frame da resposta) |
+| Clareza narrativa | 14/15 | Legendas + UI contam a história sem som |
+| Composição/tipografia | 12/15 | Texto do app ~25–30 px no vídeo (legível, mas pequeno); legenda cobre o topo do chat na cena do extrato (35–39 s) |
+| Movimento | 13/15 | Springs, count-up sincronizado, giro 180°; no meio do giro o celular fica de perfil por ~3 frames |
+| Ritmo/sync | 9/10 | Eventos presos ao tempo das palavras (Whisper); sync conferido nos stills, não quadro a quadro |
+| Sound design | 7/10 | Trilha e SFX procedurais; mix voz×trilha não medido por trecho |
+| Consistência | 5/5 | Tokens da marca do início ao fim |
+| Acabamento | 9/10 | Validação limpa, grain/vinheta sutis |
+
+**Para passar de 90:** aproximar ainda mais a câmera nas cenas de chat (ou dividir a legenda em linha menor), trilha licenciada, e revisar o giro.

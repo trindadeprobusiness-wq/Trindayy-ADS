@@ -588,7 +588,7 @@ export const MooviDemo: React.FC<{debugSafeArea?: boolean}> = ({debugSafeArea}) 
   const frame = useCurrentFrame();
   const S = keyframes(frame, [
     {at: 0, value: 0.42}, {at: 66, value: 0.74, ease: 'inOut'}, {at: 96, value: 0.74}, {at: 128, value: 1.15, ease: 'inOut'},
-    {at: 600, value: 1.15}, {at: 626, value: 0.86, ease: 'inOut'}, {at: 652, value: 1.15, ease: 'inOut'}, {at: 1196, value: 1.15}, {at: 1222, value: 0.6, ease: 'in'},
+    {at: 340, value: 1.15}, {at: 436, value: 1.21, ease: 'softOut'}, {at: 500, value: 1.15, ease: 'inOut'}, {at: 600, value: 1.15}, {at: 626, value: 0.86, ease: 'inOut'}, {at: 652, value: 1.15, ease: 'inOut'}, {at: 1196, value: 1.15}, {at: 1222, value: 0.6, ease: 'in'},
   ]);
   const ty = keyframes(frame, [
     {at: 0, value: 140}, {at: 66, value: 0, ease: 'inOut'}, {at: 96, value: 0}, {at: 128, value: 185, ease: 'inOut'}, {at: 282, value: 185},
