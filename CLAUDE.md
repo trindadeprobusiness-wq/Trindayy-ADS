@@ -13,6 +13,9 @@ Para qualquer pedido de vídeo, anúncio em motion ou referência nova:
    - Motor: os anúncios da Nexools continuam no HyperFrames (`tools/build.py`), que já tem a mistura de áudio, a trilha de retenção e a remoção de metadados. Use o estúdio Remotion da skill (`bash .claude/skills/premium-motion-director/scripts/init-studio.sh motion-studio`) quando a peça pedir algo que só ele tem (câmera virtual, demo de SaaS em plano contínuo, sincronia palavra a palavra com o JSON da ElevenLabs) ou quando o usuário pedir. Vídeo feito no Remotion também sai sem metadados antes da entrega.
    - Referência nova analisada: registre em `motion-library/` (como no item 4) **e** em `.claude/skills/premium-motion-director/references/reference-log/`; padrões reutilizáveis vão para `references/pattern-library.md`.
 
+## Marcas
+- **Moovi** (finanças pessoais pelo WhatsApp): ficha, logos e narrações em `motion-library/brands/moovi/BRAND.md`. Não guarde senhas no repositório.
+
 ## Marca ativa: Nexools
 Catálogo e direção por produto em `motion-library/brands/nexools/OFFERS.md` (dados em `offers.json`; custo/lucro são internos e nunca vão para vídeo). Roteiros em `motion-library/brands/nexools/roteiros/`.
 
