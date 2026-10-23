@@ -80,3 +80,10 @@ Siga o `CLAUDE.md` (skill `premium-motion-director`, 10 fases). Destino prováve
 
 Uso em anúncio: são dados pessoais reais (saldos, nomes de bancos). **Antes de pôr em vídeo, borrar/substituir valores e bancos** ou recriar a UI com números fictícios sinalizados ("valores ilustrativos").
 UI observada: fundo branco, cards com cantos arredondados, verde de receita, vermelho de despesa, botão primário verde "+ Adicionar", barra inferior Início · Transações · Assistente · Compromissos · Menu, fonte sem serifa arredondada.
+| `06_metas.jpg` | Metas: total guardado, barras de progresso por meta, data-alvo |
+| `07_assistente_chat.jpg` | Assistente: "Recebi 200 reais de serviço" → pergunta a conta (Bradesco/Nubank/dinheiro) → "Prontinho! Receita registrada na categoria Serviços" 💚; campo com microfone |
+| `08_lancamentos_bradesco.jpg` | Lançamentos por conta (Bradesco) |
+| `09_cartoes.jpg` | Cartões: limite usado, fatura aberta/fechada, fechamento e vencimento, botão "Pagar fatura" |
+| `10_lancamentos_nubank.jpg` | Lançamentos por conta (Nubank), receitas e despesas por categoria |
+
+Funcionalidades confirmadas por esses prints: metas com progresso, cartões de crédito com controle de fatura, várias contas/bancos, assistente que pergunta o que falta antes de lançar. Mesmo cuidado: dados reais (finais de cartão, bancos, valores) — borrar ou recriar antes de usar em anúncio.
