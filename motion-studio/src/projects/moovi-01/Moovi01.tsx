@@ -6,7 +6,7 @@ import {CountUp, keyframes, progress, ease} from '../../lib';
 import type {SfxCue} from '../../lib';
 import {Bold, C, F, brl, f} from '../moovi-kit/base';
 import {BotBubble, Chat, Dashboard, LockScreen, UserBubble, VoiceBubble} from '../moovi-kit/screens';
-import {Beat, EndCard, FloatCard, Guarantee, Kinetic, PhoneStage, VideoShell} from '../moovi-kit/stage';
+import {Beat, EndCard, FloatCard, Guarantee, PhoneStage, VideoShell} from '../moovi-kit/stage';
 import {camPath} from '../moovi-kit/poses';
 
 export const M01 = {id: 'Moovi01', total: 786, voice: 'moovi/voice01.mp3', bed: 'moovi/bed01.wav'};
@@ -22,7 +22,7 @@ const CHUNKS: [number, string][] = [
 export const SFX01: SfxCue[] = [
   {at: f(2.26), src: 'sfx/impact_soft.wav', volume: 0.55, why: '"dia 20" bate como alerta'},
   {at: f(4.66), src: 'sfx/tick.wav', volume: 0.45, why: '"tarde demais" — relógio'},
-  {at: 166, src: 'sfx/whoosh_soft.wav', volume: 0.35, why: 'celular entra'},
+  {at: 168, src: 'sfx/whoosh_soft.wav', volume: 0.35, why: 'celular entra'},
   {at: 252, src: 'moovi/msg_send.wav', volume: 0.45, why: 'mensagem enviada'},
   {at: 280, src: 'moovi/msg_send.wav', volume: 0.4, why: 'áudio enviado'},
   {at: 312, src: 'moovi/msg_recv.wav', volume: 0.45, why: 'resposta do assistente'},
@@ -56,7 +56,7 @@ const DrainHook: React.FC = () => {
 };
 
 export const Moovi01: React.FC<{debugSafeArea?: boolean}> = ({debugSafeArea}) => {
-  const cam = camPath([[0, 'hidden'], [150, 'chat', 'out'], [404, 'dash'], [452, 'donut'], [515, 'lock'], [580, 'full']], 20);
+  const cam = camPath([[0, 'hidden'], [162, 'chat', 'out'], [404, 'dash'], [452, 'donut'], [515, 'lock'], [580, 'full']], 20);
   const msgs = [
     {at: 252, h: 108, node: <UserBubble>gastei 30 no almoço</UserBubble>},
     {at: 280, h: 104, node: <VoiceBubble at={280} />},
@@ -64,14 +64,13 @@ export const Moovi01: React.FC<{debugSafeArea?: boolean}> = ({debugSafeArea}) =>
   ];
   return (
     <VideoShell voice={M01.voice} bed={M01.bed} total={M01.total} sfx={SFX01} chunks={CHUNKS} capEnd={23.9} duck={[{from: 8, to: 690}]} debugSafeArea={debugSafeArea}>
-      <Beat from={0} to={168}>
+      <Beat from={0} to={178}>
         <DrainHook />
-        <Kinetic y={1180} lines={[{text: 'tarde demais.', starts: [f(4.66), f(5.0)], size: 96, color: '#fff'}]} />
       </Beat>
-      <PhoneStage cam={{...cam, opacity: [{at: 148, value: 0}, {at: 152, value: 1}, {at: 576, value: 1}, {at: 590, value: 0}], blur: [{at: 576, value: 0}, {at: 590, value: 16}]}} screens={[
+      <PhoneStage cam={{...cam, opacity: [{at: 164, value: 0}, {at: 168, value: 1}, {at: 576, value: 1}, {at: 590, value: 0}], blur: [{at: 576, value: 0}, {at: 590, value: 16}]}} screens={[
         {from: 0, node: <Chat msgs={msgs} typing={[{from: 211, to: 248, send: 252, text: 'gastei 30 no almoço'}]} />},
         {from: 408, node: <Dashboard cfg={{kpiAt: [408, 421, 444, 452], scroll: [{at: 452, value: 0}, {at: 472, value: 810, ease: 'inOut'}], donutDrawAt: 462}} />, enter: 'swipe'},
-        {from: 518, node: <LockScreen notifs={[{at: 553, title: 'Conta de luz vence amanhã', body: <>{brl(197.63)} · toque para ver no painel</>}]} />, enter: 'fade'},
+        {from: 518, node: <LockScreen date="segunda, 19 de outubro" notifs={[{at: 553, title: 'Conta de luz vence amanhã', body: <>{brl(197.63)} · toque para ver no painel</>}]} />, enter: 'fade'},
       ]} />
       <FloatCard from={345} to={404} glowAt={362}>
         <div style={{display: 'flex', alignItems: 'center', gap: 12, fontSize: 24, color: C.muted}}><span style={{width: 14, height: 14, borderRadius: 7, background: C.amber}} />Alimentação · este mês</div>

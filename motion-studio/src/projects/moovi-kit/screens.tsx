@@ -411,14 +411,14 @@ export type Notif = {at: number; title: string; body: React.ReactNode; tall?: bo
 const ChatGlyph: React.FC = () => (
   <svg width={30} height={30} viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z" fill="#fff" /></svg>
 );
-export const LockScreen: React.FC<{notifs: Notif[]}> = ({notifs}) => {
+export const LockScreen: React.FC<{notifs: Notif[]; date?: string}> = ({notifs, date = 'domingo, 9 de novembro'}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   return (
     <div style={{position: 'absolute', inset: 0, background: 'radial-gradient(ellipse at 50% 30%, #1E5A37 0%, #0B2416 55%, #050E09 100%)', fontFamily: F}}>
       <StatusBarLight />
       <div style={{position: 'absolute', top: 150, width: SW, textAlign: 'center', color: '#fff'}}>
-        <div style={{fontSize: 30, opacity: 0.85}}>domingo, 9 de novembro</div>
+        <div style={{fontSize: 30, opacity: 0.85}}>{date}</div>
         <div style={{fontSize: 170, fontWeight: 600, letterSpacing: '-0.03em', lineHeight: 1.05}}>9:41</div>
       </div>
       <div style={{position: 'absolute', left: 30, right: 30, top: 520, display: 'flex', flexDirection: 'column', gap: 18}}>

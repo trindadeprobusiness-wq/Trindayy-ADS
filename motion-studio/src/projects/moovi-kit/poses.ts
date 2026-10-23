@@ -6,7 +6,7 @@ export const POSES = {
   dash: {S: 1.15, ty: 185},
   donut: {S: 1.15, ty: 291},
   chat: {S: 1.15, ty: -132},
-  lock: {S: 1.3, ty: 145},
+  lock: {S: 1.3, ty: 235},
   page: {S: 1.1, ty: 260},
   hidden: {S: 0.9, ty: 2100},
 } as const;
