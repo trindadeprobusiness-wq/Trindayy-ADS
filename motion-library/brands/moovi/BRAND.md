@@ -87,3 +87,20 @@ UI observada: fundo branco, cards com cantos arredondados, verde de receita, ver
 | `10_lancamentos_nubank.jpg` | Lançamentos por conta (Nubank), receitas e despesas por categoria |
 
 Funcionalidades confirmadas por esses prints: metas com progresso, cartões de crédito com controle de fatura, várias contas/bancos, assistente que pergunta o que falta antes de lançar. Mesmo cuidado: dados reais (finais de cartão, bancos, valores) — borrar ou recriar antes de usar em anúncio.
+| `11_compromissos.jpg` | Compromissos: agenda financeira e pessoal, **Google Agenda conectado**, calendário mensal |
+| `12_relatorios.jpg` | Relatórios: filtros por período, **exportar CSV/Excel/PDF**, abas Geral/Categoria/Conta/Detalhado |
+| `13_despesas_categoria.jpg` | Relatório: barras de despesas por categoria + detalhamento em % |
+| `14_categorias.jpg` | Categorias editáveis (11 de despesa, 6 de receita) |
+| `15_atalhos.jpg` | Personalizar atalhos da barra (Assistente, Cartões, Receitas, Recorrentes, Contas, Orçamento, Metas, **Open Finance**, Investimentos…) |
+
+Funcionalidades vistas no menu (confirmar quais estão ativas antes de anunciar): Recorrentes, A pagar/receber, Orçamento, **Open Finance**, Investimentos.
+
+## Gravações de tela (`telas/`, enviadas 23/10/2026)
+Celular, 590×1276, ~60 fps, sem áudio. Mesmo cuidado com dados reais.
+| Arquivo | Duração | Conteúdo |
+|---|---|---|
+| `01_dashboard.mp4` | 23,0 s | Dashboard |
+| `02_transacoes.mp4` | 11,0 s | Transações |
+| `03_assistente_ia.mp4` | 8,0 s | Assistente com IA |
+| `04_cartoes_contas.mp4` | 16,0 s | Cartões e contas |
+| `05_orcamento_metas.mp4` | 19,0 s | Orçamento e metas |
