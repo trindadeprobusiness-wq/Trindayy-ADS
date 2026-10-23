@@ -617,10 +617,6 @@ export const MooviDemo: React.FC<{debugSafeArea?: boolean}> = ({debugSafeArea}) 
         <FoodWidget />
         <EndCard />
         <Captions />
-        {frame > 100 && frame < 1196 && (
-          <div style={{position: 'absolute', left: 60, top: 1478, fontFamily: F, fontSize: 22, color: 'rgba(255,255,255,0.78)', background: 'rgba(4,10,6,0.6)',
-            padding: '6px 14px', borderRadius: 10}}>Valores ilustrativos</div>
-        )}
         <Html5Audio src={staticFile(narration.src)} volume={narration.volume} />
         <MusicBed src={tl.audio.music!.src} volume={0.5} total={tl.durationInFrames} fadeIn={8} fadeOut={24} duck={[{from: 10, to: 1196}]} duckTo={0.5} ramp={10} />
         <SfxCues cues={tl.audio.sfx} />
