@@ -193,3 +193,7 @@ Projeção de 7 dias (hipóteses, mesmas do PROMPT_EXTENSAO_META_v1; lucro bruto
 ### Decisão (23/10/2026): R$ 50/dia sem Gemini
 Orçamentos aplicados via MCP: Coursera R$ 22 · ElevenLabs R$ 14 · n8n R$ 14. GEMINI fica pausado (não ativar).
 Projeção 7 dias (R$ 350): pessimista 36 conv · ~2 vendas · −R$ 133 | realista 58 conv · ~7–8 vendas · +R$ 338 | otimista 95 conv · ~21 vendas · +R$ 1.622.
+
+### Ativação (23/10/2026)
+Ativados via MCP após "pode ativar": campanha, conjuntos COURSERA/ELEVENLABS/N8N e anúncios COU-A, COU-B, ELV-A, ELV-B, N8N-B, N8N-C (status ACTIVE, em análise final da Meta). GEMINI e GEM-B seguem pausados. Fim programado: 29/10 23:59.
+Primeira leitura: 26/10 (3 dias) — pausar o anúncio mais fraco de cada conjunto se houver diferença clara de custo por conversa.
