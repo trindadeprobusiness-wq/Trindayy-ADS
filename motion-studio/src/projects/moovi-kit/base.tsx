@@ -46,7 +46,7 @@ export const Captions: React.FC<{chunks: [number, string][]; end: number}> = ({c
   const {fps} = useVideoConfig();
   const t = frame / fps;
   const i = chunks.findIndex(([s], k) => t >= s && t < (chunks[k + 1]?.[0] ?? end));
-  if (i < 0) return null;
+  if (i < 0 || !chunks[i][1]) return null; // empty text = no caption (big kinetic type on screen)
   const p = progress(frame, chunks[i][0] * fps, 6, ease.out);
   const out = i === chunks.length - 1 ? progress(frame, end * fps - 4, 6, ease.in) : 0;
   return (

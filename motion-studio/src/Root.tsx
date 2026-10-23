@@ -5,6 +5,7 @@ import type {Timeline} from './lib';
 import {MooviDemo} from './projects/moovi-demo/MooviDemo';
 import mooviDemo from './projects/moovi-demo/timeline.json';
 import {M01, Moovi01} from './projects/moovi-01/Moovi01';
+import {M02, Moovi02} from './projects/moovi-02/Moovi02';
 
 ensureFonts();
 
@@ -18,5 +19,6 @@ export const RemotionRoot: React.FC = () => (
   <>
     <Composition {...fromTimeline(mooviDemo)} component={MooviDemo} defaultProps={{debugSafeArea: false}} />
     <Composition {...vertical(M01.id, M01.total)} component={Moovi01} defaultProps={{debugSafeArea: false}} />
+    <Composition {...vertical(M02.id, M02.total)} component={Moovi02} defaultProps={{debugSafeArea: false}} />
   </>
 );
