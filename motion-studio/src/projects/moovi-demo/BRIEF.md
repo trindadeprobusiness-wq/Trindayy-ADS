@@ -50,3 +50,15 @@ Arquivo: `motion-library/brands/moovi/renders/MOOVI_DEMO05.mp4`.
 | Acabamento | 9/10 | Validação limpa, grain/vinheta sutis |
 
 **Para passar de 90:** aproximar ainda mais a câmera nas cenas de chat (ou dividir a legenda em linha menor), trilha licenciada, e revisar o giro.
+
+## Correções de integridade visual (v2, a pedido do usuário)
+Varredura quadro a quadro (8–16 fps nas transições) encontrou e corrigiu:
+1. Balões novos subiam por baixo do campo de digitar (texto fantasma sobre o input) → mensagens recortadas acima do input.
+2. "Digitando…" sumia de uma vez e a conversa pulava → recolhe suave em 9 frames.
+3. Legenda sobre o texto do chat (cenas de pergunta/extrato) → máscara de fade no topo do chat; a faixa da legenda fica limpa.
+4. Partículas da confirmação caíam em cima do avatar/texto → removidas.
+5. Logo branco aparecia sobre o celular borrado (dupla exposição) → celular some em 12 frames, logo entra só depois.
+6. Corpo do celular sumia no fundo escuro → aro claro sutil.
+7. Faixas/retângulos de compressão no degradê escuro → grain 6% + encode CRF 16 com aq-mode 3.
+8. Legendas longas encostavam na borda → divididas em duas.
+Validação: PASS, sem congelamentos, −13,9 LUFS, pico −3,6 dBTP, yuv420p, sem metadados.

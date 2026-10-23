@@ -52,8 +52,8 @@ const CHUNKS: [number, string][] = [
   [16.7, 'Aqui é a comparação'], [17.76, 'com o mês passado.'], [18.94, 'Gastei mais ou menos'], [20.16, 'com o quê?'],
   [21.04, 'Agora, o assistente.'], [22.26, 'Eu escrevo:'], [23.2, '“gastei 30 no almoço”'], [24.74, 'e pronto, tá anotado'],
   [25.98, 'em alimentação.'], [27.26, 'Pergunto: quanto gastei'], [28.4, 'com delivery esse mês?'], [29.78, 'E ele responde'],
-  [30.48, 'com os meus números.'], [31.76, 'E se der preguiça'], [32.8, 'de lançar um por um,'], [33.86, 'eu mando o print do extrato.'],
-  [35.82, 'Ele lê tudo,'], [37.12, 'me mostra antes,'], [38.18, 'e só lança quando eu digo sim.'],
+  [30.48, 'com os meus números.'], [31.76, 'E se der preguiça'], [32.8, 'de lançar um por um,'], [33.86, 'eu mando o print'], [34.4, 'do extrato.'],
+  [35.82, 'Ele lê tudo,'], [37.12, 'me mostra antes,'], [38.18, 'e só lança'], [38.94, 'quando eu digo sim.'],
 ];
 const CAP_END = 39.95;
 
@@ -70,7 +70,7 @@ const Captions: React.FC = () => {
     <div style={{position: 'absolute', top: 236, left: 0, width: '100%', display: 'flex', justifyContent: 'center', opacity: (1 - out)}}>
       <div style={{fontFamily: F, fontWeight: 700, fontSize: 54, color: '#fff', letterSpacing: '-0.01em', lineHeight: 1.15,
         padding: '16px 30px', borderRadius: 26, background: 'rgba(4,10,6,0.72)', border: '1px solid rgba(255,255,255,0.08)',
-        maxWidth: 940, textAlign: 'center', transform: `translateY(${(1 - p) * 12}px)`, opacity: mix(0.2, 1, p)}}>
+        maxWidth: 900, textAlign: 'center', transform: `translateY(${(1 - p) * 12}px)`, opacity: mix(0.2, 1, p)}}>
         {CHUNKS[i][1]}
       </div>
     </div>
@@ -363,7 +363,7 @@ const ReviewList: React.FC = () => {
       Encontrei <Bold>6 lançamentos</Bold>. Confere antes de eu salvar:
       <div style={{marginTop: 14, display: 'flex', flexDirection: 'column', gap: 8}}>
         {STATEMENT.map((s, i) => {
-          const e = springIn(frame, fps, 1121 + i * 3, 'precise');
+          const e = springIn(frame, fps, 1117 + i * 2, 'precise');
           const chk = progress(frame, 1184 + i * 1.5, 6);
           return (
             <div key={i} style={{display: 'flex', alignItems: 'center', gap: 12, fontSize: 23, background: '#fff', borderRadius: 14, padding: '9px 12px',
@@ -425,8 +425,8 @@ const ChatPage: React.FC = () => {
   const anchor = 1300;
   const live = MSGS.map((m) => {
     const e = frame < m.at ? 0 : springIn(frame, fps, m.at, 'precise');
-    const gone = m.until !== undefined && frame >= m.until ? 1 : 0;
-    return {...m, e: gone ? 0 : e};
+    const gone = m.until === undefined ? 0 : progress(frame, m.until - 3, 9, ease.inOut);
+    return {...m, e: e * (1 - gone)};
   });
   let y = anchor;
   const placed = [...live].reverse().map((m) => {
@@ -438,25 +438,19 @@ const ChatPage: React.FC = () => {
   const typed = typing ? typing.text.slice(0, Math.round(typing.text.length * progress(frame, typing.from, typing.to - typing.from, ease.linear))) : '';
   const caret = Math.floor(frame / 8) % 2 === 0;
   const sendPress = TYPING.reduce((a, t) => Math.max(a, Math.max(0, 1 - Math.abs(frame - (t.send - 2)) / 4)), 0);
-  const burst = progress(frame, 1194, 24, ease.out);
   return (
     <div style={{position: 'absolute', top: 210, left: 0, width: SW, height: 1280, overflow: 'hidden', background: C.ui, fontFamily: F}}>
       <div style={{position: 'absolute', left: 0, top: -210, width: SW, height: SH}}>
-        {placed.map((m, i) => m.e > 0.001 && (
-          <div key={i} style={{position: 'absolute', left: 34, right: 34, top: m.top, opacity: Math.min(1, m.e * 1.5), transform: `translateY(${(1 - m.e) * 24}px)`}}>
-            {m.node}
+        <div style={{position: 'absolute', left: 0, top: 210, width: SW, height: 1312 - 210, overflow: 'hidden',
+          WebkitMaskImage: 'linear-gradient(to bottom, transparent 0px, transparent 150px, black 300px)', maskImage: 'linear-gradient(to bottom, transparent 0px, transparent 150px, black 300px)'}}>
+          <div style={{position: 'absolute', left: 0, top: -210, width: SW, height: SH}}>
+            {placed.map((m, i) => m.e > 0.001 && (
+              <div key={i} style={{position: 'absolute', left: 34, right: 34, top: m.top, opacity: Math.min(1, m.e * 1.5), transform: `translateY(${(1 - m.e) * 24}px)`}}>
+                {m.node}
+              </div>
+            ))}
           </div>
-        ))}
-        {burst > 0 && burst < 1 && (
-          <div style={{position: 'absolute', left: 150, top: 1240}}>
-            {Array.from({length: 14}).map((_, i) => {
-              const a = (i / 14) * Math.PI * 2;
-              const d = 30 + burst * 110;
-              return <span key={i} style={{position: 'absolute', left: Math.cos(a) * d, top: Math.sin(a) * d * 0.7, width: 12, height: 12, borderRadius: 6,
-                background: i % 2 ? C.brandBright : '#9BE3B7', opacity: 1 - burst}} />;
-            })}
-          </div>
-        )}
+        </div>
         {/* input */}
         <div style={{position: 'absolute', left: 34, top: 1330, width: 712, height: 112, borderRadius: 40, border: `2px solid ${C.line}`, background: '#fff',
           display: 'flex', alignItems: 'center', padding: '0 14px 0 34px', boxSizing: 'border-box', gap: 22}}>
@@ -506,8 +500,8 @@ const Phone: React.FC = () => {
   return (
     <div style={{position: 'absolute', inset: 0, transformStyle: 'preserve-3d', transform: `rotateY(${ry}deg)`}}>
       {/* body */}
-      <div style={{position: 'absolute', inset: 0, borderRadius: 92, background: 'linear-gradient(145deg,#2A2E2C,#0C0E0D 40%,#1B1E1C)',
-        boxShadow: `0 0 0 2px #3A3F3C inset, 0 60px 140px -30px rgba(0,0,0,0.9), 0 0 ${120 * glow}px ${-20}px ${C.brandBright}55`}} />
+      <div style={{position: 'absolute', inset: 0, borderRadius: 92, background: 'linear-gradient(145deg,#4A504C,#1A1D1B 38%,#2C302D)',
+        boxShadow: `0 0 0 2px rgba(255,255,255,0.22) inset, 0 0 0 1px rgba(255,255,255,0.10), 0 60px 140px -30px rgba(0,0,0,0.9), 0 0 ${120 * glow}px ${-20}px ${C.brandBright}55`}} />
       <div style={face}>
         <Screen>
           <StatusBar />
@@ -568,7 +562,7 @@ const EndCard: React.FC = () => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   if (frame < 1200) return null;
-  const logo = springIn(frame, fps, 1206, 'calm');
+  const logo = springIn(frame, fps, 1210, 'calm');
   const btn = springIn(frame, fps, 1236, 'snappy');
   return (
     <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', flexDirection: 'column', fontFamily: F}}>
@@ -597,8 +591,8 @@ export const MooviDemo: React.FC<{debugSafeArea?: boolean}> = ({debugSafeArea}) 
   ]);
   const rx = keyframes(frame, [{at: 0, value: 54}, {at: 66, value: 0, ease: 'inOut'}]);
   const rz = keyframes(frame, [{at: 0, value: -34}, {at: 66, value: 0, ease: 'inOut'}]);
-  const fade = 1 - progress(frame, 1198, 20, ease.in);
-  const blur = progress(frame, 1198, 20, ease.in) * 18;
+  const fade = 1 - progress(frame, 1196, 12, ease.in);
+  const blur = progress(frame, 1196, 12, ease.in) * 18;
   const narration = tl.audio.narration!;
   return (
     <ThemeProvider theme={theme}>
@@ -622,7 +616,7 @@ export const MooviDemo: React.FC<{debugSafeArea?: boolean}> = ({debugSafeArea}) 
         <MusicBed src={tl.audio.music!.src} volume={0.5} total={tl.durationInFrames} fadeIn={8} fadeOut={24} duck={[{from: 10, to: 1196}]} duckTo={0.5} ramp={10} />
         <SfxCues cues={tl.audio.sfx} />
         <Vignette strength={0.5} />
-        <Grain opacity={0.035} />
+        <Grain opacity={0.06} />
         <SafeArea show={debugSafeArea} />
       </AbsoluteFill>
     </ThemeProvider>
