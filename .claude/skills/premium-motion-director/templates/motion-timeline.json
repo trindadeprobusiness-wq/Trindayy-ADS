@@ -1,0 +1,21 @@
+{
+  "id": "NomeDaComposicao",
+  "style": "A — apple-premium",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 450,
+  "concept": "Ideia-mestra em uma frase.",
+  "scenes": [
+    {"id": "hook", "from": 0, "duration": 96, "intent": "Gancho", "text": "", "visual": "", "motion": "", "sound": ""},
+    {"id": "next", "from": 84, "duration": 366, "intent": "…", "transitionIn": {"type": "blur", "frames": 12}}
+  ],
+  "audio": {
+    "music": {"src": "sfx/bed_minimal.wav", "volume": 0.4},
+    "narration": null,
+    "sfx": [
+      {"at": 10, "src": "sfx/shimmer.wav", "volume": 0.5, "why": "por que este som existe"}
+    ]
+  },
+  "assets": []
+}

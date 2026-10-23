@@ -1,0 +1,10 @@
+{
+  "extraKnownMarketplaces": {
+    "trindade-skills": {
+      "source": {"source": "github", "repo": "trindadeprobusiness-wq/O-Trindade"}
+    }
+  },
+  "enabledPlugins": {
+    "premium-motion-director@trindade-skills": true
+  }
+}

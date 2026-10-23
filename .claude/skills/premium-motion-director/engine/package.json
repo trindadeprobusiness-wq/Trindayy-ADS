@@ -1,0 +1,30 @@
+{
+  "name": "motion-studio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Premium motion engine (Remotion) scaffolded by the premium-motion-director skill",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "sfx": "python3 scripts/tools/synth-sfx.py public/sfx",
+    "render": "node scripts/render.mjs"
+  },
+  "dependencies": {
+    "@fontsource/instrument-serif": "5.3.0",
+    "@fontsource/inter": "5.3.0",
+    "@fontsource/jetbrains-mono": "5.3.0",
+    "@remotion/bundler": "4.0.538",
+    "@remotion/cli": "4.0.538",
+    "@remotion/paths": "4.0.538",
+    "@remotion/renderer": "4.0.538",
+    "@remotion/transitions": "4.0.538",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.538",
+    "zod": "3.22.3"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "typescript": "5.6.3"
+  }
+}

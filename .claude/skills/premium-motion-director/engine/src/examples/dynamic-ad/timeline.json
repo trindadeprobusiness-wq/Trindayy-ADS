@@ -1,0 +1,34 @@
+{
+  "id": "DynamicAd",
+  "style": "B+F — high-retention + performance ad",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 540,
+  "script": "Enquanto você perde tempo com processos manuais, outras empresas já estão automatizando tudo. Planilhas. E-mails. Relatórios. Tudo no automático. Pare de operar. Comece a escalar. Automação com IA. Gabriel Trindade.",
+  "timingSource": "word-map.json (gerado por scripts/alignment-to-timeline.py a partir de fixture sintética no formato ElevenLabs)",
+  "scenes": [
+    {"id": "hook", "from": 0, "duration": 96, "intent": "Gancho: dor reconhecível — repetição e tempo perdido.", "text": "perde tempo", "visual": "Barra de progresso que enche e reseta em loop + contador de repetições.", "motion": "WordReveal sincronizado por palavra; 'tempo' em vermelho", "sound": "tick em 'tempo'"},
+    {"id": "split", "from": 96, "duration": 90, "intent": "Contraste: você (lento, 1 card) vs. eles (fluxo rápido, organizado).", "text": "automatizando", "visual": "Tela dividida horizontal; palavra-chave na linha divisória.", "motion": "push de baixo para cima; velocidade contrastante entre metades", "sound": "whoosh_fast na entrada", "transitionIn": {"type": "push", "frames": 10, "direction": "up"}},
+    {"id": "triad", "from": 186, "duration": 80, "intent": "Concretizar: 3 tarefas reconhecíveis, cada uma no tempo exato da palavra.", "text": "Planilhas. E-mails. Relatórios.", "visual": "3 cards entram em sync com a fala e recebem check.", "motion": "spring snappy, stagger dirigido pela narração", "sound": "pop_soft por card", "transitionIn": {"type": "blur", "frames": 8}},
+    {"id": "flow", "from": 266, "duration": 54, "intent": "Transformação: tarefas soltas viram um sistema.", "text": "Tudo no automático.", "visual": "Cards viram nós conectados a um núcleo de IA; pulsos de dados.", "motion": "FlowEdge draw + pulse", "sound": "whoosh_soft", "transitionIn": {"type": "zoomThrough", "frames": 10}},
+    {"id": "pivot", "from": 320, "duration": 86, "intent": "Virada de mentalidade com contraste tipográfico.", "text": "Pare de operar. Comece a escalar.", "visual": "'operar' é riscado; 'escalar' cresce com barras subindo atrás.", "motion": "StrikeThrough + spring", "sound": "riser culminando em impact_low em 'escalar'", "transitionIn": {"type": "cut", "frames": 0}},
+    {"id": "cta", "from": 406, "duration": 134, "intent": "Assinatura e ação única, hold legível ≥ 1.5 s.", "text": "Automação com IA — Gabriel Trindade — Fale comigo", "motion": "CTAReveal + press no botão", "sound": "shimmer + click_ui", "transitionIn": {"type": "iris", "frames": 14}}
+  ],
+  "audio": {
+    "music": {"src": "sfx/bed_pulse.wav", "volume": 0.5},
+    "narration": null,
+    "sfx": [
+      {"at": 40, "src": "sfx/tick.wav", "volume": 0.5, "why": "'tempo' — o relógio"},
+      {"at": 94, "src": "sfx/whoosh_fast.wav", "volume": 0.5, "why": "entrada do contraste"},
+      {"at": 192, "src": "sfx/pop_soft.wav", "volume": 0.55, "why": "Planilhas"},
+      {"at": 217, "src": "sfx/pop_soft.wav", "volume": 0.55, "why": "E-mails"},
+      {"at": 240, "src": "sfx/pop_soft.wav", "volume": 0.55, "why": "Relatórios"},
+      {"at": 264, "src": "sfx/whoosh_soft.wav", "volume": 0.45, "why": "transformação em sistema"},
+      {"at": 318, "src": "sfx/riser_2s.wav", "volume": 0.4, "why": "tensão até 'escalar'"},
+      {"at": 378, "src": "sfx/impact_low.wav", "volume": 0.75, "why": "'escalar' — clímax"},
+      {"at": 412, "src": "sfx/shimmer.wav", "volume": 0.35, "why": "assinatura"},
+      {"at": 498, "src": "sfx/click_ui.wav", "volume": 0.6, "why": "clique no CTA"}
+    ]
+  }
+}

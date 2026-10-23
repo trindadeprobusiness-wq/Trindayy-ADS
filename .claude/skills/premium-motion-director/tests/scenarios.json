@@ -1,0 +1,31 @@
+{
+  "activation": [
+    {"prompt": "Crie um motion premium para esse roteiro: ...", "should_trigger": true},
+    {"prompt": "Transforme essa narração do ElevenLabs em uma peça visual cinematográfica.", "should_trigger": true},
+    {"prompt": "Crie uma apresentação visual premium desse SaaS.", "should_trigger": true},
+    {"prompt": "Analise essa referência e adicione seus princípios técnicos à biblioteca.", "should_trigger": true},
+    {"prompt": "Melhore a direção artística e o acabamento desse motion.", "should_trigger": true},
+    {"prompt": "Corrija o CSS do menu do site.", "should_trigger": false},
+    {"prompt": "Gere uma imagem de um gato com IA.", "should_trigger": false}
+  ],
+  "production": [
+    {
+      "id": "A", "name": "Premium product", "composition": "PremiumProduct", "expect": "1920x1080@30", "duration_s": 15,
+      "objective_criteria": ["validate-assets pass", "validate-render pass (no blockers)", "≤ 6 sfx cues/10 s", "every sfx cue has why",
+        "no text outside 90% title-safe in stills", "integrated loudness -14±2 LUFS", "true peak ≤ -1 dBTP", "final hold ≥ 1.5 s"],
+      "artistic_focus": ["precisão", "composição", "tipografia", "movimento", "consistência"]
+    },
+    {
+      "id": "B", "name": "Dynamic ad", "composition": "DynamicAd", "expect": "1080x1920@30", "duration_s": 18,
+      "objective_criteria": ["word-map generated from ElevenLabs-format alignment", "key words start within 2 frames of their word startFrame",
+        "no text in 9:16 platform UI zones (stills --safe)", "validate-render pass", "CTA hold ≥ 1.5 s after last word"],
+      "artistic_focus": ["clareza do hook", "ritmo", "sincronização", "hierarquia", "impacto narrativo"]
+    },
+    {
+      "id": "C", "name": "SaaS showcase", "composition": "SaasShowcase", "expect": "1920x1080@30", "duration_s": 18,
+      "objective_criteria": ["fictional data disclosed on screen", "cursor pauses ≥ 6 frames before each click", "each click has visible state change",
+        "validate-render pass", "single continuous camera shot inside the app scene"],
+      "artistic_focus": ["clareza funcional", "realismo das interações", "legibilidade", "profundidade", "transições"]
+    }
+  ]
+}

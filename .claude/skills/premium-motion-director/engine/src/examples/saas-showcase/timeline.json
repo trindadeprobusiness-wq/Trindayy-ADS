@@ -1,0 +1,29 @@
+{
+  "id": "SaasShowcase",
+  "style": "C — saas-cinematic",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 540,
+  "product": "Fluxo (produto FICTÍCIO criado para demonstração). Todas as telas e números são ilustrativos e sinalizados no vídeo.",
+  "scenes": [
+    {"id": "title", "from": 0, "duration": 78, "intent": "Posicionamento em uma frase antes de mostrar a interface.", "text": "Fluxo — Automação de operações, em um só painel.", "visual": "Grid que se desenha; nome em stagger por caractere.", "motion": "GridLines + CharStagger + WordReveal"},
+    {"id": "app", "from": 66, "duration": 396, "intent": "Demonstração em plano contínuo: painel → criar automação → ativar → ver o resultado no painel.", "visual": "Janela do app; câmera virtual faz push-in no botão, viaja ao fluxo, vai ao toggle e recua para mostrar o efeito.", "motion": "Camera keyframes (inOut), Cursor com clique, FlowEdge com pulsos, CountUp", "sound": "click_ui nos cliques; ticks nos nós; pop no toast", "transitionIn": {"type": "blur", "frames": 12}, "transitionOut": {"type": "blur", "frames": 12}},
+    {"id": "end", "from": 450, "duration": 90, "intent": "Promessa + ação única.", "text": "Menos operação. Mais decisão. — Agende uma demonstração", "motion": "CTAReveal", "transitionIn": {"type": "blur", "frames": 12}}
+  ],
+  "audio": {
+    "music": {"src": "sfx/bed_minimal.wav", "volume": 0.4},
+    "narration": null,
+    "sfx": [
+      {"at": 66, "src": "sfx/whoosh_soft.wav", "volume": 0.4, "why": "janela do app entra"},
+      {"at": 206, "src": "sfx/click_ui.wav", "volume": 0.7, "why": "clique em Nova automação"},
+      {"at": 231, "src": "sfx/tick.wav", "volume": 0.35, "why": "nó 1"},
+      {"at": 243, "src": "sfx/tick.wav", "volume": 0.35, "why": "nó 2"},
+      {"at": 255, "src": "sfx/tick.wav", "volume": 0.35, "why": "nó 3"},
+      {"at": 346, "src": "sfx/click_ui.wav", "volume": 0.7, "why": "clique em Ativar"},
+      {"at": 386, "src": "sfx/pop_soft.wav", "volume": 0.5, "why": "confirmação (toast)"},
+      {"at": 446, "src": "sfx/whoosh_soft.wav", "volume": 0.35, "why": "saída para o end card"},
+      {"at": 460, "src": "sfx/impact_soft.wav", "volume": 0.55, "why": "assinatura"}
+    ]
+  }
+}

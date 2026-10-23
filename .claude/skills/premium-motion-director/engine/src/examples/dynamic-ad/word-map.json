@@ -1,0 +1,378 @@
+{
+  "fps": 30.0,
+  "duration_s": 16.5,
+  "duration_frames": 495,
+  "precision": "word",
+  "words": [
+    {
+      "text": "Enquanto",
+      "start": 0.2,
+      "end": 0.62,
+      "startFrame": 6,
+      "endFrame": 19
+    },
+    {
+      "text": "você",
+      "start": 0.66,
+      "end": 0.9,
+      "startFrame": 19,
+      "endFrame": 27
+    },
+    {
+      "text": "perde",
+      "start": 0.96,
+      "end": 1.3,
+      "startFrame": 28,
+      "endFrame": 39
+    },
+    {
+      "text": "tempo",
+      "start": 1.34,
+      "end": 1.72,
+      "startFrame": 40,
+      "endFrame": 52
+    },
+    {
+      "text": "com",
+      "start": 1.76,
+      "end": 1.9,
+      "startFrame": 52,
+      "endFrame": 57
+    },
+    {
+      "text": "processos",
+      "start": 1.94,
+      "end": 2.42,
+      "startFrame": 58,
+      "endFrame": 73
+    },
+    {
+      "text": "manuais,",
+      "start": 2.46,
+      "end": 2.95,
+      "startFrame": 73,
+      "endFrame": 89
+    },
+    {
+      "text": "outras",
+      "start": 3.3,
+      "end": 3.62,
+      "startFrame": 99,
+      "endFrame": 109
+    },
+    {
+      "text": "empresas",
+      "start": 3.66,
+      "end": 4.1,
+      "startFrame": 109,
+      "endFrame": 123
+    },
+    {
+      "text": "já",
+      "start": 4.14,
+      "end": 4.3,
+      "startFrame": 124,
+      "endFrame": 129
+    },
+    {
+      "text": "estão",
+      "start": 4.34,
+      "end": 4.62,
+      "startFrame": 130,
+      "endFrame": 139
+    },
+    {
+      "text": "automatizando",
+      "start": 4.68,
+      "end": 5.46,
+      "startFrame": 140,
+      "endFrame": 164
+    },
+    {
+      "text": "tudo.",
+      "start": 5.5,
+      "end": 5.95,
+      "startFrame": 165,
+      "endFrame": 179
+    },
+    {
+      "text": "Planilhas.",
+      "start": 6.4,
+      "end": 7.0,
+      "startFrame": 192,
+      "endFrame": 210
+    },
+    {
+      "text": "E-mails.",
+      "start": 7.25,
+      "end": 7.8,
+      "startFrame": 217,
+      "endFrame": 234
+    },
+    {
+      "text": "Relatórios.",
+      "start": 8.0,
+      "end": 8.7,
+      "startFrame": 240,
+      "endFrame": 261
+    },
+    {
+      "text": "Tudo",
+      "start": 9.05,
+      "end": 9.35,
+      "startFrame": 271,
+      "endFrame": 281
+    },
+    {
+      "text": "no",
+      "start": 9.38,
+      "end": 9.5,
+      "startFrame": 281,
+      "endFrame": 285
+    },
+    {
+      "text": "automático.",
+      "start": 9.54,
+      "end": 10.35,
+      "startFrame": 286,
+      "endFrame": 311
+    },
+    {
+      "text": "Pare",
+      "start": 10.85,
+      "end": 11.1,
+      "startFrame": 325,
+      "endFrame": 333
+    },
+    {
+      "text": "de",
+      "start": 11.13,
+      "end": 11.22,
+      "startFrame": 333,
+      "endFrame": 337
+    },
+    {
+      "text": "operar.",
+      "start": 11.26,
+      "end": 11.8,
+      "startFrame": 337,
+      "endFrame": 354
+    },
+    {
+      "text": "Comece",
+      "start": 12.1,
+      "end": 12.48,
+      "startFrame": 363,
+      "endFrame": 375
+    },
+    {
+      "text": "a",
+      "start": 12.51,
+      "end": 12.58,
+      "startFrame": 375,
+      "endFrame": 378
+    },
+    {
+      "text": "escalar.",
+      "start": 12.62,
+      "end": 13.25,
+      "startFrame": 378,
+      "endFrame": 398
+    },
+    {
+      "text": "Automação",
+      "start": 13.75,
+      "end": 14.4,
+      "startFrame": 412,
+      "endFrame": 432
+    },
+    {
+      "text": "com",
+      "start": 14.44,
+      "end": 14.58,
+      "startFrame": 433,
+      "endFrame": 438
+    },
+    {
+      "text": "IA.",
+      "start": 14.62,
+      "end": 15.05,
+      "startFrame": 438,
+      "endFrame": 452
+    },
+    {
+      "text": "Gabriel",
+      "start": 15.4,
+      "end": 15.82,
+      "startFrame": 462,
+      "endFrame": 475
+    },
+    {
+      "text": "Trindade.",
+      "start": 15.86,
+      "end": 16.5,
+      "startFrame": 475,
+      "endFrame": 495
+    }
+  ],
+  "phrases": [
+    {
+      "text": "Enquanto você perde tempo com processos manuais,",
+      "start": 0.2,
+      "end": 2.95,
+      "startFrame": 6,
+      "endFrame": 89,
+      "words": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "text": "outras empresas já estão automatizando tudo.",
+      "start": 3.3,
+      "end": 5.95,
+      "startFrame": 99,
+      "endFrame": 179,
+      "words": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "text": "Planilhas.",
+      "start": 6.4,
+      "end": 7.0,
+      "startFrame": 192,
+      "endFrame": 210,
+      "words": [
+        13
+      ]
+    },
+    {
+      "text": "E-mails.",
+      "start": 7.25,
+      "end": 7.8,
+      "startFrame": 217,
+      "endFrame": 234,
+      "words": [
+        14
+      ]
+    },
+    {
+      "text": "Relatórios.",
+      "start": 8.0,
+      "end": 8.7,
+      "startFrame": 240,
+      "endFrame": 261,
+      "words": [
+        15
+      ]
+    },
+    {
+      "text": "Tudo no automático.",
+      "start": 9.05,
+      "end": 10.35,
+      "startFrame": 271,
+      "endFrame": 311,
+      "words": [
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "text": "Pare de operar.",
+      "start": 10.85,
+      "end": 11.8,
+      "startFrame": 325,
+      "endFrame": 354,
+      "words": [
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "text": "Comece a escalar.",
+      "start": 12.1,
+      "end": 13.25,
+      "startFrame": 363,
+      "endFrame": 398,
+      "words": [
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "text": "Automação com IA.",
+      "start": 13.75,
+      "end": 15.05,
+      "startFrame": 412,
+      "endFrame": 452,
+      "words": [
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "text": "Gabriel Trindade.",
+      "start": 15.4,
+      "end": 16.5,
+      "startFrame": 462,
+      "endFrame": 495,
+      "words": [
+        28,
+        29
+      ]
+    }
+  ],
+  "pauses": [
+    {
+      "start": 2.95,
+      "end": 3.3,
+      "dur": 0.35
+    },
+    {
+      "start": 5.95,
+      "end": 6.4,
+      "dur": 0.45
+    },
+    {
+      "start": 8.7,
+      "end": 9.05,
+      "dur": 0.35
+    },
+    {
+      "start": 10.35,
+      "end": 10.85,
+      "dur": 0.5
+    },
+    {
+      "start": 11.8,
+      "end": 12.1,
+      "dur": 0.3
+    },
+    {
+      "start": 13.25,
+      "end": 13.75,
+      "dur": 0.5
+    },
+    {
+      "start": 15.05,
+      "end": 15.4,
+      "dur": 0.35
+    }
+  ],
+  "notes": []
+}

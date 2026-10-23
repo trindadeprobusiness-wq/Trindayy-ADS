@@ -1,0 +1,31 @@
+{
+  "id": "PremiumProduct",
+  "style": "A — apple-premium",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 450,
+  "concept": "Luz → ruído → ordem → clareza → produto. Um único ponto de luz atravessa a peça inteira; o produto nasce da mesma luz que organizou o ruído.",
+  "scenes": [
+    {"id": "birth", "from": 0, "duration": 96, "intent": "Gancho por contenção: um ponto de luz nasce no escuro.", "visual": "LightPoint cresce com spring calm; estoura em partículas (ruído) em 70–100.", "motion": "spring calm, explosão com ease.out", "sound": "shimmer no nascimento; whoosh_soft no estouro"},
+    {"id": "noise", "from": 84, "duration": 102, "intent": "Problema: ruído.", "text": "Menos ruído.", "visual": "Partículas em caos atrás do texto (opacidade 0.45).", "motion": "WordReveal mask, saída blur", "transitionIn": {"type": "blur", "frames": 12}, "transitionOut": {"type": "blur", "frames": 14}},
+    {"id": "clarity", "from": 174, "duration": 96, "intent": "Virada: ordem. Partículas formam grid exatamente quando 'clareza' assenta.", "text": "Mais clareza.", "visual": "Partículas caos → grid (186–231).", "motion": "WordReveal mask + destaque cromático", "transitionIn": {"type": "blur", "frames": 12}, "transitionOut": {"type": "fade", "frames": 12}},
+    {"id": "converge", "from": 258, "duration": 54, "intent": "Tensão antes da revelação: tudo converge para um ponto.", "visual": "Grid → ponto (258–296); ponto vira anel (300–330).", "motion": "ease.inOut na convergência", "sound": "swell_reverse culminando em impact_soft", "transitionIn": {"type": "fade", "frames": 12}},
+    {"id": "product", "from": 300, "duration": 96, "intent": "Revelação do produto nascendo do anel + 3 benefícios em uma palavra.", "text": "Captura. Conecta. Resume.", "visual": "Card de nota com resumo de IA; palavras à direita.", "motion": "scale 0.86→1 + blur→0; push-in lento da câmera; tick por benefício", "transitionIn": {"type": "zoomThrough", "frames": 18}, "transitionOut": {"type": "blur", "frames": 14}},
+    {"id": "lockup", "from": 382, "duration": 68, "intent": "Assinatura: nome + promessa, hold legível ≥ 1.5 s.", "text": "Lumen — Pense com clareza.", "motion": "TrackingIn + serif itálico", "sound": "shimmer suave", "transitionIn": {"type": "blur", "frames": 14}}
+  ],
+  "audio": {
+    "music": {"src": "sfx/bed_minimal.wav", "volume": 0.42},
+    "narration": null,
+    "sfx": [
+      {"at": 10, "src": "sfx/shimmer.wav", "volume": 0.5, "why": "nascimento da luz"},
+      {"at": 66, "src": "sfx/whoosh_soft.wav", "volume": 0.45, "why": "luz se fragmenta em ruído"},
+      {"at": 266, "src": "sfx/swell_reverse.wav", "volume": 0.5, "why": "sucção da convergência"},
+      {"at": 300, "src": "sfx/impact_soft.wav", "volume": 0.7, "why": "revelação do produto"},
+      {"at": 334, "src": "sfx/tick.wav", "volume": 0.3, "why": "benefício 1"},
+      {"at": 346, "src": "sfx/tick.wav", "volume": 0.3, "why": "benefício 2"},
+      {"at": 358, "src": "sfx/tick.wav", "volume": 0.3, "why": "benefício 3"},
+      {"at": 392, "src": "sfx/shimmer.wav", "volume": 0.35, "why": "assinatura"}
+    ]
+  }
+}
