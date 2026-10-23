@@ -189,3 +189,7 @@ Projeção de 7 dias (hipóteses, mesmas do PROMPT_EXTENSAO_META_v1; lucro bruto
 | R$ 50/dia (R$ 350) | 18/12/12/8 | 39 conv · 2–3 vendas · −R$ 148 | 63 conv · 7–8 vendas · +R$ 286 | 102 conv · 21 vendas · +R$ 1.474 |
 | R$ 40/dia (R$ 280) A | 15/10/10/5 | 31 conv · 2 vendas · −R$ 116 | 49 conv · 6 vendas · +R$ 237 | 80 conv · 17 vendas · +R$ 1.205 |
 | R$ 40/dia (R$ 280) B | 18/11/11/0 (Gemini pausado) | 29 conv · 2 vendas · −R$ 106 | 47 conv · 6 vendas · +R$ 271 | 77 conv · 17 vendas · +R$ 1.299 |
+
+### Decisão (23/10/2026): R$ 50/dia sem Gemini
+Orçamentos aplicados via MCP: Coursera R$ 22 · ElevenLabs R$ 14 · n8n R$ 14. GEMINI fica pausado (não ativar).
+Projeção 7 dias (R$ 350): pessimista 36 conv · ~2 vendas · −R$ 133 | realista 58 conv · ~7–8 vendas · +R$ 338 | otimista 95 conv · ~21 vendas · +R$ 1.622.
