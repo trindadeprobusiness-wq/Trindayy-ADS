@@ -491,18 +491,27 @@ const Screen: React.FC<{children: React.ReactNode; bg?: string}> = ({children, b
   </div>
 );
 
+// 3D compositing is only used while the phone actually rotates (dive-in and flip). Keeping the layer tree flat
+// the rest of the time avoids Chromium capturing frames with un-rastered (black) tiles.
+const uses3D = (frame: number) => frame <= 70 || (frame >= 606 && frame <= 648);
+
 const Phone: React.FC = () => {
   const frame = useCurrentFrame();
-  const ry = keyframes(frame, [{at: 612, value: 0}, {at: 642, value: 180, ease: 'inOut'}]);
+  const is3D = uses3D(frame);
+  const showFront = is3D || frame < 627;
+  const showBack = is3D || frame >= 627;
+  const ryRaw = keyframes(frame, [{at: 612, value: 0}, {at: 642, value: 180, ease: 'inOut'}]);
+  // Never land exactly edge-on: a zero-thickness phone at 90° renders as nothing for a frame.
+  const ry = Math.abs(ryRaw - 90) < 8 ? (ryRaw < 90 ? 82 : 98) : ryRaw;
   const glow = progress(frame, 18, 30, ease.out);
   const face: React.CSSProperties = {position: 'absolute', left: 15, top: 15, width: 690, height: 1470, borderRadius: 78, overflow: 'hidden', backfaceVisibility: 'hidden',
     WebkitBackfaceVisibility: 'hidden'};
   return (
-    <div style={{position: 'absolute', inset: 0, transformStyle: 'preserve-3d', transform: `rotateY(${ry}deg)`}}>
+    <div style={{position: 'absolute', inset: 0, transformStyle: is3D ? 'preserve-3d' : 'flat', transform: is3D ? `rotateY(${ry}deg)` : undefined}}>
       {/* body */}
       <div style={{position: 'absolute', inset: 0, borderRadius: 92, background: 'linear-gradient(145deg,#4A504C,#1A1D1B 38%,#2C302D)',
         boxShadow: `0 0 0 2px rgba(255,255,255,0.22) inset, 0 0 0 1px rgba(255,255,255,0.10), 0 60px 140px -30px rgba(0,0,0,0.9), 0 0 ${120 * glow}px ${-20}px ${C.brandBright}55`}} />
-      <div style={face}>
+      {showFront && <div style={is3D ? face : {...face, backfaceVisibility: 'visible', WebkitBackfaceVisibility: 'visible'}}>
         <Screen>
           <StatusBar />
           <Header />
@@ -511,8 +520,8 @@ const Phone: React.FC = () => {
         </Screen>
         <Screen bg="transparent"><Splash /></Screen>
         <div style={{position: 'absolute', top: 22, left: 245, width: 200, height: 56, borderRadius: 28, background: '#000'}} />
-      </div>
-      <div style={{...face, transform: 'rotateY(180deg)'}}>
+      </div>}
+      {showBack && <div style={is3D ? {...face, transform: 'rotateY(180deg)'} : {...face, backfaceVisibility: 'visible', WebkitBackfaceVisibility: 'visible'}}>
         <Screen>
           <StatusBar />
           <Header />
@@ -520,7 +529,7 @@ const Phone: React.FC = () => {
           <BottomNav active="assistente" />
         </Screen>
         <div style={{position: 'absolute', top: 22, left: 245, width: 200, height: 56, borderRadius: 28, background: '#000'}} />
-      </div>
+      </div>}
     </div>
   );
 };
@@ -598,10 +607,10 @@ export const MooviDemo: React.FC<{debugSafeArea?: boolean}> = ({debugSafeArea}) 
     <ThemeProvider theme={theme}>
       <AbsoluteFill style={{background: C.stage}}>
         <GradientField opacity={0.22} speed={0.6} colors={[C.brand, '#0B3D1E']} />
-        <AbsoluteFill style={{perspective: 2600}}>
-          <div style={{position: 'absolute', left: 540 - 360, top: 950 - 750, width: 720, height: 1500, transformStyle: 'preserve-3d', opacity: fade,
-            filter: blur > 0.2 ? `blur(${blur}px)` : undefined,
-            transform: `translateY(${ty}px) scale(${S}) rotateX(${rx}deg) rotateZ(${rz}deg)`}}>
+        <AbsoluteFill style={{perspective: uses3D(frame) ? 2600 : undefined}}>
+          <div style={{position: 'absolute', left: 540 - 360, top: 950 - 750, width: 720, height: 1500, transformStyle: uses3D(frame) ? 'preserve-3d' : 'flat',
+            opacity: fade, filter: blur > 0.2 ? `blur(${blur}px)` : undefined,
+            transform: uses3D(frame) ? `translateY(${ty}px) scale(${S}) rotateX(${rx}deg) rotateZ(${rz}deg)` : `translateY(${ty}px) scale(${S})`}}>
             <Phone />
           </div>
         </AbsoluteFill>

@@ -11,6 +11,7 @@ Três níveis distintos — nunca confunda:
 | Texto cortado / fora da área segura | Stills com `--safe` + Read |
 | Fonte não carregada | `ensureFonts()` cancela o render; confira frames |
 | Frames vazios/pretos não planejados | `validate-render.py` (blackdetect) |
+| Piscadas de 1 frame (blocos pretos, camada que some) | `repair-glitches.py` (roda sozinho no `render.mjs`); confira os frames que sobrarem |
 | Falha de renderização / resolução / fps / duração errados | `validate-render.py --expect --duration` |
 | Áudio com clipping (true peak > −1 dBTP) | `validate-render.py` |
 | Sincronização claramente incorreta | word-map vs. frames da palavra |

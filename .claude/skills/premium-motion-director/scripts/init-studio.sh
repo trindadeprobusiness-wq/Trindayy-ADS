@@ -26,7 +26,7 @@ python3 -c "import numpy" 2>/dev/null || echo "warning: python3 numpy not found 
 
 copy_tools() {
   mkdir -p "$TARGET/scripts/tools"
-  cp "$SKILL_DIR/scripts/synth-sfx.py" "$SKILL_DIR/scripts/master-audio.py" "$TARGET/scripts/tools/"
+  cp "$SKILL_DIR/scripts/synth-sfx.py" "$SKILL_DIR/scripts/master-audio.py" "$SKILL_DIR/scripts/repair-glitches.py" "$TARGET/scripts/tools/"
 }
 
 if [[ -e "$TARGET/package.json" ]]; then

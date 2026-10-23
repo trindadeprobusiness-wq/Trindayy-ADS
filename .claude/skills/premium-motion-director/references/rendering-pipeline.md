@@ -7,6 +7,8 @@ Node 22, Remotion 4.0.538 (+ bundler, renderer, cli, transitions, paths), React 
 
 **Neste container (out/2026):** não existe `chrome-headless-shell` e o download do Remotion é bloqueado. Rode com `export REMOTION_BROWSER=/opt/pw-browsers/chromium-1194/chrome-linux/chrome`; o `render.mjs` detecta Chromium completo e usa `chromeMode: 'chrome-for-testing'` (headless novo). Sobrescreva com `REMOTION_CHROME_MODE` se precisar.
 
+**Piscadas de 1 frame:** o Chromium às vezes fotografa o frame antes de rasterizar todos os tiles (blocos pretos, celular que some), principalmente com camadas `preserve-3d`/perspectiva grandes. Regras: use 3D só nos frames em que algo realmente gira (fora disso, transform 2D e uma face só); nunca pare uma rotação exatamente a 90° num plano de espessura zero. O `render.mjs` roda `scripts/tools/repair-glitches.py` depois do render: detecta frames que diferem dos dois vizinhos enquanto os vizinhos concordam, re-renderiza esses frames como stills e recompõe (até 4 rodadas).
+
 ## Criar/atualizar o estúdio num projeto
 ```bash
 bash ${CLAUDE_SKILL_DIR}/scripts/init-studio.sh motion-studio            # copia engine/ + ferramentas + npm install

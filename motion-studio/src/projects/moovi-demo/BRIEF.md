@@ -62,3 +62,8 @@ Varredura quadro a quadro (8–16 fps nas transições) encontrou e corrigiu:
 7. Faixas/retângulos de compressão no degradê escuro → grain 6% + encode CRF 16 com aq-mode 3.
 8. Legendas longas encostavam na borda → divididas em duas.
 Validação: PASS, sem congelamentos, −13,9 LUFS, pico −3,6 dBTP, yuv420p, sem metadados.
+
+## v3 — piscadas de 1 frame (blocos pretos)
+Causa: o Chromium fotografava alguns frames antes de rasterizar todos os tiles da camada 3D do celular (7 frames: 122, 219, 303, 556, 627, 669, 1054 na v2).
+Correção: 3D só durante o mergulho (0–70) e o giro (606–648), com uma face só e transform 2D no resto; o giro pula o ângulo de 90° (plano de espessura zero). `repair-glitches.py` agora roda dentro do `render.mjs` e re-renderiza qualquer frame que destoe dos dois vizinhos (reparou 27, 36, 44 na abertura).
+Varredura final dos 1.290 frames: nenhum bloco/sumiço; único frame marcado (627) é o celular de perfil no giro, movimento legítimo conferido visualmente.

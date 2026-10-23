@@ -57,6 +57,15 @@ for (const id of ids) {
     },
   });
   console.log(`[render] ${outputLocation} in ${((Date.now() - t0) / 1000).toFixed(1)}s`);
+  // Integrity: Chromium can capture a frame before every tile is rastered (black blocks / vanished layers).
+  // Detect single-frame glitches and re-render those frames as stills. Skip with --no-repair.
+  if (!args.includes('--no-repair')) {
+    try {
+      execFileSync('python3', [join(root, 'scripts/tools/repair-glitches.py'), id, '--video', outputLocation], {stdio: 'inherit'});
+    } catch {
+      console.warn('[render] repair-glitches still reports suspect frames — inspect them (fast motion can be a false positive).');
+    }
+  }
   // Mastering: normalize loudness to the social target (-14 LUFS, true peak -1.5 dBTP). Skip with --no-master.
   if (!args.includes('--no-master')) {
     execFileSync('python3', [join(root, 'scripts/tools/master-audio.py'), outputLocation, '--lufs', opt('--lufs') ?? '-14'], {stdio: 'inherit'});
