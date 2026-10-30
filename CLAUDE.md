@@ -15,6 +15,7 @@ Para qualquer pedido de vídeo, anúncio em motion ou referência nova:
 
 9. **Antes de cada vídeo, pergunte (pedido do usuário, 30/10/2026):** use `motion-library/BRIEFING_PERGUNTAS.md` (no máximo 6 perguntas por rodada, com recomendação). Fluidez é prioridade: movimento sempre com easing/spring, sem saltos, e ofereça 60 qps quando a peça tiver UI ou câmera.
 10. **NullMotion** (`vendor/NullMotion`, submódulo, MIT): decupagem de referências por seção e cardápio de 23 movimentos em GSAP. Guia em `motion-library/NULLMOTION.md`. Serve para estudar e planejar; o render final continua no Remotion/HyperFrames, sem metadados.
+11. **Skill `launch-motion`** (`.claude/skills/launch-motion/`, enviada pelo usuário em 30/10/2026): regras de movimento nível After Effects em código (nada linear, entradas com leve overshoot ~0,5 s, saídas 60% mais rápidas, clique com "press", cursor em arco, nada fica 100% parado, parenting/offset/overlap, câmera sempre com easy ease, contadores de ~1 s, 60 qps). Use junto com a `premium-motion-director`: ela dá o fluxo e a revisão; a `launch-motion` dá o padrão de fluidez. Nos anúncios 9:16 vale o posicionamento a partir do centro para gerar os cortes.
 
 ## Marcas
 - **Moovi** (finanças pessoais pelo WhatsApp): ficha, logos e narrações em `motion-library/brands/moovi/BRAND.md`. Não guarde senhas no repositório.
