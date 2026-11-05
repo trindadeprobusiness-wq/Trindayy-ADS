@@ -1,0 +1,7020 @@
+{
+ "matched": 0.854,
+ "total": 449.96,
+ "sections": [
+  {
+   "id": "hook",
+   "start": 0.42,
+   "end": 16.2
+  },
+  {
+   "id": "golpe",
+   "start": 16.2,
+   "end": 31.62
+  },
+  {
+   "id": "paraquem",
+   "start": 31.62,
+   "end": 50.98
+  },
+  {
+   "id": "lista",
+   "start": 50.98,
+   "end": 70.72
+  },
+  {
+   "id": "culpa",
+   "start": 70.72,
+   "end": 94.02
+  },
+  {
+   "id": "travas",
+   "start": 94.02,
+   "end": 100.49
+  },
+  {
+   "id": "trava1",
+   "start": 100.49,
+   "end": 115.47
+  },
+  {
+   "id": "trava2",
+   "start": 115.47,
+   "end": 127.49
+  },
+  {
+   "id": "trava3",
+   "start": 127.49,
+   "end": 140.47
+  },
+  {
+   "id": "trava4",
+   "start": 140.47,
+   "end": 153.84
+  },
+  {
+   "id": "desconfianca",
+   "start": 153.84,
+   "end": 165.64
+  },
+  {
+   "id": "sol1",
+   "start": 165.64,
+   "end": 178.94
+  },
+  {
+   "id": "sol2",
+   "start": 178.94,
+   "end": 193.35
+  },
+  {
+   "id": "sol3",
+   "start": 193.35,
+   "end": 207.31
+  },
+  {
+   "id": "sol4",
+   "start": 207.31,
+   "end": 211.75
+  },
+  {
+   "id": "porque",
+   "start": 211.75,
+   "end": 236.59
+  },
+  {
+   "id": "imagina",
+   "start": 236.59,
+   "end": 249.43
+  },
+  {
+   "id": "trilhas",
+   "start": 249.43,
+   "end": 266.33
+  },
+  {
+   "id": "catalogo",
+   "start": 266.33,
+   "end": 285.82
+  },
+  {
+   "id": "certificado",
+   "start": 285.82,
+   "end": 306.3
+  },
+  {
+   "id": "depoimentos",
+   "start": 306.3,
+   "end": 311.9
+  },
+  {
+   "id": "conta",
+   "start": 311.9,
+   "end": 327.2
+  },
+  {
+   "id": "preco",
+   "start": 327.2,
+   "end": 353.72
+  },
+  {
+   "id": "risco",
+   "start": 353.72,
+   "end": 380.12
+  },
+  {
+   "id": "prazo",
+   "start": 380.12,
+   "end": 388.62
+  },
+  {
+   "id": "passos",
+   "start": 388.62,
+   "end": 416.63
+  },
+  {
+   "id": "final",
+   "start": 416.63,
+   "end": 445.02
+  },
+  {
+   "id": "cta",
+   "start": 445.02,
+   "end": 449.96
+  }
+ ],
+ "words": [
+  {
+   "w": "Duzentos",
+   "t": 0.42,
+   "sec": "hook"
+  },
+  {
+   "w": "e",
+   "t": 0.84,
+   "sec": "hook"
+  },
+  {
+   "w": "noventa",
+   "t": 1.26,
+   "sec": "hook"
+  },
+  {
+   "w": "e",
+   "t": 1.68,
+   "sec": "hook"
+  },
+  {
+   "w": "sete",
+   "t": 2.1,
+   "sec": "hook"
+  },
+  {
+   "w": "reais.",
+   "t": 2.52,
+   "sec": "hook"
+  },
+  {
+   "w": "Esse",
+   "t": 3.54,
+   "sec": "hook"
+  },
+  {
+   "w": "é",
+   "t": 3.74,
+   "sec": "hook"
+  },
+  {
+   "w": "o",
+   "t": 3.87,
+   "sec": "hook"
+  },
+  {
+   "w": "preço",
+   "t": 4.0,
+   "sec": "hook"
+  },
+  {
+   "w": "de",
+   "t": 4.24,
+   "sec": "hook"
+  },
+  {
+   "w": "um",
+   "t": 4.28,
+   "sec": "hook"
+  },
+  {
+   "w": "ano",
+   "t": 4.52,
+   "sec": "hook"
+  },
+  {
+   "w": "inteiro",
+   "t": 5.06,
+   "sec": "hook"
+  },
+  {
+   "w": "estudando",
+   "t": 5.5,
+   "sec": "hook"
+  },
+  {
+   "w": "inteligência",
+   "t": 6.0,
+   "sec": "hook"
+  },
+  {
+   "w": "artificial,",
+   "t": 6.88,
+   "sec": "hook"
+  },
+  {
+   "w": "dados",
+   "t": 7.54,
+   "sec": "hook"
+  },
+  {
+   "w": "e",
+   "t": 7.86,
+   "sec": "hook"
+  },
+  {
+   "w": "negócios,",
+   "t": 8.24,
+   "sec": "hook"
+  },
+  {
+   "w": "com",
+   "t": 8.98,
+   "sec": "hook"
+  },
+  {
+   "w": "cursos",
+   "t": 9.24,
+   "sec": "hook"
+  },
+  {
+   "w": "do",
+   "t": 9.54,
+   "sec": "hook"
+  },
+  {
+   "w": "Google,",
+   "t": 9.86,
+   "sec": "hook"
+  },
+  {
+   "w": "da",
+   "t": 10.26,
+   "sec": "hook"
+  },
+  {
+   "w": "IBM",
+   "t": 10.7,
+   "sec": "hook"
+  },
+  {
+   "w": "e",
+   "t": 11.0,
+   "sec": "hook"
+  },
+  {
+   "w": "de",
+   "t": 11.427,
+   "sec": "hook"
+  },
+  {
+   "w": "Stanford.",
+   "t": 11.853,
+   "sec": "hook"
+  },
+  {
+   "w": "Não",
+   "t": 12.28,
+   "sec": "hook"
+  },
+  {
+   "w": "é",
+   "t": 12.38,
+   "sec": "hook"
+  },
+  {
+   "w": "por",
+   "t": 12.56,
+   "sec": "hook"
+  },
+  {
+   "w": "mês.",
+   "t": 13.06,
+   "sec": "hook"
+  },
+  {
+   "w": "É",
+   "t": 13.44,
+   "sec": "hook"
+  },
+  {
+   "w": "pelo",
+   "t": 13.68,
+   "sec": "hook"
+  },
+  {
+   "w": "ano",
+   "t": 13.94,
+   "sec": "hook"
+  },
+  {
+   "w": "todo.",
+   "t": 14.46,
+   "sec": "hook"
+  },
+  {
+   "w": "Uma",
+   "t": 15.0,
+   "sec": "hook"
+  },
+  {
+   "w": "vez",
+   "t": 15.26,
+   "sec": "hook"
+  },
+  {
+   "w": "só.",
+   "t": 15.76,
+   "sec": "hook"
+  },
+  {
+   "w": "Eu",
+   "t": 16.2,
+   "sec": "golpe"
+  },
+  {
+   "w": "sei",
+   "t": 16.4,
+   "sec": "golpe"
+  },
+  {
+   "w": "o",
+   "t": 16.56,
+   "sec": "golpe"
+  },
+  {
+   "w": "que",
+   "t": 16.56,
+   "sec": "golpe"
+  },
+  {
+   "w": "você",
+   "t": 16.84,
+   "sec": "golpe"
+  },
+  {
+   "w": "pensa",
+   "t": 17.1,
+   "sec": "golpe"
+  },
+  {
+   "w": "agora:",
+   "t": 17.56,
+   "sec": "golpe"
+  },
+  {
+   "w": "isso",
+   "t": 18.08,
+   "sec": "golpe"
+  },
+  {
+   "w": "é",
+   "t": 18.22,
+   "sec": "golpe"
+  },
+  {
+   "w": "golpe.",
+   "t": 18.66,
+   "sec": "golpe"
+  },
+  {
+   "w": "Ótimo.",
+   "t": 19.4,
+   "sec": "golpe"
+  },
+  {
+   "w": "Continua",
+   "t": 20.52,
+   "sec": "golpe"
+  },
+  {
+   "w": "pensando",
+   "t": 21.04,
+   "sec": "golpe"
+  },
+  {
+   "w": "assim.",
+   "t": 21.6,
+   "sec": "golpe"
+  },
+  {
+   "w": "Porque",
+   "t": 22.08,
+   "sec": "golpe"
+  },
+  {
+   "w": "nos",
+   "t": 22.22,
+   "sec": "golpe"
+  },
+  {
+   "w": "próximos",
+   "t": 22.66,
+   "sec": "golpe"
+  },
+  {
+   "w": "minutos",
+   "t": 23.28,
+   "sec": "golpe"
+  },
+  {
+   "w": "eu",
+   "t": 23.58,
+   "sec": "golpe"
+  },
+  {
+   "w": "vou",
+   "t": 23.68,
+   "sec": "golpe"
+  },
+  {
+   "w": "mostrar",
+   "t": 24.06,
+   "sec": "golpe"
+  },
+  {
+   "w": "exatamente",
+   "t": 24.98,
+   "sec": "golpe"
+  },
+  {
+   "w": "por",
+   "t": 25.287,
+   "sec": "golpe"
+  },
+  {
+   "w": "que",
+   "t": 25.593,
+   "sec": "golpe"
+  },
+  {
+   "w": "não",
+   "t": 25.9,
+   "sec": "golpe"
+  },
+  {
+   "w": "é,",
+   "t": 26.46,
+   "sec": "golpe"
+  },
+  {
+   "w": "e",
+   "t": 26.72,
+   "sec": "golpe"
+  },
+  {
+   "w": "a",
+   "t": 26.84,
+   "sec": "golpe"
+  },
+  {
+   "w": "única",
+   "t": 27.1,
+   "sec": "golpe"
+  },
+  {
+   "w": "coisa",
+   "t": 27.42,
+   "sec": "golpe"
+  },
+  {
+   "w": "que",
+   "t": 27.64,
+   "sec": "golpe"
+  },
+  {
+   "w": "você",
+   "t": 27.84,
+   "sec": "golpe"
+  },
+  {
+   "w": "precisa",
+   "t": 28.2,
+   "sec": "golpe"
+  },
+  {
+   "w": "conferir",
+   "t": 28.66,
+   "sec": "golpe"
+  },
+  {
+   "w": "antes",
+   "t": 29.24,
+   "sec": "golpe"
+  },
+  {
+   "w": "de",
+   "t": 29.38,
+   "sec": "golpe"
+  },
+  {
+   "w": "pagar",
+   "t": 29.66,
+   "sec": "golpe"
+  },
+  {
+   "w": "qualquer",
+   "t": 30.36,
+   "sec": "golpe"
+  },
+  {
+   "w": "centavo.",
+   "t": 30.99,
+   "sec": "golpe"
+  },
+  {
+   "w": "Esse",
+   "t": 31.62,
+   "sec": "paraquem"
+  },
+  {
+   "w": "vídeo",
+   "t": 31.9,
+   "sec": "paraquem"
+  },
+  {
+   "w": "é",
+   "t": 32.16,
+   "sec": "paraquem"
+  },
+  {
+   "w": "pra",
+   "t": 32.2,
+   "sec": "paraquem"
+  },
+  {
+   "w": "você",
+   "t": 32.66,
+   "sec": "paraquem"
+  },
+  {
+   "w": "que",
+   "t": 32.84,
+   "sec": "paraquem"
+  },
+  {
+   "w": "quer",
+   "t": 33.12,
+   "sec": "paraquem"
+  },
+  {
+   "w": "crescer",
+   "t": 33.4,
+   "sec": "paraquem"
+  },
+  {
+   "w": "na",
+   "t": 33.68,
+   "sec": "paraquem"
+  },
+  {
+   "w": "carreira",
+   "t": 34.02,
+   "sec": "paraquem"
+  },
+  {
+   "w": "em",
+   "t": 34.44,
+   "sec": "paraquem"
+  },
+  {
+   "w": "2027,",
+   "t": 35.2,
+   "sec": "paraquem"
+  },
+  {
+   "w": "ganhar",
+   "t": 35.96,
+   "sec": "paraquem"
+  },
+  {
+   "w": "mais,",
+   "t": 36.6,
+   "sec": "paraquem"
+  },
+  {
+   "w": "mudar",
+   "t": 37.08,
+   "sec": "paraquem"
+  },
+  {
+   "w": "de",
+   "t": 37.26,
+   "sec": "paraquem"
+  },
+  {
+   "w": "área,",
+   "t": 37.8,
+   "sec": "paraquem"
+  },
+  {
+   "w": "ou",
+   "t": 38.12,
+   "sec": "paraquem"
+  },
+  {
+   "w": "simplesmente",
+   "t": 38.64,
+   "sec": "paraquem"
+  },
+  {
+   "w": "parar",
+   "t": 39.14,
+   "sec": "paraquem"
+  },
+  {
+   "w": "de",
+   "t": 39.44,
+   "sec": "paraquem"
+  },
+  {
+   "w": "sentir",
+   "t": 39.76,
+   "sec": "paraquem"
+  },
+  {
+   "w": "que",
+   "t": 40.02,
+   "sec": "paraquem"
+  },
+  {
+   "w": "o",
+   "t": 40.04,
+   "sec": "paraquem"
+  },
+  {
+   "w": "mercado",
+   "t": 40.32,
+   "sec": "paraquem"
+  },
+  {
+   "w": "está",
+   "t": 40.64,
+   "sec": "paraquem"
+  },
+  {
+   "w": "andando",
+   "t": 40.9,
+   "sec": "paraquem"
+  },
+  {
+   "w": "mais",
+   "t": 41.4,
+   "sec": "paraquem"
+  },
+  {
+   "w": "rápido",
+   "t": 41.72,
+   "sec": "paraquem"
+  },
+  {
+   "w": "do",
+   "t": 41.9,
+   "sec": "paraquem"
+  },
+  {
+   "w": "que",
+   "t": 41.98,
+   "sec": "paraquem"
+  },
+  {
+   "w": "você.",
+   "t": 42.36,
+   "sec": "paraquem"
+  },
+  {
+   "w": "Se",
+   "t": 43.06,
+   "sec": "paraquem"
+  },
+  {
+   "w": "for",
+   "t": 43.2,
+   "sec": "paraquem"
+  },
+  {
+   "w": "o",
+   "t": 43.34,
+   "sec": "paraquem"
+  },
+  {
+   "w": "seu",
+   "t": 43.48,
+   "sec": "paraquem"
+  },
+  {
+   "w": "caso,",
+   "t": 43.9,
+   "sec": "paraquem"
+  },
+  {
+   "w": "fica",
+   "t": 44.42,
+   "sec": "paraquem"
+  },
+  {
+   "w": "até",
+   "t": 44.76,
+   "sec": "paraquem"
+  },
+  {
+   "w": "o",
+   "t": 44.78,
+   "sec": "paraquem"
+  },
+  {
+   "w": "final.",
+   "t": 45.2,
+   "sec": "paraquem"
+  },
+  {
+   "w": "Porque",
+   "t": 45.373,
+   "sec": "paraquem"
+  },
+  {
+   "w": "o",
+   "t": 45.547,
+   "sec": "paraquem"
+  },
+  {
+   "w": "que",
+   "t": 45.72,
+   "sec": "paraquem"
+  },
+  {
+   "w": "eu",
+   "t": 45.98,
+   "sec": "paraquem"
+  },
+  {
+   "w": "vou",
+   "t": 46.14,
+   "sec": "paraquem"
+  },
+  {
+   "w": "mostrar",
+   "t": 46.66,
+   "sec": "paraquem"
+  },
+  {
+   "w": "pode",
+   "t": 47.04,
+   "sec": "paraquem"
+  },
+  {
+   "w": "fazer",
+   "t": 47.36,
+   "sec": "paraquem"
+  },
+  {
+   "w": "o",
+   "t": 47.58,
+   "sec": "paraquem"
+  },
+  {
+   "w": "seu",
+   "t": 47.78,
+   "sec": "paraquem"
+  },
+  {
+   "w": "próximo",
+   "t": 48.16,
+   "sec": "paraquem"
+  },
+  {
+   "w": "ano",
+   "t": 48.58,
+   "sec": "paraquem"
+  },
+  {
+   "w": "ser",
+   "t": 49.02,
+   "sec": "paraquem"
+  },
+  {
+   "w": "bem",
+   "t": 49.34,
+   "sec": "paraquem"
+  },
+  {
+   "w": "diferente",
+   "t": 49.8,
+   "sec": "paraquem"
+  },
+  {
+   "w": "deste.",
+   "t": 50.32,
+   "sec": "paraquem"
+  },
+  {
+   "w": "Deixa",
+   "t": 50.98,
+   "sec": "lista"
+  },
+  {
+   "w": "eu",
+   "t": 51.08,
+   "sec": "lista"
+  },
+  {
+   "w": "adivinhar",
+   "t": 51.3,
+   "sec": "lista"
+  },
+  {
+   "w": "uma",
+   "t": 51.58,
+   "sec": "lista"
+  },
+  {
+   "w": "coisa.",
+   "t": 52.1,
+   "sec": "lista"
+  },
+  {
+   "w": "Dezembro",
+   "t": 52.57,
+   "sec": "lista"
+  },
+  {
+   "w": "do",
+   "t": 53.04,
+   "sec": "lista"
+  },
+  {
+   "w": "ano",
+   "t": 53.16,
+   "sec": "lista"
+  },
+  {
+   "w": "passado,",
+   "t": 53.68,
+   "sec": "lista"
+  },
+  {
+   "w": "você",
+   "t": 54.08,
+   "sec": "lista"
+  },
+  {
+   "w": "fez",
+   "t": 54.3,
+   "sec": "lista"
+  },
+  {
+   "w": "aquela",
+   "t": 54.7,
+   "sec": "lista"
+  },
+  {
+   "w": "lista.",
+   "t": 55.36,
+   "sec": "lista"
+  },
+  {
+   "w": "Ano",
+   "t": 55.92,
+   "sec": "lista"
+  },
+  {
+   "w": "que",
+   "t": 56.1,
+   "sec": "lista"
+  },
+  {
+   "w": "vem",
+   "t": 56.44,
+   "sec": "lista"
+  },
+  {
+   "w": "eu",
+   "t": 56.78,
+   "sec": "lista"
+  },
+  {
+   "w": "aprendo",
+   "t": 57.12,
+   "sec": "lista"
+  },
+  {
+   "w": "inteligência",
+   "t": 57.46,
+   "sec": "lista"
+  },
+  {
+   "w": "artificial.",
+   "t": 57.8,
+   "sec": "lista"
+  },
+  {
+   "w": "Ano",
+   "t": 58.72,
+   "sec": "lista"
+  },
+  {
+   "w": "que",
+   "t": 58.9,
+   "sec": "lista"
+  },
+  {
+   "w": "vem",
+   "t": 59.12,
+   "sec": "lista"
+  },
+  {
+   "w": "eu",
+   "t": 59.34,
+   "sec": "lista"
+  },
+  {
+   "w": "faço",
+   "t": 59.56,
+   "sec": "lista"
+  },
+  {
+   "w": "aquele",
+   "t": 60.0,
+   "sec": "lista"
+  },
+  {
+   "w": "curso",
+   "t": 60.32,
+   "sec": "lista"
+  },
+  {
+   "w": "de",
+   "t": 60.5,
+   "sec": "lista"
+  },
+  {
+   "w": "dados.",
+   "t": 60.98,
+   "sec": "lista"
+  },
+  {
+   "w": "Ano",
+   "t": 61.58,
+   "sec": "lista"
+  },
+  {
+   "w": "que",
+   "t": 61.78,
+   "sec": "lista"
+  },
+  {
+   "w": "vem",
+   "t": 62.09,
+   "sec": "lista"
+  },
+  {
+   "w": "eu",
+   "t": 62.4,
+   "sec": "lista"
+  },
+  {
+   "w": "atualizo",
+   "t": 62.62,
+   "sec": "lista"
+  },
+  {
+   "w": "meu",
+   "t": 63.0,
+   "sec": "lista"
+  },
+  {
+   "w": "LinkedIn.",
+   "t": 63.68,
+   "sec": "lista"
+  },
+  {
+   "w": "E",
+   "t": 64.36,
+   "sec": "lista"
+  },
+  {
+   "w": "agora",
+   "t": 64.74,
+   "sec": "lista"
+  },
+  {
+   "w": "é",
+   "t": 65.38,
+   "sec": "lista"
+  },
+  {
+   "w": "novembro",
+   "t": 65.74,
+   "sec": "lista"
+  },
+  {
+   "w": "de",
+   "t": 66.1,
+   "sec": "lista"
+  },
+  {
+   "w": "novo.",
+   "t": 66.6,
+   "sec": "lista"
+  },
+  {
+   "w": "Quantos",
+   "t": 67.52,
+   "sec": "lista"
+  },
+  {
+   "w": "itens",
+   "t": 68.44,
+   "sec": "lista"
+  },
+  {
+   "w": "dessa",
+   "t": 68.86,
+   "sec": "lista"
+  },
+  {
+   "w": "lista",
+   "t": 69.06,
+   "sec": "lista"
+  },
+  {
+   "w": "você",
+   "t": 69.38,
+   "sec": "lista"
+  },
+  {
+   "w": "riscou?",
+   "t": 69.82,
+   "sec": "lista"
+  },
+  {
+   "w": "Olha,",
+   "t": 70.72,
+   "sec": "culpa"
+  },
+  {
+   "w": "não",
+   "t": 71.28,
+   "sec": "culpa"
+  },
+  {
+   "w": "é",
+   "t": 71.38,
+   "sec": "culpa"
+  },
+  {
+   "w": "culpa",
+   "t": 71.68,
+   "sec": "culpa"
+  },
+  {
+   "w": "sua.",
+   "t": 72.1,
+   "sec": "culpa"
+  },
+  {
+   "w": "Não",
+   "t": 72.56,
+   "sec": "culpa"
+  },
+  {
+   "w": "é",
+   "t": 72.62,
+   "sec": "culpa"
+  },
+  {
+   "w": "preguiça.",
+   "t": 73.02,
+   "sec": "culpa"
+  },
+  {
+   "w": "É",
+   "t": 73.8,
+   "sec": "culpa"
+  },
+  {
+   "w": "que",
+   "t": 74.04,
+   "sec": "culpa"
+  },
+  {
+   "w": "todo",
+   "t": 74.34,
+   "sec": "culpa"
+  },
+  {
+   "w": "caminho",
+   "t": 74.8,
+   "sec": "culpa"
+  },
+  {
+   "w": "tinha",
+   "t": 75.16,
+   "sec": "culpa"
+  },
+  {
+   "w": "uma",
+   "t": 75.42,
+   "sec": "culpa"
+  },
+  {
+   "w": "trava.",
+   "t": 75.84,
+   "sec": "culpa"
+  },
+  {
+   "w": "E",
+   "t": 76.52,
+   "sec": "culpa"
+  },
+  {
+   "w": "enquanto",
+   "t": 76.78,
+   "sec": "culpa"
+  },
+  {
+   "w": "isso,",
+   "t": 77.26,
+   "sec": "culpa"
+  },
+  {
+   "w": "as",
+   "t": 77.74,
+   "sec": "culpa"
+  },
+  {
+   "w": "vagas",
+   "t": 77.98,
+   "sec": "culpa"
+  },
+  {
+   "w": "que",
+   "t": 78.24,
+   "sec": "culpa"
+  },
+  {
+   "w": "pagam",
+   "t": 78.52,
+   "sec": "culpa"
+  },
+  {
+   "w": "melhor",
+   "t": 79.0,
+   "sec": "culpa"
+  },
+  {
+   "w": "começaram",
+   "t": 79.42,
+   "sec": "culpa"
+  },
+  {
+   "w": "a",
+   "t": 79.66,
+   "sec": "culpa"
+  },
+  {
+   "w": "pedir",
+   "t": 79.94,
+   "sec": "culpa"
+  },
+  {
+   "w": "exatamente",
+   "t": 80.58,
+   "sec": "culpa"
+  },
+  {
+   "w": "aquilo",
+   "t": 81.18,
+   "sec": "culpa"
+  },
+  {
+   "w": "que",
+   "t": 81.32,
+   "sec": "culpa"
+  },
+  {
+   "w": "você",
+   "t": 81.62,
+   "sec": "culpa"
+  },
+  {
+   "w": "ia",
+   "t": 81.86,
+   "sec": "culpa"
+  },
+  {
+   "w": "aprender",
+   "t": 82.26,
+   "sec": "culpa"
+  },
+  {
+   "w": "ano",
+   "t": 82.68,
+   "sec": "culpa"
+  },
+  {
+   "w": "que",
+   "t": 82.86,
+   "sec": "culpa"
+  },
+  {
+   "w": "vem.",
+   "t": 83.36,
+   "sec": "culpa"
+  },
+  {
+   "w": "Inteligência",
+   "t": 83.88,
+   "sec": "culpa"
+  },
+  {
+   "w": "artificial,",
+   "t": 84.8,
+   "sec": "culpa"
+  },
+  {
+   "w": "análise",
+   "t": 85.52,
+   "sec": "culpa"
+  },
+  {
+   "w": "de",
+   "t": 85.86,
+   "sec": "culpa"
+  },
+  {
+   "w": "dados,",
+   "t": 86.32,
+   "sec": "culpa"
+  },
+  {
+   "w": "gestão,",
+   "t": 86.9,
+   "sec": "culpa"
+  },
+  {
+   "w": "inglês",
+   "t": 87.45,
+   "sec": "culpa"
+  },
+  {
+   "w": "para",
+   "t": 88.0,
+   "sec": "culpa"
+  },
+  {
+   "w": "negócios.",
+   "t": 88.44,
+   "sec": "culpa"
+  },
+  {
+   "w": "E",
+   "t": 89.44,
+   "sec": "culpa"
+  },
+  {
+   "w": "a",
+   "t": 89.68,
+   "sec": "culpa"
+  },
+  {
+   "w": "cada",
+   "t": 89.86,
+   "sec": "culpa"
+  },
+  {
+   "w": "mês",
+   "t": 90.1,
+   "sec": "culpa"
+  },
+  {
+   "w": "que",
+   "t": 90.32,
+   "sec": "culpa"
+  },
+  {
+   "w": "passa",
+   "t": 90.78,
+   "sec": "culpa"
+  },
+  {
+   "w": "essa",
+   "t": 91.22,
+   "sec": "culpa"
+  },
+  {
+   "w": "distância",
+   "t": 91.62,
+   "sec": "culpa"
+  },
+  {
+   "w": "aumenta",
+   "t": 92.22,
+   "sec": "culpa"
+  },
+  {
+   "w": "mais",
+   "t": 92.76,
+   "sec": "culpa"
+  },
+  {
+   "w": "um",
+   "t": 92.88,
+   "sec": "culpa"
+  },
+  {
+   "w": "pouco.",
+   "t": 93.5,
+   "sec": "culpa"
+  },
+  {
+   "w": "Deixa",
+   "t": 94.02,
+   "sec": "travas"
+  },
+  {
+   "w": "eu",
+   "t": 94.1,
+   "sec": "travas"
+  },
+  {
+   "w": "mostrar",
+   "t": 94.5,
+   "sec": "travas"
+  },
+  {
+   "w": "quais",
+   "t": 95.0,
+   "sec": "travas"
+  },
+  {
+   "w": "são",
+   "t": 95.26,
+   "sec": "travas"
+  },
+  {
+   "w": "essas",
+   "t": 95.54,
+   "sec": "travas"
+  },
+  {
+   "w": "travas,",
+   "t": 95.9,
+   "sec": "travas"
+  },
+  {
+   "w": "porque",
+   "t": 96.52,
+   "sec": "travas"
+  },
+  {
+   "w": "eu",
+   "t": 96.64,
+   "sec": "travas"
+  },
+  {
+   "w": "aposto",
+   "t": 97.12,
+   "sec": "travas"
+  },
+  {
+   "w": "que",
+   "t": 97.32,
+   "sec": "travas"
+  },
+  {
+   "w": "você",
+   "t": 97.62,
+   "sec": "travas"
+  },
+  {
+   "w": "já",
+   "t": 97.84,
+   "sec": "travas"
+  },
+  {
+   "w": "bateu",
+   "t": 98.14,
+   "sec": "travas"
+  },
+  {
+   "w": "em",
+   "t": 98.36,
+   "sec": "travas"
+  },
+  {
+   "w": "pelo",
+   "t": 98.56,
+   "sec": "travas"
+  },
+  {
+   "w": "menos",
+   "t": 98.8,
+   "sec": "travas"
+  },
+  {
+   "w": "uma",
+   "t": 99.2,
+   "sec": "travas"
+  },
+  {
+   "w": "delas.",
+   "t": 99.66,
+   "sec": "travas"
+  },
+  {
+   "w": "Trava",
+   "t": 100.49,
+   "sec": "trava1"
+  },
+  {
+   "w": "número",
+   "t": 100.89,
+   "sec": "trava1"
+  },
+  {
+   "w": "um:",
+   "t": 101.51,
+   "sec": "trava1"
+  },
+  {
+   "w": "o",
+   "t": 101.87,
+   "sec": "trava1"
+  },
+  {
+   "w": "curso",
+   "t": 102.13,
+   "sec": "trava1"
+  },
+  {
+   "w": "bom",
+   "t": 102.53,
+   "sec": "trava1"
+  },
+  {
+   "w": "é",
+   "t": 102.93,
+   "sec": "trava1"
+  },
+  {
+   "w": "caro.",
+   "t": 103.31,
+   "sec": "trava1"
+  },
+  {
+   "w": "O",
+   "t": 103.93,
+   "sec": "trava1"
+  },
+  {
+   "w": "plano",
+   "t": 104.11,
+   "sec": "trava1"
+  },
+  {
+   "w": "anual",
+   "t": 104.49,
+   "sec": "trava1"
+  },
+  {
+   "w": "do",
+   "t": 104.65,
+   "sec": "trava1"
+  },
+  {
+   "w": "Coursera",
+   "t": 104.89,
+   "sec": "trava1"
+  },
+  {
+   "w": "Plus",
+   "t": 105.45,
+   "sec": "trava1"
+  },
+  {
+   "w": "sai",
+   "t": 105.75,
+   "sec": "trava1"
+  },
+  {
+   "w": "por",
+   "t": 105.97,
+   "sec": "trava1"
+  },
+  {
+   "w": "cerca",
+   "t": 106.25,
+   "sec": "trava1"
+  },
+  {
+   "w": "de",
+   "t": 106.63,
+   "sec": "trava1"
+  },
+  {
+   "w": "mil",
+   "t": 106.88,
+   "sec": "trava1"
+  },
+  {
+   "w": "e",
+   "t": 107.13,
+   "sec": "trava1"
+  },
+  {
+   "w": "duzentos",
+   "t": 107.38,
+   "sec": "trava1"
+  },
+  {
+   "w": "reais",
+   "t": 107.63,
+   "sec": "trava1"
+  },
+  {
+   "w": "no",
+   "t": 107.81,
+   "sec": "trava1"
+  },
+  {
+   "w": "site",
+   "t": 108.05,
+   "sec": "trava1"
+  },
+  {
+   "w": "oficial.",
+   "t": 108.61,
+   "sec": "trava1"
+  },
+  {
+   "w": "Com",
+   "t": 109.23,
+   "sec": "trava1"
+  },
+  {
+   "w": "cartão",
+   "t": 109.45,
+   "sec": "trava1"
+  },
+  {
+   "w": "internacional,",
+   "t": 110.19,
+   "sec": "trava1"
+  },
+  {
+   "w": "IOF,",
+   "t": 110.75,
+   "sec": "trava1"
+  },
+  {
+   "w": "câmbio",
+   "t": 111.31,
+   "sec": "trava1"
+  },
+  {
+   "w": "do",
+   "t": 111.87,
+   "sec": "trava1"
+  },
+  {
+   "w": "dia",
+   "t": 112.31,
+   "sec": "trava1"
+  },
+  {
+   "w": "e",
+   "t": 112.63,
+   "sec": "trava1"
+  },
+  {
+   "w": "renovação",
+   "t": 112.93,
+   "sec": "trava1"
+  },
+  {
+   "w": "automática",
+   "t": 113.49,
+   "sec": "trava1"
+  },
+  {
+   "w": "no",
+   "t": 114.05,
+   "sec": "trava1"
+  },
+  {
+   "w": "ano",
+   "t": 114.23,
+   "sec": "trava1"
+  },
+  {
+   "w": "seguinte.",
+   "t": 114.77,
+   "sec": "trava1"
+  },
+  {
+   "w": "Trava",
+   "t": 115.47,
+   "sec": "trava2"
+  },
+  {
+   "w": "número",
+   "t": 115.91,
+   "sec": "trava2"
+  },
+  {
+   "w": "dois:",
+   "t": 116.51,
+   "sec": "trava2"
+  },
+  {
+   "w": "o",
+   "t": 117.03,
+   "sec": "trava2"
+  },
+  {
+   "w": "curso",
+   "t": 117.23,
+   "sec": "trava2"
+  },
+  {
+   "w": "avulso.",
+   "t": 117.9,
+   "sec": "trava2"
+  },
+  {
+   "w": "Você",
+   "t": 118.57,
+   "sec": "trava2"
+  },
+  {
+   "w": "paga",
+   "t": 118.79,
+   "sec": "trava2"
+  },
+  {
+   "w": "um,",
+   "t": 119.39,
+   "sec": "trava2"
+  },
+  {
+   "w": "depois",
+   "t": 119.75,
+   "sec": "trava2"
+  },
+  {
+   "w": "outro,",
+   "t": 120.25,
+   "sec": "trava2"
+  },
+  {
+   "w": "depois",
+   "t": 120.79,
+   "sec": "trava2"
+  },
+  {
+   "w": "outro,",
+   "t": 121.31,
+   "sec": "trava2"
+  },
+  {
+   "w": "e",
+   "t": 122.35,
+   "sec": "trava2"
+  },
+  {
+   "w": "para",
+   "t": 122.677,
+   "sec": "trava2"
+  },
+  {
+   "w": "no",
+   "t": 123.003,
+   "sec": "trava2"
+  },
+  {
+   "w": "segundo.",
+   "t": 123.33,
+   "sec": "trava2"
+  },
+  {
+   "w": "Porque",
+   "t": 123.99,
+   "sec": "trava2"
+  },
+  {
+   "w": "cada",
+   "t": 124.35,
+   "sec": "trava2"
+  },
+  {
+   "w": "certificado",
+   "t": 124.95,
+   "sec": "trava2"
+  },
+  {
+   "w": "custa",
+   "t": 125.47,
+   "sec": "trava2"
+  },
+  {
+   "w": "como",
+   "t": 125.77,
+   "sec": "trava2"
+  },
+  {
+   "w": "se",
+   "t": 125.89,
+   "sec": "trava2"
+  },
+  {
+   "w": "fosse",
+   "t": 126.21,
+   "sec": "trava2"
+  },
+  {
+   "w": "o",
+   "t": 126.39,
+   "sec": "trava2"
+  },
+  {
+   "w": "único.",
+   "t": 126.87,
+   "sec": "trava2"
+  },
+  {
+   "w": "Trava",
+   "t": 127.49,
+   "sec": "trava3"
+  },
+  {
+   "w": "número",
+   "t": 127.81,
+   "sec": "trava3"
+  },
+  {
+   "w": "três:",
+   "t": 128.49,
+   "sec": "trava3"
+  },
+  {
+   "w": "o",
+   "t": 128.89,
+   "sec": "trava3"
+  },
+  {
+   "w": "gratuito.",
+   "t": 129.37,
+   "sec": "trava3"
+  },
+  {
+   "w": "O",
+   "t": 130.13,
+   "sec": "trava3"
+  },
+  {
+   "w": "YouTube",
+   "t": 130.41,
+   "sec": "trava3"
+  },
+  {
+   "w": "tem",
+   "t": 130.69,
+   "sec": "trava3"
+  },
+  {
+   "w": "tudo,",
+   "t": 130.97,
+   "sec": "trava3"
+  },
+  {
+   "w": "né?",
+   "t": 131.51,
+   "sec": "trava3"
+  },
+  {
+   "w": "Tem,",
+   "t": 131.95,
+   "sec": "trava3"
+  },
+  {
+   "w": "mas",
+   "t": 132.55,
+   "sec": "trava3"
+  },
+  {
+   "w": "não",
+   "t": 132.73,
+   "sec": "trava3"
+  },
+  {
+   "w": "tem",
+   "t": 132.97,
+   "sec": "trava3"
+  },
+  {
+   "w": "trilha,",
+   "t": 133.31,
+   "sec": "trava3"
+  },
+  {
+   "w": "não",
+   "t": 133.75,
+   "sec": "trava3"
+  },
+  {
+   "w": "tem",
+   "t": 133.93,
+   "sec": "trava3"
+  },
+  {
+   "w": "certificado",
+   "t": 134.47,
+   "sec": "trava3"
+  },
+  {
+   "w": "e",
+   "t": 135.11,
+   "sec": "trava3"
+  },
+  {
+   "w": "não",
+   "t": 135.33,
+   "sec": "trava3"
+  },
+  {
+   "w": "tem",
+   "t": 135.61,
+   "sec": "trava3"
+  },
+  {
+   "w": "fim.",
+   "t": 136.03,
+   "sec": "trava3"
+  },
+  {
+   "w": "Você",
+   "t": 136.63,
+   "sec": "trava3"
+  },
+  {
+   "w": "assiste",
+   "t": 137.05,
+   "sec": "trava3"
+  },
+  {
+   "w": "vinte",
+   "t": 137.47,
+   "sec": "trava3"
+  },
+  {
+   "w": "vídeos",
+   "t": 138.03,
+   "sec": "trava3"
+  },
+  {
+   "w": "e",
+   "t": 138.37,
+   "sec": "trava3"
+  },
+  {
+   "w": "continua",
+   "t": 138.67,
+   "sec": "trava3"
+  },
+  {
+   "w": "no",
+   "t": 139.05,
+   "sec": "trava3"
+  },
+  {
+   "w": "mesmo",
+   "t": 139.35,
+   "sec": "trava3"
+  },
+  {
+   "w": "lugar.",
+   "t": 139.89,
+   "sec": "trava3"
+  },
+  {
+   "w": "E",
+   "t": 140.47,
+   "sec": "trava4"
+  },
+  {
+   "w": "a",
+   "t": 140.717,
+   "sec": "trava4"
+  },
+  {
+   "w": "trava",
+   "t": 140.963,
+   "sec": "trava4"
+  },
+  {
+   "w": "número",
+   "t": 141.21,
+   "sec": "trava4"
+  },
+  {
+   "w": "quatro,",
+   "t": 141.73,
+   "sec": "trava4"
+  },
+  {
+   "w": "a",
+   "t": 142.09,
+   "sec": "trava4"
+  },
+  {
+   "w": "pior",
+   "t": 142.45,
+   "sec": "trava4"
+  },
+  {
+   "w": "de",
+   "t": 142.75,
+   "sec": "trava4"
+  },
+  {
+   "w": "todas:",
+   "t": 143.31,
+   "sec": "trava4"
+  },
+  {
+   "w": "a",
+   "t": 143.89,
+   "sec": "trava4"
+  },
+  {
+   "w": "conta",
+   "t": 144.21,
+   "sec": "trava4"
+  },
+  {
+   "w": "barata",
+   "t": 144.63,
+   "sec": "trava4"
+  },
+  {
+   "w": "de",
+   "t": 145.01,
+   "sec": "trava4"
+  },
+  {
+   "w": "grupo.",
+   "t": 145.41,
+   "sec": "trava4"
+  },
+  {
+   "w": "Conta",
+   "t": 146.12,
+   "sec": "trava4"
+  },
+  {
+   "w": "compartilhada",
+   "t": 146.64,
+   "sec": "trava4"
+  },
+  {
+   "w": "com",
+   "t": 147.04,
+   "sec": "trava4"
+  },
+  {
+   "w": "mais",
+   "t": 147.36,
+   "sec": "trava4"
+  },
+  {
+   "w": "quinze",
+   "t": 147.68,
+   "sec": "trava4"
+  },
+  {
+   "w": "pessoas,",
+   "t": 148.24,
+   "sec": "trava4"
+  },
+  {
+   "w": "que",
+   "t": 148.62,
+   "sec": "trava4"
+  },
+  {
+   "w": "cai",
+   "t": 148.88,
+   "sec": "trava4"
+  },
+  {
+   "w": "no",
+   "t": 148.98,
+   "sec": "trava4"
+  },
+  {
+   "w": "meio",
+   "t": 149.16,
+   "sec": "trava4"
+  },
+  {
+   "w": "do",
+   "t": 149.34,
+   "sec": "trava4"
+  },
+  {
+   "w": "curso,",
+   "t": 149.76,
+   "sec": "trava4"
+  },
+  {
+   "w": "e",
+   "t": 150.32,
+   "sec": "trava4"
+  },
+  {
+   "w": "um",
+   "t": 150.38,
+   "sec": "trava4"
+  },
+  {
+   "w": "vendedor",
+   "t": 150.75,
+   "sec": "trava4"
+  },
+  {
+   "w": "que",
+   "t": 151.12,
+   "sec": "trava4"
+  },
+  {
+   "w": "some",
+   "t": 151.55,
+   "sec": "trava4"
+  },
+  {
+   "w": "justo",
+   "t": 151.98,
+   "sec": "trava4"
+  },
+  {
+   "w": "quando",
+   "t": 152.22,
+   "sec": "trava4"
+  },
+  {
+   "w": "você",
+   "t": 152.52,
+   "sec": "trava4"
+  },
+  {
+   "w": "precisa",
+   "t": 152.88,
+   "sec": "trava4"
+  },
+  {
+   "w": "dele.",
+   "t": 153.36,
+   "sec": "trava4"
+  },
+  {
+   "w": "Se",
+   "t": 153.84,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "você",
+   "t": 154.2,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "já",
+   "t": 154.5,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "caiu",
+   "t": 154.76,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "numa",
+   "t": 155.06,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "dessas,",
+   "t": 155.68,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "eu",
+   "t": 155.98,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "entendo",
+   "t": 156.28,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "a",
+   "t": 156.62,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "sua",
+   "t": 156.62,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "desconfiança.",
+   "t": 157.04,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "Ela",
+   "t": 157.92,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "é",
+   "t": 158.12,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "justa.",
+   "t": 158.32,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "Foi",
+   "t": 159.06,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "exatamente",
+   "t": 159.64,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "para",
+   "t": 160.06,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "resolver",
+   "t": 160.42,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "isso",
+   "t": 160.84,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "que",
+   "t": 161.06,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "a",
+   "t": 161.14,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "Nexools",
+   "t": 161.54,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "criou",
+   "t": 161.94,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "o",
+   "t": 162.02,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "que",
+   "t": 162.1,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "a",
+   "t": 162.18,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "gente",
+   "t": 162.46,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "chama",
+   "t": 162.76,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "de",
+   "t": 163.12,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "Passe",
+   "t": 163.48,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "Anual",
+   "t": 163.84,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "com",
+   "t": 164.2,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "três",
+   "t": 164.56,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "travas.",
+   "t": 164.88,
+   "sec": "desconfianca"
+  },
+  {
+   "w": "Funciona",
+   "t": 165.64,
+   "sec": "sol1"
+  },
+  {
+   "w": "assim.",
+   "t": 166.38,
+   "sec": "sol1"
+  },
+  {
+   "w": "Primeira",
+   "t": 166.92,
+   "sec": "sol1"
+  },
+  {
+   "w": "trava:",
+   "t": 167.66,
+   "sec": "sol1"
+  },
+  {
+   "w": "a",
+   "t": 168.22,
+   "sec": "sol1"
+  },
+  {
+   "w": "conta",
+   "t": 168.5,
+   "sec": "sol1"
+  },
+  {
+   "w": "é",
+   "t": 168.88,
+   "sec": "sol1"
+  },
+  {
+   "w": "sua.",
+   "t": 169.26,
+   "sec": "sol1"
+  },
+  {
+   "w": "Você",
+   "t": 169.92,
+   "sec": "sol1"
+  },
+  {
+   "w": "recebe",
+   "t": 170.32,
+   "sec": "sol1"
+  },
+  {
+   "w": "o",
+   "t": 170.52,
+   "sec": "sol1"
+  },
+  {
+   "w": "acesso,",
+   "t": 171.1,
+   "sec": "sol1"
+  },
+  {
+   "w": "troca",
+   "t": 171.7,
+   "sec": "sol1"
+  },
+  {
+   "w": "a",
+   "t": 171.92,
+   "sec": "sol1"
+  },
+  {
+   "w": "senha",
+   "t": 172.08,
+   "sec": "sol1"
+  },
+  {
+   "w": "e",
+   "t": 172.38,
+   "sec": "sol1"
+  },
+  {
+   "w": "coloca",
+   "t": 172.66,
+   "sec": "sol1"
+  },
+  {
+   "w": "o",
+   "t": 172.94,
+   "sec": "sol1"
+  },
+  {
+   "w": "seu",
+   "t": 173.12,
+   "sec": "sol1"
+  },
+  {
+   "w": "nome.",
+   "t": 173.6,
+   "sec": "sol1"
+  },
+  {
+   "w": "Ninguém",
+   "t": 174.08,
+   "sec": "sol1"
+  },
+  {
+   "w": "mais",
+   "t": 174.56,
+   "sec": "sol1"
+  },
+  {
+   "w": "usa.",
+   "t": 174.96,
+   "sec": "sol1"
+  },
+  {
+   "w": "Ela",
+   "t": 175.5,
+   "sec": "sol1"
+  },
+  {
+   "w": "não",
+   "t": 175.62,
+   "sec": "sol1"
+  },
+  {
+   "w": "é",
+   "t": 175.78,
+   "sec": "sol1"
+  },
+  {
+   "w": "compartilhada,",
+   "t": 176.24,
+   "sec": "sol1"
+  },
+  {
+   "w": "então",
+   "t": 177.26,
+   "sec": "sol1"
+  },
+  {
+   "w": "ela",
+   "t": 177.58,
+   "sec": "sol1"
+  },
+  {
+   "w": "não",
+   "t": 177.82,
+   "sec": "sol1"
+  },
+  {
+   "w": "cai.",
+   "t": 178.26,
+   "sec": "sol1"
+  },
+  {
+   "w": "Segunda",
+   "t": 178.94,
+   "sec": "sol2"
+  },
+  {
+   "w": "trava:",
+   "t": 179.62,
+   "sec": "sol2"
+  },
+  {
+   "w": "um",
+   "t": 180.24,
+   "sec": "sol2"
+  },
+  {
+   "w": "pagamento",
+   "t": 180.46,
+   "sec": "sol2"
+  },
+  {
+   "w": "só,",
+   "t": 181.3,
+   "sec": "sol2"
+  },
+  {
+   "w": "em",
+   "t": 181.66,
+   "sec": "sol2"
+  },
+  {
+   "w": "reais.",
+   "t": 182.16,
+   "sec": "sol2"
+  },
+  {
+   "w": "Pix",
+   "t": 182.61,
+   "sec": "sol2"
+  },
+  {
+   "w": "ou",
+   "t": 183.06,
+   "sec": "sol2"
+  },
+  {
+   "w": "cartão.",
+   "t": 183.56,
+   "sec": "sol2"
+  },
+  {
+   "w": "Sem",
+   "t": 185.18,
+   "sec": "sol2"
+  },
+  {
+   "w": "dólar,",
+   "t": 185.435,
+   "sec": "sol2"
+  },
+  {
+   "w": "sem",
+   "t": 185.69,
+   "sec": "sol2"
+  },
+  {
+   "w": "IOF,",
+   "t": 185.945,
+   "sec": "sol2"
+  },
+  {
+   "w": "sem",
+   "t": 186.2,
+   "sec": "sol2"
+  },
+  {
+   "w": "mensalidade",
+   "t": 186.6,
+   "sec": "sol2"
+  },
+  {
+   "w": "e",
+   "t": 187.28,
+   "sec": "sol2"
+  },
+  {
+   "w": "sem",
+   "t": 187.52,
+   "sec": "sol2"
+  },
+  {
+   "w": "renovação",
+   "t": 187.84,
+   "sec": "sol2"
+  },
+  {
+   "w": "automática.",
+   "t": 188.52,
+   "sec": "sol2"
+  },
+  {
+   "w": "Acabou",
+   "t": 189.48,
+   "sec": "sol2"
+  },
+  {
+   "w": "o",
+   "t": 189.86,
+   "sec": "sol2"
+  },
+  {
+   "w": "ano,",
+   "t": 190.1,
+   "sec": "sol2"
+  },
+  {
+   "w": "ninguém",
+   "t": 190.587,
+   "sec": "sol2"
+  },
+  {
+   "w": "cobra",
+   "t": 191.073,
+   "sec": "sol2"
+  },
+  {
+   "w": "nada",
+   "t": 191.56,
+   "sec": "sol2"
+  },
+  {
+   "w": "sem",
+   "t": 191.84,
+   "sec": "sol2"
+  },
+  {
+   "w": "você",
+   "t": 192.1,
+   "sec": "sol2"
+  },
+  {
+   "w": "pedir.",
+   "t": 192.48,
+   "sec": "sol2"
+  },
+  {
+   "w": "Terceira",
+   "t": 193.35,
+   "sec": "sol3"
+  },
+  {
+   "w": "trava:",
+   "t": 193.91,
+   "sec": "sol3"
+  },
+  {
+   "w": "gente",
+   "t": 194.85,
+   "sec": "sol3"
+  },
+  {
+   "w": "de",
+   "t": 195.13,
+   "sec": "sol3"
+  },
+  {
+   "w": "verdade.",
+   "t": 195.77,
+   "sec": "sol3"
+  },
+  {
+   "w": "Uma",
+   "t": 196.49,
+   "sec": "sol3"
+  },
+  {
+   "w": "pessoa",
+   "t": 196.91,
+   "sec": "sol3"
+  },
+  {
+   "w": "da",
+   "t": 197.09,
+   "sec": "sol3"
+  },
+  {
+   "w": "Nexools",
+   "t": 197.39,
+   "sec": "sol3"
+  },
+  {
+   "w": "te",
+   "t": 197.69,
+   "sec": "sol3"
+  },
+  {
+   "w": "atende",
+   "t": 197.99,
+   "sec": "sol3"
+  },
+  {
+   "w": "no",
+   "t": 198.29,
+   "sec": "sol3"
+  },
+  {
+   "w": "WhatsApp",
+   "t": 198.85,
+   "sec": "sol3"
+  },
+  {
+   "w": "antes",
+   "t": 199.41,
+   "sec": "sol3"
+  },
+  {
+   "w": "de",
+   "t": 199.59,
+   "sec": "sol3"
+  },
+  {
+   "w": "você",
+   "t": 199.81,
+   "sec": "sol3"
+  },
+  {
+   "w": "pagar",
+   "t": 200.21,
+   "sec": "sol3"
+  },
+  {
+   "w": "e",
+   "t": 200.49,
+   "sec": "sol3"
+  },
+  {
+   "w": "durante",
+   "t": 200.77,
+   "sec": "sol3"
+  },
+  {
+   "w": "os",
+   "t": 201.05,
+   "sec": "sol3"
+  },
+  {
+   "w": "doze",
+   "t": 201.35,
+   "sec": "sol3"
+  },
+  {
+   "w": "meses.",
+   "t": 202.01,
+   "sec": "sol3"
+  },
+  {
+   "w": "Travou",
+   "t": 202.55,
+   "sec": "sol3"
+  },
+  {
+   "w": "no",
+   "t": 202.77,
+   "sec": "sol3"
+  },
+  {
+   "w": "acesso?",
+   "t": 203.21,
+   "sec": "sol3"
+  },
+  {
+   "w": "Você",
+   "t": 203.85,
+   "sec": "sol3"
+  },
+  {
+   "w": "manda",
+   "t": 204.15,
+   "sec": "sol3"
+  },
+  {
+   "w": "mensagem",
+   "t": 204.61,
+   "sec": "sol3"
+  },
+  {
+   "w": "e",
+   "t": 205.07,
+   "sec": "sol3"
+  },
+  {
+   "w": "alguém",
+   "t": 205.37,
+   "sec": "sol3"
+  },
+  {
+   "w": "resolve",
+   "t": 205.79,
+   "sec": "sol3"
+  },
+  {
+   "w": "com",
+   "t": 206.01,
+   "sec": "sol3"
+  },
+  {
+   "w": "você.",
+   "t": 206.67,
+   "sec": "sol3"
+  },
+  {
+   "w": "Três",
+   "t": 207.31,
+   "sec": "sol4"
+  },
+  {
+   "w": "travas.",
+   "t": 207.69,
+   "sec": "sol4"
+  },
+  {
+   "w": "Uma",
+   "t": 208.65,
+   "sec": "sol4"
+  },
+  {
+   "w": "pra",
+   "t": 208.97,
+   "sec": "sol4"
+  },
+  {
+   "w": "cada",
+   "t": 209.23,
+   "sec": "sol4"
+  },
+  {
+   "w": "medo",
+   "t": 209.51,
+   "sec": "sol4"
+  },
+  {
+   "w": "que",
+   "t": 209.71,
+   "sec": "sol4"
+  },
+  {
+   "w": "você",
+   "t": 209.97,
+   "sec": "sol4"
+  },
+  {
+   "w": "está",
+   "t": 210.17,
+   "sec": "sol4"
+  },
+  {
+   "w": "sentindo",
+   "t": 210.49,
+   "sec": "sol4"
+  },
+  {
+   "w": "agora.",
+   "t": 211.09,
+   "sec": "sol4"
+  },
+  {
+   "w": "E",
+   "t": 211.75,
+   "sec": "porque"
+  },
+  {
+   "w": "aí",
+   "t": 211.89,
+   "sec": "porque"
+  },
+  {
+   "w": "você",
+   "t": 212.11,
+   "sec": "porque"
+  },
+  {
+   "w": "me",
+   "t": 212.27,
+   "sec": "porque"
+  },
+  {
+   "w": "pergunta:",
+   "t": 212.83,
+   "sec": "porque"
+  },
+  {
+   "w": "tá,",
+   "t": 213.77,
+   "sec": "porque"
+  },
+  {
+   "w": "mas",
+   "t": 214.41,
+   "sec": "porque"
+  },
+  {
+   "w": "por",
+   "t": 214.683,
+   "sec": "porque"
+  },
+  {
+   "w": "que",
+   "t": 214.957,
+   "sec": "porque"
+  },
+  {
+   "w": "tão",
+   "t": 215.23,
+   "sec": "porque"
+  },
+  {
+   "w": "mais",
+   "t": 215.43,
+   "sec": "porque"
+  },
+  {
+   "w": "barato?",
+   "t": 215.77,
+   "sec": "porque"
+  },
+  {
+   "w": "Pergunta",
+   "t": 216.53,
+   "sec": "porque"
+  },
+  {
+   "w": "justa.",
+   "t": 217.27,
+   "sec": "porque"
+  },
+  {
+   "w": "Vou",
+   "t": 217.585,
+   "sec": "porque"
+  },
+  {
+   "w": "ser",
+   "t": 217.9,
+   "sec": "porque"
+  },
+  {
+   "w": "direto",
+   "t": 218.215,
+   "sec": "porque"
+  },
+  {
+   "w": "com",
+   "t": 218.53,
+   "sec": "porque"
+  },
+  {
+   "w": "você.",
+   "t": 218.95,
+   "sec": "porque"
+  },
+  {
+   "w": "A",
+   "t": 219.53,
+   "sec": "porque"
+  },
+  {
+   "w": "Nexools",
+   "t": 219.86,
+   "sec": "porque"
+  },
+  {
+   "w": "é",
+   "t": 220.19,
+   "sec": "porque"
+  },
+  {
+   "w": "uma",
+   "t": 220.27,
+   "sec": "porque"
+  },
+  {
+   "w": "revendedora",
+   "t": 220.87,
+   "sec": "porque"
+  },
+  {
+   "w": "independente.",
+   "t": 221.47,
+   "sec": "porque"
+  },
+  {
+   "w": "A",
+   "t": 222.47,
+   "sec": "porque"
+  },
+  {
+   "w": "gente",
+   "t": 222.47,
+   "sec": "porque"
+  },
+  {
+   "w": "não",
+   "t": 222.69,
+   "sec": "porque"
+  },
+  {
+   "w": "é",
+   "t": 222.83,
+   "sec": "porque"
+  },
+  {
+   "w": "o",
+   "t": 223.103,
+   "sec": "porque"
+  },
+  {
+   "w": "Coursera",
+   "t": 223.377,
+   "sec": "porque"
+  },
+  {
+   "w": "e",
+   "t": 223.65,
+   "sec": "porque"
+  },
+  {
+   "w": "não",
+   "t": 223.83,
+   "sec": "porque"
+  },
+  {
+   "w": "fala",
+   "t": 224.07,
+   "sec": "porque"
+  },
+  {
+   "w": "em",
+   "t": 224.25,
+   "sec": "porque"
+  },
+  {
+   "w": "nome",
+   "t": 224.623,
+   "sec": "porque"
+  },
+  {
+   "w": "dele.",
+   "t": 224.997,
+   "sec": "porque"
+  },
+  {
+   "w": "A",
+   "t": 225.37,
+   "sec": "porque"
+  },
+  {
+   "w": "gente",
+   "t": 225.53,
+   "sec": "porque"
+  },
+  {
+   "w": "trabalha",
+   "t": 225.99,
+   "sec": "porque"
+  },
+  {
+   "w": "com",
+   "t": 226.25,
+   "sec": "porque"
+  },
+  {
+   "w": "uma",
+   "t": 226.41,
+   "sec": "porque"
+  },
+  {
+   "w": "condição",
+   "t": 226.63,
+   "sec": "porque"
+  },
+  {
+   "w": "comercial",
+   "t": 227.25,
+   "sec": "porque"
+  },
+  {
+   "w": "própria,",
+   "t": 228.07,
+   "sec": "porque"
+  },
+  {
+   "w": "pensada",
+   "t": 228.67,
+   "sec": "porque"
+  },
+  {
+   "w": "para",
+   "t": 229.07,
+   "sec": "porque"
+  },
+  {
+   "w": "o",
+   "t": 229.13,
+   "sec": "porque"
+  },
+  {
+   "w": "público",
+   "t": 229.45,
+   "sec": "porque"
+  },
+  {
+   "w": "brasileiro.",
+   "t": 230.01,
+   "sec": "porque"
+  },
+  {
+   "w": "E",
+   "t": 230.85,
+   "sec": "porque"
+  },
+  {
+   "w": "é",
+   "t": 230.93,
+   "sec": "porque"
+  },
+  {
+   "w": "justamente",
+   "t": 231.43,
+   "sec": "porque"
+  },
+  {
+   "w": "por",
+   "t": 231.75,
+   "sec": "porque"
+  },
+  {
+   "w": "isso",
+   "t": 232.05,
+   "sec": "porque"
+  },
+  {
+   "w": "que",
+   "t": 232.17,
+   "sec": "porque"
+  },
+  {
+   "w": "a",
+   "t": 232.27,
+   "sec": "porque"
+  },
+  {
+   "w": "gente",
+   "t": 232.39,
+   "sec": "porque"
+  },
+  {
+   "w": "faz",
+   "t": 232.69,
+   "sec": "porque"
+  },
+  {
+   "w": "questão",
+   "t": 233.19,
+   "sec": "porque"
+  },
+  {
+   "w": "de",
+   "t": 233.51,
+   "sec": "porque"
+  },
+  {
+   "w": "mostrar",
+   "t": 233.91,
+   "sec": "porque"
+  },
+  {
+   "w": "tudo",
+   "t": 234.57,
+   "sec": "porque"
+  },
+  {
+   "w": "antes",
+   "t": 235.05,
+   "sec": "porque"
+  },
+  {
+   "w": "de",
+   "t": 235.23,
+   "sec": "porque"
+  },
+  {
+   "w": "você",
+   "t": 235.47,
+   "sec": "porque"
+  },
+  {
+   "w": "pagar.",
+   "t": 235.97,
+   "sec": "porque"
+  },
+  {
+   "w": "Agora",
+   "t": 236.59,
+   "sec": "imagina"
+  },
+  {
+   "w": "imagina",
+   "t": 237.05,
+   "sec": "imagina"
+  },
+  {
+   "w": "os",
+   "t": 237.35,
+   "sec": "imagina"
+  },
+  {
+   "w": "próximos",
+   "t": 237.75,
+   "sec": "imagina"
+  },
+  {
+   "w": "doze",
+   "t": 238.29,
+   "sec": "imagina"
+  },
+  {
+   "w": "meses.",
+   "t": 238.89,
+   "sec": "imagina"
+  },
+  {
+   "w": "Você",
+   "t": 239.53,
+   "sec": "imagina"
+  },
+  {
+   "w": "abre",
+   "t": 239.83,
+   "sec": "imagina"
+  },
+  {
+   "w": "o",
+   "t": 239.93,
+   "sec": "imagina"
+  },
+  {
+   "w": "aplicativo",
+   "t": 240.25,
+   "sec": "imagina"
+  },
+  {
+   "w": "no",
+   "t": 240.65,
+   "sec": "imagina"
+  },
+  {
+   "w": "ônibus,",
+   "t": 241.03,
+   "sec": "imagina"
+  },
+  {
+   "w": "dez",
+   "t": 241.65,
+   "sec": "imagina"
+  },
+  {
+   "w": "minutos,",
+   "t": 242.13,
+   "sec": "imagina"
+  },
+  {
+   "w": "e",
+   "t": 242.57,
+   "sec": "imagina"
+  },
+  {
+   "w": "termina",
+   "t": 242.91,
+   "sec": "imagina"
+  },
+  {
+   "w": "uma",
+   "t": 243.37,
+   "sec": "imagina"
+  },
+  {
+   "w": "aula.",
+   "t": 243.63,
+   "sec": "imagina"
+  },
+  {
+   "w": "Sem",
+   "t": 244.29,
+   "sec": "imagina"
+  },
+  {
+   "w": "aula",
+   "t": 244.59,
+   "sec": "imagina"
+  },
+  {
+   "w": "ao",
+   "t": 244.85,
+   "sec": "imagina"
+  },
+  {
+   "w": "vivo,",
+   "t": 245.27,
+   "sec": "imagina"
+  },
+  {
+   "w": "sem",
+   "t": 245.77,
+   "sec": "imagina"
+  },
+  {
+   "w": "horário",
+   "t": 246.257,
+   "sec": "imagina"
+  },
+  {
+   "w": "marcado,",
+   "t": 246.743,
+   "sec": "imagina"
+  },
+  {
+   "w": "no",
+   "t": 247.23,
+   "sec": "imagina"
+  },
+  {
+   "w": "celular",
+   "t": 247.69,
+   "sec": "imagina"
+  },
+  {
+   "w": "ou",
+   "t": 248.05,
+   "sec": "imagina"
+  },
+  {
+   "w": "no",
+   "t": 248.27,
+   "sec": "imagina"
+  },
+  {
+   "w": "computador.",
+   "t": 248.47,
+   "sec": "imagina"
+  },
+  {
+   "w": "Você",
+   "t": 249.43,
+   "sec": "trilhas"
+  },
+  {
+   "w": "escolhe",
+   "t": 249.89,
+   "sec": "trilhas"
+  },
+  {
+   "w": "uma",
+   "t": 250.09,
+   "sec": "trilhas"
+  },
+  {
+   "w": "trilha.",
+   "t": 250.59,
+   "sec": "trilhas"
+  },
+  {
+   "w": "Inteligência",
+   "t": 251.43,
+   "sec": "trilhas"
+  },
+  {
+   "w": "artificial",
+   "t": 252.35,
+   "sec": "trilhas"
+  },
+  {
+   "w": "pra",
+   "t": 252.71,
+   "sec": "trilhas"
+  },
+  {
+   "w": "usar",
+   "t": 253.07,
+   "sec": "trilhas"
+  },
+  {
+   "w": "no",
+   "t": 253.25,
+   "sec": "trilhas"
+  },
+  {
+   "w": "seu",
+   "t": 253.37,
+   "sec": "trilhas"
+  },
+  {
+   "w": "trabalho",
+   "t": 253.85,
+   "sec": "trilhas"
+  },
+  {
+   "w": "em",
+   "t": 254.07,
+   "sec": "trilhas"
+  },
+  {
+   "w": "vez",
+   "t": 254.13,
+   "sec": "trilhas"
+  },
+  {
+   "w": "de",
+   "t": 254.29,
+   "sec": "trilhas"
+  },
+  {
+   "w": "ter",
+   "t": 254.75,
+   "sec": "trilhas"
+  },
+  {
+   "w": "medo",
+   "t": 255.21,
+   "sec": "trilhas"
+  },
+  {
+   "w": "dela.",
+   "t": 255.67,
+   "sec": "trilhas"
+  },
+  {
+   "w": "Excel,",
+   "t": 256.13,
+   "sec": "trilhas"
+  },
+  {
+   "w": "SQL",
+   "t": 256.85,
+   "sec": "trilhas"
+  },
+  {
+   "w": "e",
+   "t": 257.57,
+   "sec": "trilhas"
+  },
+  {
+   "w": "Power",
+   "t": 257.67,
+   "sec": "trilhas"
+  },
+  {
+   "w": "BI",
+   "t": 258.23,
+   "sec": "trilhas"
+  },
+  {
+   "w": "pra",
+   "t": 258.61,
+   "sec": "trilhas"
+  },
+  {
+   "w": "transformar",
+   "t": 258.99,
+   "sec": "trilhas"
+  },
+  {
+   "w": "planilha",
+   "t": 259.67,
+   "sec": "trilhas"
+  },
+  {
+   "w": "em",
+   "t": 260.15,
+   "sec": "trilhas"
+  },
+  {
+   "w": "decisão.",
+   "t": 260.59,
+   "sec": "trilhas"
+  },
+  {
+   "w": "Gestão",
+   "t": 261.26,
+   "sec": "trilhas"
+  },
+  {
+   "w": "de",
+   "t": 261.93,
+   "sec": "trilhas"
+  },
+  {
+   "w": "projetos.",
+   "t": 262.37,
+   "sec": "trilhas"
+  },
+  {
+   "w": "Marketing",
+   "t": 263.25,
+   "sec": "trilhas"
+  },
+  {
+   "w": "digital.",
+   "t": 263.93,
+   "sec": "trilhas"
+  },
+  {
+   "w": "Inglês",
+   "t": 264.44,
+   "sec": "trilhas"
+  },
+  {
+   "w": "para",
+   "t": 264.95,
+   "sec": "trilhas"
+  },
+  {
+   "w": "negócios.",
+   "t": 265.39,
+   "sec": "trilhas"
+  },
+  {
+   "w": "São",
+   "t": 266.33,
+   "sec": "catalogo"
+  },
+  {
+   "w": "milhares",
+   "t": 266.67,
+   "sec": "catalogo"
+  },
+  {
+   "w": "de",
+   "t": 267.21,
+   "sec": "catalogo"
+  },
+  {
+   "w": "cursos",
+   "t": 267.47,
+   "sec": "catalogo"
+  },
+  {
+   "w": "e",
+   "t": 267.81,
+   "sec": "catalogo"
+  },
+  {
+   "w": "especializações",
+   "t": 268.03,
+   "sec": "catalogo"
+  },
+  {
+   "w": "de",
+   "t": 268.83,
+   "sec": "catalogo"
+  },
+  {
+   "w": "empresas",
+   "t": 269.05,
+   "sec": "catalogo"
+  },
+  {
+   "w": "como",
+   "t": 269.49,
+   "sec": "catalogo"
+  },
+  {
+   "w": "Google,",
+   "t": 269.85,
+   "sec": "catalogo"
+  },
+  {
+   "w": "IBM",
+   "t": 270.61,
+   "sec": "catalogo"
+  },
+  {
+   "w": "e",
+   "t": 270.89,
+   "sec": "catalogo"
+  },
+  {
+   "w": "Meta,",
+   "t": 271.25,
+   "sec": "catalogo"
+  },
+  {
+   "w": "e",
+   "t": 271.79,
+   "sec": "catalogo"
+  },
+  {
+   "w": "de",
+   "t": 271.83,
+   "sec": "catalogo"
+  },
+  {
+   "w": "universidades",
+   "t": 272.21,
+   "sec": "catalogo"
+  },
+  {
+   "w": "como",
+   "t": 272.93,
+   "sec": "catalogo"
+  },
+  {
+   "w": "Stanford",
+   "t": 273.41,
+   "sec": "catalogo"
+  },
+  {
+   "w": "e",
+   "t": 273.79,
+   "sec": "catalogo"
+  },
+  {
+   "w": "Duke.",
+   "t": 274.23,
+   "sec": "catalogo"
+  },
+  {
+   "w": "Você",
+   "t": 274.93,
+   "sec": "catalogo"
+  },
+  {
+   "w": "entra",
+   "t": 275.25,
+   "sec": "catalogo"
+  },
+  {
+   "w": "em",
+   "t": 275.49,
+   "sec": "catalogo"
+  },
+  {
+   "w": "quantos",
+   "t": 275.81,
+   "sec": "catalogo"
+  },
+  {
+   "w": "quiser,",
+   "t": 276.61,
+   "sec": "catalogo"
+  },
+  {
+   "w": "sem",
+   "t": 276.97,
+   "sec": "catalogo"
+  },
+  {
+   "w": "pagar",
+   "t": 277.33,
+   "sec": "catalogo"
+  },
+  {
+   "w": "nada",
+   "t": 277.69,
+   "sec": "catalogo"
+  },
+  {
+   "w": "mais",
+   "t": 278.11,
+   "sec": "catalogo"
+  },
+  {
+   "w": "por",
+   "t": 278.35,
+   "sec": "catalogo"
+  },
+  {
+   "w": "eles.",
+   "t": 278.93,
+   "sec": "catalogo"
+  },
+  {
+   "w": "Não",
+   "t": 279.27,
+   "sec": "catalogo"
+  },
+  {
+   "w": "fala",
+   "t": 279.64,
+   "sec": "catalogo"
+  },
+  {
+   "w": "inglês?",
+   "t": 280.01,
+   "sec": "catalogo"
+  },
+  {
+   "w": "Calma,",
+   "t": 280.73,
+   "sec": "catalogo"
+  },
+  {
+   "w": "tem",
+   "t": 281.47,
+   "sec": "catalogo"
+  },
+  {
+   "w": "cursos",
+   "t": 281.67,
+   "sec": "catalogo"
+  },
+  {
+   "w": "em",
+   "t": 282.07,
+   "sec": "catalogo"
+  },
+  {
+   "w": "português",
+   "t": 282.27,
+   "sec": "catalogo"
+  },
+  {
+   "w": "e",
+   "t": 282.93,
+   "sec": "catalogo"
+  },
+  {
+   "w": "muitos",
+   "t": 283.35,
+   "sec": "catalogo"
+  },
+  {
+   "w": "outros",
+   "t": 283.75,
+   "sec": "catalogo"
+  },
+  {
+   "w": "com",
+   "t": 284.07,
+   "sec": "catalogo"
+  },
+  {
+   "w": "legendas",
+   "t": 284.39,
+   "sec": "catalogo"
+  },
+  {
+   "w": "em",
+   "t": 284.75,
+   "sec": "catalogo"
+  },
+  {
+   "w": "português.",
+   "t": 284.87,
+   "sec": "catalogo"
+  },
+  {
+   "w": "E",
+   "t": 285.82,
+   "sec": "certificado"
+  },
+  {
+   "w": "quando",
+   "t": 286.0,
+   "sec": "certificado"
+  },
+  {
+   "w": "você",
+   "t": 286.28,
+   "sec": "certificado"
+  },
+  {
+   "w": "conclui",
+   "t": 286.64,
+   "sec": "certificado"
+  },
+  {
+   "w": "os",
+   "t": 287.0,
+   "sec": "certificado"
+  },
+  {
+   "w": "programas",
+   "t": 287.26,
+   "sec": "certificado"
+  },
+  {
+   "w": "incluídos",
+   "t": 287.76,
+   "sec": "certificado"
+  },
+  {
+   "w": "no",
+   "t": 288.08,
+   "sec": "certificado"
+  },
+  {
+   "w": "Coursera",
+   "t": 288.547,
+   "sec": "certificado"
+  },
+  {
+   "w": "Plus,",
+   "t": 289.013,
+   "sec": "certificado"
+  },
+  {
+   "w": "recebe",
+   "t": 289.48,
+   "sec": "certificado"
+  },
+  {
+   "w": "certificado",
+   "t": 290.22,
+   "sec": "certificado"
+  },
+  {
+   "w": "no",
+   "t": 290.62,
+   "sec": "certificado"
+  },
+  {
+   "w": "seu",
+   "t": 291.04,
+   "sec": "certificado"
+  },
+  {
+   "w": "nome.",
+   "t": 291.56,
+   "sec": "certificado"
+  },
+  {
+   "w": "Pra",
+   "t": 291.9,
+   "sec": "certificado"
+  },
+  {
+   "w": "colocar",
+   "t": 292.24,
+   "sec": "certificado"
+  },
+  {
+   "w": "no",
+   "t": 292.44,
+   "sec": "certificado"
+  },
+  {
+   "w": "currículo,",
+   "t": 292.8,
+   "sec": "certificado"
+  },
+  {
+   "w": "no",
+   "t": 293.42,
+   "sec": "certificado"
+  },
+  {
+   "w": "LinkedIn,",
+   "t": 293.913,
+   "sec": "certificado"
+  },
+  {
+   "w": "pra",
+   "t": 294.407,
+   "sec": "certificado"
+  },
+  {
+   "w": "mostrar",
+   "t": 294.9,
+   "sec": "certificado"
+  },
+  {
+   "w": "na",
+   "t": 295.14,
+   "sec": "certificado"
+  },
+  {
+   "w": "próxima",
+   "t": 295.4,
+   "sec": "certificado"
+  },
+  {
+   "w": "entrevista.",
+   "t": 295.94,
+   "sec": "certificado"
+  },
+  {
+   "w": "Daqui",
+   "t": 296.74,
+   "sec": "certificado"
+  },
+  {
+   "w": "a",
+   "t": 297.04,
+   "sec": "certificado"
+  },
+  {
+   "w": "um",
+   "t": 297.14,
+   "sec": "certificado"
+  },
+  {
+   "w": "ano,",
+   "t": 297.52,
+   "sec": "certificado"
+  },
+  {
+   "w": "em",
+   "t": 297.8,
+   "sec": "certificado"
+  },
+  {
+   "w": "vez",
+   "t": 297.86,
+   "sec": "certificado"
+  },
+  {
+   "w": "da",
+   "t": 298.1,
+   "sec": "certificado"
+  },
+  {
+   "w": "mesma",
+   "t": 298.38,
+   "sec": "certificado"
+  },
+  {
+   "w": "lista,",
+   "t": 298.9,
+   "sec": "certificado"
+  },
+  {
+   "w": "você",
+   "t": 299.22,
+   "sec": "certificado"
+  },
+  {
+   "w": "pode",
+   "t": 299.4,
+   "sec": "certificado"
+  },
+  {
+   "w": "ter",
+   "t": 299.74,
+   "sec": "certificado"
+  },
+  {
+   "w": "três,",
+   "t": 300.26,
+   "sec": "certificado"
+  },
+  {
+   "w": "quatro,",
+   "t": 300.94,
+   "sec": "certificado"
+  },
+  {
+   "w": "cinco",
+   "t": 301.5,
+   "sec": "certificado"
+  },
+  {
+   "w": "certificados,",
+   "t": 302.08,
+   "sec": "certificado"
+  },
+  {
+   "w": "mostrando",
+   "t": 302.96,
+   "sec": "certificado"
+  },
+  {
+   "w": "que",
+   "t": 303.38,
+   "sec": "certificado"
+  },
+  {
+   "w": "dessa",
+   "t": 303.72,
+   "sec": "certificado"
+  },
+  {
+   "w": "vez",
+   "t": 304.16,
+   "sec": "certificado"
+  },
+  {
+   "w": "você",
+   "t": 304.5,
+   "sec": "certificado"
+  },
+  {
+   "w": "fez",
+   "t": 304.86,
+   "sec": "certificado"
+  },
+  {
+   "w": "o",
+   "t": 305.08,
+   "sec": "certificado"
+  },
+  {
+   "w": "que",
+   "t": 305.08,
+   "sec": "certificado"
+  },
+  {
+   "w": "prometeu.",
+   "t": 305.5,
+   "sec": "certificado"
+  },
+  {
+   "w": "Mas",
+   "t": 306.3,
+   "sec": "depoimentos"
+  },
+  {
+   "w": "não",
+   "t": 306.42,
+   "sec": "depoimentos"
+  },
+  {
+   "w": "acredita",
+   "t": 306.72,
+   "sec": "depoimentos"
+  },
+  {
+   "w": "só",
+   "t": 307.08,
+   "sec": "depoimentos"
+  },
+  {
+   "w": "em",
+   "t": 307.24,
+   "sec": "depoimentos"
+  },
+  {
+   "w": "mim.",
+   "t": 307.64,
+   "sec": "depoimentos"
+  },
+  {
+   "w": "Olha",
+   "t": 307.92,
+   "sec": "depoimentos"
+  },
+  {
+   "w": "o",
+   "t": 308.04,
+   "sec": "depoimentos"
+  },
+  {
+   "w": "que",
+   "t": 308.14,
+   "sec": "depoimentos"
+  },
+  {
+   "w": "dizem",
+   "t": 308.32,
+   "sec": "depoimentos"
+  },
+  {
+   "w": "as",
+   "t": 308.56,
+   "sec": "depoimentos"
+  },
+  {
+   "w": "pessoas",
+   "t": 308.96,
+   "sec": "depoimentos"
+  },
+  {
+   "w": "que",
+   "t": 309.28,
+   "sec": "depoimentos"
+  },
+  {
+   "w": "já",
+   "t": 309.56,
+   "sec": "depoimentos"
+  },
+  {
+   "w": "estão",
+   "t": 309.84,
+   "sec": "depoimentos"
+  },
+  {
+   "w": "estudando",
+   "t": 310.26,
+   "sec": "depoimentos"
+  },
+  {
+   "w": "com",
+   "t": 310.58,
+   "sec": "depoimentos"
+  },
+  {
+   "w": "a",
+   "t": 310.72,
+   "sec": "depoimentos"
+  },
+  {
+   "w": "Nexools.",
+   "t": 311.31,
+   "sec": "depoimentos"
+  },
+  {
+   "w": "Então",
+   "t": 311.9,
+   "sec": "conta"
+  },
+  {
+   "w": "vamos",
+   "t": 312.26,
+   "sec": "conta"
+  },
+  {
+   "w": "fazer",
+   "t": 312.56,
+   "sec": "conta"
+  },
+  {
+   "w": "a",
+   "t": 312.78,
+   "sec": "conta"
+  },
+  {
+   "w": "conta.",
+   "t": 313.16,
+   "sec": "conta"
+  },
+  {
+   "w": "No",
+   "t": 313.66,
+   "sec": "conta"
+  },
+  {
+   "w": "site",
+   "t": 313.88,
+   "sec": "conta"
+  },
+  {
+   "w": "oficial,",
+   "t": 314.48,
+   "sec": "conta"
+  },
+  {
+   "w": "esse",
+   "t": 315.0,
+   "sec": "conta"
+  },
+  {
+   "w": "mesmo",
+   "t": 315.36,
+   "sec": "conta"
+  },
+  {
+   "w": "ano",
+   "t": 315.68,
+   "sec": "conta"
+  },
+  {
+   "w": "de",
+   "t": 315.86,
+   "sec": "conta"
+  },
+  {
+   "w": "Coursera",
+   "t": 316.26,
+   "sec": "conta"
+  },
+  {
+   "w": "Plus",
+   "t": 316.66,
+   "sec": "conta"
+  },
+  {
+   "w": "custa",
+   "t": 317.02,
+   "sec": "conta"
+  },
+  {
+   "w": "cerca",
+   "t": 317.38,
+   "sec": "conta"
+  },
+  {
+   "w": "de",
+   "t": 317.68,
+   "sec": "conta"
+  },
+  {
+   "w": "mil",
+   "t": 318.06,
+   "sec": "conta"
+  },
+  {
+   "w": "e",
+   "t": 318.44,
+   "sec": "conta"
+  },
+  {
+   "w": "duzentos",
+   "t": 318.82,
+   "sec": "conta"
+  },
+  {
+   "w": "reais.",
+   "t": 319.2,
+   "sec": "conta"
+  },
+  {
+   "w": "Só",
+   "t": 319.6,
+   "sec": "conta"
+  },
+  {
+   "w": "que",
+   "t": 319.76,
+   "sec": "conta"
+  },
+  {
+   "w": "hoje",
+   "t": 320.02,
+   "sec": "conta"
+  },
+  {
+   "w": "você",
+   "t": 320.4,
+   "sec": "conta"
+  },
+  {
+   "w": "não",
+   "t": 320.7,
+   "sec": "conta"
+  },
+  {
+   "w": "vai",
+   "t": 320.92,
+   "sec": "conta"
+  },
+  {
+   "w": "pagar",
+   "t": 321.3,
+   "sec": "conta"
+  },
+  {
+   "w": "mil",
+   "t": 321.64,
+   "sec": "conta"
+  },
+  {
+   "w": "e",
+   "t": 321.98,
+   "sec": "conta"
+  },
+  {
+   "w": "duzentos.",
+   "t": 322.32,
+   "sec": "conta"
+  },
+  {
+   "w": "Não",
+   "t": 322.66,
+   "sec": "conta"
+  },
+  {
+   "w": "vai",
+   "t": 322.82,
+   "sec": "conta"
+  },
+  {
+   "w": "pagar",
+   "t": 323.16,
+   "sec": "conta"
+  },
+  {
+   "w": "seiscentos.",
+   "t": 323.82,
+   "sec": "conta"
+  },
+  {
+   "w": "Não",
+   "t": 324.48,
+   "sec": "conta"
+  },
+  {
+   "w": "vai",
+   "t": 324.66,
+   "sec": "conta"
+  },
+  {
+   "w": "pagar",
+   "t": 325.12,
+   "sec": "conta"
+  },
+  {
+   "w": "nem",
+   "t": 325.4,
+   "sec": "conta"
+  },
+  {
+   "w": "quatrocentos.",
+   "t": 326.3,
+   "sec": "conta"
+  },
+  {
+   "w": "Nesta",
+   "t": 327.2,
+   "sec": "preco"
+  },
+  {
+   "w": "condição",
+   "t": 327.56,
+   "sec": "preco"
+  },
+  {
+   "w": "de",
+   "t": 328.0,
+   "sec": "preco"
+  },
+  {
+   "w": "Black",
+   "t": 328.3,
+   "sec": "preco"
+  },
+  {
+   "w": "Friday",
+   "t": 328.6,
+   "sec": "preco"
+  },
+  {
+   "w": "da",
+   "t": 328.88,
+   "sec": "preco"
+  },
+  {
+   "w": "Nexools,",
+   "t": 329.36,
+   "sec": "preco"
+  },
+  {
+   "w": "o",
+   "t": 329.84,
+   "sec": "preco"
+  },
+  {
+   "w": "seu",
+   "t": 330.02,
+   "sec": "preco"
+  },
+  {
+   "w": "ano",
+   "t": 330.44,
+   "sec": "preco"
+  },
+  {
+   "w": "inteiro",
+   "t": 330.96,
+   "sec": "preco"
+  },
+  {
+   "w": "sai",
+   "t": 331.34,
+   "sec": "preco"
+  },
+  {
+   "w": "por",
+   "t": 331.58,
+   "sec": "preco"
+  },
+  {
+   "w": "duzentos",
+   "t": 331.875,
+   "sec": "preco"
+  },
+  {
+   "w": "e",
+   "t": 332.17,
+   "sec": "preco"
+  },
+  {
+   "w": "noventa",
+   "t": 332.465,
+   "sec": "preco"
+  },
+  {
+   "w": "e",
+   "t": 332.76,
+   "sec": "preco"
+  },
+  {
+   "w": "sete",
+   "t": 333.04,
+   "sec": "preco"
+  },
+  {
+   "w": "reais.",
+   "t": 333.43,
+   "sec": "preco"
+  },
+  {
+   "w": "Pagos",
+   "t": 333.82,
+   "sec": "preco"
+  },
+  {
+   "w": "uma",
+   "t": 334.21,
+   "sec": "preco"
+  },
+  {
+   "w": "vez",
+   "t": 334.6,
+   "sec": "preco"
+  },
+  {
+   "w": "só.",
+   "t": 334.99,
+   "sec": "preco"
+  },
+  {
+   "w": "São",
+   "t": 335.38,
+   "sec": "preco"
+  },
+  {
+   "w": "setenta",
+   "t": 335.77,
+   "sec": "preco"
+  },
+  {
+   "w": "e",
+   "t": 336.16,
+   "sec": "preco"
+  },
+  {
+   "w": "cinco",
+   "t": 336.55,
+   "sec": "preco"
+  },
+  {
+   "w": "por",
+   "t": 336.94,
+   "sec": "preco"
+  },
+  {
+   "w": "cento",
+   "t": 337.33,
+   "sec": "preco"
+  },
+  {
+   "w": "abaixo",
+   "t": 337.72,
+   "sec": "preco"
+  },
+  {
+   "w": "do",
+   "t": 338.11,
+   "sec": "preco"
+  },
+  {
+   "w": "preço",
+   "t": 338.5,
+   "sec": "preco"
+  },
+  {
+   "w": "oficial.",
+   "t": 339.2,
+   "sec": "preco"
+  },
+  {
+   "w": "Divide",
+   "t": 339.7,
+   "sec": "preco"
+  },
+  {
+   "w": "isso",
+   "t": 340.2,
+   "sec": "preco"
+  },
+  {
+   "w": "por",
+   "t": 340.52,
+   "sec": "preco"
+  },
+  {
+   "w": "trezentos",
+   "t": 340.88,
+   "sec": "preco"
+  },
+  {
+   "w": "e",
+   "t": 341.24,
+   "sec": "preco"
+  },
+  {
+   "w": "sessenta",
+   "t": 341.6,
+   "sec": "preco"
+  },
+  {
+   "w": "e",
+   "t": 341.96,
+   "sec": "preco"
+  },
+  {
+   "w": "cinco",
+   "t": 342.32,
+   "sec": "preco"
+  },
+  {
+   "w": "dias,",
+   "t": 342.68,
+   "sec": "preco"
+  },
+  {
+   "w": "e",
+   "t": 343.12,
+   "sec": "preco"
+  },
+  {
+   "w": "dá",
+   "t": 343.36,
+   "sec": "preco"
+  },
+  {
+   "w": "oitenta",
+   "t": 343.68,
+   "sec": "preco"
+  },
+  {
+   "w": "e",
+   "t": 344.0,
+   "sec": "preco"
+  },
+  {
+   "w": "um",
+   "t": 344.32,
+   "sec": "preco"
+  },
+  {
+   "w": "centavos",
+   "t": 344.64,
+   "sec": "preco"
+  },
+  {
+   "w": "por",
+   "t": 345.24,
+   "sec": "preco"
+  },
+  {
+   "w": "dia.",
+   "t": 345.68,
+   "sec": "preco"
+  },
+  {
+   "w": "Menos",
+   "t": 348.38,
+   "sec": "preco"
+  },
+  {
+   "w": "que",
+   "t": 348.6,
+   "sec": "preco"
+  },
+  {
+   "w": "um",
+   "t": 349.047,
+   "sec": "preco"
+  },
+  {
+   "w": "cafezinho.",
+   "t": 349.493,
+   "sec": "preco"
+  },
+  {
+   "w": "Menos",
+   "t": 349.94,
+   "sec": "preco"
+  },
+  {
+   "w": "que",
+   "t": 350.14,
+   "sec": "preco"
+  },
+  {
+   "w": "a",
+   "t": 350.38,
+   "sec": "preco"
+  },
+  {
+   "w": "passagem",
+   "t": 350.62,
+   "sec": "preco"
+  },
+  {
+   "w": "do",
+   "t": 350.94,
+   "sec": "preco"
+  },
+  {
+   "w": "ônibus",
+   "t": 351.18,
+   "sec": "preco"
+  },
+  {
+   "w": "onde",
+   "t": 351.56,
+   "sec": "preco"
+  },
+  {
+   "w": "você",
+   "t": 351.86,
+   "sec": "preco"
+  },
+  {
+   "w": "vai",
+   "t": 352.1,
+   "sec": "preco"
+  },
+  {
+   "w": "assistir",
+   "t": 352.36,
+   "sec": "preco"
+  },
+  {
+   "w": "às",
+   "t": 352.62,
+   "sec": "preco"
+  },
+  {
+   "w": "aulas.",
+   "t": 352.8,
+   "sec": "preco"
+  },
+  {
+   "w": "E",
+   "t": 353.72,
+   "sec": "risco"
+  },
+  {
+   "w": "o",
+   "t": 353.78,
+   "sec": "risco"
+  },
+  {
+   "w": "risco",
+   "t": 354.12,
+   "sec": "risco"
+  },
+  {
+   "w": "fica",
+   "t": 354.76,
+   "sec": "risco"
+  },
+  {
+   "w": "do",
+   "t": 354.98,
+   "sec": "risco"
+  },
+  {
+   "w": "nosso",
+   "t": 355.34,
+   "sec": "risco"
+  },
+  {
+   "w": "lado,",
+   "t": 355.76,
+   "sec": "risco"
+  },
+  {
+   "w": "não",
+   "t": 356.34,
+   "sec": "risco"
+  },
+  {
+   "w": "do",
+   "t": 356.64,
+   "sec": "risco"
+  },
+  {
+   "w": "seu.",
+   "t": 356.98,
+   "sec": "risco"
+  },
+  {
+   "w": "Lembra",
+   "t": 357.205,
+   "sec": "risco"
+  },
+  {
+   "w": "que",
+   "t": 357.43,
+   "sec": "risco"
+  },
+  {
+   "w": "lá",
+   "t": 357.655,
+   "sec": "risco"
+  },
+  {
+   "w": "no",
+   "t": 357.88,
+   "sec": "risco"
+  },
+  {
+   "w": "começo",
+   "t": 358.28,
+   "sec": "risco"
+  },
+  {
+   "w": "eu",
+   "t": 358.62,
+   "sec": "risco"
+  },
+  {
+   "w": "disse",
+   "t": 358.68,
+   "sec": "risco"
+  },
+  {
+   "w": "que",
+   "t": 358.88,
+   "sec": "risco"
+  },
+  {
+   "w": "tinha",
+   "t": 359.04,
+   "sec": "risco"
+  },
+  {
+   "w": "uma",
+   "t": 359.44,
+   "sec": "risco"
+  },
+  {
+   "w": "coisa",
+   "t": 359.58,
+   "sec": "risco"
+  },
+  {
+   "w": "pra",
+   "t": 359.84,
+   "sec": "risco"
+  },
+  {
+   "w": "você",
+   "t": 360.1,
+   "sec": "risco"
+  },
+  {
+   "w": "conferir",
+   "t": 360.44,
+   "sec": "risco"
+  },
+  {
+   "w": "antes",
+   "t": 360.84,
+   "sec": "risco"
+  },
+  {
+   "w": "de",
+   "t": 360.98,
+   "sec": "risco"
+  },
+  {
+   "w": "pagar?",
+   "t": 361.32,
+   "sec": "risco"
+  },
+  {
+   "w": "É",
+   "t": 362.12,
+   "sec": "risco"
+  },
+  {
+   "w": "isso.",
+   "t": 362.4,
+   "sec": "risco"
+  },
+  {
+   "w": "Fala",
+   "t": 363.12,
+   "sec": "risco"
+  },
+  {
+   "w": "com",
+   "t": 363.42,
+   "sec": "risco"
+  },
+  {
+   "w": "a",
+   "t": 363.6,
+   "sec": "risco"
+  },
+  {
+   "w": "gente",
+   "t": 363.88,
+   "sec": "risco"
+  },
+  {
+   "w": "antes",
+   "t": 364.78,
+   "sec": "risco"
+  },
+  {
+   "w": "de",
+   "t": 364.9,
+   "sec": "risco"
+  },
+  {
+   "w": "pagar.",
+   "t": 365.34,
+   "sec": "risco"
+  },
+  {
+   "w": "Chama",
+   "t": 365.72,
+   "sec": "risco"
+  },
+  {
+   "w": "uma",
+   "t": 366.1,
+   "sec": "risco"
+  },
+  {
+   "w": "pessoa",
+   "t": 366.46,
+   "sec": "risco"
+  },
+  {
+   "w": "da",
+   "t": 366.66,
+   "sec": "risco"
+  },
+  {
+   "w": "Nexools",
+   "t": 367.01,
+   "sec": "risco"
+  },
+  {
+   "w": "no",
+   "t": 367.36,
+   "sec": "risco"
+  },
+  {
+   "w": "WhatsApp",
+   "t": 367.86,
+   "sec": "risco"
+  },
+  {
+   "w": "e",
+   "t": 368.06,
+   "sec": "risco"
+  },
+  {
+   "w": "pergunta",
+   "t": 368.54,
+   "sec": "risco"
+  },
+  {
+   "w": "tudo",
+   "t": 369.04,
+   "sec": "risco"
+  },
+  {
+   "w": "o",
+   "t": 369.2,
+   "sec": "risco"
+  },
+  {
+   "w": "que",
+   "t": 369.2,
+   "sec": "risco"
+  },
+  {
+   "w": "quiser.",
+   "t": 369.86,
+   "sec": "risco"
+  },
+  {
+   "w": "Só",
+   "t": 370.32,
+   "sec": "risco"
+  },
+  {
+   "w": "paga",
+   "t": 370.66,
+   "sec": "risco"
+  },
+  {
+   "w": "quando",
+   "t": 371.02,
+   "sec": "risco"
+  },
+  {
+   "w": "estiver",
+   "t": 371.4,
+   "sec": "risco"
+  },
+  {
+   "w": "seguro.",
+   "t": 371.94,
+   "sec": "risco"
+  },
+  {
+   "w": "E",
+   "t": 372.64,
+   "sec": "risco"
+  },
+  {
+   "w": "mesmo",
+   "t": 372.88,
+   "sec": "risco"
+  },
+  {
+   "w": "depois",
+   "t": 373.3,
+   "sec": "risco"
+  },
+  {
+   "w": "de",
+   "t": 373.48,
+   "sec": "risco"
+  },
+  {
+   "w": "pagar,",
+   "t": 373.92,
+   "sec": "risco"
+  },
+  {
+   "w": "você",
+   "t": 374.34,
+   "sec": "risco"
+  },
+  {
+   "w": "ainda",
+   "t": 374.64,
+   "sec": "risco"
+  },
+  {
+   "w": "tem",
+   "t": 374.86,
+   "sec": "risco"
+  },
+  {
+   "w": "sete",
+   "t": 375.32,
+   "sec": "risco"
+  },
+  {
+   "w": "dias",
+   "t": 375.72,
+   "sec": "risco"
+  },
+  {
+   "w": "para",
+   "t": 375.98,
+   "sec": "risco"
+  },
+  {
+   "w": "desistir,",
+   "t": 376.48,
+   "sec": "risco"
+  },
+  {
+   "w": "como",
+   "t": 376.98,
+   "sec": "risco"
+  },
+  {
+   "w": "garante",
+   "t": 377.36,
+   "sec": "risco"
+  },
+  {
+   "w": "o",
+   "t": 377.74,
+   "sec": "risco"
+  },
+  {
+   "w": "Código",
+   "t": 377.94,
+   "sec": "risco"
+  },
+  {
+   "w": "de",
+   "t": 378.28,
+   "sec": "risco"
+  },
+  {
+   "w": "Defesa",
+   "t": 378.5,
+   "sec": "risco"
+  },
+  {
+   "w": "do",
+   "t": 378.84,
+   "sec": "risco"
+  },
+  {
+   "w": "Consumidor.",
+   "t": 379.12,
+   "sec": "risco"
+  },
+  {
+   "w": "Agora,",
+   "t": 380.12,
+   "sec": "prazo"
+  },
+  {
+   "w": "presta",
+   "t": 380.62,
+   "sec": "prazo"
+  },
+  {
+   "w": "atenção.",
+   "t": 381.18,
+   "sec": "prazo"
+  },
+  {
+   "w": "Esse",
+   "t": 381.84,
+   "sec": "prazo"
+  },
+  {
+   "w": "preço",
+   "t": 382.28,
+   "sec": "prazo"
+  },
+  {
+   "w": "vai",
+   "t": 382.54,
+   "sec": "prazo"
+  },
+  {
+   "w": "até",
+   "t": 382.78,
+   "sec": "prazo"
+  },
+  {
+   "w": "o",
+   "t": 382.92,
+   "sec": "prazo"
+  },
+  {
+   "w": "dia",
+   "t": 383.16,
+   "sec": "prazo"
+  },
+  {
+   "w": "trinta",
+   "t": 383.52,
+   "sec": "prazo"
+  },
+  {
+   "w": "de",
+   "t": 383.74,
+   "sec": "prazo"
+  },
+  {
+   "w": "novembro,",
+   "t": 384.02,
+   "sec": "prazo"
+  },
+  {
+   "w": "às",
+   "t": 384.76,
+   "sec": "prazo"
+  },
+  {
+   "w": "vinte",
+   "t": 384.92,
+   "sec": "prazo"
+  },
+  {
+   "w": "e",
+   "t": 385.08,
+   "sec": "prazo"
+  },
+  {
+   "w": "três",
+   "t": 385.24,
+   "sec": "prazo"
+  },
+  {
+   "w": "e",
+   "t": 385.4,
+   "sec": "prazo"
+  },
+  {
+   "w": "cinquenta",
+   "t": 385.56,
+   "sec": "prazo"
+  },
+  {
+   "w": "e",
+   "t": 385.973,
+   "sec": "prazo"
+  },
+  {
+   "w": "nove,",
+   "t": 386.387,
+   "sec": "prazo"
+  },
+  {
+   "w": "no",
+   "t": 386.8,
+   "sec": "prazo"
+  },
+  {
+   "w": "horário",
+   "t": 387.02,
+   "sec": "prazo"
+  },
+  {
+   "w": "de",
+   "t": 387.2,
+   "sec": "prazo"
+  },
+  {
+   "w": "Brasília.",
+   "t": 387.91,
+   "sec": "prazo"
+  },
+  {
+   "w": "Então,",
+   "t": 388.62,
+   "sec": "passos"
+  },
+  {
+   "w": "o",
+   "t": 389.0,
+   "sec": "passos"
+  },
+  {
+   "w": "que",
+   "t": 389.02,
+   "sec": "passos"
+  },
+  {
+   "w": "você",
+   "t": 389.3,
+   "sec": "passos"
+  },
+  {
+   "w": "faz",
+   "t": 389.56,
+   "sec": "passos"
+  },
+  {
+   "w": "agora",
+   "t": 389.9,
+   "sec": "passos"
+  },
+  {
+   "w": "é",
+   "t": 390.28,
+   "sec": "passos"
+  },
+  {
+   "w": "simples.",
+   "t": 390.8,
+   "sec": "passos"
+  },
+  {
+   "w": "Clica",
+   "t": 391.44,
+   "sec": "passos"
+  },
+  {
+   "w": "no",
+   "t": 391.66,
+   "sec": "passos"
+  },
+  {
+   "w": "botão",
+   "t": 391.88,
+   "sec": "passos"
+  },
+  {
+   "w": "aqui",
+   "t": 392.4,
+   "sec": "passos"
+  },
+  {
+   "w": "embaixo",
+   "t": 392.7,
+   "sec": "passos"
+  },
+  {
+   "w": "do",
+   "t": 392.92,
+   "sec": "passos"
+  },
+  {
+   "w": "vídeo.",
+   "t": 393.52,
+   "sec": "passos"
+  },
+  {
+   "w": "Você",
+   "t": 393.94,
+   "sec": "passos"
+  },
+  {
+   "w": "vai",
+   "t": 394.18,
+   "sec": "passos"
+  },
+  {
+   "w": "para",
+   "t": 394.4,
+   "sec": "passos"
+  },
+  {
+   "w": "o",
+   "t": 394.44,
+   "sec": "passos"
+  },
+  {
+   "w": "pagamento",
+   "t": 394.66,
+   "sec": "passos"
+  },
+  {
+   "w": "seguro",
+   "t": 395.39,
+   "sec": "passos"
+  },
+  {
+   "w": "e",
+   "t": 395.81,
+   "sec": "passos"
+  },
+  {
+   "w": "paga",
+   "t": 396.09,
+   "sec": "passos"
+  },
+  {
+   "w": "os",
+   "t": 396.37,
+   "sec": "passos"
+  },
+  {
+   "w": "duzentos",
+   "t": 396.65,
+   "sec": "passos"
+  },
+  {
+   "w": "e",
+   "t": 396.93,
+   "sec": "passos"
+  },
+  {
+   "w": "noventa",
+   "t": 397.21,
+   "sec": "passos"
+  },
+  {
+   "w": "e",
+   "t": 397.49,
+   "sec": "passos"
+  },
+  {
+   "w": "sete",
+   "t": 397.77,
+   "sec": "passos"
+  },
+  {
+   "w": "reais",
+   "t": 398.05,
+   "sec": "passos"
+  },
+  {
+   "w": "no",
+   "t": 398.33,
+   "sec": "passos"
+  },
+  {
+   "w": "Pix",
+   "t": 398.69,
+   "sec": "passos"
+  },
+  {
+   "w": "ou",
+   "t": 399.05,
+   "sec": "passos"
+  },
+  {
+   "w": "no",
+   "t": 399.17,
+   "sec": "passos"
+  },
+  {
+   "w": "cartão.",
+   "t": 399.49,
+   "sec": "passos"
+  },
+  {
+   "w": "Logo",
+   "t": 400.29,
+   "sec": "passos"
+  },
+  {
+   "w": "depois,",
+   "t": 400.81,
+   "sec": "passos"
+  },
+  {
+   "w": "os",
+   "t": 401.29,
+   "sec": "passos"
+  },
+  {
+   "w": "seus",
+   "t": 401.31,
+   "sec": "passos"
+  },
+  {
+   "w": "dados",
+   "t": 401.59,
+   "sec": "passos"
+  },
+  {
+   "w": "de",
+   "t": 401.91,
+   "sec": "passos"
+  },
+  {
+   "w": "acesso",
+   "t": 402.27,
+   "sec": "passos"
+  },
+  {
+   "w": "chegam",
+   "t": 402.65,
+   "sec": "passos"
+  },
+  {
+   "w": "no",
+   "t": 402.93,
+   "sec": "passos"
+  },
+  {
+   "w": "seu",
+   "t": 403.11,
+   "sec": "passos"
+  },
+  {
+   "w": "WhatsApp",
+   "t": 403.61,
+   "sec": "passos"
+  },
+  {
+   "w": "e",
+   "t": 403.87,
+   "sec": "passos"
+  },
+  {
+   "w": "no",
+   "t": 404.05,
+   "sec": "passos"
+  },
+  {
+   "w": "seu",
+   "t": 404.19,
+   "sec": "passos"
+  },
+  {
+   "w": "e-mail.",
+   "t": 404.79,
+   "sec": "passos"
+  },
+  {
+   "w": "Você",
+   "t": 405.37,
+   "sec": "passos"
+  },
+  {
+   "w": "entra,",
+   "t": 405.85,
+   "sec": "passos"
+  },
+  {
+   "w": "troca",
+   "t": 406.41,
+   "sec": "passos"
+  },
+  {
+   "w": "a",
+   "t": 406.67,
+   "sec": "passos"
+  },
+  {
+   "w": "senha,",
+   "t": 406.93,
+   "sec": "passos"
+  },
+  {
+   "w": "coloca",
+   "t": 407.33,
+   "sec": "passos"
+  },
+  {
+   "w": "o",
+   "t": 407.73,
+   "sec": "passos"
+  },
+  {
+   "w": "seu",
+   "t": 407.83,
+   "sec": "passos"
+  },
+  {
+   "w": "nome",
+   "t": 408.31,
+   "sec": "passos"
+  },
+  {
+   "w": "e",
+   "t": 408.77,
+   "sec": "passos"
+  },
+  {
+   "w": "escolhe",
+   "t": 409.09,
+   "sec": "passos"
+  },
+  {
+   "w": "o",
+   "t": 409.26,
+   "sec": "passos"
+  },
+  {
+   "w": "seu",
+   "t": 409.43,
+   "sec": "passos"
+  },
+  {
+   "w": "primeiro",
+   "t": 409.97,
+   "sec": "passos"
+  },
+  {
+   "w": "curso.",
+   "t": 410.55,
+   "sec": "passos"
+  },
+  {
+   "w": "E",
+   "t": 411.09,
+   "sec": "passos"
+  },
+  {
+   "w": "se",
+   "t": 411.17,
+   "sec": "passos"
+  },
+  {
+   "w": "tiver",
+   "t": 411.597,
+   "sec": "passos"
+  },
+  {
+   "w": "qualquer",
+   "t": 412.023,
+   "sec": "passos"
+  },
+  {
+   "w": "dúvida",
+   "t": 412.45,
+   "sec": "passos"
+  },
+  {
+   "w": "no",
+   "t": 412.71,
+   "sec": "passos"
+  },
+  {
+   "w": "caminho,",
+   "t": 413.11,
+   "sec": "passos"
+  },
+  {
+   "w": "uma",
+   "t": 413.57,
+   "sec": "passos"
+  },
+  {
+   "w": "pessoa",
+   "t": 413.97,
+   "sec": "passos"
+  },
+  {
+   "w": "da",
+   "t": 414.17,
+   "sec": "passos"
+  },
+  {
+   "w": "Nexools",
+   "t": 414.7,
+   "sec": "passos"
+  },
+  {
+   "w": "resolve",
+   "t": 415.23,
+   "sec": "passos"
+  },
+  {
+   "w": "com",
+   "t": 415.47,
+   "sec": "passos"
+  },
+  {
+   "w": "você.",
+   "t": 416.17,
+   "sec": "passos"
+  },
+  {
+   "w": "Olha,",
+   "t": 416.63,
+   "sec": "final"
+  },
+  {
+   "w": "eu",
+   "t": 417.21,
+   "sec": "final"
+  },
+  {
+   "w": "vou",
+   "t": 417.29,
+   "sec": "final"
+  },
+  {
+   "w": "ser",
+   "t": 417.39,
+   "sec": "final"
+  },
+  {
+   "w": "honesto",
+   "t": 417.68,
+   "sec": "final"
+  },
+  {
+   "w": "com",
+   "t": 417.97,
+   "sec": "final"
+  },
+  {
+   "w": "você.",
+   "t": 418.65,
+   "sec": "final"
+  },
+  {
+   "w": "Dezembro",
+   "t": 419.75,
+   "sec": "final"
+  },
+  {
+   "w": "de",
+   "t": 420.25,
+   "sec": "final"
+  },
+  {
+   "w": "2027",
+   "t": 420.88,
+   "sec": "final"
+  },
+  {
+   "w": "vai",
+   "t": 421.51,
+   "sec": "final"
+  },
+  {
+   "w": "chegar",
+   "t": 421.79,
+   "sec": "final"
+  },
+  {
+   "w": "de",
+   "t": 422.05,
+   "sec": "final"
+  },
+  {
+   "w": "qualquer",
+   "t": 422.59,
+   "sec": "final"
+  },
+  {
+   "w": "jeito.",
+   "t": 423.13,
+   "sec": "final"
+  },
+  {
+   "w": "E",
+   "t": 423.87,
+   "sec": "final"
+  },
+  {
+   "w": "você",
+   "t": 424.07,
+   "sec": "final"
+  },
+  {
+   "w": "vai",
+   "t": 424.29,
+   "sec": "final"
+  },
+  {
+   "w": "estar",
+   "t": 424.55,
+   "sec": "final"
+  },
+  {
+   "w": "em",
+   "t": 424.77,
+   "sec": "final"
+  },
+  {
+   "w": "um",
+   "t": 424.93,
+   "sec": "final"
+  },
+  {
+   "w": "de",
+   "t": 425.11,
+   "sec": "final"
+  },
+  {
+   "w": "dois",
+   "t": 425.41,
+   "sec": "final"
+  },
+  {
+   "w": "lugares.",
+   "t": 425.85,
+   "sec": "final"
+  },
+  {
+   "w": "No",
+   "t": 426.63,
+   "sec": "final"
+  },
+  {
+   "w": "primeiro,",
+   "t": 427.09,
+   "sec": "final"
+  },
+  {
+   "w": "você",
+   "t": 427.55,
+   "sec": "final"
+  },
+  {
+   "w": "vai",
+   "t": 427.73,
+   "sec": "final"
+  },
+  {
+   "w": "estar",
+   "t": 427.89,
+   "sec": "final"
+  },
+  {
+   "w": "fazendo",
+   "t": 428.29,
+   "sec": "final"
+  },
+  {
+   "w": "a",
+   "t": 428.89,
+   "sec": "final"
+  },
+  {
+   "w": "mesma",
+   "t": 428.95,
+   "sec": "final"
+  },
+  {
+   "w": "lista",
+   "t": 429.35,
+   "sec": "final"
+  },
+  {
+   "w": "de",
+   "t": 429.71,
+   "sec": "final"
+  },
+  {
+   "w": "novo:",
+   "t": 430.11,
+   "sec": "final"
+  },
+  {
+   "w": "ano",
+   "t": 430.52,
+   "sec": "final"
+  },
+  {
+   "w": "que",
+   "t": 430.93,
+   "sec": "final"
+  },
+  {
+   "w": "vem",
+   "t": 431.13,
+   "sec": "final"
+  },
+  {
+   "w": "eu",
+   "t": 431.39,
+   "sec": "final"
+  },
+  {
+   "w": "estudo.",
+   "t": 431.65,
+   "sec": "final"
+  },
+  {
+   "w": "No",
+   "t": 432.41,
+   "sec": "final"
+  },
+  {
+   "w": "segundo,",
+   "t": 432.91,
+   "sec": "final"
+  },
+  {
+   "w": "você",
+   "t": 433.43,
+   "sec": "final"
+  },
+  {
+   "w": "vai",
+   "t": 433.61,
+   "sec": "final"
+  },
+  {
+   "w": "abrir",
+   "t": 433.93,
+   "sec": "final"
+  },
+  {
+   "w": "o",
+   "t": 434.13,
+   "sec": "final"
+  },
+  {
+   "w": "seu",
+   "t": 434.21,
+   "sec": "final"
+  },
+  {
+   "w": "LinkedIn",
+   "t": 434.68,
+   "sec": "final"
+  },
+  {
+   "w": "e",
+   "t": 435.15,
+   "sec": "final"
+  },
+  {
+   "w": "ver",
+   "t": 435.39,
+   "sec": "final"
+  },
+  {
+   "w": "ali",
+   "t": 435.73,
+   "sec": "final"
+  },
+  {
+   "w": "os",
+   "t": 436.123,
+   "sec": "final"
+  },
+  {
+   "w": "certificados",
+   "t": 436.517,
+   "sec": "final"
+  },
+  {
+   "w": "do",
+   "t": 436.91,
+   "sec": "final"
+  },
+  {
+   "w": "ano",
+   "t": 437.05,
+   "sec": "final"
+  },
+  {
+   "w": "em",
+   "t": 437.31,
+   "sec": "final"
+  },
+  {
+   "w": "que",
+   "t": 437.33,
+   "sec": "final"
+  },
+  {
+   "w": "você",
+   "t": 437.73,
+   "sec": "final"
+  },
+  {
+   "w": "decidiu",
+   "t": 438.21,
+   "sec": "final"
+  },
+  {
+   "w": "começar.",
+   "t": 438.85,
+   "sec": "final"
+  },
+  {
+   "w": "A",
+   "t": 439.6,
+   "sec": "final"
+  },
+  {
+   "w": "diferença",
+   "t": 440.08,
+   "sec": "final"
+  },
+  {
+   "w": "entre",
+   "t": 440.44,
+   "sec": "final"
+  },
+  {
+   "w": "esses",
+   "t": 440.7,
+   "sec": "final"
+  },
+  {
+   "w": "dois",
+   "t": 441.04,
+   "sec": "final"
+  },
+  {
+   "w": "lugares",
+   "t": 441.54,
+   "sec": "final"
+  },
+  {
+   "w": "custa",
+   "t": 441.94,
+   "sec": "final"
+  },
+  {
+   "w": "oitenta",
+   "t": 442.34,
+   "sec": "final"
+  },
+  {
+   "w": "e",
+   "t": 442.74,
+   "sec": "final"
+  },
+  {
+   "w": "um",
+   "t": 443.14,
+   "sec": "final"
+  },
+  {
+   "w": "centavos",
+   "t": 443.54,
+   "sec": "final"
+  },
+  {
+   "w": "por",
+   "t": 444.14,
+   "sec": "final"
+  },
+  {
+   "w": "dia.",
+   "t": 444.66,
+   "sec": "final"
+  },
+  {
+   "w": "Clica",
+   "t": 445.02,
+   "sec": "cta"
+  },
+  {
+   "w": "no",
+   "t": 445.38,
+   "sec": "cta"
+  },
+  {
+   "w": "botão",
+   "t": 445.58,
+   "sec": "cta"
+  },
+  {
+   "w": "aqui",
+   "t": 446.08,
+   "sec": "cta"
+  },
+  {
+   "w": "embaixo",
+   "t": 446.52,
+   "sec": "cta"
+  },
+  {
+   "w": "e",
+   "t": 446.84,
+   "sec": "cta"
+  },
+  {
+   "w": "garante",
+   "t": 447.22,
+   "sec": "cta"
+  },
+  {
+   "w": "o",
+   "t": 447.72,
+   "sec": "cta"
+  },
+  {
+   "w": "seu",
+   "t": 447.95,
+   "sec": "cta"
+  },
+  {
+   "w": "ano.",
+   "t": 448.18,
+   "sec": "cta"
+  },
+  {
+   "w": "A",
+   "t": 448.7,
+   "sec": "cta"
+  },
+  {
+   "w": "gente",
+   "t": 448.7,
+   "sec": "cta"
+  },
+  {
+   "w": "se",
+   "t": 448.96,
+   "sec": "cta"
+  },
+  {
+   "w": "fala",
+   "t": 449.16,
+   "sec": "cta"
+  },
+  {
+   "w": "no",
+   "t": 449.36,
+   "sec": "cta"
+  },
+  {
+   "w": "WhatsApp.",
+   "t": 449.66,
+   "sec": "cta"
+  }
+ ],
+ "captions": [
+  {
+   "t": 0.42,
+   "text": "Duzentos e noventa e sete reais.",
+   "end": 3.54
+  },
+  {
+   "t": 3.54,
+   "text": "Esse é o preço de um ano",
+   "end": 5.06
+  },
+  {
+   "t": 5.06,
+   "text": "inteiro estudando inteligência artificial,",
+   "end": 7.54
+  },
+  {
+   "t": 7.54,
+   "text": "dados e negócios, com cursos do Google,",
+   "end": 10.26
+  },
+  {
+   "t": 10.26,
+   "text": "da IBM e de Stanford.",
+   "end": 12.28
+  },
+  {
+   "t": 12.28,
+   "text": "Não é por mês.",
+   "end": 13.44
+  },
+  {
+   "t": 13.44,
+   "text": "É pelo ano todo.",
+   "end": 15.0
+  },
+  {
+   "t": 15.0,
+   "text": "Uma vez só.",
+   "end": 16.2
+  },
+  {
+   "t": 16.2,
+   "text": "Eu sei o que você pensa agora:",
+   "end": 18.08
+  },
+  {
+   "t": 18.08,
+   "text": "isso é golpe.",
+   "end": 19.4
+  },
+  {
+   "t": 19.4,
+   "text": "Ótimo.",
+   "end": 20.52
+  },
+  {
+   "t": 20.52,
+   "text": "Continua pensando assim.",
+   "end": 22.08
+  },
+  {
+   "t": 22.08,
+   "text": "Porque nos próximos minutos eu vou mostrar",
+   "end": 24.98
+  },
+  {
+   "t": 24.98,
+   "text": "exatamente por que não é,",
+   "end": 26.72
+  },
+  {
+   "t": 26.72,
+   "text": "e a única coisa que você precisa",
+   "end": 28.66
+  },
+  {
+   "t": 28.66,
+   "text": "conferir antes de pagar qualquer centavo.",
+   "end": 31.62
+  },
+  {
+   "t": 31.62,
+   "text": "Esse vídeo é pra você que quer",
+   "end": 33.4
+  },
+  {
+   "t": 33.4,
+   "text": "crescer na carreira em 2027,",
+   "end": 35.96
+  },
+  {
+   "t": 35.96,
+   "text": "ganhar mais, mudar de área,",
+   "end": 38.12
+  },
+  {
+   "t": 38.12,
+   "text": "ou simplesmente parar de sentir que o",
+   "end": 40.32
+  },
+  {
+   "t": 40.32,
+   "text": "mercado está andando mais rápido do que",
+   "end": 42.36
+  },
+  {
+   "t": 42.36,
+   "text": "você.",
+   "end": 43.06
+  },
+  {
+   "t": 43.06,
+   "text": "Se for o seu caso,",
+   "end": 44.42
+  },
+  {
+   "t": 44.42,
+   "text": "fica até o final.",
+   "end": 45.373
+  },
+  {
+   "t": 45.373,
+   "text": "Porque o que eu vou mostrar pode",
+   "end": 47.36
+  },
+  {
+   "t": 47.36,
+   "text": "fazer o seu próximo ano ser bem",
+   "end": 49.8
+  },
+  {
+   "t": 49.8,
+   "text": "diferente deste.",
+   "end": 50.98
+  },
+  {
+   "t": 50.98,
+   "text": "Deixa eu adivinhar uma coisa.",
+   "end": 52.57
+  },
+  {
+   "t": 52.57,
+   "text": "Dezembro do ano passado,",
+   "end": 54.08
+  },
+  {
+   "t": 54.08,
+   "text": "você fez aquela lista.",
+   "end": 55.92
+  },
+  {
+   "t": 55.92,
+   "text": "Ano que vem eu aprendo inteligência artificial.",
+   "end": 58.72
+  },
+  {
+   "t": 58.72,
+   "text": "Ano que vem eu faço aquele curso",
+   "end": 60.5
+  },
+  {
+   "t": 60.5,
+   "text": "de dados.",
+   "end": 61.58
+  },
+  {
+   "t": 61.58,
+   "text": "Ano que vem eu atualizo meu LinkedIn.",
+   "end": 64.36
+  },
+  {
+   "t": 64.36,
+   "text": "E agora é novembro de novo.",
+   "end": 67.52
+  },
+  {
+   "t": 67.52,
+   "text": "Quantos itens dessa lista você riscou?",
+   "end": 70.72
+  },
+  {
+   "t": 70.72,
+   "text": "Olha, não é culpa sua.",
+   "end": 72.56
+  },
+  {
+   "t": 72.56,
+   "text": "Não é preguiça.",
+   "end": 73.8
+  },
+  {
+   "t": 73.8,
+   "text": "É que todo caminho tinha uma trava.",
+   "end": 76.52
+  },
+  {
+   "t": 76.52,
+   "text": "E enquanto isso, as vagas que pagam",
+   "end": 79.0
+  },
+  {
+   "t": 79.0,
+   "text": "melhor começaram a pedir exatamente aquilo que",
+   "end": 81.62
+  },
+  {
+   "t": 81.62,
+   "text": "você ia aprender ano que vem.",
+   "end": 83.88
+  },
+  {
+   "t": 83.88,
+   "text": "Inteligência artificial, análise de dados,",
+   "end": 86.9
+  },
+  {
+   "t": 86.9,
+   "text": "gestão, inglês para negócios.",
+   "end": 89.44
+  },
+  {
+   "t": 89.44,
+   "text": "E a cada mês que passa essa",
+   "end": 91.62
+  },
+  {
+   "t": 91.62,
+   "text": "distância aumenta mais um pouco.",
+   "end": 94.02
+  },
+  {
+   "t": 94.02,
+   "text": "Deixa eu mostrar quais são essas travas,",
+   "end": 96.52
+  },
+  {
+   "t": 96.52,
+   "text": "porque eu aposto que você já bateu",
+   "end": 98.36
+  },
+  {
+   "t": 98.36,
+   "text": "em pelo menos uma delas.",
+   "end": 100.49
+  },
+  {
+   "t": 100.49,
+   "text": "Trava número um:",
+   "end": 101.87
+  },
+  {
+   "t": 101.87,
+   "text": "o curso bom é caro.",
+   "end": 103.93
+  },
+  {
+   "t": 103.93,
+   "text": "O plano anual do Coursera Plus sai",
+   "end": 105.97
+  },
+  {
+   "t": 105.97,
+   "text": "por cerca de mil e duzentos reais",
+   "end": 107.81
+  },
+  {
+   "t": 107.81,
+   "text": "no site oficial.",
+   "end": 109.23
+  },
+  {
+   "t": 109.23,
+   "text": "Com cartão internacional, IOF,",
+   "end": 111.31
+  },
+  {
+   "t": 111.31,
+   "text": "câmbio do dia e renovação automática no",
+   "end": 114.23
+  },
+  {
+   "t": 114.23,
+   "text": "ano seguinte.",
+   "end": 115.47
+  },
+  {
+   "t": 115.47,
+   "text": "Trava número dois:",
+   "end": 117.03
+  },
+  {
+   "t": 117.03,
+   "text": "o curso avulso.",
+   "end": 118.57
+  },
+  {
+   "t": 118.57,
+   "text": "Você paga um, depois outro,",
+   "end": 120.79
+  },
+  {
+   "t": 120.79,
+   "text": "depois outro, e para no segundo.",
+   "end": 123.99
+  },
+  {
+   "t": 123.99,
+   "text": "Porque cada certificado custa como se fosse",
+   "end": 126.39
+  },
+  {
+   "t": 126.39,
+   "text": "o único.",
+   "end": 127.49
+  },
+  {
+   "t": 127.49,
+   "text": "Trava número três:",
+   "end": 128.89
+  },
+  {
+   "t": 128.89,
+   "text": "o gratuito.",
+   "end": 130.13
+  },
+  {
+   "t": 130.13,
+   "text": "O YouTube tem tudo,",
+   "end": 131.51
+  },
+  {
+   "t": 131.51,
+   "text": "né?",
+   "end": 131.95
+  },
+  {
+   "t": 131.95,
+   "text": "Tem, mas não tem trilha,",
+   "end": 133.75
+  },
+  {
+   "t": 133.75,
+   "text": "não tem certificado e não tem fim.",
+   "end": 136.63
+  },
+  {
+   "t": 136.63,
+   "text": "Você assiste vinte vídeos e continua no",
+   "end": 139.35
+  },
+  {
+   "t": 139.35,
+   "text": "mesmo lugar.",
+   "end": 140.47
+  },
+  {
+   "t": 140.47,
+   "text": "E a trava número quatro,",
+   "end": 142.09
+  },
+  {
+   "t": 142.09,
+   "text": "a pior de todas:",
+   "end": 143.89
+  },
+  {
+   "t": 143.89,
+   "text": "a conta barata de grupo.",
+   "end": 146.12
+  },
+  {
+   "t": 146.12,
+   "text": "Conta compartilhada com mais quinze pessoas,",
+   "end": 148.62
+  },
+  {
+   "t": 148.62,
+   "text": "que cai no meio do curso,",
+   "end": 150.32
+  },
+  {
+   "t": 150.32,
+   "text": "e um vendedor que some justo quando",
+   "end": 152.52
+  },
+  {
+   "t": 152.52,
+   "text": "você precisa dele.",
+   "end": 153.84
+  },
+  {
+   "t": 153.84,
+   "text": "Se você já caiu numa dessas,",
+   "end": 155.98
+  },
+  {
+   "t": 155.98,
+   "text": "eu entendo a sua desconfiança.",
+   "end": 157.92
+  },
+  {
+   "t": 157.92,
+   "text": "Ela é justa.",
+   "end": 159.06
+  },
+  {
+   "t": 159.06,
+   "text": "Foi exatamente para resolver isso que a",
+   "end": 161.54
+  },
+  {
+   "t": 161.54,
+   "text": "Nexools criou o que a gente chama",
+   "end": 163.12
+  },
+  {
+   "t": 163.12,
+   "text": "de Passe Anual com três travas.",
+   "end": 165.64
+  },
+  {
+   "t": 165.64,
+   "text": "Funciona assim.",
+   "end": 166.92
+  },
+  {
+   "t": 166.92,
+   "text": "Primeira trava:",
+   "end": 168.22
+  },
+  {
+   "t": 168.22,
+   "text": "a conta é sua.",
+   "end": 169.92
+  },
+  {
+   "t": 169.92,
+   "text": "Você recebe o acesso,",
+   "end": 171.7
+  },
+  {
+   "t": 171.7,
+   "text": "troca a senha e coloca o seu",
+   "end": 173.6
+  },
+  {
+   "t": 173.6,
+   "text": "nome.",
+   "end": 174.08
+  },
+  {
+   "t": 174.08,
+   "text": "Ninguém mais usa.",
+   "end": 175.5
+  },
+  {
+   "t": 175.5,
+   "text": "Ela não é compartilhada,",
+   "end": 177.26
+  },
+  {
+   "t": 177.26,
+   "text": "então ela não cai.",
+   "end": 178.94
+  },
+  {
+   "t": 178.94,
+   "text": "Segunda trava:",
+   "end": 180.24
+  },
+  {
+   "t": 180.24,
+   "text": "um pagamento só, em reais.",
+   "end": 182.61
+  },
+  {
+   "t": 182.61,
+   "text": "Pix ou cartão.",
+   "end": 185.15
+  },
+  {
+   "t": 185.18,
+   "text": "Sem dólar, sem IOF,",
+   "end": 186.2
+  },
+  {
+   "t": 186.2,
+   "text": "sem mensalidade e sem renovação automática.",
+   "end": 189.48
+  },
+  {
+   "t": 189.48,
+   "text": "Acabou o ano, ninguém cobra nada sem",
+   "end": 192.1
+  },
+  {
+   "t": 192.1,
+   "text": "você pedir.",
+   "end": 193.35
+  },
+  {
+   "t": 193.35,
+   "text": "Terceira trava:",
+   "end": 194.85
+  },
+  {
+   "t": 194.85,
+   "text": "gente de verdade.",
+   "end": 196.49
+  },
+  {
+   "t": 196.49,
+   "text": "Uma pessoa da Nexools te atende no",
+   "end": 198.85
+  },
+  {
+   "t": 198.85,
+   "text": "WhatsApp antes de você pagar e durante",
+   "end": 201.05
+  },
+  {
+   "t": 201.05,
+   "text": "os doze meses.",
+   "end": 202.55
+  },
+  {
+   "t": 202.55,
+   "text": "Travou no acesso?",
+   "end": 203.85
+  },
+  {
+   "t": 203.85,
+   "text": "Você manda mensagem e alguém resolve com",
+   "end": 206.67
+  },
+  {
+   "t": 206.67,
+   "text": "você.",
+   "end": 207.31
+  },
+  {
+   "t": 207.31,
+   "text": "Três travas.",
+   "end": 208.65
+  },
+  {
+   "t": 208.65,
+   "text": "Uma pra cada medo que você está",
+   "end": 210.49
+  },
+  {
+   "t": 210.49,
+   "text": "sentindo agora.",
+   "end": 211.75
+  },
+  {
+   "t": 211.75,
+   "text": "E aí você me pergunta:",
+   "end": 213.77
+  },
+  {
+   "t": 213.77,
+   "text": "tá, mas por que tão mais barato?",
+   "end": 216.53
+  },
+  {
+   "t": 216.53,
+   "text": "Pergunta justa.",
+   "end": 217.585
+  },
+  {
+   "t": 217.585,
+   "text": "Vou ser direto com você.",
+   "end": 219.53
+  },
+  {
+   "t": 219.53,
+   "text": "A Nexools é uma revendedora independente.",
+   "end": 222.47
+  },
+  {
+   "t": 222.47,
+   "text": "A gente não é o Coursera e",
+   "end": 223.83
+  },
+  {
+   "t": 223.83,
+   "text": "não fala em nome dele.",
+   "end": 225.37
+  },
+  {
+   "t": 225.37,
+   "text": "A gente trabalha com uma condição comercial",
+   "end": 228.07
+  },
+  {
+   "t": 228.07,
+   "text": "própria, pensada para o público brasileiro.",
+   "end": 230.85
+  },
+  {
+   "t": 230.85,
+   "text": "E é justamente por isso que a",
+   "end": 232.39
+  },
+  {
+   "t": 232.39,
+   "text": "gente faz questão de mostrar tudo antes",
+   "end": 235.23
+  },
+  {
+   "t": 235.23,
+   "text": "de você pagar.",
+   "end": 236.59
+  },
+  {
+   "t": 236.59,
+   "text": "Agora imagina os próximos doze meses.",
+   "end": 239.53
+  },
+  {
+   "t": 239.53,
+   "text": "Você abre o aplicativo no ônibus,",
+   "end": 241.65
+  },
+  {
+   "t": 241.65,
+   "text": "dez minutos, e termina uma aula.",
+   "end": 244.29
+  },
+  {
+   "t": 244.29,
+   "text": "Sem aula ao vivo,",
+   "end": 245.77
+  },
+  {
+   "t": 245.77,
+   "text": "sem horário marcado, no celular ou no",
+   "end": 248.47
+  },
+  {
+   "t": 248.47,
+   "text": "computador.",
+   "end": 249.43
+  },
+  {
+   "t": 249.43,
+   "text": "Você escolhe uma trilha.",
+   "end": 251.43
+  },
+  {
+   "t": 251.43,
+   "text": "Inteligência artificial pra usar no seu trabalho",
+   "end": 254.07
+  },
+  {
+   "t": 254.07,
+   "text": "em vez de ter medo dela.",
+   "end": 256.13
+  },
+  {
+   "t": 256.13,
+   "text": "Excel, SQL e Power BI pra transformar",
+   "end": 259.67
+  },
+  {
+   "t": 259.67,
+   "text": "planilha em decisão.",
+   "end": 261.26
+  },
+  {
+   "t": 261.26,
+   "text": "Gestão de projetos.",
+   "end": 263.25
+  },
+  {
+   "t": 263.25,
+   "text": "Marketing digital.",
+   "end": 264.44
+  },
+  {
+   "t": 264.44,
+   "text": "Inglês para negócios.",
+   "end": 266.33
+  },
+  {
+   "t": 266.33,
+   "text": "São milhares de cursos e especializações de",
+   "end": 269.05
+  },
+  {
+   "t": 269.05,
+   "text": "empresas como Google, IBM e Meta,",
+   "end": 271.79
+  },
+  {
+   "t": 271.79,
+   "text": "e de universidades como Stanford e Duke.",
+   "end": 274.93
+  },
+  {
+   "t": 274.93,
+   "text": "Você entra em quantos quiser,",
+   "end": 276.97
+  },
+  {
+   "t": 276.97,
+   "text": "sem pagar nada mais por eles.",
+   "end": 279.27
+  },
+  {
+   "t": 279.27,
+   "text": "Não fala inglês?",
+   "end": 280.73
+  },
+  {
+   "t": 280.73,
+   "text": "Calma, tem cursos em português e muitos",
+   "end": 283.75
+  },
+  {
+   "t": 283.75,
+   "text": "outros com legendas em português.",
+   "end": 285.82
+  },
+  {
+   "t": 285.82,
+   "text": "E quando você conclui os programas incluídos",
+   "end": 288.08
+  },
+  {
+   "t": 288.08,
+   "text": "no Coursera Plus, recebe certificado no seu",
+   "end": 291.56
+  },
+  {
+   "t": 291.56,
+   "text": "nome.",
+   "end": 291.9
+  },
+  {
+   "t": 291.9,
+   "text": "Pra colocar no currículo,",
+   "end": 293.42
+  },
+  {
+   "t": 293.42,
+   "text": "no LinkedIn, pra mostrar na próxima entrevista.",
+   "end": 296.74
+  },
+  {
+   "t": 296.74,
+   "text": "Daqui a um ano,",
+   "end": 297.8
+  },
+  {
+   "t": 297.8,
+   "text": "em vez da mesma lista,",
+   "end": 299.22
+  },
+  {
+   "t": 299.22,
+   "text": "você pode ter três,",
+   "end": 300.94
+  },
+  {
+   "t": 300.94,
+   "text": "quatro, cinco certificados, mostrando que dessa",
+   "end": 304.16
+  },
+  {
+   "t": 304.16,
+   "text": "vez você fez o que prometeu.",
+   "end": 306.3
+  },
+  {
+   "t": 306.3,
+   "text": "Mas não acredita só em mim.",
+   "end": 307.92
+  },
+  {
+   "t": 307.92,
+   "text": "Olha o que dizem as pessoas que",
+   "end": 309.56
+  },
+  {
+   "t": 309.56,
+   "text": "já estão estudando com a Nexools.",
+   "end": 311.9
+  },
+  {
+   "t": 311.9,
+   "text": "Então vamos fazer a conta.",
+   "end": 313.66
+  },
+  {
+   "t": 313.66,
+   "text": "No site oficial, esse mesmo ano de",
+   "end": 316.26
+  },
+  {
+   "t": 316.26,
+   "text": "Coursera Plus custa cerca de mil e",
+   "end": 318.82
+  },
+  {
+   "t": 318.82,
+   "text": "duzentos reais.",
+   "end": 319.6
+  },
+  {
+   "t": 319.6,
+   "text": "Só que hoje você não vai pagar",
+   "end": 321.64
+  },
+  {
+   "t": 321.64,
+   "text": "mil e duzentos.",
+   "end": 322.66
+  },
+  {
+   "t": 322.66,
+   "text": "Não vai pagar seiscentos.",
+   "end": 324.48
+  },
+  {
+   "t": 324.48,
+   "text": "Não vai pagar nem quatrocentos.",
+   "end": 327.2
+  },
+  {
+   "t": 327.2,
+   "text": "Nesta condição de Black Friday da Nexools,",
+   "end": 329.84
+  },
+  {
+   "t": 329.84,
+   "text": "o seu ano inteiro sai por duzentos",
+   "end": 332.17
+  },
+  {
+   "t": 332.17,
+   "text": "e noventa e sete reais.",
+   "end": 333.82
+  },
+  {
+   "t": 333.82,
+   "text": "Pagos uma vez só.",
+   "end": 335.38
+  },
+  {
+   "t": 335.38,
+   "text": "São setenta e cinco por cento abaixo",
+   "end": 338.11
+  },
+  {
+   "t": 338.11,
+   "text": "do preço oficial.",
+   "end": 339.7
+  },
+  {
+   "t": 339.7,
+   "text": "Divide isso por trezentos e sessenta e",
+   "end": 342.32
+  },
+  {
+   "t": 342.32,
+   "text": "cinco dias, e dá oitenta e um",
+   "end": 344.64
+  },
+  {
+   "t": 344.64,
+   "text": "centavos por dia.",
+   "end": 347.18
+  },
+  {
+   "t": 348.38,
+   "text": "Menos que um cafezinho.",
+   "end": 349.94
+  },
+  {
+   "t": 349.94,
+   "text": "Menos que a passagem do ônibus onde",
+   "end": 351.86
+  },
+  {
+   "t": 351.86,
+   "text": "você vai assistir às aulas.",
+   "end": 353.72
+  },
+  {
+   "t": 353.72,
+   "text": "E o risco fica do nosso lado,",
+   "end": 356.34
+  },
+  {
+   "t": 356.34,
+   "text": "não do seu.",
+   "end": 357.205
+  },
+  {
+   "t": 357.205,
+   "text": "Lembra que lá no começo eu disse",
+   "end": 358.88
+  },
+  {
+   "t": 358.88,
+   "text": "que tinha uma coisa pra você conferir",
+   "end": 360.84
+  },
+  {
+   "t": 360.84,
+   "text": "antes de pagar?",
+   "end": 362.12
+  },
+  {
+   "t": 362.12,
+   "text": "É isso.",
+   "end": 363.12
+  },
+  {
+   "t": 363.12,
+   "text": "Fala com a gente antes de pagar.",
+   "end": 365.72
+  },
+  {
+   "t": 365.72,
+   "text": "Chama uma pessoa da Nexools no WhatsApp",
+   "end": 368.06
+  },
+  {
+   "t": 368.06,
+   "text": "e pergunta tudo o que quiser.",
+   "end": 370.32
+  },
+  {
+   "t": 370.32,
+   "text": "Só paga quando estiver seguro.",
+   "end": 372.64
+  },
+  {
+   "t": 372.64,
+   "text": "E mesmo depois de pagar,",
+   "end": 374.34
+  },
+  {
+   "t": 374.34,
+   "text": "você ainda tem sete dias para desistir,",
+   "end": 376.98
+  },
+  {
+   "t": 376.98,
+   "text": "como garante o Código de Defesa do",
+   "end": 379.12
+  },
+  {
+   "t": 379.12,
+   "text": "Consumidor.",
+   "end": 380.12
+  },
+  {
+   "t": 380.12,
+   "text": "Agora, presta atenção.",
+   "end": 381.84
+  },
+  {
+   "t": 381.84,
+   "text": "Esse preço vai até o dia trinta",
+   "end": 383.74
+  },
+  {
+   "t": 383.74,
+   "text": "de novembro, às vinte e três e",
+   "end": 385.56
+  },
+  {
+   "t": 385.56,
+   "text": "cinquenta e nove, no horário de Brasília.",
+   "end": 388.62
+  },
+  {
+   "t": 388.62,
+   "text": "Então, o que você faz agora é",
+   "end": 390.8
+  },
+  {
+   "t": 390.8,
+   "text": "simples.",
+   "end": 391.44
+  },
+  {
+   "t": 391.44,
+   "text": "Clica no botão aqui embaixo do vídeo.",
+   "end": 393.94
+  },
+  {
+   "t": 393.94,
+   "text": "Você vai para o pagamento seguro e",
+   "end": 396.09
+  },
+  {
+   "t": 396.09,
+   "text": "paga os duzentos e noventa e sete",
+   "end": 398.05
+  },
+  {
+   "t": 398.05,
+   "text": "reais no Pix ou no cartão.",
+   "end": 400.29
+  },
+  {
+   "t": 400.29,
+   "text": "Logo depois, os seus dados de acesso",
+   "end": 402.65
+  },
+  {
+   "t": 402.65,
+   "text": "chegam no seu WhatsApp e no seu",
+   "end": 404.79
+  },
+  {
+   "t": 404.79,
+   "text": "e-mail.",
+   "end": 405.37
+  },
+  {
+   "t": 405.37,
+   "text": "Você entra, troca a senha,",
+   "end": 407.33
+  },
+  {
+   "t": 407.33,
+   "text": "coloca o seu nome e escolhe o",
+   "end": 409.43
+  },
+  {
+   "t": 409.43,
+   "text": "seu primeiro curso.",
+   "end": 411.09
+  },
+  {
+   "t": 411.09,
+   "text": "E se tiver qualquer dúvida no caminho,",
+   "end": 413.57
+  },
+  {
+   "t": 413.57,
+   "text": "uma pessoa da Nexools resolve com você.",
+   "end": 416.63
+  },
+  {
+   "t": 416.63,
+   "text": "Olha, eu vou ser honesto com você.",
+   "end": 419.75
+  },
+  {
+   "t": 419.75,
+   "text": "Dezembro de 2027 vai chegar de qualquer",
+   "end": 423.13
+  },
+  {
+   "t": 423.13,
+   "text": "jeito.",
+   "end": 423.87
+  },
+  {
+   "t": 423.87,
+   "text": "E você vai estar em um de",
+   "end": 425.41
+  },
+  {
+   "t": 425.41,
+   "text": "dois lugares.",
+   "end": 426.63
+  },
+  {
+   "t": 426.63,
+   "text": "No primeiro, você vai estar fazendo a",
+   "end": 428.95
+  },
+  {
+   "t": 428.95,
+   "text": "mesma lista de novo:",
+   "end": 430.52
+  },
+  {
+   "t": 430.52,
+   "text": "ano que vem eu estudo.",
+   "end": 432.41
+  },
+  {
+   "t": 432.41,
+   "text": "No segundo, você vai abrir o seu",
+   "end": 434.68
+  },
+  {
+   "t": 434.68,
+   "text": "LinkedIn e ver ali os certificados do",
+   "end": 437.05
+  },
+  {
+   "t": 437.05,
+   "text": "ano em que você decidiu começar.",
+   "end": 439.6
+  },
+  {
+   "t": 439.6,
+   "text": "A diferença entre esses dois lugares custa",
+   "end": 442.34
+  },
+  {
+   "t": 442.34,
+   "text": "oitenta e um centavos por dia.",
+   "end": 445.02
+  },
+  {
+   "t": 445.02,
+   "text": "Clica no botão aqui embaixo e garante",
+   "end": 447.72
+  },
+  {
+   "t": 447.72,
+   "text": "o seu ano.",
+   "end": 448.7
+  },
+  {
+   "t": 448.7,
+   "text": "A gente se fala no WhatsApp.",
+   "end": 449.96
+  }
+ ]
+}

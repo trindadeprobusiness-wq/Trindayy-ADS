@@ -9,6 +9,7 @@ import {M02, Moovi02} from './projects/moovi-02/Moovi02';
 import {M03, Moovi03} from './projects/moovi-03/Moovi03';
 import {M04, Moovi04} from './projects/moovi-04/Moovi04';
 import {M06, Moovi06} from './projects/moovi-06/Moovi06';
+import {VSL, NexoolsVSL} from './projects/nexools-vsl/NexoolsVSL';
 
 ensureFonts();
 
@@ -26,5 +27,6 @@ export const RemotionRoot: React.FC = () => (
     <Composition {...vertical(M03.id, M03.total)} component={Moovi03} defaultProps={{debugSafeArea: false}} />
     <Composition {...vertical(M04.id, M04.total)} component={Moovi04} defaultProps={{debugSafeArea: false}} />
     <Composition {...vertical(M06.id, M06.total)} component={Moovi06} defaultProps={{debugSafeArea: false}} />
+    <Composition id={VSL.id} fps={60} width={1920} height={1080} durationInFrames={VSL.total} component={NexoolsVSL} defaultProps={{debugSafeArea: false}} />
   </>
 );
