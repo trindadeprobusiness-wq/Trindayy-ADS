@@ -16,7 +16,10 @@ sys_argv = sys.argv; sys.argv = ['synth']; spec.loader.exec_module(S); sys.argv 
 SR = S.SR
 midi = lambda m: 440 * 2 ** ((m - 69) / 12)
 PROG = {'minor': [[0, 3, 7, 10], [-4, 0, 3, 7], [-7, -4, 0, 3], [-2, 2, 5, 9]],   # Am7 Fmaj7 Dm7 G6
-        'major': [[3, 7, 10, 14], [-2, 2, 5, 10], [-4, 0, 3, 7], [-9, -5, 0, 3]]}  # C G F Am
+        'major': [[3, 7, 10, 14], [-2, 2, 5, 10], [-4, 0, 3, 7], [-9, -5, 0, 3]],  # C G F Am
+        'tense': [[0, 3, 7, 8], [-4, -1, 3, 7], [0, 3, 6, 10], [-1, 3, 6, 11]],      # Am(b6) F(#11) Adim Bb-ish: dark, unresolved
+        'motive': [[3, 7, 10, 14], [-2, 2, 5, 10], [-4, 0, 3, 7], [-9, -5, 0, 3]],
+        'calm': [[3, 7, 10, 14], [-4, 0, 3, 7], [-9, -5, 0, 3], [-2, 2, 5, 9]]}
 
 
 def main(out, dur, mp):
@@ -62,11 +65,38 @@ def main(out, dur, mp):
             hl = int(0.03 * SR); hn = S.hp(np.random.default_rng(i * 4 + q).standard_normal(hl), 7000) * np.exp(-np.arange(hl) / SR / 0.009)
             place(hat, hn * 0.05, tt + q * beat + beat / 2, ch=q % 2)
     arp = S.lp(arp, 3200)
+    # mood weights (smoothed like energy)
+    def wcurve(name):
+        st = np.zeros(n)
+        for i, (s0, _, md) in enumerate(segs):
+            a0 = int(s0 * SR); b0 = int(segs[i + 1][0] * SR) if i + 1 < len(segs) else n
+            if md == name: st[a0:b0] = 1
+        return np.convolve(np.pad(st, (k // 2, k - k // 2 - 1), mode='edge'), ker, mode='valid')[:n]
+    wt, wm = wcurve('tense'), wcurve('motive')
+    # tense: low detuned drone + clock tick on every beat + darker mix
+    drone = (np.sin(2 * np.pi * 55 * t) + np.sin(2 * np.pi * 55.6 * t) + 0.5 * np.sin(2 * np.pi * 82.4 * t)) * 0.05
+    drone *= 0.7 + 0.3 * np.sin(2 * np.pi * 0.25 * t)
+    tick = np.zeros(n); tl = int(0.03 * SR); tk = S.hp(np.random.default_rng(3).standard_normal(tl), 3500) * np.exp(-np.arange(tl) / SR / 0.005)
+    for q in range(int(dur / beat) + 1):
+        s0 = int(q * beat * SR)
+        if s0 + tl < n: tick[s0:s0 + tl] += tk * (0.06 if q % 2 == 0 else 0.04)
+    # motive: clap on 2 and 4 + brighter octave arp
+    clap = np.zeros(n); cl = int(0.12 * SR); cx = np.arange(cl) / SR
+    cp = S.bp(np.random.default_rng(5).standard_normal(cl), 900, 5000) * (np.exp(-cx / 0.03) + 0.4 * np.exp(-np.maximum(0, cx - 0.012) / 0.05))
+    for q in range(int(dur / beat) + 1):
+        if q % 4 in (1, 3):
+            s0 = int(q * beat * SR)
+            if s0 + cl < n: clap[s0:s0 + cl] += cp * 0.07
+    bright = S.hp(arp, 1800) * 0.8
     mix_ = pad * (0.75 + 0.25 * g(0.3, 0.8))[:, None]
     mix_ += (sub * g(0.35, 0.5))[:, None]
     mix_ += np.stack([arp * g(0.45, 0.6), np.roll(arp, 250) * g(0.45, 0.6)], 1)
     mix_ += (kick * g(0.55, 0.7))[:, None]
     mix_ += hat * g(0.62, 0.75)[:, None]
+    mix_ += (drone * wt)[:, None] + np.stack([tick * wt, np.roll(tick, 200) * wt], 1)
+    mix_ *= (1 - 0.35 * wt)[:, None] ** 0.5  # tense parts sit lower and darker
+    mix_ += np.stack([clap * wm * g(0.5, 0.7), np.roll(clap, 300) * wm * g(0.5, 0.7)], 1)
+    mix_ += np.stack([bright * wm * g(0.55, 0.75), np.roll(bright, 260) * wm * g(0.55, 0.75)], 1)
     for h in m.get('hits', []):
         place(mix_, S.lp(S.impact(1.6), 4000) * 0.45, h)
     if m.get('build_to'):

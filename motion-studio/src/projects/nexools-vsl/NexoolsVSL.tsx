@@ -10,7 +10,7 @@ import {
   Scene, Center, Backdrop, Captions, Footer, keyframes, progress, ease, mix, SHADOW,
 } from './kit';
 
-export const VSL = {id: 'NexoolsVSL', total: fr(TOTAL_S + 1), voice: 'nexools-vsl/voice.mp3', bed: 'nexools-vsl/bed.wav'};
+export const VSL = {id: 'NexoolsVSL', total: fr(TOTAL_S + 1), voice: 'nexools-vsl/voice.mp3', bed: 'nexools-vsl/bed_v2.wav'};
 const A = (n: string) => `nexools-vsl/sfx_${n}.wav`;
 
 /* dark background per section (navy = problem / tension, light = solution / clarity) */
@@ -994,51 +994,177 @@ const Cta: React.FC = () => {
 };
 
 /* ----------------------------------------------------------------- sound */
-const cue = (at: number, n: string, volume: number, why: string): SfxCue => ({at, src: A(n), volume, why});
-const buildSfx = (): SfxCue[] => [
-  cue(T('golpe', 'golpe'), 'stamp', 0.45, 'carimbo vermelho em "golpe"'),
-  cue(T('golpe', 'única') + 20, 'click', 0.35, 'cadeado do loop aberto fecha'),
-  cue(T('hook', 'mês') + 2, 'strike', 0.35, 'risca "por mês"'),
-  cue(T('hook', 'Uma'), 'pop', 0.4, '"uma vez só"'),
-  cue(T('paraquem', 'Se'), 'whoosh', 0.25, 'virada para o convite'),
-  cue(T('lista', 'Dezembro'), 'whoosh', 0.25, 'entra a lista'),
-  cue(T('lista', 'novembro'), 'pop', 0.35, 'calendário: novembro de novo'),
-  cue(T('lista', 'Quantos'), 'impact', 0.3, '"quantos você riscou?"'),
-  cue(T('culpa', 'trava') + 10, 'click', 0.35, 'cadeado vermelho fecha'),
-  cue(T('travas', 'aposto'), 'click', 0.3, 'as 4 travas fecham'),
-  cue(T('trava1', 'mil'), 'tick', 0.3, 'contador do preço oficial'),
-  cue(T('trava2', 'para') + 4, 'strike', 0.3, 'para no segundo'),
-  cue(T('trava3', 'fim'), 'pop', 0.3, '"sem fim"'),
-  cue(T('trava4', 'cai'), 'whoosh_down', 0.35, 'acesso cai'),
-  cue(T('desconfianca', 'Passe') + 40, 'chime', 0.35, 'as 3 travas da Nexools fecham'),
-  cue(T('sol1', 'Primeira') + 14, 'click', 0.3, 'trava 1'),
-  cue(T('sol1', 'coloca'), 'typing', 0.3, 'digitando o nome'),
-  cue(T('sol2', 'Segunda') + 14, 'click', 0.3, 'trava 2'),
-  cue(T('sol2', 'Pix') + 2, 'tick', 0.3, 'Pix selecionado'),
-  cue(T('sol3', 'Terceira') + 14, 'click', 0.3, 'trava 3'),
-  cue(T('sol3', 'alguém'), 'pop', 0.35, 'resposta da pessoa real'),
-  cue(T('sol4', 'Três') + 16, 'chime', 0.3, '3 travas fechadas'),
-  cue(T('porque', 'Nexools') - 24, 'whoosh', 0.25, 'resposta: revendedora'),
-  cue(T('imagina', 'aula', 0), 'chime', 0.3, 'aula concluída'),
-  cue(T('trilhas', 'Inteligência'), 'pop', 0.25, 'primeira trilha'),
-  cue(T('catalogo', 'milhares'), 'whoosh', 0.25, 'catálogo'),
-  cue(T('certificado', 'recebe'), 'chime', 0.35, 'certificado no seu nome'),
-  cue(T('certificado', 'três'), 'pop', 0.3, 'certificado 3'),
-  cue(T('certificado', 'quatro'), 'pop', 0.3, 'certificado 4'),
-  cue(T('certificado', 'cinco'), 'pop', 0.3, 'certificado 5'),
-  cue(T('conta', 'duzentos', 1) + 4, 'strike', 0.35, 'risca 1.200'),
-  cue(T('conta', 'seiscentos') + 4, 'strike', 0.35, 'risca 600'),
-  cue(T('conta', 'quatrocentos') + 4, 'strike', 0.35, 'risca 400'),
-  cue(T('preco', 'duzentos') - 120, 'riser', 0.35, 'tensão antes do preço'),
-  cue(T('preco', 'oitenta'), 'impact', 0.35, 'R$ 0,81 por dia'),
-  cue(T('risco', 'isso') - 18, 'click', 0.4, 'o cadeado do começo abre'),
-  cue(T('risco', 'mesmo'), 'chime', 0.3, '7 dias de garantia'),
-  cue(T('prazo', 'Esse'), 'tick', 0.35, 'prazo'),
-  cue(T('passos', 'Clica') + 4, 'click', 0.35, 'clique no botão'),
-  cue(T('passos', 'Logo'), 'pop', 0.3, 'acesso chega'),
-  cue(T('final', 'No', 1), 'whoosh', 0.25, 'segundo caminho'),
-  cue(T('cta', 'botão') + 4, 'click', 0.4, 'botão pressionado'),
-];
+const cue = (at: number, n: string, volume: number, why: string): SfxCue => ({at, src: n.startsWith('pro/') ? `nexools-vsl/${n}.wav` : A(n), volume, why});
+/** Sound design v2: layered, every cue has a reason; tension cues on "problem" lines, bright cues on affirmations. ≤ 6 cues / 10 s. */
+const buildSfx = (): SfxCue[] => {
+  const c: SfxCue[] = [];
+  const add = (at: number, n: string, v: number, why: string) => c.push(cue(at, n, v, why));
+  // hook — price hit, then quick taps on the three areas, strike "por mês", success on "uma vez só"
+  add(T('hook', 'Duzentos'), 'pro/sub_drop', 0.5, 'peso no preço de abertura');
+  add(T('hook', 'Duzentos') + 2, 'pro/sparkle', 0.3, 'brilho no R$ 297');
+  add(T('hook', 'inteligência'), 'pro/ui_tap', 0.35, 'chip IA');
+  add(T('hook', 'dados'), 'pro/ui_tap', 0.3, 'chip dados');
+  add(T('hook', 'negócios'), 'pro/ui_tap', 0.3, 'chip negócios');
+  add(T('hook', 'mês') + 2, 'strike', 0.45, 'risca "por mês"');
+  add(T('hook', 'pelo'), 'pro/whoosh_short', 0.3, 'entra "pelo ano todo"');
+  add(T('hook', 'Uma'), 'pro/success', 0.4, '"uma vez só"');
+  // golpe — tension rises into the stamp, then relief; lock of the open loop
+  add(SEC('golpe').from, 'pro/whoosh_down', 0.35, 'mergulho no escuro');
+  add(T('golpe', 'golpe') - 81, 'pro/tension_stinger', 0.3, 'tensão crescendo até "golpe"');
+  add(T('golpe', 'golpe'), 'stamp', 0.55, 'carimbo vermelho');
+  add(T('golpe', 'Ótimo'), 'pop', 0.4, 'virada: "ótimo"');
+  add(T('golpe', 'única'), 'pro/heartbeat', 0.3, 'suspense: a única coisa a conferir');
+  add(T('golpe', 'única') + 20, 'pro/lock_click', 0.5, 'cadeado do loop fecha');
+  // para quem
+  add(SEC('paraquem').from, 'pro/whoosh_long', 0.35, 'volta ao claro');
+  add(T('paraquem', 'crescer'), 'pro/ui_tap', 0.3, 'card carreira');
+  add(T('paraquem', 'ganhar'), 'pro/ui_tap', 0.3, 'card ganhar mais');
+  add(T('paraquem', 'mudar'), 'pro/ui_tap', 0.3, 'card mudar de área');
+  add(T('paraquem', 'parar') + 10, 'pro/whoosh_short', 0.25, 'linhas do gráfico');
+  add(T('paraquem', 'fica'), 'pro/sparkle', 0.3, '"fica até o final"');
+  // lista — paper, typing, the empty-checkbox drop
+  add(T('lista', 'Dezembro'), 'pro/page_flip', 0.45, 'abre o caderno');
+  add(T('lista', 'Ano', 1), 'pro/typing_burst', 0.25, 'meta 1');
+  add(T('lista', 'Ano', 2), 'pro/typing_burst', 0.25, 'meta 2');
+  add(T('lista', 'Ano', 3), 'pro/typing_burst', 0.25, 'meta 3');
+  add(T('lista', 'novembro'), 'pro/page_flip', 0.4, 'calendário: novembro');
+  add(T('lista', 'Quantos'), 'pro/sub_drop', 0.45, '"quantos você riscou?"');
+  add(T('lista', 'Quantos') + 24, 'pro/heartbeat', 0.35, 'peso do 0 de 3');
+  // culpa
+  add(SEC('culpa').from, 'pro/whoosh_down', 0.3, 'tom mais sério');
+  add(T('culpa', 'trava') + 10, 'pro/lock_click', 0.5, 'a trava fecha');
+  add(T('culpa', 'vagas'), 'pro/ui_tap', 0.3, 'vaga aparece');
+  add(T('culpa', 'Inteligência'), 'pro/ui_tap', 0.25, 'requisito');
+  add(T('culpa', 'análise'), 'pro/ui_tap', 0.25, 'requisito');
+  add(T('culpa', 'inglês'), 'pro/ui_tap', 0.25, 'requisito');
+  add(T('culpa', 'cada') - 30, 'pro/tension_stinger', 0.3, 'a distância aumenta');
+  // travas
+  add(SEC('travas').from, 'pro/whoosh_long', 0.35, 'entram as 4 travas');
+  add(T('travas', 'aposto'), 'pro/lock_click', 0.5, 'as 4 travas fecham');
+  add(T('travas', 'aposto') + 12, 'pro/heartbeat', 0.3, 'peso das travas');
+  add(SEC('trava1').from, 'pro/whoosh_short', 0.3, 'trava 1');
+  add(T('trava1', 'mil'), 'pro/clock_tick', 0.35, 'contador do preço oficial');
+  add(T('trava1', 'cartão'), 'pro/ui_tap', 0.3, 'custo extra');
+  add(T('trava1', 'IOF'), 'pro/ui_tap', 0.3, 'custo extra');
+  add(T('trava1', 'câmbio'), 'pro/ui_tap', 0.3, 'custo extra');
+  add(T('trava1', 'renovação'), 'pro/ui_tap', 0.3, 'custo extra');
+  add(SEC('trava2').from, 'pro/whoosh_short', 0.3, 'trava 2');
+  add(T('trava2', 'um'), 'pro/coin', 0.3, 'paga um');
+  add(T('trava2', 'depois', 0), 'pro/coin', 0.3, 'paga outro');
+  add(T('trava2', 'para') + 4, 'strike', 0.45, 'para no segundo');
+  add(SEC('trava3').from, 'pro/whoosh_short', 0.3, 'trava 3');
+  add(T('trava3', 'trilha'), 'pro/ui_tap', 0.3, 'sem trilha');
+  add(T('trava3', 'certificado'), 'pro/ui_tap', 0.3, 'sem certificado');
+  add(T('trava3', 'fim'), 'pro/ui_tap', 0.3, 'sem fim');
+  add(T('trava3', 'vinte'), 'pro/clock_tick', 0.3, 'tempo passando');
+  add(SEC('trava4').from, 'pro/whoosh_short', 0.3, 'trava 4');
+  add(T('trava4', 'quinze'), 'pop', 0.3, '+15 pessoas');
+  add(T('trava4', 'cai'), 'pro/sub_drop', 0.45, 'acesso cai');
+  add(T('trava4', 'cai') + 4, 'pro/whoosh_down', 0.3, 'queda');
+  add(T('trava4', 'some'), 'pro/heartbeat', 0.3, 'vendedor sumiu');
+  // solução — relief and locks closing
+  add(T('desconfianca', 'Nexools') - 10, 'pro/whoosh_long', 0.45, 'virada para a solução');
+  add(T('desconfianca', 'Passe') + 40, 'pro/lock_click', 0.4, 'trava 1 da Nexools');
+  add(T('desconfianca', 'Passe') + 50, 'pro/lock_click', 0.4, 'trava 2 da Nexools');
+  add(T('desconfianca', 'Passe') + 60, 'pro/lock_click', 0.4, 'trava 3 da Nexools');
+  add(T('desconfianca', 'Passe') + 72, 'pro/success', 0.4, 'passe completo');
+  add(T('sol1', 'Primeira') + 14, 'pro/lock_click', 0.45, 'trava 1');
+  add(T('sol1', 'troca'), 'pro/typing_burst', 0.35, 'nova senha');
+  add(T('sol1', 'coloca'), 'pro/typing_burst', 0.35, 'seu nome');
+  add(T('sol1', 'Ninguém'), 'pro/ui_tap', 0.3, 'só você usa');
+  add(T('sol1', 'cai'), 'pro/success', 0.35, 'não cai');
+  add(T('sol2', 'Segunda') + 14, 'pro/lock_click', 0.45, 'trava 2');
+  add(T('sol2', 'Pix') + 2, 'pro/ui_tap', 0.45, 'Pix selecionado');
+  add(T('sol2', 'dólar') + 12, 'strike', 0.3, 'sem dólar');
+  add(T('sol2', 'IOF') + 12, 'strike', 0.3, 'sem IOF');
+  add(T('sol2', 'mensalidade') + 12, 'strike', 0.3, 'sem mensalidade');
+  add(T('sol2', 'renovação') + 12, 'strike', 0.3, 'sem renovação');
+  add(T('sol2', 'Acabou'), 'pro/success', 0.35, 'nenhuma cobrança sem pedir');
+  add(T('sol3', 'Terceira') + 14, 'pro/lock_click', 0.45, 'trava 3');
+  add(T('sol3', 'antes'), 'pro/ui_tap', 0.3, 'antes de pagar');
+  add(T('sol3', 'durante'), 'pro/ui_tap', 0.3, 'durante os 12 meses');
+  add(T('sol3', 'Travou'), 'pro/notification', 0.45, 'mensagem enviada');
+  add(T('sol3', 'alguém'), 'pro/notification', 0.4, 'resposta da pessoa real');
+  add(SEC('sol4').from + 16, 'pro/lock_click', 0.4, '3 travas');
+  add(SEC('sol4').from + 24, 'pro/lock_click', 0.35, '3 travas');
+  add(SEC('sol4').from + 32, 'pro/lock_click', 0.35, '3 travas');
+  add(T('sol4', 'medo'), 'pro/success', 0.45, 'uma para cada medo');
+  // porque
+  add(T('porque', 'Pergunta'), 'pro/ui_tap', 0.3, 'pergunta justa');
+  add(T('porque', 'Nexools') - 24, 'pro/whoosh_short', 0.3, 'resposta: revendedora');
+  add(T('porque', 'não'), 'pro/ui_tap', 0.25, 'não somos o Coursera');
+  add(T('porque', 'condição'), 'pro/ui_tap', 0.25, 'condição própria');
+  add(T('porque', 'público'), 'pro/ui_tap', 0.25, 'público brasileiro');
+  add(T('porque', 'mostrar'), 'pro/success', 0.35, 'transparência');
+  // futuro
+  add(T('imagina', 'abre'), 'pro/whoosh_short', 0.3, 'abre o app');
+  add(T('imagina', 'ônibus'), 'pro/ui_tap', 0.25, 'no ônibus');
+  add(T('imagina', 'aula', 0), 'pro/success', 0.4, 'aula concluída');
+  add(T('imagina', 'Sem', 0), 'pro/ui_tap', 0.25, 'sem aula ao vivo');
+  add(T('imagina', 'sem', 1), 'pro/ui_tap', 0.25, 'sem horário');
+  add(T('imagina', 'computador'), 'pro/ui_tap', 0.25, 'celular ou computador');
+  add(T('trilhas', 'trilha'), 'pro/whoosh_short', 0.3, 'trilhas');
+  add(T('trilhas', 'Inteligência'), 'pop', 0.3, 'trilha IA');
+  add(T('trilhas', 'Excel'), 'pop', 0.28, 'trilha dados');
+  add(T('trilhas', 'Gestão'), 'pop', 0.28, 'trilha gestão');
+  add(T('trilhas', 'Marketing'), 'pop', 0.28, 'trilha marketing');
+  add(T('trilhas', 'Inglês'), 'pop', 0.28, 'trilha inglês');
+  add(T('catalogo', 'milhares'), 'pro/whoosh_long', 0.35, 'parede de cursos');
+  add(T('catalogo', 'milhares') + 6, 'pro/sparkle', 0.3, '+ milhares de cursos');
+  add(T('catalogo', 'empresas'), 'pro/ui_tap', 0.25, 'empresas');
+  add(T('catalogo', 'universidades'), 'pro/ui_tap', 0.25, 'universidades');
+  add(T('catalogo', 'quantos'), 'pro/success', 0.3, 'quantos quiser');
+  add(T('catalogo', 'português', 0), 'pro/ui_tap', 0.3, 'em português');
+  add(T('catalogo', 'legendas'), 'pro/ui_tap', 0.3, 'legendas');
+  add(T('certificado', 'recebe'), 'pro/sparkle', 0.45, 'certificado no seu nome');
+  add(T('certificado', 'seu'), 'pro/typing_burst', 0.3, 'digitando o nome');
+  add(T('certificado', 'currículo'), 'pro/ui_tap', 0.25, 'currículo');
+  add(T('certificado', 'LinkedIn'), 'pro/ui_tap', 0.25, 'LinkedIn');
+  add(T('certificado', 'três'), 'pro/coin', 0.35, 'certificado 3');
+  add(T('certificado', 'quatro'), 'pro/coin', 0.35, 'certificado 4');
+  add(T('certificado', 'cinco'), 'pro/coin', 0.35, 'certificado 5');
+  add(T('depoimentos', 'Olha'), 'pro/page_flip', 0.35, 'depoimentos');
+  // conta + preço
+  add(SEC('conta').from, 'pro/whoosh_down', 0.4, 'hora da conta');
+  add(T('conta', 'duzentos', 1) + 4, 'strike', 0.45, 'risca 1.200');
+  add(T('conta', 'seiscentos') + 4, 'strike', 0.45, 'risca 600');
+  add(T('conta', 'quatrocentos') + 4, 'strike', 0.45, 'risca 400');
+  add(T('preco', 'duzentos') - 120, 'riser', 0.45, 'tensão antes do preço');
+  add(T('preco', 'duzentos'), 'pro/sub_drop', 0.6, 'R$ 297 bate');
+  add(T('preco', 'duzentos') + 2, 'pro/sparkle', 0.4, 'brilho do preço');
+  add(T('preco', 'Pagos'), 'pro/success', 0.35, 'pago uma vez');
+  add(T('preco', 'São'), 'pro/whoosh_short', 0.3, 'barra 75%');
+  add(T('preco', 'oitenta'), 'pro/sub_drop', 0.45, 'R$ 0,81 por dia');
+  add(T('preco', 'oitenta') + 4, 'pro/coin', 0.35, 'centavos');
+  add(T('preco', 'Menos', 0), 'pro/ui_tap', 0.3, 'cafezinho');
+  add(T('preco', 'Menos', 1), 'pro/ui_tap', 0.3, 'passagem');
+  // risco — the loop opens
+  add(SEC('risco').from, 'pro/whoosh_long', 0.3, 'volta ao claro');
+  add(T('risco', 'Lembra'), 'pro/heartbeat', 0.3, 'lembra do começo?');
+  add(T('risco', 'isso') - 18, 'pro/lock_click', 0.5, 'o cadeado do começo abre');
+  add(T('risco', 'isso') - 14, 'pro/sparkle', 0.35, 'revelação');
+  add(T('risco', 'Chama'), 'pro/notification', 0.4, 'fale no WhatsApp');
+  add(T('risco', 'mesmo'), 'pro/success', 0.4, '7 dias de garantia');
+  // prazo — clock
+  add(SEC('prazo').from, 'pro/whoosh_down', 0.35, 'urgência');
+  for (let k = 0; k < 5; k++) add(T('prazo', 'Esse') + k * 60, 'pro/clock_tick', 0.35, 'relógio do prazo');
+  // passos
+  add(T('passos', 'Clica') + 4, 'pro/ui_tap', 0.5, 'clique no botão');
+  add(T('passos', 'Você', 1), 'pro/coin', 0.3, 'pagamento');
+  add(T('passos', 'Logo'), 'pro/notification', 0.45, 'acesso chega');
+  add(T('passos', 'Você', 2), 'pro/typing_burst', 0.3, 'troca a senha');
+  add(T('passos', 'dúvida'), 'pro/notification', 0.3, 'suporte');
+  // final + cta
+  add(SEC('final').from, 'pro/whoosh_short', 0.3, 'reflexão');
+  add(T('final', 'No', 0), 'pro/heartbeat', 0.35, 'caminho 1: a mesma lista');
+  add(T('final', 'No', 1), 'pro/sparkle', 0.4, 'caminho 2: certificados');
+  add(T('final', 'certificados'), 'pro/coin', 0.3, 'certificados');
+  add(T('final', 'diferença'), 'pro/sub_drop', 0.35, 'R$ 0,81 por dia');
+  add(T('cta', 'botão') + 4, 'pro/ui_tap', 0.55, 'botão pressionado');
+  add(T('cta', 'embaixo'), 'pro/whoosh_short', 0.3, 'seta para baixo');
+  add(T('cta', 'gente'), 'pro/success', 0.4, 'até o WhatsApp');
+  return c;
+};
 
 /* ------------------------------------------------------------------ main */
 export const NexoolsVSL: React.FC<{debugSafeArea?: boolean}> = ({debugSafeArea}) => {
@@ -1056,7 +1182,7 @@ export const NexoolsVSL: React.FC<{debugSafeArea?: boolean}> = ({debugSafeArea})
       <Captions dark={dark} />
       <Footer dark={dark} />
       <Html5Audio src={staticFile(VSL.voice)} />
-      <MusicBed src={VSL.bed} volume={0.22} total={VSL.total} fadeIn={30} fadeOut={90} />
+      <MusicBed src={VSL.bed} volume={0.24} total={VSL.total} fadeIn={30} fadeOut={90} />
       <SfxCues cues={sfx} />
       <SafeArea show={debugSafeArea} />
     </AbsoluteFill>
