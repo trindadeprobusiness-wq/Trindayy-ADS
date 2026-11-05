@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Floway · Plano R$ 40 por dia</title>
+<style>
+@font-face{font-family:"Inter Tight";src:url(fonts/files/inter-tight-latin-400-normal.woff2);font-weight:400}
+@font-face{font-family:"Inter Tight";src:url(fonts/files/inter-tight-latin-500-normal.woff2);font-weight:500}
+@font-face{font-family:"Inter Tight";src:url(fonts/files/inter-tight-latin-600-normal.woff2);font-weight:600}
+@font-face{font-family:"Inter Tight";src:url(fonts/files/inter-tight-latin-700-normal.woff2);font-weight:700}
+@font-face{font-family:"Inter Tight";src:url(fonts/files/inter-tight-latin-800-normal.woff2);font-weight:800}
+@font-face{font-family:"Azeret Mono";src:url(fonts/files/azeret-mono-latin-500-normal.woff2);font-weight:500}
+@font-face{font-family:"Instrument Serif";font-style:italic;src:url(serif/instrument-serif-latin-400-italic.woff2)}
+:root{--claro:#F7F7F5;--cinza1:#DCDCD8;--cinza2:#787878;--preto:#121212;--azul:#002FA7}
+@page{size:A4;margin:0}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Inter Tight",sans-serif;color:var(--preto);background:var(--claro);font-size:10.5pt;line-height:1.5}
+.pg{width:210mm;height:297mm;padding:18mm 18mm 16mm;position:relative;page-break-after:always;overflow:hidden;background:var(--claro)}
+.pg.escuro{background:var(--preto);color:var(--claro)}
+.mono{font-family:"Azeret Mono",monospace;font-size:7.5pt;letter-spacing:.06em;text-transform:uppercase;color:var(--cinza2)}
+.serif{font-family:"Instrument Serif",serif;font-style:italic;font-weight:400}
+.topo{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--cinza1);padding-bottom:4mm;margin-bottom:9mm}
+.escuro .topo{border-color:#2a2a2a}
+.rod{position:absolute;left:18mm;right:18mm;bottom:9mm;display:flex;justify-content:space-between}
+h1{font-weight:800;font-size:40pt;line-height:.95;letter-spacing:-.055em;margin:0;text-transform:uppercase}
+h2{font-weight:800;font-size:22pt;letter-spacing:-.045em;line-height:1;margin:0 0 6mm;text-transform:uppercase}
+h3{font-weight:700;font-size:11.5pt;letter-spacing:-.01em;margin:0 0 2mm}
+p{margin:0 0 3mm}
+.azul{color:var(--azul)} .ponto{color:var(--azul)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:6mm}
+.grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:4mm}
+.card{border:1px solid var(--cinza1);border-radius:3mm;padding:4.5mm 5mm;background:#fff}
+.num{font-weight:800;font-size:22pt;letter-spacing:-.05em;line-height:1}
+table{width:100%;border-collapse:collapse;font-size:9.5pt}
+th,td{text-align:left;padding:2.2mm 2.5mm;border-bottom:1px solid var(--cinza1);vertical-align:top}
+th{font-family:"Azeret Mono",monospace;font-size:7pt;letter-spacing:.06em;text-transform:uppercase;color:var(--cinza2);font-weight:500}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+.tag{display:inline-block;font-family:"Azeret Mono",monospace;font-size:6.5pt;letter-spacing:.06em;text-transform:uppercase;padding:.8mm 2mm;border-radius:2mm;border:1px solid var(--cinza1)}
+.tag.a{border-color:var(--azul);color:var(--azul)}
+.alerta{border-left:2px solid var(--azul);padding:2mm 0 2mm 4mm;margin:3mm 0}
+ul{margin:0 0 3mm;padding-left:4.5mm} li{margin:0 0 1.4mm}
+.fala{font-size:9.2pt;color:#2b2b2b;margin:1.5mm 0 2mm;padding-left:3mm;border-left:1px solid var(--cinza1)}
+.check{display:flex;gap:3mm;align-items:flex-start;margin:0 0 2.6mm}
+.box{width:4mm;height:4mm;border:1.2px solid var(--preto);border-radius:.8mm;flex-shrink:0;margin-top:.8mm}
+.bar{height:5mm;background:var(--azul);border-radius:1mm}
+.bar.c{background:var(--cinza1)}
+.compacta{font-size:9.6pt;line-height:1.42}.compacta h2{margin-bottom:4mm}.compacta h3{margin:3mm 0 1.5mm}.compacta td,.compacta th{padding:1.5mm 2.2mm;font-size:8.8pt}.compacta .card p{font-size:8.6pt!important}.compacta .card{padding:3.5mm 4mm}.compacta ul{margin-bottom:2mm}
+</style></head><body>
+<style>
+.passo{display:flex;flex-direction:column;gap:1.5mm}
+.fluxo{display:grid;grid-template-columns:1fr 6mm 1fr 6mm 1fr 6mm 1fr;align-items:stretch;margin:4mm 0 7mm}
+.seta{display:flex;align-items:center;justify-content:center;color:var(--azul);font-weight:800;font-size:14pt}
+.big{font-size:13pt;line-height:1.45}
+.semana{display:grid;grid-template-columns:30mm 1fr 34mm;gap:4mm;align-items:center;padding:3.2mm 0;border-bottom:1px solid var(--cinza1)}
+.calma{background:#fff;border:1px solid var(--cinza1);border-radius:3mm;padding:5mm 6mm;margin-top:5mm}
+.ok{color:var(--azul);font-weight:700}
+</style>
+
+<!-- 1 · capa -->
+<section class="pg escuro" style="display:flex;flex-direction:column;justify-content:space-between">
+  <div class="topo"><img src="brand/floway-assinatura-horizontal-fundo-escuro.svg" style="height:9mm"><span class="mono">Para os sócios · 05.11.2026</span></div>
+  <div>
+    <div class="mono" style="color:#9a9a9a;margin-bottom:6mm">(01) Black Friday 2026 · plano de anúncios</div>
+    <h1 style="font-size:54pt">R$ 40 por dia.<br>Sem susto<span class="ponto" style="color:#5B7BFF">.</span></h1>
+    <p class="serif" style="font-size:20pt;margin-top:8mm;color:#cfcfcb;max-width:150mm">Como funciona o tráfego pago, o que esperar a cada semana e por que o risco é pequeno.</p>
+  </div>
+  <div class="grid3" style="color:#cfcfcb">
+    <div><div class="mono">Investimento total</div><div style="font-weight:700;font-size:13pt;color:#fff">R$ 1.000 em 25 dias</div></div>
+    <div><div class="mono">Período</div><div style="font-weight:700;font-size:13pt;color:#fff">06 a 30 de novembro</div></div>
+    <div><div class="mono">Oferta</div><div style="font-weight:700;font-size:13pt;color:#fff">Site de R$ 5.000 por R$ 997</div></div>
+  </div>
+</section>
+
+<!-- 2 · em 1 minuto -->
+<section class="pg">
+  <div class="topo"><img src="brand/floway-assinatura-horizontal-fundo-claro.svg" style="height:7mm"><span class="mono">(02) O plano em 1 minuto</span></div>
+  <h2>O plano em 1 minuto<span class="ponto">.</span></h2>
+  <p class="big" style="max-width:165mm">Vamos colocar <b>R$ 40 por dia</b> em anúncios no Instagram e no Facebook, de 06 a 30 de novembro. Quem se interessar pela oferta clica e <b>cai direto no nosso WhatsApp</b>. A partir daí, quem vende é o nosso comercial, do mesmo jeito que já faz hoje.</p>
+  <div class="grid2" style="margin:8mm 0 6mm">
+    <div class="card"><div class="mono">Quanto vamos gastar</div><div class="num" style="margin:2mm 0">R$ 1.000</div><p style="margin:0">No mês inteiro. É o teto: o Meta não cobra além do valor diário que a gente define.</p></div>
+    <div class="card"><div class="mono">Quanto uma venda traz</div><div class="num azul" style="margin:2mm 0">R$ 997</div><p style="margin:0">Uma única venda praticamente paga todos os anúncios do mês.</p></div>
+    <div class="card"><div class="mono">O que esperar</div><div class="num" style="margin:2mm 0">3 a 15 vendas</div><p style="margin:0">Estimativa entre o cenário pessimista e o otimista (página 05). A mais provável fica perto de 7.</p></div>
+    <div class="card"><div class="mono">Quando</div><div class="num" style="margin:2mm 0">Mais no fim</div><p style="margin:0">A primeira venda costuma vir na 2ª semana. A última semana (Black Friday) concentra de 30% a 40% das vendas.</p></div>
+  </div>
+  <div class="calma"><h3>Para ficar tranquilo</h3>
+    <p style="margin:0">Os primeiros dias sem venda <b>são normais</b>: é quando o Meta está aprendendo para quem mostrar o anúncio. A gente olha os números todo dia, tem uma regra clara de decisão no dia 12/11 e pode pausar tudo a qualquer momento, sem multa e sem contrato.</p></div>
+  <div class="rod"><span class="mono">Floway · Black Friday 2026</span><span class="mono">02</span></div>
+</section>
+
+<!-- 3 · como funciona -->
+<section class="pg">
+  <div class="topo"><img src="brand/floway-assinatura-horizontal-fundo-claro.svg" style="height:7mm"><span class="mono">(03) Como funciona o tráfego pago</span></div>
+  <h2>Como funciona o tráfego pago<span class="ponto">.</span></h2>
+  <p class="big" style="max-width:165mm">Tráfego pago é pagar o Instagram e o Facebook (empresa Meta) para mostrar o nosso anúncio a pessoas que ainda não conhecem a Floway. É como um panfleto, só que entregue para o público certo e com o resultado medido no detalhe.</p>
+  <div class="fluxo">
+    <div class="card passo"><span class="mono">(1)</span><b>O anúncio aparece</b><span style="font-size:9pt">Um vídeo curto no Instagram e no Facebook de donos de imobiliária, clínica e escritório.</span></div>
+    <div class="seta">→</div>
+    <div class="card passo"><span class="mono">(2)</span><b>A pessoa chama</b><span style="font-size:9pt">Quem se interessa toca no botão e manda mensagem no nosso WhatsApp.</span></div>
+    <div class="seta">→</div>
+    <div class="card passo"><span class="mono">(3)</span><b>O comercial atende</b><span style="font-size:9pt">Responde rápido, mostra o portfólio, entende o negócio e manda a proposta.</span></div>
+    <div class="seta">→</div>
+    <div class="card passo" style="border-color:var(--azul)"><span class="mono azul">(4)</span><b>Venda</b><span style="font-size:9pt">A pessoa fecha o site de R$ 997 e a equipe entrega em até 3 dias.</span></div>
+  </div>
+  <h3>As 4 palavras que vocês vão ouvir</h3>
+  <table>
+    <tr><th style="width:42mm">Termo</th><th>O que quer dizer</th></tr>
+    <tr><td><b>Conversa</b></td><td>Uma pessoa que viu o anúncio e mandou mensagem no WhatsApp. Ainda não é venda, é um interessado.</td></tr>
+    <tr><td><b>Custo por conversa</b></td><td>Quanto pagamos de anúncio, em média, para cada pessoa que chama. Ex.: R$ 40 no dia e 3 conversas = cerca de R$ 13 por conversa.</td></tr>
+    <tr><td><b>Taxa de fechamento</b></td><td>De cada 100 conversas, quantas viram venda. É aqui que o comercial forte faz toda a diferença.</td></tr>
+    <tr><td><b>Fase de aprendizado</b></td><td>Os primeiros 3 a 5 dias, em que o Meta testa públicos para descobrir quem responde melhor. Os resultados oscilam e isso é esperado.</td></tr>
+  </table>
+  <div class="alerta" style="margin-top:6mm">O anúncio só traz a pessoa até a porta. <b>Quem transforma conversa em venda é o nosso comercial.</b> Por isso, um atendimento rápido no WhatsApp vale tanto quanto um bom anúncio.</div>
+  <div class="rod"><span class="mono">Floway · Black Friday 2026</span><span class="mono">03</span></div>
+</section>
+
+<!-- 4 · risco -->
+<section class="pg">
+  <div class="topo"><img src="brand/floway-assinatura-horizontal-fundo-claro.svg" style="height:7mm"><span class="mono">(04) Por que o risco é pequeno</span></div>
+  <h2>Por que o risco é pequeno<span class="ponto">.</span></h2>
+  <p class="big" style="max-width:165mm">Começamos pequenos de propósito. Com R$ 40 por dia, o pior cenário é aprender barato; o melhor é descobrir um canal de vendas que dá para repetir.</p>
+  <h3 style="margin-top:7mm">O que colocamos × o que uma venda traz</h3>
+  <div style="display:grid;grid-template-columns:44mm 1fr 26mm;gap:3mm;align-items:center;margin:4mm 0 2mm">
+    <span>Anúncios no mês</span><div class="bar c" style="width:100%"></div><b style="text-align:right">R$ 1.000</b>
+    <span>1 venda</span><div class="bar" style="width:99.7%"></div><b style="text-align:right">R$ 997</b>
+    <span>7 vendas (realista)</span><div class="bar" style="width:100%;background:linear-gradient(90deg,var(--azul) 14%,#5B7BFF 14%)"></div><b style="text-align:right">R$ 6.979</b>
+  </div>
+  <p class="mono" style="margin-bottom:7mm">A barra de 7 vendas está fora de escala: seria quase 7 vezes maior que a de cima.</p>
+  <div class="grid2">
+    <div class="card"><h3>O que nos protege</h3><ul>
+      <li><b>Teto diário fixo:</b> o Meta nunca gasta mais do que R$ 40 por dia na média.</li>
+      <li><b>Pausa a qualquer hora:</b> sem contrato, sem fidelidade, sem multa.</li>
+      <li><b>Olhamos todo dia:</b> 5 minutos de checagem, com números simples.</li>
+      <li><b>Regra de decisão no dia 12/11:</b> se algo não andar, a gente sabe o que trocar.</li></ul></div>
+    <div class="card"><h3>O que não vamos fazer</h3><ul>
+      <li>Aumentar a verba antes de ter venda comprovada.</li>
+      <li>Vender mais sites do que a equipe consegue entregar em 3 dias.</li>
+      <li>Julgar a campanha por curtidas ou cliques: o que conta é <b>venda fechada</b>.</li>
+      <li>Espalhar o dinheiro em muitas frentes ao mesmo tempo.</li></ul></div>
+  </div>
+  <div class="alerta" style="margin-top:6mm"><b>Um cuidado:</b> R$ 997 é faturamento, não lucro. O lucro de cada venda é R$ 997 menos o custo de produzir o site, as taxas de pagamento e o anúncio. Precisamos fechar esse custo de produção juntos (página 08).</div>
+  <div class="rod"><span class="mono">Floway · Black Friday 2026</span><span class="mono">04</span></div>
+</section>
+
+<!-- 5 · projeção -->
+<section class="pg">
+  <div class="topo"><img src="brand/floway-assinatura-horizontal-fundo-claro.svg" style="height:7mm"><span class="mono">(05) O que esperar em números</span></div>
+  <h2>O que esperar em números<span class="ponto">.</span></h2>
+  <p class="big" style="max-width:165mm">Ainda não temos histórico de anúncios da Floway, então estes números são <b>estimativas</b> para nos orientar, não promessa. Na primeira semana trocamos o chute por dados reais.</p>
+  <table style="margin-top:6mm">
+    <tr><th>R$ 40/dia · 06 a 30/11</th><th class="n">Pessimista</th><th class="n">Realista</th><th class="n">Otimista</th></tr>
+    <tr><td>Custo por conversa</td><td class="n">R$ 18</td><td class="n">R$ 12</td><td class="n">R$ 8</td></tr>
+    <tr><td>Conversas por dia</td><td class="n">~2</td><td class="n">~3</td><td class="n">~5</td></tr>
+    <tr><td>Conversas no mês</td><td class="n">~55</td><td class="n">~83</td><td class="n">~125</td></tr>
+    <tr><td>Taxa de fechamento do comercial</td><td class="n">5%</td><td class="n">8%</td><td class="n">12%</td></tr>
+    <tr><td><b>Vendas</b></td><td class="n"><b>~3</b></td><td class="n"><b class="azul">~7</b></td><td class="n"><b>~15</b></td></tr>
+    <tr><td><b>Faturamento</b></td><td class="n"><b>~R$ 3.000</b></td><td class="n"><b class="azul">~R$ 7.000</b></td><td class="n"><b>~R$ 15.000</b></td></tr>
+    <tr><td>Anúncio gasto por venda</td><td class="n">~R$ 330</td><td class="n">~R$ 145</td><td class="n">~R$ 67</td></tr>
+  </table>
+  <div class="grid3" style="margin-top:8mm">
+    <div class="card"><div class="mono">Pessimista</div><p style="margin:2mm 0 0;font-size:9.2pt">Mesmo aqui, o faturamento (~R$ 3.000) é <b>3 vezes</b> o que gastamos em anúncio.</p></div>
+    <div class="card" style="border-color:var(--azul)"><div class="mono azul">Realista</div><p style="margin:2mm 0 0;font-size:9.2pt">Cerca de 7 sites vendidos: um a cada 3 ou 4 dias, mais concentrados no fim do mês.</p></div>
+    <div class="card"><div class="mono">Otimista</div><p style="margin:2mm 0 0;font-size:9.2pt">15 sites exigem equipe para entregar todos em 3 dias. Por isso existem as vagas limitadas.</p></div>
+  </div>
+  <div class="calma"><h3>O que mais mexe nesse resultado</h3><p style="margin:0">Não é o anúncio, é a <b>taxa de fechamento</b>. Se o comercial fecha 12% em vez de 5%, vendemos 4 vezes mais com o mesmo dinheiro. Responder rápido (em minutos, não horas) é a alavanca mais barata que temos.</p></div>
+  <div class="rod"><span class="mono">Floway · Black Friday 2026</span><span class="mono">05</span></div>
+</section>
+
+<!-- 6 · linha do tempo -->
+<section class="pg">
+  <div class="topo"><img src="brand/floway-assinatura-horizontal-fundo-claro.svg" style="height:7mm"><span class="mono">(06) Quando as vendas acontecem</span></div>
+  <h2>Quando as vendas acontecem<span class="ponto">.</span></h2>
+  <p class="big" style="max-width:165mm">As vendas não chegam todas iguais ao longo do mês. Isto é o que costuma acontecer, semana a semana:</p>
+  <div style="margin-top:6mm">
+    <div class="semana"><div><b>06 a 09/11</b><div class="mono">Aquecimento</div></div><div><p style="margin:0">O Meta está aprendendo. Chegam de 5 a 15 conversas. <b>Zero ou uma venda é normal</b>, não é sinal de que deu errado.</p></div><div class="bar c" style="width:10%"></div></div>
+    <div class="semana"><div><b>10 a 16/11</b><div class="mono">1ª venda</div></div><div><p style="margin:0">Anúncios já estabilizados. É a semana mais provável da <b>primeira venda</b>. No dia 12/11 fazemos a primeira avaliação.</p></div><div class="bar" style="width:35%"></div></div>
+    <div class="semana"><div><b>17 a 23/11</b><div class="mono">Ritmo</div></div><div><p style="margin:0">Ritmo constante: <b>1 a 2 vendas por semana</b>. Ajustamos o anúncio mais fraco se for preciso.</p></div><div class="bar" style="width:55%"></div></div>
+    <div class="semana" style="border-bottom:0"><div><b>24 a 30/11</b><div class="mono">Black Friday</div></div><div><p style="margin:0">A semana mais forte: <b>30% a 40% das vendas</b>. Black Friday no dia 27 e último dia da oferta em 30/11.</p></div><div class="bar" style="width:100%"></div></div>
+  </div>
+  <div class="card" style="margin-top:7mm"><h3>A venda “de graça” do fim do mês</h3>
+    <p style="margin:0">Muita gente conversa no começo do mês e não fecha na hora. Se o comercial <b>marcar cada conversa desde o primeiro dia</b> (nome, nicho, se recebeu proposta), em <b>24/11</b> e em <b>30/11</b> mandamos uma mensagem lembrando que a oferta acaba. Isso não custa nada de anúncio e costuma gerar parte boa das vendas da última semana.</p></div>
+  <div class="rod"><span class="mono">Floway · Black Friday 2026</span><span class="mono">06</span></div>
+</section>
+
+<!-- 7 · estrutura e rotina -->
+<section class="pg compacta">
+  <div class="topo"><img src="brand/floway-assinatura-horizontal-fundo-claro.svg" style="height:7mm"><span class="mono">(07) Como vamos conduzir</span></div>
+  <h2>Como vamos conduzir<span class="ponto">.</span></h2>
+  <h3>3 anúncios, não 8</h3>
+  <p>Com R$ 40 por dia, dividir em muitos anúncios faz cada um receber pouco dinheiro e o Meta não aprende. Então começamos com <b>3 vídeos</b>, cada um com um argumento diferente, e deixamos o Meta mostrar mais o que funcionar melhor:</p>
+  <div class="grid3" style="margin:3mm 0 4mm">
+    <div class="card"><div class="mono">(01) Preço</div><p style="margin:1.5mm 0 0">“Site de R$ 5.000 por R$ 997, no ar em 3 dias.”</p></div>
+    <div class="card"><div class="mono">(02) Portfólio</div><p style="margin:1.5mm 0 0">“Olha esses sites. Todos feitos pela Floway.”</p></div>
+    <div class="card"><div class="mono">(03) Primeira impressão</div><p style="margin:1.5mm 0 0">“Seu cliente te julga pelo site em segundos.”</p></div>
+  </div>
+  <p>Os três nichos (imobiliária, clínica e advocacia) são tratados <b>na conversa do WhatsApp</b>. Na última semana trocamos o anúncio mais fraco por um de “última semana” e, em 30/11, entra o de “último dia”.</p>
+  <h3>A checagem diária (5 minutos)</h3>
+  <table>
+    <tr><th>O que olhamos</th><th>Onde</th><th>Por que importa</th></tr>
+    <tr><td>Conversas do dia e custo por conversa</td><td>Gerenciador do Meta</td><td>Mostra se o anúncio está chamando gente</td></tr>
+    <tr><td>Conversas respondidas e qualificadas</td><td>WhatsApp do comercial</td><td>Mostra se são as pessoas certas</td></tr>
+    <tr><td>Propostas enviadas</td><td>Comercial</td><td>Mostra se o interesse é real</td></tr>
+    <tr><td><b>Vendas e de qual anúncio vieram</b></td><td>Comercial</td><td><b>É o número que decide tudo</b></td></tr>
+  </table>
+  <h3>A decisão do dia 12/11 (uma semana de dados)</h3>
+  <table>
+    <tr><th style="width:62mm">Se acontecer isto</th><th>A gente faz isto</th></tr>
+    <tr><td>Chegam conversas, mas ninguém pede proposta</td><td>O anúncio atrai o público errado: trocamos o começo dos vídeos.</td></tr>
+    <tr><td>Saem propostas, mas ninguém fecha</td><td>Revisamos o roteiro do WhatsApp e a forma de apresentar a oferta.</td></tr>
+    <tr><td>Quase nenhuma conversa</td><td>Trocamos o anúncio mais fraco por um novo argumento.</td></tr>
+    <tr><td><b>Já saiu venda</b></td><td><b>Seguimos.</b> Só aumentamos a verba se a equipe tiver vaga para entregar.</td></tr>
+  </table>
+  <div class="rod"><span class="mono">Floway · Black Friday 2026</span><span class="mono">07</span></div>
+</section>
+
+<!-- 8 · o que precisamos -->
+<section class="pg escuro">
+  <div class="topo"><img src="brand/floway-assinatura-horizontal-fundo-escuro.svg" style="height:7mm"><span class="mono">(08) O que precisamos de vocês</span></div>
+  <h2>O que precisamos de vocês<span class="ponto" style="color:#5B7BFF">.</span></h2>
+  <p class="big" style="max-width:165mm;color:#cfcfcb">Para começar no dia 06/11, só faltam estas confirmações:</p>
+  <div style="margin-top:6mm">
+    <div class="check"><div class="box" style="border-color:#F7F7F5"></div><div><b>Verba:</b> R$ 40 por dia, R$ 1.000 no total, de 06 a 30/11.</div></div>
+    <div class="check"><div class="box" style="border-color:#F7F7F5"></div><div><b>Vagas:</b> quantos sites a equipe consegue entregar em 3 dias, por semana.</div></div>
+    <div class="check"><div class="box" style="border-color:#F7F7F5"></div><div><b>Custo de produção:</b> quanto custa produzir cada site, para saber o lucro real.</div></div>
+    <div class="check"><div class="box" style="border-color:#F7F7F5"></div><div><b>Escopo da oferta:</b> o que entra no site de R$ 997 (páginas, domínio, hospedagem, revisões).</div></div>
+    <div class="check"><div class="box" style="border-color:#F7F7F5"></div><div><b>Atendimento:</b> quem responde o WhatsApp, em quais horários e em quanto tempo.</div></div>
+    <div class="check"><div class="box" style="border-color:#F7F7F5"></div><div><b>Marcação das conversas:</b> registrar nome, nicho e etapa de cada contato desde o primeiro dia.</div></div>
+    <div class="check"><div class="box" style="border-color:#F7F7F5"></div><div><b>Portfólio:</b> gravações de tela dos sites para os vídeos.</div></div>
+  </div>
+  <p class="serif" style="font-size:17pt;color:#cfcfcb;margin-top:10mm;max-width:160mm">O risco é de R$ 1.000. O que ganhamos, além das vendas, é saber quanto custa trazer um cliente novo para a Floway.</p>
+  <div class="grid3" style="position:absolute;left:18mm;right:18mm;bottom:22mm">
+    <div style="border-top:1px solid #555;padding-top:2mm" class="mono">Sócio</div>
+    <div style="border-top:1px solid #555;padding-top:2mm" class="mono">Sócio</div>
+    <div style="border-top:1px solid #555;padding-top:2mm" class="mono">Sócio</div>
+  </div>
+  <div class="rod"><span class="mono">Floway · Black Friday 2026</span><span class="mono">08</span></div>
+</section>
+</body></html>
