@@ -905,7 +905,7 @@ const Passos: React.FC = () => {
         <div style={{position: 'relative', display: 'flex', gap: 34}}>
           <div style={{position: 'absolute', left: 190, right: 190, top: 64, height: 6, borderRadius: 3, background: C.line}}><div style={{width: `${line * 100}%`, height: '100%', borderRadius: 3, background: C.blue}} /></div>
           {steps.map(([at, t, s, ic], i) => (
-            <Pop key={i} at={at} seed={i}>
+            <Pop key={i} at={at} seed={0}>
               <div style={{width: 380, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 20, textAlign: 'center'}}>
                 <div style={{width: 128, height: 128, borderRadius: 64, background: frame >= at ? C.blue : '#fff', boxShadow: SHADOW, display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative'}}>
                   <Ico n={ic as never} size={60} color={frame >= at ? '#fff' : C.blue} />
