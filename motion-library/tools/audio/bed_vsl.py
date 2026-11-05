@@ -31,8 +31,12 @@ def main(out, dur, mp):
     for i, (s0, e, _) in enumerate(segs):
         a = int(s0 * SR); b = int(segs[i + 1][0] * SR) if i + 1 < len(segs) else n
         e_steps[a:b] = e
-    k = int(2.5 * SR); ker = np.ones(k) / k
-    energy = np.convolve(np.pad(e_steps, (k // 2, k - k // 2 - 1), mode='edge'), ker, mode='valid')[:n]
+    k = int(2.5 * SR); ker = None
+
+    def smooth(x):  # O(n) moving average (same as convolving with a 2.5 s box)
+        xp = np.pad(x, (k // 2, k - k // 2 - 1), mode='edge'); c = np.concatenate([[0.0], np.cumsum(xp)])
+        return ((c[k:] - c[:-k]) / k)[:n]
+    energy = smooth(e_steps)
     mood_at = lambda tt: next((md for s0, _, md in reversed(segs) if tt >= s0), segs[0][2])
     g = lambda lo, hi: np.clip((energy - lo) / (hi - lo), 0, 1)
     out_ = np.zeros((n, 2))
@@ -71,7 +75,7 @@ def main(out, dur, mp):
         for i, (s0, _, md) in enumerate(segs):
             a0 = int(s0 * SR); b0 = int(segs[i + 1][0] * SR) if i + 1 < len(segs) else n
             if md == name: st[a0:b0] = 1
-        return np.convolve(np.pad(st, (k // 2, k - k // 2 - 1), mode='edge'), ker, mode='valid')[:n]
+        return smooth(st)
     wt, wm = wcurve('tense'), wcurve('motive')
     # tense: low detuned drone + clock tick on every beat + darker mix
     drone = (np.sin(2 * np.pi * 55 * t) + np.sin(2 * np.pi * 55.6 * t) + 0.5 * np.sin(2 * np.pi * 82.4 * t)) * 0.05
