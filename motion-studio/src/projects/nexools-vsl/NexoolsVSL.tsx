@@ -893,9 +893,9 @@ const Passos: React.FC = () => {
   const {from, to} = SEC('passos');
   const steps: [number, string, string, string][] = [
     [T('passos', 'Clica'), 'Clique no botão', 'aqui embaixo do vídeo', 'arrowDown'],
-    [T('passos', 'Você', 0), 'Pagamento seguro', 'R$ 297 no Pix ou cartão', 'card'],
+    [T('passos', 'Você', 1), 'Pagamento seguro', 'R$ 297 no Pix ou cartão', 'card'],
     [T('passos', 'Logo'), 'Acesso na hora', 'no WhatsApp e no e-mail', 'mail'],
-    [T('passos', 'Você', 1), 'Sua conta', 'troque a senha, coloque seu nome', 'user'],
+    [T('passos', 'Você', 2), 'Sua conta', 'troque a senha, coloque seu nome', 'user'],
   ];
   const line = progress(frame, steps[0][0], steps[3][0] + 30 - steps[0][0], ease.inOut);
   return (
