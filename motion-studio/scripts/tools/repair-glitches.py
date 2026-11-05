@@ -11,14 +11,22 @@ import argparse, json, os, shutil, subprocess, sys, tempfile
 import numpy as np
 
 def detect(video, thr=0.03):
-    W, H = 108, 192
+    """Frames that differ from BOTH neighbours while the neighbours agree (1-frame Chromium tile glitches).
+    Aspect-aware (works for 9:16 and 16:9) and sensitive to faint blocks on light backgrounds."""
+    probe = subprocess.run(['ffprobe', '-v', 'error', '-select_streams', 'v', '-show_entries', 'stream=width,height', '-of', 'csv=p=0', video],
+                           capture_output=True, text=True, check=True).stdout.strip().split(',')
+    vw, vh = int(probe[0]), int(probe[1])
+    W, H = (192, 108) if vw >= vh else (108, 192)
     raw = subprocess.run(['ffmpeg', '-v', 'error', '-i', video, '-vf', f'scale={W}:{H}', '-f', 'rawvideo', '-pix_fmt', 'gray', '-'],
                          capture_output=True, check=True).stdout
-    f = np.frombuffer(raw, np.uint8).reshape(-1, H, W).astype(np.int16)
+    f = np.frombuffer(raw, np.uint8).reshape(-1, H, W)
     bad = []
     for i in range(1, len(f) - 1):
-        a = np.abs(f[i] - f[i - 1]); b = np.abs(f[i] - f[i + 1]); c = np.abs(f[i - 1] - f[i + 1])
-        if ((a > 40) & (b > 40) & (c < 20)).mean() > thr:
+        p, x, n = f[i - 1].astype(np.int16), f[i].astype(np.int16), f[i + 1].astype(np.int16)
+        a = np.abs(x - p); b = np.abs(x - n); c = np.abs(p - n)
+        strong = ((a > 40) & (b > 40) & (c < 20)).mean() > thr
+        faint = ((a > 10) & (b > 10) & (c < 4)).mean() > 0.004
+        if strong or faint:
             bad.append(i)
     return bad
 
