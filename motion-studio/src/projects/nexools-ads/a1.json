@@ -1,0 +1,695 @@
+{
+ "matched": 0.807,
+ "total": 40.515875,
+ "sections": [
+  {
+   "id": "ancora",
+   "start": 0.5,
+   "end": 6.96
+  },
+  {
+   "id": "produto",
+   "start": 6.96,
+   "end": 18.6
+  },
+  {
+   "id": "conta",
+   "start": 18.6,
+   "end": 24.74
+  },
+  {
+   "id": "pagamento",
+   "start": 24.74,
+   "end": 31.34
+  },
+  {
+   "id": "pessoa",
+   "start": 31.34,
+   "end": 34.183
+  },
+  {
+   "id": "dia",
+   "start": 34.183,
+   "end": 36.82
+  },
+  {
+   "id": "cta",
+   "start": 36.82,
+   "end": 40.515875
+  }
+ ],
+ "words": [
+  {
+   "w": "O",
+   "t": 0.5,
+   "sec": "ancora"
+  },
+  {
+   "w": "mesmo",
+   "t": 0.7,
+   "sec": "ancora"
+  },
+  {
+   "w": "ano",
+   "t": 0.94,
+   "sec": "ancora"
+  },
+  {
+   "w": "que",
+   "t": 1.14,
+   "sec": "ancora"
+  },
+  {
+   "w": "custa",
+   "t": 1.46,
+   "sec": "ancora"
+  },
+  {
+   "w": "mil",
+   "t": 1.88,
+   "sec": "ancora"
+  },
+  {
+   "w": "e",
+   "t": 1.94,
+   "sec": "ancora"
+  },
+  {
+   "w": "duzentos",
+   "t": 2.35,
+   "sec": "ancora"
+  },
+  {
+   "w": "reais",
+   "t": 2.76,
+   "sec": "ancora"
+  },
+  {
+   "w": "no",
+   "t": 2.96,
+   "sec": "ancora"
+  },
+  {
+   "w": "site",
+   "t": 3.18,
+   "sec": "ancora"
+  },
+  {
+   "w": "oficial,",
+   "t": 3.8,
+   "sec": "ancora"
+  },
+  {
+   "w": "aqui,",
+   "t": 4.76,
+   "sec": "ancora"
+  },
+  {
+   "w": "duzentos",
+   "t": 5.23,
+   "sec": "ancora"
+  },
+  {
+   "w": "e",
+   "t": 5.7,
+   "sec": "ancora"
+  },
+  {
+   "w": "noventa",
+   "t": 6.015,
+   "sec": "ancora"
+  },
+  {
+   "w": "e",
+   "t": 6.33,
+   "sec": "ancora"
+  },
+  {
+   "w": "sete.",
+   "t": 6.645,
+   "sec": "ancora"
+  },
+  {
+   "w": "É",
+   "t": 6.96,
+   "sec": "produto"
+  },
+  {
+   "w": "o",
+   "t": 7.04,
+   "sec": "produto"
+  },
+  {
+   "w": "Coursera",
+   "t": 7.48,
+   "sec": "produto"
+  },
+  {
+   "w": "Plus,",
+   "t": 7.92,
+   "sec": "produto"
+  },
+  {
+   "w": "doze",
+   "t": 8.54,
+   "sec": "produto"
+  },
+  {
+   "w": "meses,",
+   "t": 9.24,
+   "sec": "produto"
+  },
+  {
+   "w": "milhares",
+   "t": 9.7,
+   "sec": "produto"
+  },
+  {
+   "w": "de",
+   "t": 10.32,
+   "sec": "produto"
+  },
+  {
+   "w": "cursos",
+   "t": 10.54,
+   "sec": "produto"
+  },
+  {
+   "w": "do",
+   "t": 10.84,
+   "sec": "produto"
+  },
+  {
+   "w": "Google,",
+   "t": 11.14,
+   "sec": "produto"
+  },
+  {
+   "w": "da",
+   "t": 11.58,
+   "sec": "produto"
+  },
+  {
+   "w": "IBM",
+   "t": 11.96,
+   "sec": "produto"
+  },
+  {
+   "w": "e",
+   "t": 12.24,
+   "sec": "produto"
+  },
+  {
+   "w": "da",
+   "t": 12.32,
+   "sec": "produto"
+  },
+  {
+   "w": "Meta,",
+   "t": 12.8,
+   "sec": "produto"
+  },
+  {
+   "w": "e",
+   "t": 13.12,
+   "sec": "produto"
+  },
+  {
+   "w": "de",
+   "t": 13.2,
+   "sec": "produto"
+  },
+  {
+   "w": "universidades",
+   "t": 13.46,
+   "sec": "produto"
+  },
+  {
+   "w": "como",
+   "t": 14.08,
+   "sec": "produto"
+  },
+  {
+   "w": "Stanford,",
+   "t": 14.68,
+   "sec": "produto"
+  },
+  {
+   "w": "com",
+   "t": 15.18,
+   "sec": "produto"
+  },
+  {
+   "w": "certificado",
+   "t": 15.68,
+   "sec": "produto"
+  },
+  {
+   "w": "no",
+   "t": 16.18,
+   "sec": "produto"
+  },
+  {
+   "w": "seu",
+   "t": 16.4,
+   "sec": "produto"
+  },
+  {
+   "w": "nome",
+   "t": 16.68,
+   "sec": "produto"
+  },
+  {
+   "w": "nos",
+   "t": 16.94,
+   "sec": "produto"
+  },
+  {
+   "w": "programas",
+   "t": 17.14,
+   "sec": "produto"
+  },
+  {
+   "w": "incluídos.",
+   "t": 17.87,
+   "sec": "produto"
+  },
+  {
+   "w": "E",
+   "t": 18.6,
+   "sec": "conta"
+  },
+  {
+   "w": "a",
+   "t": 18.88,
+   "sec": "conta"
+  },
+  {
+   "w": "conta",
+   "t": 19.04,
+   "sec": "conta"
+  },
+  {
+   "w": "é",
+   "t": 19.42,
+   "sec": "conta"
+  },
+  {
+   "w": "sua.",
+   "t": 19.84,
+   "sec": "conta"
+  },
+  {
+   "w": "Você",
+   "t": 20.44,
+   "sec": "conta"
+  },
+  {
+   "w": "troca",
+   "t": 20.78,
+   "sec": "conta"
+  },
+  {
+   "w": "a",
+   "t": 21.28,
+   "sec": "conta"
+  },
+  {
+   "w": "senha",
+   "t": 21.432,
+   "sec": "conta"
+  },
+  {
+   "w": "e",
+   "t": 21.584,
+   "sec": "conta"
+  },
+  {
+   "w": "coloca",
+   "t": 21.736,
+   "sec": "conta"
+  },
+  {
+   "w": "o",
+   "t": 21.888,
+   "sec": "conta"
+  },
+  {
+   "w": "seu",
+   "t": 22.04,
+   "sec": "conta"
+  },
+  {
+   "w": "nome.",
+   "t": 22.48,
+   "sec": "conta"
+  },
+  {
+   "w": "Não",
+   "t": 22.88,
+   "sec": "conta"
+  },
+  {
+   "w": "é",
+   "t": 23.06,
+   "sec": "conta"
+  },
+  {
+   "w": "conta",
+   "t": 23.34,
+   "sec": "conta"
+  },
+  {
+   "w": "compartilhada.",
+   "t": 23.86,
+   "sec": "conta"
+  },
+  {
+   "w": "Um",
+   "t": 24.74,
+   "sec": "pagamento"
+  },
+  {
+   "w": "pagamento",
+   "t": 24.94,
+   "sec": "pagamento"
+  },
+  {
+   "w": "só,",
+   "t": 25.62,
+   "sec": "pagamento"
+  },
+  {
+   "w": "em",
+   "t": 25.94,
+   "sec": "pagamento"
+  },
+  {
+   "w": "reais,",
+   "t": 26.34,
+   "sec": "pagamento"
+  },
+  {
+   "w": "no",
+   "t": 26.64,
+   "sec": "pagamento"
+  },
+  {
+   "w": "Pix",
+   "t": 26.92,
+   "sec": "pagamento"
+  },
+  {
+   "w": "ou",
+   "t": 27.22,
+   "sec": "pagamento"
+  },
+  {
+   "w": "no",
+   "t": 27.32,
+   "sec": "pagamento"
+  },
+  {
+   "w": "cartão.",
+   "t": 27.62,
+   "sec": "pagamento"
+  },
+  {
+   "w": "Sem",
+   "t": 28.44,
+   "sec": "pagamento"
+  },
+  {
+   "w": "mensalidade",
+   "t": 28.68,
+   "sec": "pagamento"
+  },
+  {
+   "w": "e",
+   "t": 29.16,
+   "sec": "pagamento"
+  },
+  {
+   "w": "sem",
+   "t": 29.64,
+   "sec": "pagamento"
+  },
+  {
+   "w": "renovação",
+   "t": 29.98,
+   "sec": "pagamento"
+  },
+  {
+   "w": "automática.",
+   "t": 30.58,
+   "sec": "pagamento"
+  },
+  {
+   "w": "E",
+   "t": 31.34,
+   "sec": "pessoa"
+  },
+  {
+   "w": "uma",
+   "t": 31.42,
+   "sec": "pessoa"
+  },
+  {
+   "w": "pessoa",
+   "t": 31.8,
+   "sec": "pessoa"
+  },
+  {
+   "w": "de",
+   "t": 32.02,
+   "sec": "pessoa"
+  },
+  {
+   "w": "verdade",
+   "t": 32.48,
+   "sec": "pessoa"
+  },
+  {
+   "w": "te",
+   "t": 32.767,
+   "sec": "pessoa"
+  },
+  {
+   "w": "atendendo",
+   "t": 33.053,
+   "sec": "pessoa"
+  },
+  {
+   "w": "no",
+   "t": 33.34,
+   "sec": "pessoa"
+  },
+  {
+   "w": "WhatsApp.",
+   "t": 33.84,
+   "sec": "pessoa"
+  },
+  {
+   "w": "Dá",
+   "t": 34.183,
+   "sec": "dia"
+  },
+  {
+   "w": "oitenta",
+   "t": 34.527,
+   "sec": "dia"
+  },
+  {
+   "w": "e",
+   "t": 34.87,
+   "sec": "dia"
+  },
+  {
+   "w": "um",
+   "t": 35.213,
+   "sec": "dia"
+  },
+  {
+   "w": "centavos",
+   "t": 35.557,
+   "sec": "dia"
+  },
+  {
+   "w": "por",
+   "t": 35.9,
+   "sec": "dia"
+  },
+  {
+   "w": "dia.",
+   "t": 36.32,
+   "sec": "dia"
+  },
+  {
+   "w": "Toca",
+   "t": 36.82,
+   "sec": "cta"
+  },
+  {
+   "w": "em",
+   "t": 37.12,
+   "sec": "cta"
+  },
+  {
+   "w": "Saiba",
+   "t": 37.38,
+   "sec": "cta"
+  },
+  {
+   "w": "Mais",
+   "t": 37.86,
+   "sec": "cta"
+  },
+  {
+   "w": "e",
+   "t": 38.06,
+   "sec": "cta"
+  },
+  {
+   "w": "assiste",
+   "t": 38.36,
+   "sec": "cta"
+  },
+  {
+   "w": "ao",
+   "t": 38.54,
+   "sec": "cta"
+  },
+  {
+   "w": "vídeo",
+   "t": 38.76,
+   "sec": "cta"
+  },
+  {
+   "w": "completo",
+   "t": 39.32,
+   "sec": "cta"
+  },
+  {
+   "w": "antes",
+   "t": 39.68,
+   "sec": "cta"
+  },
+  {
+   "w": "de",
+   "t": 39.8,
+   "sec": "cta"
+  },
+  {
+   "w": "decidir.",
+   "t": 40.24,
+   "sec": "cta"
+  }
+ ],
+ "captions": [
+  {
+   "t": 0.5,
+   "text": "O mesmo ano que custa mil e",
+   "end": 2.35
+  },
+  {
+   "t": 2.35,
+   "text": "duzentos reais no site oficial,",
+   "end": 4.76
+  },
+  {
+   "t": 4.76,
+   "text": "aqui, duzentos e noventa e sete.",
+   "end": 6.96
+  },
+  {
+   "t": 6.96,
+   "text": "É o Coursera Plus,",
+   "end": 8.54
+  },
+  {
+   "t": 8.54,
+   "text": "doze meses, milhares de cursos do Google,",
+   "end": 11.58
+  },
+  {
+   "t": 11.58,
+   "text": "da IBM e da Meta,",
+   "end": 13.12
+  },
+  {
+   "t": 13.12,
+   "text": "e de universidades como Stanford,",
+   "end": 15.18
+  },
+  {
+   "t": 15.18,
+   "text": "com certificado no seu nome nos programas",
+   "end": 17.87
+  },
+  {
+   "t": 17.87,
+   "text": "incluídos.",
+   "end": 18.6
+  },
+  {
+   "t": 18.6,
+   "text": "E a conta é sua.",
+   "end": 20.44
+  },
+  {
+   "t": 20.44,
+   "text": "Você troca a senha e coloca o",
+   "end": 22.04
+  },
+  {
+   "t": 22.04,
+   "text": "seu nome.",
+   "end": 22.88
+  },
+  {
+   "t": 22.88,
+   "text": "Não é conta compartilhada.",
+   "end": 24.74
+  },
+  {
+   "t": 24.74,
+   "text": "Um pagamento só, em reais,",
+   "end": 26.64
+  },
+  {
+   "t": 26.64,
+   "text": "no Pix ou no cartão.",
+   "end": 28.44
+  },
+  {
+   "t": 28.44,
+   "text": "Sem mensalidade e sem renovação automática.",
+   "end": 31.34
+  },
+  {
+   "t": 31.34,
+   "text": "E uma pessoa de verdade te atendendo",
+   "end": 33.34
+  },
+  {
+   "t": 33.34,
+   "text": "no WhatsApp.",
+   "end": 34.183
+  },
+  {
+   "t": 34.183,
+   "text": "Dá oitenta e um centavos por dia.",
+   "end": 36.82
+  },
+  {
+   "t": 36.82,
+   "text": "Toca em Saiba Mais e assiste ao",
+   "end": 38.76
+  },
+  {
+   "t": 38.76,
+   "text": "vídeo completo antes de decidir.",
+   "end": 40.516
+  }
+ ]
+}

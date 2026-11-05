@@ -10,6 +10,10 @@ import {M03, Moovi03} from './projects/moovi-03/Moovi03';
 import {M04, Moovi04} from './projects/moovi-04/Moovi04';
 import {M06, Moovi06} from './projects/moovi-06/Moovi06';
 import {VSL, NexoolsVSL} from './projects/nexools-vsl/NexoolsVSL';
+import {A1, NexoolsAdA1} from './projects/nexools-ads/A1Ancora';
+import {A2, NexoolsAdA2} from './projects/nexools-ads/A2Lista';
+import {A3, NexoolsAdA3} from './projects/nexools-ads/A3Golpe';
+import {A4, NexoolsAdA4} from './projects/nexools-ads/A4Persona';
 
 ensureFonts();
 
@@ -28,5 +32,9 @@ export const RemotionRoot: React.FC = () => (
     <Composition {...vertical(M04.id, M04.total)} component={Moovi04} defaultProps={{debugSafeArea: false}} />
     <Composition {...vertical(M06.id, M06.total)} component={Moovi06} defaultProps={{debugSafeArea: false}} />
     <Composition id={VSL.id} fps={60} width={1920} height={1080} durationInFrames={VSL.total} component={NexoolsVSL} defaultProps={{debugSafeArea: false}} />
+    <Composition id={A1.id} fps={60} width={1080} height={1920} durationInFrames={A1.total} component={NexoolsAdA1} defaultProps={{debugSafeArea: false}} />
+    <Composition id={A2.id} fps={60} width={1080} height={1920} durationInFrames={A2.total} component={NexoolsAdA2} defaultProps={{debugSafeArea: false}} />
+    <Composition id={A3.id} fps={60} width={1080} height={1920} durationInFrames={A3.total} component={NexoolsAdA3} defaultProps={{debugSafeArea: false}} />
+    <Composition id={A4.id} fps={60} width={1080} height={1920} durationInFrames={A4.total} component={NexoolsAdA4} defaultProps={{debugSafeArea: false}} />
   </>
 );

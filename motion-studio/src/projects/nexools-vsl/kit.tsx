@@ -90,7 +90,8 @@ export const Pop: React.FC<{at: number; out?: number; dy?: number; dx?: number; 
   const frame = useCurrentFrame();
   const e = useIn(at);
   const o = useOut(out);
-  if (frame < at || o <= 0.001) return null;
+  // Keep the slot in the layout before entry / after exit so siblings never reflow (no jumps).
+  if (frame < at || o <= 0.001) return <div style={{...style, visibility: 'hidden'}}>{children}</div>;
   const v = Math.min(1, e);
   const hold = drift(frame, seed, 0.6) * 3;
   return (

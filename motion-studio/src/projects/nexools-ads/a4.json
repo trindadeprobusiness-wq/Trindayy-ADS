@@ -1,0 +1,435 @@
+{
+ "matched": 0.712,
+ "total": 24.685688,
+ "sections": [
+  {
+   "id": "persona",
+   "start": 0.36,
+   "end": 7.66
+  },
+  {
+   "id": "skills",
+   "start": 7.66,
+   "end": 11.26
+  },
+  {
+   "id": "cursos",
+   "start": 11.26,
+   "end": 16.573
+  },
+  {
+   "id": "oferta",
+   "start": 16.573,
+   "end": 23.41
+  },
+  {
+   "id": "cta",
+   "start": 23.41,
+   "end": 24.685688
+  }
+ ],
+ "words": [
+  {
+   "w": "Se",
+   "t": 0.36,
+   "sec": "persona"
+  },
+  {
+   "w": "você",
+   "t": 0.72,
+   "sec": "persona"
+  },
+  {
+   "w": "é",
+   "t": 0.76,
+   "sec": "persona"
+  },
+  {
+   "w": "analista",
+   "t": 1.08,
+   "sec": "persona"
+  },
+  {
+   "w": "administrativo",
+   "t": 1.8,
+   "sec": "persona"
+  },
+  {
+   "w": "e",
+   "t": 2.52,
+   "sec": "persona"
+  },
+  {
+   "w": "sente",
+   "t": 2.74,
+   "sec": "persona"
+  },
+  {
+   "w": "que",
+   "t": 2.96,
+   "sec": "persona"
+  },
+  {
+   "w": "o",
+   "t": 2.98,
+   "sec": "persona"
+  },
+  {
+   "w": "mercado",
+   "t": 3.24,
+   "sec": "persona"
+  },
+  {
+   "w": "está",
+   "t": 3.54,
+   "sec": "persona"
+  },
+  {
+   "w": "pedindo",
+   "t": 3.76,
+   "sec": "persona"
+  },
+  {
+   "w": "coisas",
+   "t": 4.26,
+   "sec": "persona"
+  },
+  {
+   "w": "que",
+   "t": 4.64,
+   "sec": "persona"
+  },
+  {
+   "w": "ninguém",
+   "t": 5.06,
+   "sec": "persona"
+  },
+  {
+   "w": "te",
+   "t": 5.41,
+   "sec": "persona"
+  },
+  {
+   "w": "ensinou,",
+   "t": 5.76,
+   "sec": "persona"
+  },
+  {
+   "w": "escuta",
+   "t": 6.39,
+   "sec": "persona"
+  },
+  {
+   "w": "isso.",
+   "t": 7.02,
+   "sec": "persona"
+  },
+  {
+   "w": "Inteligência",
+   "t": 7.66,
+   "sec": "skills"
+  },
+  {
+   "w": "artificial,",
+   "t": 8.58,
+   "sec": "skills"
+  },
+  {
+   "w": "Excel,",
+   "t": 9.36,
+   "sec": "skills"
+  },
+  {
+   "w": "dados,",
+   "t": 9.98,
+   "sec": "skills"
+  },
+  {
+   "w": "gestão.",
+   "t": 10.62,
+   "sec": "skills"
+  },
+  {
+   "w": "Com",
+   "t": 11.26,
+   "sec": "cursos"
+  },
+  {
+   "w": "cursos",
+   "t": 11.5,
+   "sec": "cursos"
+  },
+  {
+   "w": "do",
+   "t": 11.8,
+   "sec": "cursos"
+  },
+  {
+   "w": "Google,",
+   "t": 12.04,
+   "sec": "cursos"
+  },
+  {
+   "w": "da",
+   "t": 12.36,
+   "sec": "cursos"
+  },
+  {
+   "w": "IBM",
+   "t": 12.8,
+   "sec": "cursos"
+  },
+  {
+   "w": "e",
+   "t": 13.06,
+   "sec": "cursos"
+  },
+  {
+   "w": "de",
+   "t": 13.353,
+   "sec": "cursos"
+  },
+  {
+   "w": "Stanford,",
+   "t": 13.647,
+   "sec": "cursos"
+  },
+  {
+   "w": "e",
+   "t": 13.94,
+   "sec": "cursos"
+  },
+  {
+   "w": "certificado",
+   "t": 14.3,
+   "sec": "cursos"
+  },
+  {
+   "w": "no",
+   "t": 14.64,
+   "sec": "cursos"
+  },
+  {
+   "w": "seu",
+   "t": 14.88,
+   "sec": "cursos"
+  },
+  {
+   "w": "nome",
+   "t": 15.12,
+   "sec": "cursos"
+  },
+  {
+   "w": "nos",
+   "t": 15.36,
+   "sec": "cursos"
+  },
+  {
+   "w": "programas",
+   "t": 15.62,
+   "sec": "cursos"
+  },
+  {
+   "w": "incluídos.",
+   "t": 16.08,
+   "sec": "cursos"
+  },
+  {
+   "w": "Doze",
+   "t": 16.573,
+   "sec": "oferta"
+  },
+  {
+   "w": "meses",
+   "t": 17.067,
+   "sec": "oferta"
+  },
+  {
+   "w": "de",
+   "t": 17.56,
+   "sec": "oferta"
+  },
+  {
+   "w": "Coursera",
+   "t": 17.8,
+   "sec": "oferta"
+  },
+  {
+   "w": "Plus",
+   "t": 18.26,
+   "sec": "oferta"
+  },
+  {
+   "w": "por",
+   "t": 18.58,
+   "sec": "oferta"
+  },
+  {
+   "w": "duzentos",
+   "t": 18.85,
+   "sec": "oferta"
+  },
+  {
+   "w": "e",
+   "t": 19.12,
+   "sec": "oferta"
+  },
+  {
+   "w": "noventa",
+   "t": 19.39,
+   "sec": "oferta"
+  },
+  {
+   "w": "e",
+   "t": 19.66,
+   "sec": "oferta"
+  },
+  {
+   "w": "sete",
+   "t": 19.93,
+   "sec": "oferta"
+  },
+  {
+   "w": "reais.",
+   "t": 20.2,
+   "sec": "oferta"
+  },
+  {
+   "w": "Uma",
+   "t": 20.58,
+   "sec": "oferta"
+  },
+  {
+   "w": "vez",
+   "t": 20.82,
+   "sec": "oferta"
+  },
+  {
+   "w": "só.",
+   "t": 21.14,
+   "sec": "oferta"
+  },
+  {
+   "w": "Oitenta",
+   "t": 21.436,
+   "sec": "oferta"
+  },
+  {
+   "w": "e",
+   "t": 21.732,
+   "sec": "oferta"
+  },
+  {
+   "w": "um",
+   "t": 22.028,
+   "sec": "oferta"
+  },
+  {
+   "w": "centavos",
+   "t": 22.324,
+   "sec": "oferta"
+  },
+  {
+   "w": "por",
+   "t": 22.62,
+   "sec": "oferta"
+  },
+  {
+   "w": "dia.",
+   "t": 23.06,
+   "sec": "oferta"
+  },
+  {
+   "w": "Toca",
+   "t": 23.41,
+   "sec": "cta"
+  },
+  {
+   "w": "em",
+   "t": 23.76,
+   "sec": "cta"
+  },
+  {
+   "w": "Saiba",
+   "t": 24.069,
+   "sec": "cta"
+  },
+  {
+   "w": "Mais.",
+   "t": 24.377,
+   "sec": "cta"
+  }
+ ],
+ "captions": [
+  {
+   "t": 0.36,
+   "text": "Se você é analista administrativo e sente",
+   "end": 2.96
+  },
+  {
+   "t": 2.96,
+   "text": "que o mercado está pedindo coisas que",
+   "end": 5.06
+  },
+  {
+   "t": 5.06,
+   "text": "ninguém te ensinou, escuta isso.",
+   "end": 7.66
+  },
+  {
+   "t": 7.66,
+   "text": "Inteligência artificial, Excel, dados,",
+   "end": 10.58
+  },
+  {
+   "t": 10.62,
+   "text": "gestão.",
+   "end": 11.26
+  },
+  {
+   "t": 11.26,
+   "text": "Com cursos do Google,",
+   "end": 12.36
+  },
+  {
+   "t": 12.36,
+   "text": "da IBM e de Stanford,",
+   "end": 13.94
+  },
+  {
+   "t": 13.94,
+   "text": "e certificado no seu nome nos programas",
+   "end": 16.08
+  },
+  {
+   "t": 16.08,
+   "text": "incluídos.",
+   "end": 16.573
+  },
+  {
+   "t": 16.573,
+   "text": "Doze meses de Coursera Plus por duzentos",
+   "end": 19.12
+  },
+  {
+   "t": 19.12,
+   "text": "e noventa e sete reais.",
+   "end": 20.58
+  },
+  {
+   "t": 20.58,
+   "text": "Uma vez só.",
+   "end": 21.436
+  },
+  {
+   "t": 21.436,
+   "text": "Oitenta e um centavos por dia.",
+   "end": 23.41
+  },
+  {
+   "t": 23.41,
+   "text": "Toca em Saiba Mais.",
+   "end": 24.686
+  }
+ ]
+}

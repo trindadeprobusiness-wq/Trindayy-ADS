@@ -1,0 +1,630 @@
+{
+ "matched": 0.86,
+ "total": 30.66775,
+ "sections": [
+  {
+   "id": "golpe",
+   "start": 0.32,
+   "end": 7.16
+  },
+  {
+   "id": "quem",
+   "start": 7.16,
+   "end": 12.32
+  },
+  {
+   "id": "conta",
+   "start": 12.32,
+   "end": 16.22
+  },
+  {
+   "id": "antes",
+   "start": 16.22,
+   "end": 20.98
+  },
+  {
+   "id": "garantia",
+   "start": 20.98,
+   "end": 25.08
+  },
+  {
+   "id": "cta",
+   "start": 25.08,
+   "end": 30.66775
+  }
+ ],
+ "words": [
+  {
+   "w": "É",
+   "t": 0.32,
+   "sec": "golpe"
+  },
+  {
+   "w": "golpe?",
+   "t": 0.72,
+   "sec": "golpe"
+  },
+  {
+   "w": "Essa",
+   "t": 1.44,
+   "sec": "golpe"
+  },
+  {
+   "w": "é",
+   "t": 1.5,
+   "sec": "golpe"
+  },
+  {
+   "w": "a",
+   "t": 1.52,
+   "sec": "golpe"
+  },
+  {
+   "w": "pergunta",
+   "t": 1.84,
+   "sec": "golpe"
+  },
+  {
+   "w": "que",
+   "t": 2.18,
+   "sec": "golpe"
+  },
+  {
+   "w": "mais",
+   "t": 2.46,
+   "sec": "golpe"
+  },
+  {
+   "w": "recebemos.",
+   "t": 2.82,
+   "sec": "golpe"
+  },
+  {
+   "w": "E",
+   "t": 4.3,
+   "sec": "golpe"
+  },
+  {
+   "w": "ela",
+   "t": 4.46,
+   "sec": "golpe"
+  },
+  {
+   "w": "é",
+   "t": 4.5,
+   "sec": "golpe"
+  },
+  {
+   "w": "justa.",
+   "t": 5.01,
+   "sec": "golpe"
+  },
+  {
+   "w": "Então",
+   "t": 5.52,
+   "sec": "golpe"
+  },
+  {
+   "w": "eu",
+   "t": 5.7,
+   "sec": "golpe"
+  },
+  {
+   "w": "vou",
+   "t": 5.72,
+   "sec": "golpe"
+  },
+  {
+   "w": "responder",
+   "t": 6.02,
+   "sec": "golpe"
+  },
+  {
+   "w": "diferente.",
+   "t": 6.64,
+   "sec": "golpe"
+  },
+  {
+   "w": "A",
+   "t": 7.16,
+   "sec": "quem"
+  },
+  {
+   "w": "Nexools",
+   "t": 7.51,
+   "sec": "quem"
+  },
+  {
+   "w": "é",
+   "t": 7.86,
+   "sec": "quem"
+  },
+  {
+   "w": "uma",
+   "t": 7.86,
+   "sec": "quem"
+  },
+  {
+   "w": "revendedora",
+   "t": 8.45,
+   "sec": "quem"
+  },
+  {
+   "w": "independente.",
+   "t": 9.04,
+   "sec": "quem"
+  },
+  {
+   "w": "A",
+   "t": 9.74,
+   "sec": "quem"
+  },
+  {
+   "w": "gente",
+   "t": 9.82,
+   "sec": "quem"
+  },
+  {
+   "w": "não",
+   "t": 10.06,
+   "sec": "quem"
+  },
+  {
+   "w": "é",
+   "t": 10.16,
+   "sec": "quem"
+  },
+  {
+   "w": "o",
+   "t": 10.393,
+   "sec": "quem"
+  },
+  {
+   "w": "Coursera",
+   "t": 10.627,
+   "sec": "quem"
+  },
+  {
+   "w": "e",
+   "t": 10.86,
+   "sec": "quem"
+  },
+  {
+   "w": "não",
+   "t": 11.04,
+   "sec": "quem"
+  },
+  {
+   "w": "fala",
+   "t": 11.32,
+   "sec": "quem"
+  },
+  {
+   "w": "em",
+   "t": 11.48,
+   "sec": "quem"
+  },
+  {
+   "w": "nome",
+   "t": 11.64,
+   "sec": "quem"
+  },
+  {
+   "w": "dela.",
+   "t": 11.94,
+   "sec": "quem"
+  },
+  {
+   "w": "A",
+   "t": 12.32,
+   "sec": "conta"
+  },
+  {
+   "w": "conta",
+   "t": 12.5,
+   "sec": "conta"
+  },
+  {
+   "w": "vem",
+   "t": 12.74,
+   "sec": "conta"
+  },
+  {
+   "w": "no",
+   "t": 12.98,
+   "sec": "conta"
+  },
+  {
+   "w": "seu",
+   "t": 13.22,
+   "sec": "conta"
+  },
+  {
+   "w": "nome.",
+   "t": 13.66,
+   "sec": "conta"
+  },
+  {
+   "w": "Você",
+   "t": 13.98,
+   "sec": "conta"
+  },
+  {
+   "w": "troca",
+   "t": 14.26,
+   "sec": "conta"
+  },
+  {
+   "w": "a",
+   "t": 14.467,
+   "sec": "conta"
+  },
+  {
+   "w": "senha",
+   "t": 14.673,
+   "sec": "conta"
+  },
+  {
+   "w": "no",
+   "t": 14.88,
+   "sec": "conta"
+  },
+  {
+   "w": "primeiro",
+   "t": 15.22,
+   "sec": "conta"
+  },
+  {
+   "w": "acesso.",
+   "t": 15.74,
+   "sec": "conta"
+  },
+  {
+   "w": "Antes",
+   "t": 16.22,
+   "sec": "antes"
+  },
+  {
+   "w": "de",
+   "t": 16.36,
+   "sec": "antes"
+  },
+  {
+   "w": "pagar,",
+   "t": 16.7,
+   "sec": "antes"
+  },
+  {
+   "w": "você",
+   "t": 17.08,
+   "sec": "antes"
+  },
+  {
+   "w": "fala",
+   "t": 17.28,
+   "sec": "antes"
+  },
+  {
+   "w": "com",
+   "t": 17.48,
+   "sec": "antes"
+  },
+  {
+   "w": "uma",
+   "t": 17.68,
+   "sec": "antes"
+  },
+  {
+   "w": "pessoa",
+   "t": 17.86,
+   "sec": "antes"
+  },
+  {
+   "w": "de",
+   "t": 18.06,
+   "sec": "antes"
+  },
+  {
+   "w": "verdade",
+   "t": 18.44,
+   "sec": "antes"
+  },
+  {
+   "w": "no",
+   "t": 18.7,
+   "sec": "antes"
+  },
+  {
+   "w": "WhatsApp",
+   "t": 19.12,
+   "sec": "antes"
+  },
+  {
+   "w": "e",
+   "t": 19.34,
+   "sec": "antes"
+  },
+  {
+   "w": "pergunta",
+   "t": 19.68,
+   "sec": "antes"
+  },
+  {
+   "w": "tudo",
+   "t": 20.18,
+   "sec": "antes"
+  },
+  {
+   "w": "o",
+   "t": 20.28,
+   "sec": "antes"
+  },
+  {
+   "w": "que",
+   "t": 20.32,
+   "sec": "antes"
+  },
+  {
+   "w": "quiser.",
+   "t": 20.78,
+   "sec": "antes"
+  },
+  {
+   "w": "E",
+   "t": 20.98,
+   "sec": "garantia"
+  },
+  {
+   "w": "você",
+   "t": 21.16,
+   "sec": "garantia"
+  },
+  {
+   "w": "tem",
+   "t": 21.36,
+   "sec": "garantia"
+  },
+  {
+   "w": "sete",
+   "t": 21.76,
+   "sec": "garantia"
+  },
+  {
+   "w": "dias",
+   "t": 22.04,
+   "sec": "garantia"
+  },
+  {
+   "w": "pra",
+   "t": 22.373,
+   "sec": "garantia"
+  },
+  {
+   "w": "desistir,",
+   "t": 22.707,
+   "sec": "garantia"
+  },
+  {
+   "w": "pelo",
+   "t": 23.04,
+   "sec": "garantia"
+  },
+  {
+   "w": "Código",
+   "t": 23.34,
+   "sec": "garantia"
+  },
+  {
+   "w": "de",
+   "t": 23.6,
+   "sec": "garantia"
+  },
+  {
+   "w": "Defesa",
+   "t": 23.82,
+   "sec": "garantia"
+  },
+  {
+   "w": "do",
+   "t": 24.08,
+   "sec": "garantia"
+  },
+  {
+   "w": "Consumidor.",
+   "t": 24.34,
+   "sec": "garantia"
+  },
+  {
+   "w": "Ainda",
+   "t": 25.08,
+   "sec": "cta"
+  },
+  {
+   "w": "ficou",
+   "t": 25.38,
+   "sec": "cta"
+  },
+  {
+   "w": "com",
+   "t": 25.56,
+   "sec": "cta"
+  },
+  {
+   "w": "dúvida?",
+   "t": 25.78,
+   "sec": "cta"
+  },
+  {
+   "w": "Toca",
+   "t": 26.14,
+   "sec": "cta"
+  },
+  {
+   "w": "em",
+   "t": 26.5,
+   "sec": "cta"
+  },
+  {
+   "w": "Saiba",
+   "t": 26.86,
+   "sec": "cta"
+  },
+  {
+   "w": "Mais",
+   "t": 27.22,
+   "sec": "cta"
+  },
+  {
+   "w": "e",
+   "t": 27.42,
+   "sec": "cta"
+  },
+  {
+   "w": "fala",
+   "t": 27.62,
+   "sec": "cta"
+  },
+  {
+   "w": "com",
+   "t": 27.82,
+   "sec": "cta"
+  },
+  {
+   "w": "a",
+   "t": 28.1,
+   "sec": "cta"
+  },
+  {
+   "w": "gente.",
+   "t": 28.16,
+   "sec": "cta"
+  },
+  {
+   "w": "A",
+   "t": 28.66,
+   "sec": "cta"
+  },
+  {
+   "w": "condição",
+   "t": 28.8,
+   "sec": "cta"
+  },
+  {
+   "w": "vai",
+   "t": 29.22,
+   "sec": "cta"
+  },
+  {
+   "w": "até",
+   "t": 29.42,
+   "sec": "cta"
+  },
+  {
+   "w": "trinta",
+   "t": 29.8,
+   "sec": "cta"
+  },
+  {
+   "w": "de",
+   "t": 29.94,
+   "sec": "cta"
+  },
+  {
+   "w": "novembro.",
+   "t": 30.2,
+   "sec": "cta"
+  }
+ ],
+ "captions": [
+  {
+   "t": 0.32,
+   "text": "É golpe?",
+   "end": 1.44
+  },
+  {
+   "t": 1.44,
+   "text": "Essa é a pergunta que mais recebemos.",
+   "end": 4.3
+  },
+  {
+   "t": 4.3,
+   "text": "E ela é justa.",
+   "end": 5.52
+  },
+  {
+   "t": 5.52,
+   "text": "Então eu vou responder diferente.",
+   "end": 7.16
+  },
+  {
+   "t": 7.16,
+   "text": "A Nexools é uma revendedora independente.",
+   "end": 9.74
+  },
+  {
+   "t": 9.74,
+   "text": "A gente não é o Coursera e",
+   "end": 11.04
+  },
+  {
+   "t": 11.04,
+   "text": "não fala em nome dela.",
+   "end": 12.32
+  },
+  {
+   "t": 12.32,
+   "text": "A conta vem no seu nome.",
+   "end": 13.98
+  },
+  {
+   "t": 13.98,
+   "text": "Você troca a senha no primeiro acesso.",
+   "end": 16.22
+  },
+  {
+   "t": 16.22,
+   "text": "Antes de pagar, você fala com uma",
+   "end": 17.86
+  },
+  {
+   "t": 17.86,
+   "text": "pessoa de verdade no WhatsApp e pergunta",
+   "end": 20.18
+  },
+  {
+   "t": 20.18,
+   "text": "tudo o que quiser.",
+   "end": 20.98
+  },
+  {
+   "t": 20.98,
+   "text": "E você tem sete dias pra desistir,",
+   "end": 23.04
+  },
+  {
+   "t": 23.04,
+   "text": "pelo Código de Defesa do Consumidor.",
+   "end": 25.08
+  },
+  {
+   "t": 25.08,
+   "text": "Ainda ficou com dúvida?",
+   "end": 26.14
+  },
+  {
+   "t": 26.14,
+   "text": "Toca em Saiba Mais e fala com",
+   "end": 28.1
+  },
+  {
+   "t": 28.1,
+   "text": "a gente.",
+   "end": 28.66
+  },
+  {
+   "t": 28.66,
+   "text": "A condição vai até trinta de novembro.",
+   "end": 30.668
+  }
+ ]
+}

@@ -1,0 +1,735 @@
+{
+ "matched": 0.717,
+ "total": 48.352625,
+ "sections": [
+  {
+   "id": "data",
+   "start": 0.26,
+   "end": 12.892
+  },
+  {
+   "id": "meses",
+   "start": 12.892,
+   "end": 20.58
+  },
+  {
+   "id": "novembro",
+   "start": 20.58,
+   "end": 26.74
+  },
+  {
+   "id": "porque",
+   "start": 26.74,
+   "end": 33.68
+  },
+  {
+   "id": "virada",
+   "start": 33.68,
+   "end": 35.79
+  },
+  {
+   "id": "oferta",
+   "start": 35.79,
+   "end": 44.517
+  },
+  {
+   "id": "cta",
+   "start": 44.517,
+   "end": 48.352625
+  }
+ ],
+ "words": [
+  {
+   "w": "Trinta",
+   "t": 0.26,
+   "sec": "data"
+  },
+  {
+   "w": "e",
+   "t": 0.52,
+   "sec": "data"
+  },
+  {
+   "w": "um",
+   "t": 0.78,
+   "sec": "data"
+  },
+  {
+   "w": "de",
+   "t": 1.04,
+   "sec": "data"
+  },
+  {
+   "w": "dezembro.",
+   "t": 1.24,
+   "sec": "data"
+  },
+  {
+   "w": "Você",
+   "t": 2.7,
+   "sec": "data"
+  },
+  {
+   "w": "pega",
+   "t": 2.9,
+   "sec": "data"
+  },
+  {
+   "w": "o",
+   "t": 3.1,
+   "sec": "data"
+  },
+  {
+   "w": "celular",
+   "t": 3.44,
+   "sec": "data"
+  },
+  {
+   "w": "e",
+   "t": 3.9,
+   "sec": "data"
+  },
+  {
+   "w": "escreve",
+   "t": 4.12,
+   "sec": "data"
+  },
+  {
+   "w": "a",
+   "t": 4.3,
+   "sec": "data"
+  },
+  {
+   "w": "lista:",
+   "t": 4.78,
+   "sec": "data"
+  },
+  {
+   "w": "aprender",
+   "t": 5.45,
+   "sec": "data"
+  },
+  {
+   "w": "inteligência",
+   "t": 6.12,
+   "sec": "data"
+  },
+  {
+   "w": "artificial,",
+   "t": 7.02,
+   "sec": "data"
+  },
+  {
+   "w": "fazer",
+   "t": 7.66,
+   "sec": "data"
+  },
+  {
+   "w": "um",
+   "t": 7.88,
+   "sec": "data"
+  },
+  {
+   "w": "curso",
+   "t": 8.12,
+   "sec": "data"
+  },
+  {
+   "w": "de",
+   "t": 8.34,
+   "sec": "data"
+  },
+  {
+   "w": "dados,",
+   "t": 8.88,
+   "sec": "data"
+  },
+  {
+   "w": "atualizar",
+   "t": 9.4,
+   "sec": "data"
+  },
+  {
+   "w": "o",
+   "t": 9.92,
+   "sec": "data"
+  },
+  {
+   "w": "LinkedIn,",
+   "t": 10.58,
+   "sec": "data"
+  },
+  {
+   "w": "ganhar",
+   "t": 11.24,
+   "sec": "data"
+  },
+  {
+   "w": "mais.",
+   "t": 11.94,
+   "sec": "data"
+  },
+  {
+   "w": "Janeiro",
+   "t": 12.892,
+   "sec": "meses"
+  },
+  {
+   "w": "passa.",
+   "t": 13.844,
+   "sec": "meses"
+  },
+  {
+   "w": "Fevereiro",
+   "t": 14.796,
+   "sec": "meses"
+  },
+  {
+   "w": "passa.",
+   "t": 15.748,
+   "sec": "meses"
+  },
+  {
+   "w": "Em",
+   "t": 16.7,
+   "sec": "meses"
+  },
+  {
+   "w": "março,",
+   "t": 17.06,
+   "sec": "meses"
+  },
+  {
+   "w": "a",
+   "t": 17.72,
+   "sec": "meses"
+  },
+  {
+   "w": "lista",
+   "t": 17.72,
+   "sec": "meses"
+  },
+  {
+   "w": "já",
+   "t": 18.1,
+   "sec": "meses"
+  },
+  {
+   "w": "sumiu",
+   "t": 18.26,
+   "sec": "meses"
+  },
+  {
+   "w": "no",
+   "t": 18.54,
+   "sec": "meses"
+  },
+  {
+   "w": "meio",
+   "t": 18.7,
+   "sec": "meses"
+  },
+  {
+   "w": "das",
+   "t": 18.92,
+   "sec": "meses"
+  },
+  {
+   "w": "notas",
+   "t": 19.18,
+   "sec": "meses"
+  },
+  {
+   "w": "do",
+   "t": 19.46,
+   "sec": "meses"
+  },
+  {
+   "w": "celular.",
+   "t": 20.12,
+   "sec": "meses"
+  },
+  {
+   "w": "E",
+   "t": 20.58,
+   "sec": "novembro"
+  },
+  {
+   "w": "em",
+   "t": 20.8,
+   "sec": "novembro"
+  },
+  {
+   "w": "novembro,",
+   "t": 21.02,
+   "sec": "novembro"
+  },
+  {
+   "w": "você",
+   "t": 22.78,
+   "sec": "novembro"
+  },
+  {
+   "w": "olha",
+   "t": 23.02,
+   "sec": "novembro"
+  },
+  {
+   "w": "pra",
+   "t": 23.22,
+   "sec": "novembro"
+  },
+  {
+   "w": "ela",
+   "t": 23.42,
+   "sec": "novembro"
+  },
+  {
+   "w": "de",
+   "t": 23.62,
+   "sec": "novembro"
+  },
+  {
+   "w": "novo.",
+   "t": 24.2,
+   "sec": "novembro"
+  },
+  {
+   "w": "Nenhum",
+   "t": 25.0,
+   "sec": "novembro"
+  },
+  {
+   "w": "item",
+   "t": 25.36,
+   "sec": "novembro"
+  },
+  {
+   "w": "riscado.",
+   "t": 26.05,
+   "sec": "novembro"
+  },
+  {
+   "w": "Não",
+   "t": 26.74,
+   "sec": "porque"
+  },
+  {
+   "w": "foi",
+   "t": 26.92,
+   "sec": "porque"
+  },
+  {
+   "w": "preguiça.",
+   "t": 27.45,
+   "sec": "porque"
+  },
+  {
+   "w": "O",
+   "t": 27.98,
+   "sec": "porque"
+  },
+  {
+   "w": "curso",
+   "t": 28.28,
+   "sec": "porque"
+  },
+  {
+   "w": "bom",
+   "t": 28.52,
+   "sec": "porque"
+  },
+  {
+   "w": "era",
+   "t": 28.78,
+   "sec": "porque"
+  },
+  {
+   "w": "caro.",
+   "t": 29.16,
+   "sec": "porque"
+  },
+  {
+   "w": "O",
+   "t": 29.5,
+   "sec": "porque"
+  },
+  {
+   "w": "barato",
+   "t": 29.8,
+   "sec": "porque"
+  },
+  {
+   "w": "não",
+   "t": 30.2,
+   "sec": "porque"
+  },
+  {
+   "w": "tinha",
+   "t": 30.38,
+   "sec": "porque"
+  },
+  {
+   "w": "certificado.",
+   "t": 30.92,
+   "sec": "porque"
+  },
+  {
+   "w": "E",
+   "t": 31.6,
+   "sec": "porque"
+  },
+  {
+   "w": "o",
+   "t": 31.6,
+   "sec": "porque"
+  },
+  {
+   "w": "gratuito",
+   "t": 31.98,
+   "sec": "porque"
+  },
+  {
+   "w": "não",
+   "t": 32.5,
+   "sec": "porque"
+  },
+  {
+   "w": "tinha",
+   "t": 32.78,
+   "sec": "porque"
+  },
+  {
+   "w": "fim.",
+   "t": 33.22,
+   "sec": "porque"
+  },
+  {
+   "w": "Esse",
+   "t": 33.68,
+   "sec": "virada"
+  },
+  {
+   "w": "ano",
+   "t": 33.92,
+   "sec": "virada"
+  },
+  {
+   "w": "dá",
+   "t": 34.3,
+   "sec": "virada"
+  },
+  {
+   "w": "pra",
+   "t": 34.44,
+   "sec": "virada"
+  },
+  {
+   "w": "ser",
+   "t": 34.6,
+   "sec": "virada"
+  },
+  {
+   "w": "diferente.",
+   "t": 35.26,
+   "sec": "virada"
+  },
+  {
+   "w": "Doze",
+   "t": 35.79,
+   "sec": "oferta"
+  },
+  {
+   "w": "meses",
+   "t": 36.32,
+   "sec": "oferta"
+  },
+  {
+   "w": "de",
+   "t": 36.62,
+   "sec": "oferta"
+  },
+  {
+   "w": "Coursera",
+   "t": 36.96,
+   "sec": "oferta"
+  },
+  {
+   "w": "Plus,",
+   "t": 37.3,
+   "sec": "oferta"
+  },
+  {
+   "w": "numa",
+   "t": 37.64,
+   "sec": "oferta"
+  },
+  {
+   "w": "conta",
+   "t": 38.02,
+   "sec": "oferta"
+  },
+  {
+   "w": "só",
+   "t": 38.36,
+   "sec": "oferta"
+  },
+  {
+   "w": "sua,",
+   "t": 38.66,
+   "sec": "oferta"
+  },
+  {
+   "w": "por",
+   "t": 38.94,
+   "sec": "oferta"
+  },
+  {
+   "w": "duzentos",
+   "t": 39.22,
+   "sec": "oferta"
+  },
+  {
+   "w": "e",
+   "t": 39.5,
+   "sec": "oferta"
+  },
+  {
+   "w": "noventa",
+   "t": 39.78,
+   "sec": "oferta"
+  },
+  {
+   "w": "e",
+   "t": 40.06,
+   "sec": "oferta"
+  },
+  {
+   "w": "sete",
+   "t": 40.34,
+   "sec": "oferta"
+  },
+  {
+   "w": "reais,",
+   "t": 40.62,
+   "sec": "oferta"
+  },
+  {
+   "w": "pagos",
+   "t": 41.0,
+   "sec": "oferta"
+  },
+  {
+   "w": "uma",
+   "t": 41.48,
+   "sec": "oferta"
+  },
+  {
+   "w": "vez.",
+   "t": 41.98,
+   "sec": "oferta"
+  },
+  {
+   "w": "Oitenta",
+   "t": 42.296,
+   "sec": "oferta"
+  },
+  {
+   "w": "e",
+   "t": 42.612,
+   "sec": "oferta"
+  },
+  {
+   "w": "um",
+   "t": 42.928,
+   "sec": "oferta"
+  },
+  {
+   "w": "centavos",
+   "t": 43.244,
+   "sec": "oferta"
+  },
+  {
+   "w": "por",
+   "t": 43.56,
+   "sec": "oferta"
+  },
+  {
+   "w": "dia.",
+   "t": 44.04,
+   "sec": "oferta"
+  },
+  {
+   "w": "Dessa",
+   "t": 44.517,
+   "sec": "cta"
+  },
+  {
+   "w": "vez,",
+   "t": 44.994,
+   "sec": "cta"
+  },
+  {
+   "w": "risca",
+   "t": 45.471,
+   "sec": "cta"
+  },
+  {
+   "w": "a",
+   "t": 45.949,
+   "sec": "cta"
+  },
+  {
+   "w": "lista.",
+   "t": 46.426,
+   "sec": "cta"
+  },
+  {
+   "w": "Toca",
+   "t": 46.903,
+   "sec": "cta"
+  },
+  {
+   "w": "em",
+   "t": 47.38,
+   "sec": "cta"
+  },
+  {
+   "w": "Saiba",
+   "t": 47.76,
+   "sec": "cta"
+  },
+  {
+   "w": "Mais.",
+   "t": 48.14,
+   "sec": "cta"
+  }
+ ],
+ "captions": [
+  {
+   "t": 0.26,
+   "text": "Trinta e um de dezembro.",
+   "end": 2.7
+  },
+  {
+   "t": 2.7,
+   "text": "Você pega o celular e escreve a",
+   "end": 4.78
+  },
+  {
+   "t": 4.78,
+   "text": "lista:",
+   "end": 5.45
+  },
+  {
+   "t": 5.45,
+   "text": "aprender inteligência artificial, fazer um curso",
+   "end": 8.34
+  },
+  {
+   "t": 8.34,
+   "text": "de dados, atualizar o LinkedIn,",
+   "end": 11.24
+  },
+  {
+   "t": 11.24,
+   "text": "ganhar mais.",
+   "end": 12.892
+  },
+  {
+   "t": 12.892,
+   "text": "Janeiro passa.",
+   "end": 14.796
+  },
+  {
+   "t": 14.796,
+   "text": "Fevereiro passa.",
+   "end": 16.7
+  },
+  {
+   "t": 16.7,
+   "text": "Em março, a lista já sumiu no",
+   "end": 18.7
+  },
+  {
+   "t": 18.7,
+   "text": "meio das notas do celular.",
+   "end": 20.58
+  },
+  {
+   "t": 20.58,
+   "text": "E em novembro, você olha pra ela",
+   "end": 23.62
+  },
+  {
+   "t": 23.62,
+   "text": "de novo.",
+   "end": 25.0
+  },
+  {
+   "t": 25.0,
+   "text": "Nenhum item riscado.",
+   "end": 26.74
+  },
+  {
+   "t": 26.74,
+   "text": "Não foi preguiça.",
+   "end": 27.98
+  },
+  {
+   "t": 27.98,
+   "text": "O curso bom era caro.",
+   "end": 29.5
+  },
+  {
+   "t": 29.5,
+   "text": "O barato não tinha certificado.",
+   "end": 31.6
+  },
+  {
+   "t": 31.6,
+   "text": "E o gratuito não tinha fim.",
+   "end": 33.68
+  },
+  {
+   "t": 33.68,
+   "text": "Esse ano dá pra ser diferente.",
+   "end": 35.79
+  },
+  {
+   "t": 35.79,
+   "text": "Doze meses de Coursera Plus,",
+   "end": 37.64
+  },
+  {
+   "t": 37.64,
+   "text": "numa conta só sua,",
+   "end": 38.94
+  },
+  {
+   "t": 38.94,
+   "text": "por duzentos e noventa e sete reais,",
+   "end": 41.0
+  },
+  {
+   "t": 41.0,
+   "text": "pagos uma vez.",
+   "end": 42.296
+  },
+  {
+   "t": 42.296,
+   "text": "Oitenta e um centavos por dia.",
+   "end": 44.517
+  },
+  {
+   "t": 44.517,
+   "text": "Dessa vez, risca a lista.",
+   "end": 46.903
+  },
+  {
+   "t": 46.903,
+   "text": "Toca em Saiba Mais.",
+   "end": 48.353
+  }
+ ]
+}
