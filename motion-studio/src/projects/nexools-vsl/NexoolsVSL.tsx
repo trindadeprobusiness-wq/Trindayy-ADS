@@ -726,20 +726,21 @@ const Certificado: React.FC = () => {
   );
 };
 
-/** Placeholder until the real testimonial prints arrive (never fabricated). */
+/** Real WhatsApp prints sent by the user (06/11/2026); phone numbers already hidden. */
+const DEPOS = [{src: 'nexools-vsl/depo1.png', h: 850}, {src: 'nexools-vsl/depo2.png', h: 624}, {src: 'nexools-vsl/depo3.png', h: 463}];
 const Depoimentos: React.FC = () => {
   const {from, to} = SEC('depoimentos');
+  const f = useCurrentFrame();
+  const W = 520;
   return (
     <Scene from={from} to={to}>
-      <Center style={{gap: 40}}>
+      <Center style={{gap: 36}}>
         <Kin text="Não acredita só em mim." starts={TS('depoimentos', 'nao acredita so em mim')} size={84} />
-        <div style={{display: 'flex', gap: 30}}>
-          {[0, 1, 2].map((i) => (
-            <Pop key={i} at={T('depoimentos', 'Olha') + i * 8}>
-              <div style={{width: 440, height: 360, borderRadius: 30, border: `4px dashed ${C.blue2}`, background: 'rgba(255,255,255,0.6)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 14, fontFamily: FD}}>
-                <Ico n="chat" size={64} color={C.blue2} />
-                <div style={{fontSize: 34, fontWeight: 700, color: C.ink}}>Depoimento {i + 1}</div>
-                <div style={{fontSize: 24, color: C.ink2}}>[ inserir print real ]</div>
+        <div style={{display: 'flex', gap: 34, alignItems: 'flex-start'}}>
+          {DEPOS.map((d, i) => (
+            <Pop key={i} at={T('depoimentos', 'Olha') + i * 10} seed={i}>
+              <div style={{width: W, transform: `translateY(${Math.sin((f + i * 40) / 55) * 6}px) rotate(${(i - 1) * 0.6}deg)`, borderRadius: 22, overflow: 'hidden', boxShadow: '0 30px 70px rgba(10,20,60,0.28)'}}>
+                <img src={staticFile(d.src)} style={{width: W, height: (W * d.h) / 795, display: 'block'}} />
               </div>
             </Pop>
           ))}
