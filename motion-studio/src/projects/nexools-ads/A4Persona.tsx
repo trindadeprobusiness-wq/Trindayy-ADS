@@ -8,7 +8,7 @@ import data from './a4.json';
 
 const {SEC, T, words, total} = timing(data);
 export const A4 = {id: 'NexoolsAdA4', total: fr(total + 1)};
-const W = '#fff';
+const W = D.ink;
 const REQS: [string, number, number, number][] = [['Inteligência artificial', 40, 300, -5], ['Power BI', 640, 360, 4], ['Análise de dados', 70, 1000, 3], ['Gestão de projetos', 560, 1060, -3], ['Excel avançado', 660, 760, 5], ['Inglês', 60, 720, -4]];
 
 const Persona: React.FC = () => {
@@ -33,7 +33,7 @@ const Persona: React.FC = () => {
             <div style={{fontFamily: FD, fontWeight: 700, fontSize: 60, color: W, textAlign: 'center', lineHeight: 1.05}}>Analista<br />administrativo</div>
           </Glass>
         </Pop>
-        <Pop at={T('persona', 'ninguém')}><div style={{fontFamily: FD, fontWeight: 700, fontSize: 64, color: W, textAlign: 'center'}}>coisas que <span style={{color: '#FF8A95'}}>ninguém te ensinou</span></div></Pop>
+        <Pop at={T('persona', 'ninguém')}><div style={{fontFamily: FD, fontWeight: 700, fontSize: 64, color: W, textAlign: 'center'}}>coisas que <span style={{color: D.red}}>ninguém te ensinou</span></div></Pop>
       </Stage>
     </Scene>
   );

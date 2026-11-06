@@ -8,7 +8,7 @@ import data from './a3.json';
 
 const {SEC, T, TS, words, total} = timing(data);
 export const A3 = {id: 'NexoolsAdA3', total: fr(total + 1)};
-const W = '#fff';
+const W = D.ink;
 
 /** Many "é golpe?" messages surround the headline (overwhelm / close-in). */
 const BUBBLES: [number, number, number][] = [[80, 300, -6], [640, 290, 5], [40, 1010, 4], [620, 1060, -4], [330, 1150, 2]];
@@ -26,7 +26,7 @@ const Golpe: React.FC = () => {
         const e = frame < at ? 0 : springIn(frame, fps, at, 'snappy');
         return (
           <div key={i} style={{position: 'absolute', left: x, top: y, transform: `rotate(${r}deg) scale(${mix(0.6, 1, Math.min(e, 1.05))})`, opacity: Math.min(1, e * 2) * mix(1, 0.15, calm)}}>
-            <div style={{background: 'rgba(255,255,255,0.1)', border: `1.5px solid ${D.line}`, borderRadius: 30, padding: '20px 30px', fontFamily: FU, fontSize: 38, color: W}}>É golpe?</div>
+            <div style={{background: '#EEF1F6', border: `1.5px solid ${D.line}`, borderRadius: 30, padding: '20px 30px', fontFamily: FU, fontSize: 38, color: W}}>É golpe?</div>
           </div>
         );
       })}
@@ -95,15 +95,15 @@ const Antes: React.FC = () => {
         <Kin text="Antes de pagar:" starts={TS('antes', 'antes de pagar')} size={110} color={W} hl={['pagar:']} hlColor={D.blue} />
         <Pop at={T('antes', 'fala')}>
           <Glass style={{width: 880, overflow: 'hidden'}}>
-            <div style={{height: 120, background: '#0A2A1C', display: 'flex', alignItems: 'center', gap: 22, padding: '0 34px'}}>
+            <div style={{height: 120, background: '#075E54', display: 'flex', alignItems: 'center', gap: 22, padding: '0 34px'}}>
               <div style={{width: 72, height: 72, borderRadius: 36, background: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: FD, fontWeight: 800, color: D.blueDeep, fontSize: 38}}>N</div>
-              <div><div style={{fontFamily: FD, fontWeight: 700, fontSize: 40, color: W}}>Pessoa real · Nexools</div><div style={{fontFamily: FU, fontSize: 26, color: '#7DF0B0'}}>online · via WhatsApp</div></div>
+              <div><div style={{fontFamily: FD, fontWeight: 700, fontSize: 40, color: '#fff'}}>Pessoa real · Nexools</div><div style={{fontFamily: FU, fontSize: 26, color: '#CFF5DE'}}>online · via WhatsApp</div></div>
             </div>
             <div style={{padding: 34, display: 'flex', flexDirection: 'column', gap: 18}}>
-              <Pop at={T('antes', 'verdade')} dx={40} dy={0}><div style={{display: 'flex', justifyContent: 'flex-end'}}><div style={{maxWidth: 640, background: '#1E5A3C', borderRadius: 30, padding: '22px 30px', fontFamily: FU, fontSize: 36, color: W}}>A conta é só minha mesmo?</div></div></Pop>
-              {typing && <div style={{width: 130, height: 62, borderRadius: 31, background: 'rgba(255,255,255,0.1)', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 10}}>
+              <Pop at={T('antes', 'verdade')} dx={40} dy={0}><div style={{display: 'flex', justifyContent: 'flex-end'}}><div style={{maxWidth: 640, background: '#D9FDD3', borderRadius: 30, padding: '22px 30px', fontFamily: FU, fontSize: 36, color: W}}>A conta é só minha mesmo?</div></div></Pop>
+              {typing && <div style={{width: 130, height: 62, borderRadius: 31, background: '#EEF1F6', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 10}}>
                 {[0, 1, 2].map((i) => <span key={i} style={{width: 14, height: 14, borderRadius: 7, background: W, opacity: 0.3 + 0.7 * Math.max(0, Math.sin(frame * 0.22 - i))}} />)}</div>}
-              <Pop at={q + 20} dx={-40} dy={0}><div style={{maxWidth: 680, background: 'rgba(255,255,255,0.1)', borderRadius: 30, padding: '22px 30px', fontFamily: FU, fontSize: 36, color: W}}>É sim! Você troca a senha e coloca seu nome. Pergunta o que quiser.</div></Pop>
+              <Pop at={q + 20} dx={-40} dy={0}><div style={{maxWidth: 680, background: '#EEF1F6', borderRadius: 30, padding: '22px 30px', fontFamily: FU, fontSize: 36, color: W}}>É sim! Você troca a senha e coloca seu nome. Pergunta o que quiser.</div></Pop>
             </div>
           </Glass>
         </Pop>
@@ -122,7 +122,7 @@ const Garantia: React.FC = () => {
       <Stage gap={34}>
         <div style={{position: 'relative', width: 520, height: 520}}>
           <svg width={520} height={520} style={{position: 'absolute', inset: 0, transform: 'rotate(-90deg)', filter: `drop-shadow(0 0 18px ${D.green})`}}>
-            <circle cx={260} cy={260} r={r} fill="none" stroke="rgba(255,255,255,0.08)" strokeWidth={18} />
+            <circle cx={260} cy={260} r={r} fill="none" stroke="#E3E8F2" strokeWidth={18} />
             <circle cx={260} cy={260} r={r} fill="none" stroke={D.green} strokeWidth={18} strokeLinecap="round" strokeDasharray={`${L * ring} ${L}`} />
           </svg>
           <Pop at={T('garantia', 'sete')} style={{position: 'absolute', inset: 0, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>

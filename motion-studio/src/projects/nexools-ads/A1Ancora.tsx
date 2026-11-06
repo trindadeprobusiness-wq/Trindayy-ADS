@@ -8,7 +8,7 @@ import data from './a1.json';
 
 const {SEC, T, TS, words, total} = timing(data);
 export const A1 = {id: 'NexoolsAdA1', total: fr(total + 1)};
-const W = '#fff';
+const W = D.ink;
 
 const Ancora: React.FC = () => {
   const frame = useCurrentFrame();
@@ -21,7 +21,7 @@ const Ancora: React.FC = () => {
         <div style={{transform: `scale(${mix(1, 0.62, shrink)}) translateY(${shrink * -60}px)`, opacity: mix(1, 0.75, shrink)}}>
           <Pop at={0}>
             <Glass style={{width: 860, padding: '44px 52px'}}>
-              <div style={{display: 'flex', alignItems: 'center', gap: 20}}><CourseraMark size={62} color="#fff" /><div style={{fontFamily: FD, fontWeight: 700, fontSize: 48, color: W}}>Coursera Plus · 12 meses</div></div>
+              <div style={{display: 'flex', alignItems: 'center', gap: 20}}><CourseraMark size={62} color={D.ink} /><div style={{fontFamily: FD, fontWeight: 700, fontSize: 48, color: W}}>Coursera Plus · 12 meses</div></div>
               <div style={{fontFamily: FD, fontWeight: 700, fontSize: 170, color: W, letterSpacing: '-0.05em', marginTop: 10, whiteSpace: 'nowrap'}}>
                 <span style={{fontSize: 70, color: D.muted}}>R$ </span><Strike at={aqui + 4} color={D.red} thickness={0.07}><Count at={4} from={0} to={1200} dur={T('ancora', 'mil') - 4} /></Strike>
               </div>
@@ -94,7 +94,7 @@ const Conta: React.FC = () => {
             {[['Senha', frame < pw ? '••••••' : '•'.repeat(Math.min(10, 6 + Math.floor((frame - pw) / 5)))], ['Nome', typed('Seu nome', nm) || ' ']].map(([l, v]) => (
               <div key={l} style={{marginTop: 26}}>
                 <div style={{fontFamily: FU, fontSize: 28, color: D.muted, marginBottom: 8}}>{l}</div>
-                <div style={{height: 88, borderRadius: 22, border: `2px solid ${D.line}`, background: 'rgba(255,255,255,0.04)', display: 'flex', alignItems: 'center', padding: '0 28px', fontFamily: FD, fontSize: 44, fontWeight: 600, color: W}}>{v}</div>
+                <div style={{height: 88, borderRadius: 22, border: `2px solid ${D.line}`, background: '#F7F9FC', display: 'flex', alignItems: 'center', padding: '0 28px', fontFamily: FD, fontSize: 44, fontWeight: 600, color: W}}>{v}</div>
               </div>
             ))}
           </Glass>
@@ -137,14 +137,14 @@ const Pessoa: React.FC = () => {
         <Kin text="Gente de verdade." starts={TS('pessoa', 'pessoa de verdade')} size={110} color={W} hl={['verdade.']} hlColor={D.green} />
         <Pop at={T('pessoa', 'pessoa')}>
           <Glass style={{width: 860, overflow: 'hidden'}}>
-            <div style={{height: 120, background: '#0A2A1C', display: 'flex', alignItems: 'center', gap: 22, padding: '0 34px'}}>
+            <div style={{height: 120, background: '#075E54', display: 'flex', alignItems: 'center', gap: 22, padding: '0 34px'}}>
               <div style={{width: 72, height: 72, borderRadius: 36, background: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: FD, fontWeight: 800, color: D.blueDeep, fontSize: 38}}>N</div>
-              <div><div style={{fontFamily: FD, fontWeight: 700, fontSize: 40, color: W}}>Atendimento Nexools</div><div style={{fontFamily: FU, fontSize: 26, color: '#7DF0B0'}}>online · via WhatsApp</div></div>
+              <div><div style={{fontFamily: FD, fontWeight: 700, fontSize: 40, color: '#fff'}}>Atendimento Nexools</div><div style={{fontFamily: FU, fontSize: 26, color: '#CFF5DE'}}>online · via WhatsApp</div></div>
             </div>
             <div style={{padding: 34, minHeight: 230, display: 'flex', flexDirection: 'column', gap: 18}}>
-              {typing && <div style={{width: 130, height: 66, borderRadius: 33, background: 'rgba(255,255,255,0.1)', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 10}}>
+              {typing && <div style={{width: 130, height: 66, borderRadius: 33, background: '#EEF1F6', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 10}}>
                 {[0, 1, 2].map((i) => <span key={i} style={{width: 14, height: 14, borderRadius: 7, background: W, opacity: 0.3 + 0.7 * Math.max(0, Math.sin(frame * 0.22 - i))}} />)}</div>}
-              <Pop at={T('pessoa', 'WhatsApp')} dx={-30} dy={0}><div style={{maxWidth: 680, background: 'rgba(255,255,255,0.1)', borderRadius: 30, padding: '24px 32px', fontFamily: FU, fontSize: 38, color: W}}>Oi! Tô aqui pra tirar todas as suas dúvidas!</div></Pop>
+              <Pop at={T('pessoa', 'WhatsApp')} dx={-30} dy={0}><div style={{maxWidth: 680, background: '#EEF1F6', borderRadius: 30, padding: '24px 32px', fontFamily: FU, fontSize: 38, color: W}}>Oi! Tô aqui pra tirar todas as suas dúvidas!</div></Pop>
             </div>
           </Glass>
         </Pop>
@@ -173,7 +173,7 @@ const Cta: React.FC = () => {
   return (
     <Scene from={from} to={to + 90}>
       <Stage gap={40}>
-        <Pop at={T('cta', 'assiste')}><Tag tone="ghost" size={36}><Ico n="play" size={34} color="#fff" />Assista ao vídeo completo antes de decidir</Tag></Pop>
+        <Pop at={T('cta', 'assiste')}><Tag tone="ghost" size={36}><Ico n="play" size={34} color={D.blue} />Assista ao vídeo completo antes de decidir</Tag></Pop>
         <CTA at={from} press={T('cta', 'Saiba')} sub="12 meses · R$ 297 · pagamento único" />
       </Stage>
     </Scene>

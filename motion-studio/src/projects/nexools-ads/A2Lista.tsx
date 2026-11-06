@@ -8,7 +8,7 @@ import data from './a2.json';
 
 const {SEC, T, TS, words, total} = timing(data);
 export const A2 = {id: 'NexoolsAdA2', total: fr(total + 1)};
-const W = '#fff';
+const W = D.ink;
 const ITEMS = ['Aprender inteligência artificial', 'Fazer um curso de dados', 'Atualizar o LinkedIn', 'Ganhar mais'];
 
 /** Dark notes-app list. `typedAt[i]` = when item i is written; `checkAt[i]` = when it gets checked (green strike). */
@@ -23,12 +23,12 @@ const NoteList: React.FC<{typedAt: number[]; checkAt?: number[]; red?: number; t
         const at = typedAt[i];
         const n = Math.max(0, Math.min(it.length, Math.floor((frame - at) / 1.6)));
         const ck = checkAt[i] !== undefined && frame >= checkAt[i] ? springIn(frame, fps, checkAt[i], 'snappy') : 0;
-        const box = ck > 0 ? D.green : red > 0.5 ? D.red : 'rgba(255,255,255,0.35)';
+        const box = ck > 0 ? D.green : red > 0.5 ? D.red : '#B8C2D6';
         return (
           <div key={i} style={{display: 'flex', alignItems: 'center', gap: 26, padding: '20px 0', borderTop: `1.5px solid ${D.line}`, opacity: frame >= at - 4 ? 1 : 0.0}}>
             <div style={{width: 54, height: 54, borderRadius: 14, border: `4px solid ${box}`, background: ck > 0 ? D.green : 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center',
               transform: `scale(${1 + 0.2 * Math.max(0, 1 - Math.abs(ck - 1) * 4)})`}}>{ck > 0 && <Ico n="check" size={40} color="#04140A" stroke={3.4} />}</div>
-            <div style={{position: 'relative', fontFamily: FD, fontSize: 46, fontWeight: 600, color: ck > 0 ? 'rgba(255,255,255,0.6)' : W}}>
+            <div style={{position: 'relative', fontFamily: FD, fontSize: 46, fontWeight: 600, color: ck > 0 ? '#8A93A8' : W}}>
               {it.slice(0, n)}{n < it.length && frame >= at && Math.floor(frame / 12) % 2 === 0 ? <span style={{color: D.blue}}>|</span> : null}
               {ck > 0 && <span style={{position: 'absolute', left: 0, top: '52%', height: 6, borderRadius: 3, background: D.green, width: `${Math.min(1, ck) * 100}%`}} />}
             </div>
@@ -115,7 +115,7 @@ const Porque: React.FC = () => {
           <Pop key={k} at={T('porque', k) - 30} seed={i} dx={-60} dy={0}>
             <Glass glow={D.red} style={{width: 900, padding: '30px 40px', display: 'flex', alignItems: 'center', gap: 28}}>
               <div style={{width: 92, height: 92, borderRadius: 26, background: 'rgba(255,77,94,0.16)', display: 'flex', alignItems: 'center', justifyContent: 'center'}}><Ico n={ic as never} size={52} color="#FF8A95" /></div>
-              <div style={{fontFamily: FD, fontWeight: 700, fontSize: 52, color: W}}>{a} <span style={{color: '#FF8A95'}}>{b}</span></div>
+              <div style={{fontFamily: FD, fontWeight: 700, fontSize: 52, color: W}}>{a} <span style={{color: D.red}}>{b}</span></div>
             </Glass>
           </Pop>
         ))}
