@@ -1,0 +1,5 @@
+#hook Oitenta e um centavos por dia.
+#frase É isso que custa estudar um ano inteiro com o Coursera Plus aqui na Nexools.
+#areas Inteligência artificial, dados, Excel, gestão de projetos, marketing...
+#marcas cursos do Google, da IBM, da Meta e de universidades como Stanford. Com certificado no seu nome nos programas incluídos.
+#preco São duzentos e noventa e sete reais, pagos uma vez, em vez de perto de mil e duzentos no site oficial.

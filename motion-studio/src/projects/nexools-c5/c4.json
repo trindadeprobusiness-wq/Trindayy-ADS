@@ -1,0 +1,450 @@
+{
+ "matched": 0.729,
+ "total": 27.010563,
+ "sections": [
+  {
+   "id": "hook",
+   "start": 0.437,
+   "end": 3.06
+  },
+  {
+   "id": "frase",
+   "start": 3.06,
+   "end": 7.64
+  },
+  {
+   "id": "areas",
+   "start": 7.64,
+   "end": 12.52
+  },
+  {
+   "id": "marcas",
+   "start": 12.52,
+   "end": 19.76
+  },
+  {
+   "id": "preco",
+   "start": 19.76,
+   "end": 27.010563
+  }
+ ],
+ "words": [
+  {
+   "w": "Oitenta",
+   "t": 0.437,
+   "sec": "hook"
+  },
+  {
+   "w": "e",
+   "t": 0.874,
+   "sec": "hook"
+  },
+  {
+   "w": "um",
+   "t": 1.311,
+   "sec": "hook"
+  },
+  {
+   "w": "centavos",
+   "t": 1.749,
+   "sec": "hook"
+  },
+  {
+   "w": "por",
+   "t": 2.186,
+   "sec": "hook"
+  },
+  {
+   "w": "dia.",
+   "t": 2.623,
+   "sec": "hook"
+  },
+  {
+   "w": "É",
+   "t": 3.06,
+   "sec": "frase"
+  },
+  {
+   "w": "isso",
+   "t": 3.28,
+   "sec": "frase"
+  },
+  {
+   "w": "que",
+   "t": 3.48,
+   "sec": "frase"
+  },
+  {
+   "w": "custa",
+   "t": 3.72,
+   "sec": "frase"
+  },
+  {
+   "w": "estudar",
+   "t": 4.08,
+   "sec": "frase"
+  },
+  {
+   "w": "um",
+   "t": 4.32,
+   "sec": "frase"
+  },
+  {
+   "w": "ano",
+   "t": 4.67,
+   "sec": "frase"
+  },
+  {
+   "w": "inteiro",
+   "t": 5.02,
+   "sec": "frase"
+  },
+  {
+   "w": "com",
+   "t": 5.3,
+   "sec": "frase"
+  },
+  {
+   "w": "o",
+   "t": 5.42,
+   "sec": "frase"
+  },
+  {
+   "w": "Coursera",
+   "t": 5.747,
+   "sec": "frase"
+  },
+  {
+   "w": "Plus",
+   "t": 6.073,
+   "sec": "frase"
+  },
+  {
+   "w": "aqui",
+   "t": 6.4,
+   "sec": "frase"
+  },
+  {
+   "w": "na",
+   "t": 6.48,
+   "sec": "frase"
+  },
+  {
+   "w": "Nexools.",
+   "t": 7.06,
+   "sec": "frase"
+  },
+  {
+   "w": "Inteligência",
+   "t": 7.64,
+   "sec": "areas"
+  },
+  {
+   "w": "artificial,",
+   "t": 8.52,
+   "sec": "areas"
+  },
+  {
+   "w": "dados,",
+   "t": 9.26,
+   "sec": "areas"
+  },
+  {
+   "w": "Excel,",
+   "t": 9.94,
+   "sec": "areas"
+  },
+  {
+   "w": "gestão",
+   "t": 10.32,
+   "sec": "areas"
+  },
+  {
+   "w": "de",
+   "t": 10.5,
+   "sec": "areas"
+  },
+  {
+   "w": "projetos,",
+   "t": 10.94,
+   "sec": "areas"
+  },
+  {
+   "w": "marketing...",
+   "t": 11.92,
+   "sec": "areas"
+  },
+  {
+   "w": "cursos",
+   "t": 12.52,
+   "sec": "marcas"
+  },
+  {
+   "w": "do",
+   "t": 12.76,
+   "sec": "marcas"
+  },
+  {
+   "w": "Google,",
+   "t": 13.1,
+   "sec": "marcas"
+  },
+  {
+   "w": "da",
+   "t": 13.4,
+   "sec": "marcas"
+  },
+  {
+   "w": "IBM,",
+   "t": 13.86,
+   "sec": "marcas"
+  },
+  {
+   "w": "da",
+   "t": 14.18,
+   "sec": "marcas"
+  },
+  {
+   "w": "Meta",
+   "t": 14.58,
+   "sec": "marcas"
+  },
+  {
+   "w": "e",
+   "t": 14.84,
+   "sec": "marcas"
+  },
+  {
+   "w": "de",
+   "t": 14.96,
+   "sec": "marcas"
+  },
+  {
+   "w": "universidades",
+   "t": 15.24,
+   "sec": "marcas"
+  },
+  {
+   "w": "como",
+   "t": 15.8,
+   "sec": "marcas"
+  },
+  {
+   "w": "Stanford.",
+   "t": 16.36,
+   "sec": "marcas"
+  },
+  {
+   "w": "Com",
+   "t": 16.76,
+   "sec": "marcas"
+  },
+  {
+   "w": "certificado",
+   "t": 17.2,
+   "sec": "marcas"
+  },
+  {
+   "w": "no",
+   "t": 17.62,
+   "sec": "marcas"
+  },
+  {
+   "w": "seu",
+   "t": 17.84,
+   "sec": "marcas"
+  },
+  {
+   "w": "nome",
+   "t": 18.1,
+   "sec": "marcas"
+  },
+  {
+   "w": "nos",
+   "t": 18.34,
+   "sec": "marcas"
+  },
+  {
+   "w": "programas",
+   "t": 18.58,
+   "sec": "marcas"
+  },
+  {
+   "w": "incluídos.",
+   "t": 19.08,
+   "sec": "marcas"
+  },
+  {
+   "w": "São",
+   "t": 19.76,
+   "sec": "preco"
+  },
+  {
+   "w": "duzentos",
+   "t": 20.073,
+   "sec": "preco"
+  },
+  {
+   "w": "e",
+   "t": 20.387,
+   "sec": "preco"
+  },
+  {
+   "w": "noventa",
+   "t": 20.7,
+   "sec": "preco"
+  },
+  {
+   "w": "e",
+   "t": 21.013,
+   "sec": "preco"
+  },
+  {
+   "w": "sete",
+   "t": 21.327,
+   "sec": "preco"
+  },
+  {
+   "w": "reais,",
+   "t": 21.64,
+   "sec": "preco"
+  },
+  {
+   "w": "pagos",
+   "t": 22.0,
+   "sec": "preco"
+  },
+  {
+   "w": "uma",
+   "t": 22.3,
+   "sec": "preco"
+  },
+  {
+   "w": "vez,",
+   "t": 22.68,
+   "sec": "preco"
+  },
+  {
+   "w": "em",
+   "t": 22.92,
+   "sec": "preco"
+  },
+  {
+   "w": "vez",
+   "t": 23.06,
+   "sec": "preco"
+  },
+  {
+   "w": "de",
+   "t": 23.22,
+   "sec": "preco"
+  },
+  {
+   "w": "perto",
+   "t": 23.44,
+   "sec": "preco"
+  },
+  {
+   "w": "de",
+   "t": 23.88,
+   "sec": "preco"
+  },
+  {
+   "w": "mil",
+   "t": 24.08,
+   "sec": "preco"
+  },
+  {
+   "w": "e",
+   "t": 24.28,
+   "sec": "preco"
+  },
+  {
+   "w": "duzentos",
+   "t": 24.48,
+   "sec": "preco"
+  },
+  {
+   "w": "no",
+   "t": 24.68,
+   "sec": "preco"
+  },
+  {
+   "w": "site",
+   "t": 24.88,
+   "sec": "preco"
+  },
+  {
+   "w": "oficial.",
+   "t": 25.44,
+   "sec": "preco"
+  }
+ ],
+ "captions": [
+  {
+   "t": 0.437,
+   "text": "Oitenta e um centavos por dia.",
+   "end": 3.06
+  },
+  {
+   "t": 3.06,
+   "text": "É isso que custa estudar um ano",
+   "end": 5.02
+  },
+  {
+   "t": 5.02,
+   "text": "inteiro com o Coursera Plus aqui na",
+   "end": 7.06
+  },
+  {
+   "t": 7.06,
+   "text": "Nexools.",
+   "end": 7.64
+  },
+  {
+   "t": 7.64,
+   "text": "Inteligência artificial, dados, Excel,",
+   "end": 10.32
+  },
+  {
+   "t": 10.32,
+   "text": "gestão de projetos, marketing...",
+   "end": 12.52
+  },
+  {
+   "t": 12.52,
+   "text": "cursos do Google, da IBM,",
+   "end": 14.18
+  },
+  {
+   "t": 14.18,
+   "text": "da Meta e de universidades como Stanford.",
+   "end": 16.76
+  },
+  {
+   "t": 16.76,
+   "text": "Com certificado no seu nome nos programas",
+   "end": 19.08
+  },
+  {
+   "t": 19.08,
+   "text": "incluídos.",
+   "end": 19.76
+  },
+  {
+   "t": 19.76,
+   "text": "São duzentos e noventa e sete reais,",
+   "end": 22.0
+  },
+  {
+   "t": 22.0,
+   "text": "pagos uma vez, em vez de perto",
+   "end": 23.88
+  },
+  {
+   "t": 23.88,
+   "text": "de mil e duzentos no site oficial.",
+   "end": 27.011
+  }
+ ]
+}

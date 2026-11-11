@@ -1,0 +1,370 @@
+{
+ "matched": 0.691,
+ "total": 18.6775,
+ "sections": [
+  {
+   "id": "hook",
+   "start": 0.34,
+   "end": 6.68
+  },
+  {
+   "id": "oficial",
+   "start": 6.68,
+   "end": 12.08
+  },
+  {
+   "id": "prazo",
+   "start": 12.08,
+   "end": 14.58
+  },
+  {
+   "id": "conta",
+   "start": 14.58,
+   "end": 16.98
+  },
+  {
+   "id": "cta",
+   "start": 16.98,
+   "end": 18.6775
+  }
+ ],
+ "words": [
+  {
+   "w": "Até",
+   "t": 0.34,
+   "sec": "hook"
+  },
+  {
+   "w": "trinta",
+   "t": 0.68,
+   "sec": "hook"
+  },
+  {
+   "w": "de",
+   "t": 0.92,
+   "sec": "hook"
+  },
+  {
+   "w": "novembro,",
+   "t": 1.2,
+   "sec": "hook"
+  },
+  {
+   "w": "um",
+   "t": 1.84,
+   "sec": "hook"
+  },
+  {
+   "w": "ano",
+   "t": 2.1,
+   "sec": "hook"
+  },
+  {
+   "w": "de",
+   "t": 2.24,
+   "sec": "hook"
+  },
+  {
+   "w": "Coursera",
+   "t": 2.58,
+   "sec": "hook"
+  },
+  {
+   "w": "Plus",
+   "t": 2.92,
+   "sec": "hook"
+  },
+  {
+   "w": "sai",
+   "t": 3.12,
+   "sec": "hook"
+  },
+  {
+   "w": "por",
+   "t": 3.36,
+   "sec": "hook"
+  },
+  {
+   "w": "duzentos",
+   "t": 3.633,
+   "sec": "hook"
+  },
+  {
+   "w": "e",
+   "t": 3.907,
+   "sec": "hook"
+  },
+  {
+   "w": "noventa",
+   "t": 4.18,
+   "sec": "hook"
+  },
+  {
+   "w": "e",
+   "t": 4.453,
+   "sec": "hook"
+  },
+  {
+   "w": "sete",
+   "t": 4.727,
+   "sec": "hook"
+  },
+  {
+   "w": "reais",
+   "t": 5.0,
+   "sec": "hook"
+  },
+  {
+   "w": "aqui",
+   "t": 5.4,
+   "sec": "hook"
+  },
+  {
+   "w": "na",
+   "t": 5.56,
+   "sec": "hook"
+  },
+  {
+   "w": "Nexools.",
+   "t": 6.12,
+   "sec": "hook"
+  },
+  {
+   "w": "No",
+   "t": 6.68,
+   "sec": "oficial"
+  },
+  {
+   "w": "site",
+   "t": 6.84,
+   "sec": "oficial"
+  },
+  {
+   "w": "oficial,",
+   "t": 7.44,
+   "sec": "oficial"
+  },
+  {
+   "w": "perto",
+   "t": 7.84,
+   "sec": "oficial"
+  },
+  {
+   "w": "de",
+   "t": 8.12,
+   "sec": "oficial"
+  },
+  {
+   "w": "mil",
+   "t": 8.41,
+   "sec": "oficial"
+  },
+  {
+   "w": "e",
+   "t": 8.7,
+   "sec": "oficial"
+  },
+  {
+   "w": "duzentos.",
+   "t": 8.99,
+   "sec": "oficial"
+  },
+  {
+   "w": "São",
+   "t": 9.28,
+   "sec": "oficial"
+  },
+  {
+   "w": "mais",
+   "t": 9.56,
+   "sec": "oficial"
+  },
+  {
+   "w": "de",
+   "t": 9.66,
+   "sec": "oficial"
+  },
+  {
+   "w": "novecentos",
+   "t": 10.21,
+   "sec": "oficial"
+  },
+  {
+   "w": "reais",
+   "t": 10.76,
+   "sec": "oficial"
+  },
+  {
+   "w": "de",
+   "t": 11.0,
+   "sec": "oficial"
+  },
+  {
+   "w": "diferença.",
+   "t": 11.48,
+   "sec": "oficial"
+  },
+  {
+   "w": "Depois",
+   "t": 12.08,
+   "sec": "prazo"
+  },
+  {
+   "w": "do",
+   "t": 12.26,
+   "sec": "prazo"
+  },
+  {
+   "w": "dia",
+   "t": 12.4,
+   "sec": "prazo"
+  },
+  {
+   "w": "trinta,",
+   "t": 12.8,
+   "sec": "prazo"
+  },
+  {
+   "w": "essa",
+   "t": 13.16,
+   "sec": "prazo"
+  },
+  {
+   "w": "condição",
+   "t": 13.42,
+   "sec": "prazo"
+  },
+  {
+   "w": "acaba.",
+   "t": 14.12,
+   "sec": "prazo"
+  },
+  {
+   "w": "Conta",
+   "t": 14.58,
+   "sec": "conta"
+  },
+  {
+   "w": "no",
+   "t": 14.76,
+   "sec": "conta"
+  },
+  {
+   "w": "seu",
+   "t": 14.9,
+   "sec": "conta"
+  },
+  {
+   "w": "nome,",
+   "t": 15.26,
+   "sec": "conta"
+  },
+  {
+   "w": "pagamento",
+   "t": 15.76,
+   "sec": "conta"
+  },
+  {
+   "w": "único.",
+   "t": 16.26,
+   "sec": "conta"
+  },
+  {
+   "w": "Toca",
+   "t": 16.98,
+   "sec": "cta"
+  },
+  {
+   "w": "em",
+   "t": 17.7,
+   "sec": "cta"
+  },
+  {
+   "w": "Saiba",
+   "t": 17.845,
+   "sec": "cta"
+  },
+  {
+   "w": "Mais",
+   "t": 17.99,
+   "sec": "cta"
+  },
+  {
+   "w": "enquanto",
+   "t": 18.135,
+   "sec": "cta"
+  },
+  {
+   "w": "ainda",
+   "t": 18.28,
+   "sec": "cta"
+  },
+  {
+   "w": "dá.",
+   "t": 18.66,
+   "sec": "cta"
+  }
+ ],
+ "captions": [
+  {
+   "t": 0.34,
+   "text": "Até trinta de novembro,",
+   "end": 1.84
+  },
+  {
+   "t": 1.84,
+   "text": "um ano de Coursera Plus sai por",
+   "end": 3.633
+  },
+  {
+   "t": 3.633,
+   "text": "duzentos e noventa e sete reais aqui",
+   "end": 5.56
+  },
+  {
+   "t": 5.56,
+   "text": "na Nexools.",
+   "end": 6.68
+  },
+  {
+   "t": 6.68,
+   "text": "No site oficial, perto de mil e",
+   "end": 8.99
+  },
+  {
+   "t": 8.99,
+   "text": "duzentos.",
+   "end": 9.28
+  },
+  {
+   "t": 9.28,
+   "text": "São mais de novecentos reais de diferença.",
+   "end": 12.08
+  },
+  {
+   "t": 12.08,
+   "text": "Depois do dia trinta,",
+   "end": 13.16
+  },
+  {
+   "t": 13.16,
+   "text": "essa condição acaba.",
+   "end": 14.58
+  },
+  {
+   "t": 14.58,
+   "text": "Conta no seu nome,",
+   "end": 15.76
+  },
+  {
+   "t": 15.76,
+   "text": "pagamento único.",
+   "end": 16.98
+  },
+  {
+   "t": 16.98,
+   "text": "Toca em Saiba Mais enquanto ainda dá.",
+   "end": 18.677
+  }
+ ]
+}

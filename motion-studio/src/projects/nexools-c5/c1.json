@@ -1,0 +1,520 @@
+{
+ "matched": 0.709,
+ "total": 27.715875,
+ "sections": [
+  {
+   "id": "hook",
+   "start": 0.26,
+   "end": 5.32
+  },
+  {
+   "id": "oficial",
+   "start": 5.32,
+   "end": 9.66
+  },
+  {
+   "id": "preco",
+   "start": 9.66,
+   "end": 13.76
+  },
+  {
+   "id": "economia",
+   "start": 13.76,
+   "end": 16.88
+  },
+  {
+   "id": "conta",
+   "start": 16.88,
+   "end": 20.72
+  },
+  {
+   "id": "pagamento",
+   "start": 20.72,
+   "end": 24.72
+  },
+  {
+   "id": "cta",
+   "start": 24.72,
+   "end": 27.715875
+  }
+ ],
+ "words": [
+  {
+   "w": "Se",
+   "t": 0.26,
+   "sec": "hook"
+  },
+  {
+   "w": "você",
+   "t": 0.54,
+   "sec": "hook"
+  },
+  {
+   "w": "está",
+   "t": 0.74,
+   "sec": "hook"
+  },
+  {
+   "w": "pensando",
+   "t": 1.2,
+   "sec": "hook"
+  },
+  {
+   "w": "em",
+   "t": 1.46,
+   "sec": "hook"
+  },
+  {
+   "w": "assinar",
+   "t": 1.7,
+   "sec": "hook"
+  },
+  {
+   "w": "o",
+   "t": 1.98,
+   "sec": "hook"
+  },
+  {
+   "w": "Coursera",
+   "t": 2.5,
+   "sec": "hook"
+  },
+  {
+   "w": "Plus...",
+   "t": 3.02,
+   "sec": "hook"
+  },
+  {
+   "w": "presta",
+   "t": 3.96,
+   "sec": "hook"
+  },
+  {
+   "w": "atenção",
+   "t": 4.44,
+   "sec": "hook"
+  },
+  {
+   "w": "antes.",
+   "t": 5.0,
+   "sec": "hook"
+  },
+  {
+   "w": "No",
+   "t": 5.32,
+   "sec": "oficial"
+  },
+  {
+   "w": "site",
+   "t": 5.52,
+   "sec": "oficial"
+  },
+  {
+   "w": "oficial,",
+   "t": 6.02,
+   "sec": "oficial"
+  },
+  {
+   "w": "um",
+   "t": 6.54,
+   "sec": "oficial"
+  },
+  {
+   "w": "ano",
+   "t": 6.82,
+   "sec": "oficial"
+  },
+  {
+   "w": "custa",
+   "t": 7.18,
+   "sec": "oficial"
+  },
+  {
+   "w": "perto",
+   "t": 7.54,
+   "sec": "oficial"
+  },
+  {
+   "w": "de",
+   "t": 7.9,
+   "sec": "oficial"
+  },
+  {
+   "w": "mil",
+   "t": 8.21,
+   "sec": "oficial"
+  },
+  {
+   "w": "e",
+   "t": 8.52,
+   "sec": "oficial"
+  },
+  {
+   "w": "duzentos",
+   "t": 8.83,
+   "sec": "oficial"
+  },
+  {
+   "w": "reais.",
+   "t": 9.14,
+   "sec": "oficial"
+  },
+  {
+   "w": "Aqui",
+   "t": 9.66,
+   "sec": "preco"
+  },
+  {
+   "w": "na",
+   "t": 10.027,
+   "sec": "preco"
+  },
+  {
+   "w": "Nexools,",
+   "t": 10.393,
+   "sec": "preco"
+  },
+  {
+   "w": "o",
+   "t": 10.76,
+   "sec": "preco"
+  },
+  {
+   "w": "mesmo",
+   "t": 11.1,
+   "sec": "preco"
+  },
+  {
+   "w": "ano",
+   "t": 11.38,
+   "sec": "preco"
+  },
+  {
+   "w": "sai",
+   "t": 11.62,
+   "sec": "preco"
+  },
+  {
+   "w": "por",
+   "t": 11.86,
+   "sec": "preco"
+  },
+  {
+   "w": "duzentos",
+   "t": 12.38,
+   "sec": "preco"
+  },
+  {
+   "w": "e",
+   "t": 12.9,
+   "sec": "preco"
+  },
+  {
+   "w": "noventa",
+   "t": 13.115,
+   "sec": "preco"
+  },
+  {
+   "w": "e",
+   "t": 13.33,
+   "sec": "preco"
+  },
+  {
+   "w": "sete.",
+   "t": 13.545,
+   "sec": "preco"
+  },
+  {
+   "w": "São",
+   "t": 13.76,
+   "sec": "economia"
+  },
+  {
+   "w": "mais",
+   "t": 14.06,
+   "sec": "economia"
+  },
+  {
+   "w": "de",
+   "t": 14.16,
+   "sec": "economia"
+  },
+  {
+   "w": "novecentos",
+   "t": 14.7,
+   "sec": "economia"
+  },
+  {
+   "w": "reais",
+   "t": 15.24,
+   "sec": "economia"
+  },
+  {
+   "w": "que",
+   "t": 15.46,
+   "sec": "economia"
+  },
+  {
+   "w": "ficam",
+   "t": 15.74,
+   "sec": "economia"
+  },
+  {
+   "w": "no",
+   "t": 15.9,
+   "sec": "economia"
+  },
+  {
+   "w": "seu",
+   "t": 16.06,
+   "sec": "economia"
+  },
+  {
+   "w": "bolso.",
+   "t": 16.38,
+   "sec": "economia"
+  },
+  {
+   "w": "E",
+   "t": 16.88,
+   "sec": "conta"
+  },
+  {
+   "w": "não",
+   "t": 17.06,
+   "sec": "conta"
+  },
+  {
+   "w": "é",
+   "t": 17.24,
+   "sec": "conta"
+  },
+  {
+   "w": "conta",
+   "t": 17.5,
+   "sec": "conta"
+  },
+  {
+   "w": "compartilhada:",
+   "t": 17.98,
+   "sec": "conta"
+  },
+  {
+   "w": "a",
+   "t": 18.78,
+   "sec": "conta"
+  },
+  {
+   "w": "conta",
+   "t": 19.035,
+   "sec": "conta"
+  },
+  {
+   "w": "é",
+   "t": 19.29,
+   "sec": "conta"
+  },
+  {
+   "w": "sua,",
+   "t": 19.545,
+   "sec": "conta"
+  },
+  {
+   "w": "no",
+   "t": 19.8,
+   "sec": "conta"
+  },
+  {
+   "w": "seu",
+   "t": 20.04,
+   "sec": "conta"
+  },
+  {
+   "w": "nome.",
+   "t": 20.4,
+   "sec": "conta"
+  },
+  {
+   "w": "Um",
+   "t": 20.72,
+   "sec": "pagamento"
+  },
+  {
+   "w": "pagamento",
+   "t": 21.15,
+   "sec": "pagamento"
+  },
+  {
+   "w": "só,",
+   "t": 21.58,
+   "sec": "pagamento"
+  },
+  {
+   "w": "no",
+   "t": 21.78,
+   "sec": "pagamento"
+  },
+  {
+   "w": "Pix",
+   "t": 22.11,
+   "sec": "pagamento"
+  },
+  {
+   "w": "ou",
+   "t": 22.44,
+   "sec": "pagamento"
+  },
+  {
+   "w": "no",
+   "t": 22.5,
+   "sec": "pagamento"
+  },
+  {
+   "w": "cartão,",
+   "t": 22.78,
+   "sec": "pagamento"
+  },
+  {
+   "w": "sem",
+   "t": 23.36,
+   "sec": "pagamento"
+  },
+  {
+   "w": "renovação",
+   "t": 23.66,
+   "sec": "pagamento"
+  },
+  {
+   "w": "automática.",
+   "t": 24.28,
+   "sec": "pagamento"
+  },
+  {
+   "w": "Toca",
+   "t": 24.72,
+   "sec": "cta"
+  },
+  {
+   "w": "em",
+   "t": 25.16,
+   "sec": "cta"
+  },
+  {
+   "w": "Saiba",
+   "t": 25.46,
+   "sec": "cta"
+  },
+  {
+   "w": "Mais",
+   "t": 25.76,
+   "sec": "cta"
+  },
+  {
+   "w": "e",
+   "t": 26.06,
+   "sec": "cta"
+  },
+  {
+   "w": "confere",
+   "t": 26.36,
+   "sec": "cta"
+  },
+  {
+   "w": "antes",
+   "t": 26.66,
+   "sec": "cta"
+  },
+  {
+   "w": "de",
+   "t": 26.96,
+   "sec": "cta"
+  },
+  {
+   "w": "decidir.",
+   "t": 27.36,
+   "sec": "cta"
+  }
+ ],
+ "captions": [
+  {
+   "t": 0.26,
+   "text": "Se você está pensando em assinar o",
+   "end": 2.5
+  },
+  {
+   "t": 2.5,
+   "text": "Coursera Plus...",
+   "end": 3.96
+  },
+  {
+   "t": 3.96,
+   "text": "presta atenção antes.",
+   "end": 5.32
+  },
+  {
+   "t": 5.32,
+   "text": "No site oficial, um ano custa perto",
+   "end": 7.9
+  },
+  {
+   "t": 7.9,
+   "text": "de mil e duzentos reais.",
+   "end": 9.66
+  },
+  {
+   "t": 9.66,
+   "text": "Aqui na Nexools, o mesmo ano sai",
+   "end": 11.86
+  },
+  {
+   "t": 11.86,
+   "text": "por duzentos e noventa e sete.",
+   "end": 13.76
+  },
+  {
+   "t": 13.76,
+   "text": "São mais de novecentos reais que ficam",
+   "end": 15.9
+  },
+  {
+   "t": 15.9,
+   "text": "no seu bolso.",
+   "end": 16.88
+  },
+  {
+   "t": 16.88,
+   "text": "E não é conta compartilhada:",
+   "end": 18.78
+  },
+  {
+   "t": 18.78,
+   "text": "a conta é sua,",
+   "end": 19.8
+  },
+  {
+   "t": 19.8,
+   "text": "no seu nome.",
+   "end": 20.72
+  },
+  {
+   "t": 20.72,
+   "text": "Um pagamento só, no Pix ou no",
+   "end": 22.78
+  },
+  {
+   "t": 22.78,
+   "text": "cartão, sem renovação automática.",
+   "end": 24.72
+  },
+  {
+   "t": 24.72,
+   "text": "Toca em Saiba Mais e confere antes",
+   "end": 26.96
+  },
+  {
+   "t": 26.96,
+   "text": "de decidir.",
+   "end": 27.716
+  }
+ ]
+}

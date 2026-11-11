@@ -1,0 +1,480 @@
+{
+ "matched": 0.653,
+ "total": 23.875875,
+ "sections": [
+  {
+   "id": "hook",
+   "start": 0.28,
+   "end": 4.91
+  },
+  {
+   "id": "peso",
+   "start": 4.91,
+   "end": 7.9
+  },
+  {
+   "id": "preco",
+   "start": 7.9,
+   "end": 12.756
+  },
+  {
+   "id": "dia",
+   "start": 12.756,
+   "end": 16.04
+  },
+  {
+   "id": "economia",
+   "start": 16.04,
+   "end": 18.913
+  },
+  {
+   "id": "confianca",
+   "start": 18.913,
+   "end": 22.665
+  },
+  {
+   "id": "cta",
+   "start": 22.665,
+   "end": 23.875875
+  }
+ ],
+ "words": [
+  {
+   "w": "O",
+   "t": 0.28,
+   "sec": "hook"
+  },
+  {
+   "w": "motivo",
+   "t": 0.56,
+   "sec": "hook"
+  },
+  {
+   "w": "de",
+   "t": 0.92,
+   "sec": "hook"
+  },
+  {
+   "w": "muita",
+   "t": 1.16,
+   "sec": "hook"
+  },
+  {
+   "w": "gente",
+   "t": 1.52,
+   "sec": "hook"
+  },
+  {
+   "w": "não",
+   "t": 1.72,
+   "sec": "hook"
+  },
+  {
+   "w": "estudar",
+   "t": 2.08,
+   "sec": "hook"
+  },
+  {
+   "w": "com",
+   "t": 2.4,
+   "sec": "hook"
+  },
+  {
+   "w": "o",
+   "t": 2.62,
+   "sec": "hook"
+  },
+  {
+   "w": "Coursera...",
+   "t": 3.16,
+   "sec": "hook"
+  },
+  {
+   "w": "é",
+   "t": 3.7,
+   "sec": "hook"
+  },
+  {
+   "w": "o",
+   "t": 4.22,
+   "sec": "hook"
+  },
+  {
+   "w": "preço.",
+   "t": 4.42,
+   "sec": "hook"
+  },
+  {
+   "w": "Perto",
+   "t": 4.91,
+   "sec": "peso"
+  },
+  {
+   "w": "de",
+   "t": 5.4,
+   "sec": "peso"
+  },
+  {
+   "w": "mil",
+   "t": 5.625,
+   "sec": "peso"
+  },
+  {
+   "w": "e",
+   "t": 5.85,
+   "sec": "peso"
+  },
+  {
+   "w": "duzentos",
+   "t": 6.075,
+   "sec": "peso"
+  },
+  {
+   "w": "reais",
+   "t": 6.3,
+   "sec": "peso"
+  },
+  {
+   "w": "por",
+   "t": 6.46,
+   "sec": "peso"
+  },
+  {
+   "w": "ano",
+   "t": 6.8,
+   "sec": "peso"
+  },
+  {
+   "w": "pesa.",
+   "t": 7.22,
+   "sec": "peso"
+  },
+  {
+   "w": "Só",
+   "t": 7.9,
+   "sec": "preco"
+  },
+  {
+   "w": "que,",
+   "t": 8.22,
+   "sec": "preco"
+  },
+  {
+   "w": "aqui",
+   "t": 8.56,
+   "sec": "preco"
+  },
+  {
+   "w": "na",
+   "t": 8.7,
+   "sec": "preco"
+  },
+  {
+   "w": "Nexools,",
+   "t": 9.1,
+   "sec": "preco"
+  },
+  {
+   "w": "você",
+   "t": 9.5,
+   "sec": "preco"
+  },
+  {
+   "w": "paga",
+   "t": 9.817,
+   "sec": "preco"
+  },
+  {
+   "w": "duzentos",
+   "t": 10.134,
+   "sec": "preco"
+  },
+  {
+   "w": "e",
+   "t": 10.451,
+   "sec": "preco"
+  },
+  {
+   "w": "noventa",
+   "t": 10.769,
+   "sec": "preco"
+  },
+  {
+   "w": "e",
+   "t": 11.086,
+   "sec": "preco"
+  },
+  {
+   "w": "sete.",
+   "t": 11.403,
+   "sec": "preco"
+  },
+  {
+   "w": "Uma",
+   "t": 11.72,
+   "sec": "preco"
+  },
+  {
+   "w": "vez",
+   "t": 12.04,
+   "sec": "preco"
+  },
+  {
+   "w": "só.",
+   "t": 12.52,
+   "sec": "preco"
+  },
+  {
+   "w": "Dá",
+   "t": 12.756,
+   "sec": "dia"
+  },
+  {
+   "w": "oitenta",
+   "t": 12.992,
+   "sec": "dia"
+  },
+  {
+   "w": "e",
+   "t": 13.228,
+   "sec": "dia"
+  },
+  {
+   "w": "um",
+   "t": 13.464,
+   "sec": "dia"
+  },
+  {
+   "w": "centavos",
+   "t": 13.7,
+   "sec": "dia"
+  },
+  {
+   "w": "por",
+   "t": 14.12,
+   "sec": "dia"
+  },
+  {
+   "w": "dia,",
+   "t": 14.5,
+   "sec": "dia"
+  },
+  {
+   "w": "menos",
+   "t": 14.88,
+   "sec": "dia"
+  },
+  {
+   "w": "que",
+   "t": 15.0,
+   "sec": "dia"
+  },
+  {
+   "w": "um",
+   "t": 15.1,
+   "sec": "dia"
+  },
+  {
+   "w": "cafezinho.",
+   "t": 15.36,
+   "sec": "dia"
+  },
+  {
+   "w": "E",
+   "t": 16.04,
+   "sec": "economia"
+  },
+  {
+   "w": "você",
+   "t": 16.28,
+   "sec": "economia"
+  },
+  {
+   "w": "economiza",
+   "t": 16.62,
+   "sec": "economia"
+  },
+  {
+   "w": "mais",
+   "t": 17.2,
+   "sec": "economia"
+  },
+  {
+   "w": "de",
+   "t": 17.28,
+   "sec": "economia"
+  },
+  {
+   "w": "novecentos",
+   "t": 17.97,
+   "sec": "economia"
+  },
+  {
+   "w": "reais.",
+   "t": 18.66,
+   "sec": "economia"
+  },
+  {
+   "w": "Conta",
+   "t": 18.913,
+   "sec": "confianca"
+  },
+  {
+   "w": "no",
+   "t": 19.167,
+   "sec": "confianca"
+  },
+  {
+   "w": "seu",
+   "t": 19.42,
+   "sec": "confianca"
+  },
+  {
+   "w": "nome,",
+   "t": 19.8,
+   "sec": "confianca"
+  },
+  {
+   "w": "e",
+   "t": 20.0,
+   "sec": "confianca"
+  },
+  {
+   "w": "uma",
+   "t": 20.14,
+   "sec": "confianca"
+  },
+  {
+   "w": "pessoa",
+   "t": 20.5,
+   "sec": "confianca"
+  },
+  {
+   "w": "de",
+   "t": 20.76,
+   "sec": "confianca"
+  },
+  {
+   "w": "verdade",
+   "t": 21.1,
+   "sec": "confianca"
+  },
+  {
+   "w": "te",
+   "t": 21.353,
+   "sec": "confianca"
+  },
+  {
+   "w": "atende",
+   "t": 21.607,
+   "sec": "confianca"
+  },
+  {
+   "w": "no",
+   "t": 21.86,
+   "sec": "confianca"
+  },
+  {
+   "w": "WhatsApp.",
+   "t": 22.3,
+   "sec": "confianca"
+  },
+  {
+   "w": "Toca",
+   "t": 22.665,
+   "sec": "cta"
+  },
+  {
+   "w": "em",
+   "t": 23.03,
+   "sec": "cta"
+  },
+  {
+   "w": "Saiba",
+   "t": 23.395,
+   "sec": "cta"
+  },
+  {
+   "w": "Mais.",
+   "t": 23.76,
+   "sec": "cta"
+  }
+ ],
+ "captions": [
+  {
+   "t": 0.28,
+   "text": "O motivo de muita gente não estudar",
+   "end": 2.4
+  },
+  {
+   "t": 2.4,
+   "text": "com o Coursera...",
+   "end": 3.7
+  },
+  {
+   "t": 3.7,
+   "text": "é o preço.",
+   "end": 4.91
+  },
+  {
+   "t": 4.91,
+   "text": "Perto de mil e duzentos reais por",
+   "end": 6.8
+  },
+  {
+   "t": 6.8,
+   "text": "ano pesa.",
+   "end": 7.9
+  },
+  {
+   "t": 7.9,
+   "text": "Só que, aqui na Nexools,",
+   "end": 9.5
+  },
+  {
+   "t": 9.5,
+   "text": "você paga duzentos e noventa e sete.",
+   "end": 11.72
+  },
+  {
+   "t": 11.72,
+   "text": "Uma vez só.",
+   "end": 12.756
+  },
+  {
+   "t": 12.756,
+   "text": "Dá oitenta e um centavos por dia,",
+   "end": 14.88
+  },
+  {
+   "t": 14.88,
+   "text": "menos que um cafezinho.",
+   "end": 16.04
+  },
+  {
+   "t": 16.04,
+   "text": "E você economiza mais de novecentos reais.",
+   "end": 18.913
+  },
+  {
+   "t": 18.913,
+   "text": "Conta no seu nome,",
+   "end": 20.0
+  },
+  {
+   "t": 20.0,
+   "text": "e uma pessoa de verdade te atende",
+   "end": 21.86
+  },
+  {
+   "t": 21.86,
+   "text": "no WhatsApp.",
+   "end": 22.665
+  },
+  {
+   "t": 22.665,
+   "text": "Toca em Saiba Mais.",
+   "end": 23.876
+  }
+ ]
+}

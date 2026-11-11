@@ -14,6 +14,11 @@ import {A1, NexoolsAdA1} from './projects/nexools-ads/A1Ancora';
 import {A2, NexoolsAdA2} from './projects/nexools-ads/A2Lista';
 import {A3, NexoolsAdA3} from './projects/nexools-ads/A3Golpe';
 import {A4, NexoolsAdA4} from './projects/nexools-ads/A4Persona';
+import {C1, NexoolsC1} from './projects/nexools-c5/C1Atencao';
+import {C2, NexoolsC2} from './projects/nexools-c5/C2Maioria';
+import {C3, NexoolsC3} from './projects/nexools-c5/C3Motivo';
+import {C4, NexoolsC4} from './projects/nexools-c5/C4Centavos';
+import {C5, NexoolsC5} from './projects/nexools-c5/C5Prazo';
 
 ensureFonts();
 
@@ -36,5 +41,10 @@ export const RemotionRoot: React.FC = () => (
     <Composition id={A2.id} fps={60} width={1080} height={1920} durationInFrames={A2.total} component={NexoolsAdA2} defaultProps={{debugSafeArea: false}} />
     <Composition id={A3.id} fps={60} width={1080} height={1920} durationInFrames={A3.total} component={NexoolsAdA3} defaultProps={{debugSafeArea: false}} />
     <Composition id={A4.id} fps={60} width={1080} height={1920} durationInFrames={A4.total} component={NexoolsAdA4} defaultProps={{debugSafeArea: false}} />
+    <Composition id={C1.id} fps={60} width={1080} height={1920} durationInFrames={C1.total} component={NexoolsC1} defaultProps={{debugSafeArea: false}} />
+    <Composition id={C2.id} fps={60} width={1080} height={1920} durationInFrames={C2.total} component={NexoolsC2} defaultProps={{debugSafeArea: false}} />
+    <Composition id={C3.id} fps={60} width={1080} height={1920} durationInFrames={C3.total} component={NexoolsC3} defaultProps={{debugSafeArea: false}} />
+    <Composition id={C4.id} fps={60} width={1080} height={1920} durationInFrames={C4.total} component={NexoolsC4} defaultProps={{debugSafeArea: false}} />
+    <Composition id={C5.id} fps={60} width={1080} height={1920} durationInFrames={C5.total} component={NexoolsC5} defaultProps={{debugSafeArea: false}} />
   </>
 );

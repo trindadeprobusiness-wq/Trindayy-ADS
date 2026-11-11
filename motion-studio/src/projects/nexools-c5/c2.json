@@ -1,0 +1,510 @@
+{
+ "matched": 0.782,
+ "total": 25.469375,
+ "sections": [
+  {
+   "id": "hook",
+   "start": 0.34,
+   "end": 6.32
+  },
+  {
+   "id": "conta",
+   "start": 6.32,
+   "end": 13.72
+  },
+  {
+   "id": "quarto",
+   "start": 13.72,
+   "end": 15.86
+  },
+  {
+   "id": "produto",
+   "start": 15.86,
+   "end": 24.33
+  },
+  {
+   "id": "cta",
+   "start": 24.33,
+   "end": 25.469375
+  }
+ ],
+ "words": [
+  {
+   "w": "A",
+   "t": 0.34,
+   "sec": "hook"
+  },
+  {
+   "w": "maioria",
+   "t": 0.58,
+   "sec": "hook"
+  },
+  {
+   "w": "das",
+   "t": 0.88,
+   "sec": "hook"
+  },
+  {
+   "w": "pessoas",
+   "t": 1.42,
+   "sec": "hook"
+  },
+  {
+   "w": "paga",
+   "t": 1.68,
+   "sec": "hook"
+  },
+  {
+   "w": "o",
+   "t": 2.04,
+   "sec": "hook"
+  },
+  {
+   "w": "preço",
+   "t": 2.24,
+   "sec": "hook"
+  },
+  {
+   "w": "cheio",
+   "t": 2.56,
+   "sec": "hook"
+  },
+  {
+   "w": "no",
+   "t": 2.76,
+   "sec": "hook"
+  },
+  {
+   "w": "Coursera...",
+   "t": 3.32,
+   "sec": "hook"
+  },
+  {
+   "w": "porque",
+   "t": 3.88,
+   "sec": "hook"
+  },
+  {
+   "w": "nem",
+   "t": 4.28,
+   "sec": "hook"
+  },
+  {
+   "w": "sabe",
+   "t": 4.6,
+   "sec": "hook"
+  },
+  {
+   "w": "que",
+   "t": 4.76,
+   "sec": "hook"
+  },
+  {
+   "w": "dá",
+   "t": 4.94,
+   "sec": "hook"
+  },
+  {
+   "w": "pra",
+   "t": 5.13,
+   "sec": "hook"
+  },
+  {
+   "w": "pagar",
+   "t": 5.32,
+   "sec": "hook"
+  },
+  {
+   "w": "menos.",
+   "t": 5.78,
+   "sec": "hook"
+  },
+  {
+   "w": "Faz",
+   "t": 6.32,
+   "sec": "conta"
+  },
+  {
+   "w": "a",
+   "t": 6.54,
+   "sec": "conta"
+  },
+  {
+   "w": "conta",
+   "t": 6.66,
+   "sec": "conta"
+  },
+  {
+   "w": "comigo.",
+   "t": 7.12,
+   "sec": "conta"
+  },
+  {
+   "w": "Um",
+   "t": 7.62,
+   "sec": "conta"
+  },
+  {
+   "w": "ano",
+   "t": 7.78,
+   "sec": "conta"
+  },
+  {
+   "w": "no",
+   "t": 7.94,
+   "sec": "conta"
+  },
+  {
+   "w": "site",
+   "t": 8.08,
+   "sec": "conta"
+  },
+  {
+   "w": "oficial:",
+   "t": 8.68,
+   "sec": "conta"
+  },
+  {
+   "w": "perto",
+   "t": 9.1,
+   "sec": "conta"
+  },
+  {
+   "w": "de",
+   "t": 9.46,
+   "sec": "conta"
+  },
+  {
+   "w": "mil",
+   "t": 9.745,
+   "sec": "conta"
+  },
+  {
+   "w": "e",
+   "t": 10.03,
+   "sec": "conta"
+  },
+  {
+   "w": "duzentos",
+   "t": 10.315,
+   "sec": "conta"
+  },
+  {
+   "w": "reais.",
+   "t": 10.6,
+   "sec": "conta"
+  },
+  {
+   "w": "Na",
+   "t": 10.96,
+   "sec": "conta"
+  },
+  {
+   "w": "Nexools:",
+   "t": 11.354,
+   "sec": "conta"
+  },
+  {
+   "w": "duzentos",
+   "t": 11.749,
+   "sec": "conta"
+  },
+  {
+   "w": "e",
+   "t": 12.143,
+   "sec": "conta"
+  },
+  {
+   "w": "noventa",
+   "t": 12.537,
+   "sec": "conta"
+  },
+  {
+   "w": "e",
+   "t": 12.931,
+   "sec": "conta"
+  },
+  {
+   "w": "sete.",
+   "t": 13.326,
+   "sec": "conta"
+  },
+  {
+   "w": "Você",
+   "t": 13.72,
+   "sec": "quarto"
+  },
+  {
+   "w": "paga",
+   "t": 14.02,
+   "sec": "quarto"
+  },
+  {
+   "w": "cerca",
+   "t": 14.32,
+   "sec": "quarto"
+  },
+  {
+   "w": "de",
+   "t": 14.52,
+   "sec": "quarto"
+  },
+  {
+   "w": "um",
+   "t": 14.68,
+   "sec": "quarto"
+  },
+  {
+   "w": "quarto",
+   "t": 14.89,
+   "sec": "quarto"
+  },
+  {
+   "w": "do",
+   "t": 15.1,
+   "sec": "quarto"
+  },
+  {
+   "w": "preço.",
+   "t": 15.56,
+   "sec": "quarto"
+  },
+  {
+   "w": "E",
+   "t": 15.86,
+   "sec": "produto"
+  },
+  {
+   "w": "são",
+   "t": 15.98,
+   "sec": "produto"
+  },
+  {
+   "w": "os",
+   "t": 16.18,
+   "sec": "produto"
+  },
+  {
+   "w": "mesmos",
+   "t": 16.48,
+   "sec": "produto"
+  },
+  {
+   "w": "doze",
+   "t": 16.91,
+   "sec": "produto"
+  },
+  {
+   "w": "meses:",
+   "t": 17.34,
+   "sec": "produto"
+  },
+  {
+   "w": "milhares",
+   "t": 17.82,
+   "sec": "produto"
+  },
+  {
+   "w": "de",
+   "t": 18.26,
+   "sec": "produto"
+  },
+  {
+   "w": "cursos",
+   "t": 18.48,
+   "sec": "produto"
+  },
+  {
+   "w": "do",
+   "t": 18.74,
+   "sec": "produto"
+  },
+  {
+   "w": "Google,",
+   "t": 19.06,
+   "sec": "produto"
+  },
+  {
+   "w": "da",
+   "t": 19.44,
+   "sec": "produto"
+  },
+  {
+   "w": "IBM,",
+   "t": 19.82,
+   "sec": "produto"
+  },
+  {
+   "w": "da",
+   "t": 20.22,
+   "sec": "produto"
+  },
+  {
+   "w": "Meta",
+   "t": 20.42,
+   "sec": "produto"
+  },
+  {
+   "w": "e",
+   "t": 20.62,
+   "sec": "produto"
+  },
+  {
+   "w": "de",
+   "t": 20.84,
+   "sec": "produto"
+  },
+  {
+   "w": "Stanford,",
+   "t": 21.16,
+   "sec": "produto"
+  },
+  {
+   "w": "com",
+   "t": 21.5,
+   "sec": "produto"
+  },
+  {
+   "w": "certificado",
+   "t": 21.92,
+   "sec": "produto"
+  },
+  {
+   "w": "no",
+   "t": 22.4,
+   "sec": "produto"
+  },
+  {
+   "w": "seu",
+   "t": 22.56,
+   "sec": "produto"
+  },
+  {
+   "w": "nome",
+   "t": 22.88,
+   "sec": "produto"
+  },
+  {
+   "w": "nos",
+   "t": 23.12,
+   "sec": "produto"
+  },
+  {
+   "w": "programas",
+   "t": 23.36,
+   "sec": "produto"
+  },
+  {
+   "w": "incluídos.",
+   "t": 23.86,
+   "sec": "produto"
+  },
+  {
+   "w": "Toca",
+   "t": 24.33,
+   "sec": "cta"
+  },
+  {
+   "w": "em",
+   "t": 24.8,
+   "sec": "cta"
+  },
+  {
+   "w": "Saiba",
+   "t": 25.07,
+   "sec": "cta"
+  },
+  {
+   "w": "Mais.",
+   "t": 25.34,
+   "sec": "cta"
+  }
+ ],
+ "captions": [
+  {
+   "t": 0.34,
+   "text": "A maioria das pessoas paga o preço",
+   "end": 2.56
+  },
+  {
+   "t": 2.56,
+   "text": "cheio no Coursera...",
+   "end": 3.88
+  },
+  {
+   "t": 3.88,
+   "text": "porque nem sabe que dá pra pagar",
+   "end": 5.78
+  },
+  {
+   "t": 5.78,
+   "text": "menos.",
+   "end": 6.32
+  },
+  {
+   "t": 6.32,
+   "text": "Faz a conta comigo.",
+   "end": 7.62
+  },
+  {
+   "t": 7.62,
+   "text": "Um ano no site oficial:",
+   "end": 9.1
+  },
+  {
+   "t": 9.1,
+   "text": "perto de mil e duzentos reais.",
+   "end": 10.96
+  },
+  {
+   "t": 10.96,
+   "text": "Na Nexools:",
+   "end": 11.749
+  },
+  {
+   "t": 11.749,
+   "text": "duzentos e noventa e sete.",
+   "end": 13.72
+  },
+  {
+   "t": 13.72,
+   "text": "Você paga cerca de um quarto do",
+   "end": 15.56
+  },
+  {
+   "t": 15.56,
+   "text": "preço.",
+   "end": 15.86
+  },
+  {
+   "t": 15.86,
+   "text": "E são os mesmos doze meses:",
+   "end": 17.82
+  },
+  {
+   "t": 17.82,
+   "text": "milhares de cursos do Google,",
+   "end": 19.44
+  },
+  {
+   "t": 19.44,
+   "text": "da IBM, da Meta e de Stanford,",
+   "end": 21.5
+  },
+  {
+   "t": 21.5,
+   "text": "com certificado no seu nome nos programas",
+   "end": 23.86
+  },
+  {
+   "t": 23.86,
+   "text": "incluídos.",
+   "end": 24.33
+  },
+  {
+   "t": 24.33,
+   "text": "Toca em Saiba Mais.",
+   "end": 25.469
+  }
+ ]
+}
