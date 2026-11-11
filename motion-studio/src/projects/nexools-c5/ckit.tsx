@@ -2,9 +2,10 @@
 // Tema claro (akit) + visuais literais: o que a voz diz aparece como objeto (bolso, conta, balança, café, calendário).
 import React from 'react';
 import {AbsoluteFill, Img, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
-import {Glass, Tag, D, FD, FU, Ico, Lock, CourseraMark, Count, Strike, Tile} from '../nexools-ads/akit';
+import {Glass, D, FD, FU, Ico, Lock, CourseraMark, Count, Strike, Tile} from '../nexools-ads/akit';
 import {progress, ease, mix, springIn, drift} from '../../lib';
 import type {SfxCue} from '../../lib';
+import {LOGOS} from './logos';
 
 export const RED = '#E5484D';
 export const pro = (at: number, n: string, volume: number, why: string): SfxCue => ({at, src: `nexools-vsl/pro/${n}.wav`, volume, why});
@@ -298,17 +299,35 @@ export const VagasStamp: React.FC<{at: number}> = ({at}) => {
   );
 };
 
-/** Linha de marcas em texto (sem logos de terceiros). */
+/** Cartões com os logos oficiais (Google, IBM, Meta) e Stanford em texto (sem logo disponível com licença livre). */
+const BrandCard: React.FC<{name: string; at: number; i: number}> = ({name, at, i}) => {
+  const f = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  if (f < at) return <div style={{width: 210, height: 210}} />;
+  const e = springIn(f, fps, at, 'snappy');
+  const L = LOGOS[name.toLowerCase()];
+  return (
+    <div style={{width: 210, height: 210, borderRadius: 36, background: '#fff', border: `2px solid ${D.line}`, boxShadow: '0 24px 50px -24px rgba(11,22,42,0.35)',
+      display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 14, opacity: Math.min(1, e * 1.6),
+      transform: `translateY(${(1 - Math.min(e, 1)) * 40 + drift(f, i, 0.5) * 3}px) scale(${mix(0.8, 1, Math.min(e, 1.04))})`}}>
+      {L ? (
+        <>
+          <svg viewBox="0 0 24 24" width={name === 'IBM' ? 150 : 104} height={name === 'IBM' ? 150 : 104}><path d={L.path} fill={L.color} /></svg>
+          {name !== 'IBM' && <div style={{fontFamily: FD, fontWeight: 700, fontSize: 34, color: D.ink}}>{name}</div>}
+        </>
+      ) : (
+        <>
+          <div style={{fontFamily: '"Instrument Serif", Georgia, serif', fontSize: 50, color: '#8C1515', lineHeight: 1}}>Stanford</div>
+          <div style={{fontFamily: FU, fontSize: 22, letterSpacing: '0.18em', color: '#8C1515', fontWeight: 600}}>UNIVERSITY</div>
+        </>
+      )}
+    </div>
+  );
+};
+
 export const Brands: React.FC<{ats: number[]; names?: string[]}> = ({ats, names = ['Google', 'IBM', 'Meta', 'Stanford']}) => (
-  <div style={{display: 'flex', gap: 18, flexWrap: 'wrap', justifyContent: 'center', maxWidth: 940}}>
-    {names.map((n, i) => {
-      const At: React.FC = () => {
-        const f = useCurrentFrame();
-        const p = progress(f, ats[i], 14, ease.out);
-        return <div style={{opacity: p, transform: `translateY(${(1 - p) * 30}px) scale(${mix(0.85, 1, p)})`}}><Tag tone="white" size={52}>{n}</Tag></div>;
-      };
-      return <At key={n} />;
-    })}
+  <div style={{display: 'grid', gridTemplateColumns: 'repeat(4, 210px)', gap: 18, justifyContent: 'center'}}>
+    {names.map((n, i) => <BrandCard key={n} name={n} at={ats[i]} i={i} />)}
   </div>
 );
 
