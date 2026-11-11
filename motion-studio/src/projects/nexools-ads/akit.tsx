@@ -5,7 +5,7 @@ import {AbsoluteFill, Html5Audio, Img, staticFile, useCurrentFrame, useVideoConf
 import {MusicBed, SfxCues, SafeArea} from '../../lib';
 import type {SfxCue} from '../../lib';
 import {ease, mix, progress, springIn, drift} from '../../lib';
-import {FD, FU, ensureInterDisplay, Ico} from '../nexools-vsl/kit';
+import {FD, ensureInterDisplay, Ico} from '../nexools-vsl/kit';
 export {Pop, Kin, Strike, Count, Ico, Lock, CourseraMark, Tile, useIn, useOut, FD, FU} from '../nexools-vsl/kit';
 
 export const FPS = 60;
@@ -191,9 +191,6 @@ export const AdShell: React.FC<{voice: string; bed: string; total: number; sfx: 
       {children}
       <div style={{position: 'absolute', left: 0, right: 0, top: 176, display: 'flex', justifyContent: 'center', opacity: logoUntil !== undefined ? 1 - progress(frame, logoUntil, 14) : 1}}><Logo height={44} /></div>
       <ReelsCaptions words={words} hide={capHide} />
-      <div style={{position: 'absolute', left: 80, right: 80, top: 1462, textAlign: 'center', fontFamily: FU, fontSize: 21, lineHeight: 1.35, color: 'rgba(11,22,42,0.55)'}}>
-        Nexools é revendedora independente. Marcas citadas pertencem aos seus respectivos donos.
-      </div>
       <Html5Audio src={staticFile(voice)} />
       <MusicBed src={bed} volume={0.32} total={total} fadeIn={6} fadeOut={30} />
       <SfxCues cues={sfx} />
