@@ -30,3 +30,10 @@
 ## Banco de aprendizados
 | Data | Anúncio | Gasto | Cliques | CPC | Checkouts | Vendas | Leitura |
 |---|---|---|---|---|---|---|---|
+
+## 13/11/2026 · verba passada para o conjunto (ABO), a pedido do usuário
+- A API não permite tirar a verba de uma campanha CBO já criada. Como a campanha antiga só tinha gastado R$ 11,30 (C2 R$ 10,13, A3 R$ 1,17), ela foi pausada e recriada igual em ABO.
+- Campanha nova (ATIVA): `120249071292640765` · NEXOOLS | COURSERA R297 | TESTE 5 CRIATIVOS | TRÁFEGO | ABO | NOV26, sem verba na campanha.
+- Conjunto (ATIVO): `120249071293430765` · R$ 20/dia, mesmo público e mesma otimização, até 30/11.
+- Anúncios (mesmos criativos e links): A1 `120249071298280765`, UGC-03 `120249071299250765`, C2 `120249071299940765`, UGC-02 `120249071300880765`, A3 `120249071301430765`.
+- Campanha antiga `120249041584050765` PAUSADA (não religar junto: dobraria o gasto).
