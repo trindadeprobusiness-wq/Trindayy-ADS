@@ -15,7 +15,7 @@ Criada pausada em 13/11; **ativada em 14/11 com R$ 35/dia** a pedido do usuário
 Fora do teste: vídeo C "portfólio título" (2995575934144979). O texto dele já está pronto (abaixo) para entrar na semana 2.
 
 ## Decisões do usuário (13–14/11)
-- Verba R$ 30/dia no conjunto · Brasil inteiro · vídeos A + B · mesmo WhatsApp da Nexools (a mensagem pronta separa pelo código).
+- Verba R$ 35/dia no conjunto (era R$ 30; subiu ao ativar) · Brasil inteiro · vídeos A + B · mesmo WhatsApp da Nexools (a mensagem pronta separa pelo código).
 - Textos, títulos e mensagens prontas foram enviados pelo usuário e usados sem alteração.
 
 ## Classificação
