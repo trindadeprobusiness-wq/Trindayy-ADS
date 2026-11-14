@@ -1,14 +1,14 @@
 # Floway · Black Friday R$ 997 · Campanha Meta (v1, 14/11/2026)
 
 Conta 1118522067814410 · Página "Gabriel Trindade" (1269240469594904) · IG 17841479648607267.
-Criada **pausada**. Só ativar com o "pode ativar" do usuário.
+Criada pausada em 13/11; **ativada em 14/11 com R$ 35/dia** a pedido do usuário ("pode botar para rodar com R$ 35 diários").
 
 ## Estrutura
 
 | Nível | Nome | ID | Configuração |
 |---|---|---|---|
 | Campanha | FLOWAY \| BLACK FRIDAY R$997 \| WHATSAPP \| ABO \| NOV26 | 120249075951700765 | Engajamento, sem verba na campanha (ABO) |
-| Conjunto | FLOWAY \| BR \| A+ \| WHATSAPP \| R$30 | 120249075952810765 | R$ 30/dia, conversas no WhatsApp, Brasil, público Advantage+ (sugestão 25–60), posicionamentos Advantage+, termina 30/11 23h59 |
+| Conjunto | FLOWAY \| BR \| A+ \| WHATSAPP \| R$35 | 120249075952810765 | R$ 35/dia, conversas no WhatsApp, Brasil, público Advantage+ (sugestão 25–60), posicionamentos Advantage+, termina 30/11 23h59 |
 | Anúncio | A · olha o que acontece [A] | 120249075956940765 | vídeo 1180762847715498 (38 s), mensagem pronta "(A)" |
 | Anúncio | B · teste do Google [B] | 120249075960240765 | vídeo 1430861529208077 (50 s), mensagem pronta "(B)" |
 
