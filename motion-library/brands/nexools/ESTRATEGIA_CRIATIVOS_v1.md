@@ -220,3 +220,9 @@ A linguagem atual (motion premium claro, azul Nexools e logos oficiais) funciona
 | | | | | | | | | | | | |
 
 Status possíveis: validado / sinal promissor / inconclusivo / iterando / arquivado. Uma observação isolada não vira regra.
+
+### 16/11/2026 · Tráfego para o site × WhatsApp (dados de 2 a 15/11)
+- [CONFIRMADA] A campanha de tráfego "COURSERA R297 | TESTE 5" gastou R$ 53,72: 1.028 cliques, só 264 visualizações da página e 0 vendas. **98% da verba (R$ 52,11) foi para a Audience Network** (rede de apps, vídeo premiado), com CTR de 14–19% e R$ 0,05 por clique, sinal de clique acidental. Não foi fadiga de criativo: a otimização por clique no link comprou tráfego ruim. O site também não tem pixel.
+- [CONFIRMADA] No WhatsApp, A1 Âncora fez 15 conversas a R$ 10,01, 7 delas com 2 ou mais mensagens. C2 Preço cheio fez 1 conversa a R$ 16,73 e estava com problema, então foi pausado.
+- Ação: o tráfego para o site saiu. Os criativos A3 "É golpe?" e U3 "Por dentro" viraram anúncios de WhatsApp num conjunto novo de R$ 20/dia (120249105959390765), com mensagem pronta (A3)/(U3). O A1 continua no conjunto original, sem mexer, para não reiniciar o aprendizado.
+- Regra nova: tráfego frio com objetivo de clique no link não volta mais. Só conversas no WhatsApp. Se um dia voltar para site, exclua a Audience Network e otimize para visualização da página ou compra, com o pixel instalado.
