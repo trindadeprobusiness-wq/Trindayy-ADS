@@ -40,3 +40,8 @@ Atenção: se as peças do vídeo C forem conceitos, "projetos feitos pela Flowa
 
 ## Banco de aprendizados
 (registrar aqui os resultados por código A/B/C)
+
+### 17/11 · leitura (14 a 17/11)
+- A · notebook: R$ 61,03, 1 conversa (3+ mensagens). CPM R$ 124, 12% dos plays chegam a 25%. **Pausado**: o mais caro por conversa e o hook mais fraco, já acima de 2× o custo aceitável.
+- B · Google: R$ 46,27, 1 conversa (3+ mensagens). CPM R$ 104. Fica sozinho com os R$ 35.
+- Floway custa ~R$ 54 por conversa, contra R$ 5–11 na Coursera. O problema é atenção (CPM alto e hook fraco), não o público. Próximo passo (quarta, 19/11): hook novo no B, trocando só os 3 primeiros segundos.
