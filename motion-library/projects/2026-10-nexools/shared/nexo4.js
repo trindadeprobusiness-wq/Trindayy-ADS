@@ -31,7 +31,7 @@
   .badge4 .st { font-family:var(--f-ui); font-size:30px; color:var(--ink-2); margin-top:8px; }
   .badge4 .ok { margin-left:auto; flex:none; width:76px; height:76px; border-radius:50%; background:var(--green); display:flex; align-items:center; justify-content:center; }
   .badge4 .ok svg { width:46px; height:46px; }
-  .stamp { display:inline-flex; align-items:center; gap:26px; margin-top:70px; padding:34px 60px; border:8px solid var(--red); border-radius:36px; color:var(--red); font-size:84px; font-weight:800; letter-spacing:-0.02em; text-transform:uppercase; transform:rotate(-4deg); background:rgba(255,59,78,.06); }
+  .stamp4 { position:relative; display:inline-flex; align-items:center; gap:26px; margin-top:70px; padding:34px 60px; border:8px solid var(--red); border-radius:36px; color:var(--red); font-size:84px; font-weight:800; letter-spacing:-0.02em; text-transform:uppercase; transform:rotate(-4deg); background:rgba(255,59,78,.06); }
   .clock { width:96px; height:96px; }
   .phone { position:relative; width:600px; height:820px; border-radius:80px; background:#0b162a; padding:22px; box-shadow:0 60px 120px rgba(11,22,42,.35); }
   .phone .scr { position:absolute; inset:22px; border-radius:60px; background:#efeae2; overflow:hidden; }
@@ -129,10 +129,10 @@
   N.urgency = function (tl, o) {
     const s = scene(tl, "", o.t0, o.t1);
     const c = el(`<div class="center">${o.l1 ? `<div class="h2 l1">${o.l1}</div>` : ""}<div class="h1 l2" style="margin-top:40px" data-accent="${o.accent || "hoje.|hoje"}">${o.l2}</div>
-      <div class="stamp"><svg class="clock" viewBox="0 0 24 24" fill="none" stroke="#ff3b4e" stroke-width="2.4" stroke-linecap="round"><circle cx="12" cy="12" r="9.5"/><path class="hand" d="M12 12V6.5" style="transform-origin:12px 12px"/><path d="M12 12l3.5 2"/></svg>${o.stamp || "Só até hoje"}</div></div>`, s);
+      <div class="stamp4"><svg class="clock" viewBox="0 0 24 24" fill="none" stroke="#ff3b4e" stroke-width="2.4" stroke-linecap="round"><circle cx="12" cy="12" r="9.5"/><path class="hand" d="M12 12V6.5" style="transform-origin:12px 12px"/><path d="M12 12l3.5 2"/></svg>${o.stamp || "Só até hoje"}</div></div>`, s);
     if (o.l1) words(tl, q(c, ".l1"), o.l1Times);
     words(tl, q(c, ".l2"), o.l2Times);
-    const stp = q(c, ".stamp");
+    const stp = q(c, ".stamp4");
     tl.fromTo(stp, { opacity: 0, scale: 2.2, rotation: -14 }, { opacity: 1, scale: 1, rotation: -4, duration: 0.35, ease: "power4.out" }, o.stampAt);
     N.sfx("stamp", o.stampAt + 0.05, -4);
     tl.fromTo(q(c, ".hand"), { rotation: 0 }, { rotation: 720, duration: Math.max(0.6, o.t1 - o.stampAt), ease: "none" }, o.stampAt);

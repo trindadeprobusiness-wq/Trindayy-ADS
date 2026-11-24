@@ -17,7 +17,7 @@ N.trust(tl, { t0: 27.85, t1: 34.4, items: [
   { t: 28.0, icon: "user", label: "Conta criada no seu nome", sub: "Não é conta compartilhada" },
   { t: 29.96, icon: "support", label: "Suporte durante os 12 meses", sub: "Atendimento por uma pessoa" },
   { t: 32.54, icon: "bldg", label: "Empresa com CNPJ ativo", sub: "Consulta pública na Receita Federal" }] });
-N.urgency(tl, { t0: 34.4, t1: 37.72, l1: "Se você está vendo esse vídeo,", l1Times: [34.48, 34.74, 34.92, 35.08, 35.3, 35.7], l2: "essa oferta só vale até hoje.", l2Times: [36.0, 36.24, 36.52, 36.76, 37.12, 37.46], stampAt: 37.1 });
+N.urgency(tl, { t0: 34.4, t1: 37.72, l1: "Se você está vendo esse vídeo,", l1Times: [34.48, 34.74, 34.92, 35.08, 35.3, 35.7], l2: "essa oferta só vale até hoje.", l2Times: [36.0, 36.24, 36.52, 36.76, 37.12, 37.46], stampAt: 36.55 });
 N.ctaWpp(tl, { t0: 37.72, t1: DUR, buttonAt: 38.1, steps: [] });
 N.thinCues();
 N.done(tl, "main");

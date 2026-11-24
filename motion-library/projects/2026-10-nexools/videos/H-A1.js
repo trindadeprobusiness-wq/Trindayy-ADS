@@ -16,7 +16,7 @@ N.trust(tl, { t0: 24.05, t1: 28.6, items: [
   { t: 24.1, icon: "user", label: "Conta no seu nome", sub: "Não é conta compartilhada" },
   { t: 24.62, icon: "support", label: "Suporte durante os 12 meses", sub: "Atendimento por uma pessoa" },
   { t: 26.98, icon: "bldg", label: "Empresa com CNPJ ativo", sub: "Consulta pública na Receita Federal" }] });
-N.urgency(tl, { t0: 28.6, t1: 30.55, l2: "Essa oferta só vale até hoje.", l2Times: [28.66, 28.96, 29.36, 29.62, 29.9, 30.28], stampAt: 29.95 });
+N.urgency(tl, { t0: 28.6, t1: 30.55, l2: "Essa oferta só vale até hoje.", l2Times: [28.66, 28.96, 29.36, 29.62, 29.9, 30.28], stampAt: 29.4 });
 N.ctaWpp(tl, { t0: 30.55, t1: DUR, buttonAt: 30.9, steps: [{ t: 32.6, label: "Eu te respondo 👋" }, { t: 33.6, label: "Tiro suas dúvidas" }, { t: 34.5, label: "E crio a conta no seu nome ✅" }] });
 N.thinCues();
 N.done(tl, "main");
