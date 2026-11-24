@@ -17,6 +17,8 @@ Para qualquer pedido de vídeo, anúncio em motion ou referência nova:
 10. **NullMotion** (`vendor/NullMotion`, submódulo, MIT): decupagem de referências por seção e cardápio de 23 movimentos em GSAP. Guia em `motion-library/NULLMOTION.md`. Serve para estudar e planejar; o render final continua no Remotion/HyperFrames, sem metadados.
 11. **Skill `launch-motion`** (`.claude/skills/launch-motion/`, enviada pelo usuário em 30/10/2026): regras de movimento nível After Effects em código (nada linear, entradas com leve overshoot ~0,5 s, saídas 60% mais rápidas, clique com "press", cursor em arco, nada fica 100% parado, parenting/offset/overlap, câmera sempre com easy ease, contadores de ~1 s, 60 qps). Use junto com a `premium-motion-director`: ela dá o fluxo e a revisão; a `launch-motion` dá o padrão de fluidez. Nos anúncios 9:16 vale o posicionamento a partir do centro para gerar os cortes.
 
+12. **Prompt Motion (cérebro dos motions, pedido do usuário, 24/11/2026):** antes de montar o storyboard de qualquer vídeo/anúncio, consulte `motion-library/prompt-motion/PROMPT_MOTION_INDEX.md` (240 prompts) e o guia `motion-library/prompt-motion/COMO_USAR.md`; escolha 1 a 3 prompts pela categoria, use os princípios (não a peça de terceiros) e registre os IDs PM-xxx usados na entrega.
+
 ## Marcas
 - **Moovi** (finanças pessoais pelo WhatsApp): ficha, logos e narrações em `motion-library/brands/moovi/BRAND.md`. Não guarde senhas no repositório.
 
