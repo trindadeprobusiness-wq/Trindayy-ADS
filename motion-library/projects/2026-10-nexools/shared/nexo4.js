@@ -149,7 +149,8 @@
         <div class="bub me b0" style="top:180px">Oi! Quero o Coursera Plus 🙂</div>
         ${steps.map((st, i) => `<div class="bub you bs" style="top:${300 + i * 120}px">${st.label}</div>`).join("")}
       </div></div>
-      <div class="wpill wp">${IC.chat}<span>${o.button || "Chamar no WhatsApp"}</span><div class="sheen"></div></div></div>`, s);
+      <div class="wpill wp">${IC.chat}<span>${o.button || "Chamar no WhatsApp"}</span><div class="sheen"></div></div>${o.stampAt ? `<div class="stamp4 cst" style="margin-top:40px;font-size:64px;padding:24px 46px">Só até hoje</div>` : ""}</div>`, s);
+    if (o.stampAt) { tl.fromTo(q(c, ".cst"), { opacity: 0, scale: 2.2, rotation: -14 }, { opacity: 1, scale: 1, rotation: -4, duration: 0.35, ease: "power4.out" }, o.stampAt); N.sfx("stamp", o.stampAt + 0.05, -4); }
     N.hideBrand(tl, o.t0 - 0.2);
     const ph = q(c, ".ph");
     tl.fromTo(ph, { opacity: 0, y: 300, rotation: 6, scale: 0.85 }, { opacity: 1, y: 0, rotation: 0, scale: 0.92, duration: 0.7, ease: "back.out(1.2)" }, o.t0);
@@ -168,6 +169,37 @@
     for (let k = 0; k < 3; k++) tl.fromTo(wp, { scale: 1 }, { scale: 1.05, duration: 0.25, yoyo: true, repeat: 1, ease: "sine.inOut", immediateRender: false }, o.buttonAt + 1.0 + k * 0.8);
     return s;
   };
+  /* "É golpe?" — pergunta grande com ponto de interrogação desenhado (objeção do A3) */
+  N.golpe = function (tl, o) {
+    const s = scene(tl, "", o.t0, o.t1);
+    const c = el(`<div class="center">${o.pre ? `<div class="h2 pre" style="font-size:58px">${o.pre}</div>` : ""}
+      <div style="display:flex;align-items:center;justify-content:center;margin-top:50px"><div class="h1 big" style="font-size:190px;width:auto" data-accent="golpe">${o.word || "É golpe"}</div>
+      <svg viewBox="0 0 60 100" style="width:120px;height:200px;margin-left:6px"><path class="qm" d="M10 30 C10 5, 50 5, 50 30 C50 50, 30 50, 30 68" fill="none" stroke="#ff3b4e" stroke-width="11" stroke-linecap="round"/><circle class="qd" cx="30" cy="88" r="7" fill="#ff3b4e"/></svg></div>
+      ${o.sub ? `<div class="h2 sub" style="margin-top:60px">${o.sub}</div>` : ""}</div>`, s);
+    if (o.pre) words(tl, q(c, ".pre"), o.preTimes);
+    words(tl, q(c, ".big"), o.wordTimes);
+    const qm = q(c, ".qm"); qm.style.strokeDasharray = 140;
+    tl.fromTo(qm, { strokeDashoffset: 140 }, { strokeDashoffset: 0, duration: 0.4, ease: E.move }, o.qAt);
+    tl.fromTo(q(c, ".qd"), { opacity: 0, scale: 0 }, { opacity: 1, scale: 1, duration: 0.25, ease: E.pop, transformOrigin: "50% 50%" }, o.qAt + 0.35);
+    N.sfx("impact", o.qAt, -6);
+    if (o.sub) words(tl, q(c, ".sub"), o.subTimes);
+    return s;
+  };
+
+  /* economia: R$ 903 no seu bolso (contador verde) */
+  N.saving = function (tl, o) {
+    const s = scene(tl, "", o.t0, o.t1);
+    const c = el(`<div class="center"><div class="lbl">${o.calc || "R$ 1.200 − R$ 297"}</div>
+      <div class="anch-val" style="color:var(--green);font-size:200px;margin-top:30px"><span class="v">R$ 0</span></div>
+      <div class="h2 lb" style="margin-top:30px" data-accent="bolso.">${o.label || "que ficam no seu bolso."}</div></div>`, s);
+    tl.fromTo(q(c, ".lbl"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4, ease: E.enter }, o.t0 + 0.1);
+    const v = q(c, ".v"), px = { v: 0 };
+    tl.fromTo(px, { v: 0 }, { v: o.val || 903, duration: 1.0, ease: "power2.out", onUpdate: () => (v.textContent = "R$ " + Math.round(px.v)) }, o.valAt);
+    N.sfx("chime", o.valAt + 0.9, -6);
+    words(tl, q(c, ".lb"), o.labelTimes);
+    return s;
+  };
+
   /* densidade de SFX (regra premium-motion-director: ≤ 6 cues por 10 s, cada um com motivo).
    * Mantém os acentos narrativos (impacto, carimbo, risco, chime) e corta ticks/pops repetidos. */
   N.thinCues = function (max = 6, win = 10) {
