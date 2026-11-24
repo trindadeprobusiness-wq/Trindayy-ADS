@@ -8,6 +8,10 @@ LIB = os.path.normpath(os.path.join(P, "..", ".."))
 ENGINE = os.path.join(LIB, "engine"); HF = os.path.join(ENGINE, "node_modules/.bin/hyperframes")
 BRAND = os.path.join(LIB, "brands/nexools/assets")
 CHROME = os.path.expanduser("~/.cache/hyperframes/chrome/chrome-headless-shell/linux-152.0.7977.30/chrome-headless-shell-linux64/chrome-headless-shell")
+if not os.path.exists(CHROME):
+    import glob as _g
+    _c = _g.glob(os.path.expanduser("~/.cache/**/chrome-headless-shell"), recursive=True) + _g.glob("/opt/pw-browsers/**/chrome-headless-shell", recursive=True)
+    CHROME = next((x for x in _c if os.path.isfile(x)), "/usr/bin/google-chrome")
 SFX = {"whoosh": "sfx_whoosh.wav", "tick": "sfx_tick.wav", "pop": "sfx_pop.wav", "click": "sfx_click.wav", "impact": "sfx_impact.wav",
        "strike": "sfx_strike.wav", "stamp": "sfx_stamp.wav", "riser": "sfx_riser.wav", "typing": "sfx_typing.wav", "chime": "sfx_chime.wav"}
 
@@ -25,7 +29,11 @@ def main():
     if os.path.exists(B): shutil.rmtree(B)
     os.makedirs(os.path.join(B, "audio")); os.makedirs(os.path.join(B, "assets"))
     shutil.copytree(os.path.join(ENGINE, "assets/fonts"), os.path.join(B, "fonts"))
-    for f in ["nexo.css", "nexo.js", "nexo2.js", "nexo3.js"]: shutil.copy(os.path.join(P, "shared", f), B)
+    for f in ["nexo.css", "nexo.js", "nexo2.js", "nexo3.js", "nexo4.js"]: shutil.copy(os.path.join(P, "shared", f), B)
+    DEP = os.path.join(BRAND, "depoimentos")
+    if os.path.isdir(DEP):
+        for f in os.listdir(DEP):
+            if f.endswith(".png") and "_raw" not in f: shutil.copy(os.path.join(DEP, f), os.path.join(B, "assets"))
     shutil.copy(os.path.join(ENGINE, "vendor/gsap.min.js"), B)
     for f in ["hyperframes.json", "meta.json"]: shutil.copy(os.path.join(ENGINE, f), B)
     for f in os.listdir(BRAND):
@@ -48,7 +56,7 @@ def main():
     A = os.path.join(BRAND, "audio")
     # trilha de retenção gerada para este vídeo: build antes do CTA e drop no CTA
     import re
-    m_cta = re.search(r"N\.cta\(tl, \{ t0: ([0-9.]+)", open(os.path.join(P, "videos", f"{vid}.js")).read())
+    m_cta = re.search(r"N\.cta\w*\(tl, \{ t0: ([0-9.]+)", open(os.path.join(P, "videos", f"{vid}.js")).read())
     bed = os.path.join(B, "audio", "bed.wav")
     if m_cta:
         run(["python3", os.path.join(LIB, "tools/audio/synth.py"), "bed", bed, str(dur), m_cta.group(1)])
