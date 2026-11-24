@@ -34,6 +34,10 @@ def main():
     if os.path.isdir(DEP):
         for f in os.listdir(DEP):
             if f.endswith(".png") and "_raw" not in f: shutil.copy(os.path.join(DEP, f), os.path.join(B, "assets"))
+    TELA = os.path.join(BRAND, "tela")
+    if os.path.isdir(TELA):
+        for f in os.listdir(TELA):
+            if f.endswith(".mp4"): shutil.copy(os.path.join(TELA, f), os.path.join(B, "assets"))
     shutil.copy(os.path.join(ENGINE, "vendor/gsap.min.js"), B)
     for f in ["hyperframes.json", "meta.json"]: shutil.copy(os.path.join(ENGINE, f), B)
     for f in os.listdir(BRAND):
@@ -47,6 +51,11 @@ def main():
     m = max(env) or 1; env = [round(min(1, v / m * 1.3), 2) for v in env]
     open(os.path.join(B, "env.js"), "w").write("window.VO_ENV=" + json.dumps(env) + ";window.VO_FPS=30;")
     html = open(os.path.join(P, "shared/template.html")).read().replace("{DUR}", str(dur)).replace("{ID}", vid)
+    # vídeos reais declarados no roteiro: // @video <arquivo> id=<id> start=<s> dur=<s> media=<s>
+    import re as _re
+    for m in _re.finditer(r"// @video (\S+) id=(\S+) start=([0-9.]+) dur=([0-9.]+) media=([0-9.]+)", open(os.path.join(P, "videos", f"{vid}.js")).read()):
+        tag = f'<video id="{m.group(2)}" src="assets/{m.group(1)}" muted playsinline data-start="{m.group(3)}" data-duration="{m.group(4)}" data-media-start="{m.group(5)}" data-track-index="2"></video>'
+        html = html.replace('<audio id="mix"', tag + '\n      <audio id="mix"', 1)
     open(os.path.join(B, "index.html"), "w").write(html)
     # efeitos sonoros declarados pelas cenas
     out = json.loads(run(["node", os.path.join(HERE, "cues.mjs"), B, CHROME]).strip().splitlines()[-1])

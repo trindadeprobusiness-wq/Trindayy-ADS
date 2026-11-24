@@ -200,6 +200,24 @@
     return s;
   };
 
+  /* tela real (gravação do usuário): vídeo mudo posicionado sobre a cena, com moldura e etiqueta */
+  N.screenReal = function (tl, o) {
+    const s = scene(tl, "", o.t0, o.t1);
+    const c = el(`<div class="center" style="justify-content:flex-start;padding-top:330px"><div class="h2 hd" style="font-size:60px" data-accent="${o.accent || ""}">${o.head}</div>
+      <div class="realtag rt" style="margin-top:28px"><b></b>${o.tag || "Gravação real da tela · Coursera Plus ativo"}</div></div>`, s);
+    words(tl, q(c, ".hd"), o.headTimes);
+    tl.fromTo(q(c, ".rt"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4, ease: E.enter }, o.t0 + 0.3);
+    const frame = el(`<div style="position:absolute;left:50px;top:${o.top || 640}px;width:980px;height:804px;border-radius:46px;background:#0b162a;box-shadow:0 60px 120px rgba(11,22,42,.35)"></div>`, s);
+    tl.fromTo(frame, { opacity: 0, y: 160, scale: 0.9 }, { opacity: 1, y: 0, scale: 1, duration: 0.6, ease: "back.out(1.2)" }, o.t0 + 0.05);
+    const v = document.getElementById(o.id || "tela"); // <video> estático inserido pelo build.py (// @video no roteiro)
+    v.style.cssText = `position:absolute;left:60px;top:${(o.top || 640) + 10}px;width:960px;height:784px;border-radius:38px;object-fit:cover;z-index:5;opacity:0`;
+    tl.fromTo(v, { opacity: 0, scale: 0.92 }, { opacity: 1, scale: 1, duration: 0.5, ease: E.enter }, o.t0 + 0.25);
+    if (o.zoom) tl.fromTo(v, { scale: 1 }, { scale: o.zoom, duration: Math.max(0.5, o.t1 - o.t0 - 1.4), ease: "sine.inOut", immediateRender: false }, o.t0 + 0.8);
+    tl.to(v, { opacity: 0, scale: 1.05, duration: 0.3, ease: E.exit }, o.t1 - 0.3);
+    N.sfx("whoosh", o.t0 + 0.05, -8);
+    return s;
+  };
+
   /* densidade de SFX (regra premium-motion-director: ≤ 6 cues por 10 s, cada um com motivo).
    * Mantém os acentos narrativos (impacto, carimbo, risco, chime) e corta ticks/pops repetidos. */
   N.thinCues = function (max = 6, win = 10) {

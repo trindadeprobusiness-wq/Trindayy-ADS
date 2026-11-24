@@ -1,7 +1,7 @@
 // H-COU2 · COU-A 2 "vou te mostrar que é real" · Aline Mota (Urgent and Firm) · 24/11/2026
-// Prova: no lugar da gravação de tela (ainda não enviada), entram mensagens REAIS de clientes confirmando a ativação.
-// Quando o usuário enviar a gravação da conta ativa, ela substitui a cena de prova (17,35–25,2 s).
+// Prova: gravação REAL da tela do usuário com o Coursera Plus ativo (painel "Meu aprendizado"), 17,35–25,2 s.
 // Prompt Motion: PM-028 (hook cinético), Charts (contador), PM-016 (prova UGC), PM-005 (celular no CTA).
+// @video tela_coursera.mp4 id=tela start=17.60 dur=7.30 media=0.5
 const tl = gsap.timeline({ paused: true });
 N.base(tl, document.getElementById("stage"), DUR);
 N.punch(tl, { t0: 0, t1: 6.3, l1: "Se você quer o Coursera Plus,", l1Times: [0.28, 0.66, 0.96, 1.2, 1.28, 1.74], l1Size: 80, accent1: "Coursera|Plus,",
@@ -10,8 +10,7 @@ N.anchor(tl, { t0: 6.3, t1: 11.1, head: "Um ano de Coursera Plus", headTimes: [6
 N.brandBeat(tl, { t0: 11.1, t1: 13.2, line: "Agora olha a oferta da", lineTimes: [11.16, 11.6, 11.82, 11.96, 12.22], logoAt: 12.68 });
 N.ringPrice(tl, { t0: 13.2, t1: 17.35, months: 12, old: "R$ 1.200/ano", ringAt: 13.34, priceAt: 14.38, price: "297", dark: true, logo: "coursera" });
 N.darkOff(tl, 17.2);
-N.proof(tl, { t0: 17.35, t1: 25.2, head: "E eu vou te mostrar que é real.", headTimes: [17.44, 17.58, 17.6, 17.72, 18.06, 18.36, 18.42, 18.8], accent: "real.", tagAt: 19.0,
-  cards: [{ src: "dep4_cliente_honestidade.png", at: 19.34 }, { src: "dep3_denis.png", at: 20.8 }, { src: "dep1_cliente.png", at: 22.2 }, { src: "dep5_erick_msgs.png", at: 23.4, name: "Erick R." }] });
+N.screenReal(tl, { t0: 17.35, t1: 25.2, head: "E eu vou te mostrar que é real.", headTimes: [17.44, 17.58, 17.6, 17.72, 18.06, 18.36, 18.42, 18.8], accent: "real.", mediaStart: 0.5, zoom: 1.06 });
 N.trust(tl, { t0: 25.2, t1: 30.8, items: [
   { t: 25.34, icon: "user", label: "Conta no seu nome", sub: "Não é conta compartilhada" },
   { t: 26.9, icon: "support", label: "Suporte durante os 12 meses", sub: "Atendimento por uma pessoa" },
