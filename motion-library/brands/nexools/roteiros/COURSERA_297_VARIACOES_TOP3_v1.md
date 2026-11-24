@@ -91,3 +91,36 @@ Métrica primária: custo por venda (venda informada por código no WhatsApp). S
 - A1 V1 a V4: entre 86 e 90. Fragilidade: a mesma prova do R$ 1.200.
 - A3 V1 a V4: entre 87 e 91. Fragilidade: a V4 pressupõe uma experiência ruim do público; manter o tom acolhedor, sem acusar ninguém.
 Provas pendentes: print do preço oficial em reais; confirmar que "conta no seu nome" vale para 100% das vendas.
+
+---
+
+## Rodada 2 (24/11): prova social, suporte, CNPJ e urgência (pedido do usuário)
+
+Fatos novos [INFORMADO PELO USUÁRIO]: suporte durante os 12 meses; CNPJ ativo. Depoimentos: o usuário vai enviar prints e vídeos reais de clientes. Só entram depoimentos reais e autorizados pelo cliente, e nenhum print é editado.
+Urgência: "até 30/11" é real. "Só hoje" e "10 vagas" só entram se forem verdade (ver as regras no fim). Escassez falsa é publicidade enganosa (CDC art. 37) e pode levar a Meta a reprovar o anúncio.
+
+**P1 · A3 + prova social (o "É golpe?" respondido por clientes)**
+"É golpe?" Em vez de eu te responder, deixa quem já comprou responder. Essas são pessoas que assinaram o Coursera Plus com a gente. A conta é criada no seu nome, você tem suporte comigo durante os doze meses e a Nexools é uma empresa com CNPJ ativo. São duzentos e noventa e sete reais, uma vez só, e você tem sete dias para desistir. Essa condição vai só até trinta de novembro. Me chama no WhatsApp.
+
+**P2 · A1 + segurança (âncora com CNPJ e suporte)**
+O Coursera Plus anual, no site oficial, sai perto de mil e duzentos reais. Pela Nexools, sai duzentos e noventa e sete, uma vez só. E eu sei que preço baixo dá desconfiança, então olha o que você tem: a conta no seu nome, suporte durante os doze meses e uma empresa com CNPJ ativo por trás. Aqui estão alguns clientes que já estão estudando. A condição vai até trinta de novembro. Me chama no WhatsApp.
+
+**P3 · COU-A + depoimentos (comparação mais prova)**
+Um ano de Coursera Plus no site oficial sai perto de mil e duzentos reais. Na Nexools, os mesmos doze meses saem por duzentos e noventa e sete. Não precisa acreditar só em mim: essas são pessoas que compraram com a gente e já estão estudando. Você tem suporte durante o ano inteiro, a conta fica no seu nome e a empresa tem CNPJ ativo. Me chama no WhatsApp até trinta de novembro.
+
+**P4 · Urgência real (contagem regressiva até 30/11; troque o número a cada dia)**
+Faltam seis dias. No dia trinta de novembro acaba a condição do Coursera Plus por duzentos e noventa e sete reais. Depois disso, não sei se volta. No site oficial, um ano sai perto de mil e duzentos. Aqui, você paga uma vez só, a conta é no seu nome e tem suporte durante os doze meses. Essas são pessoas que já garantiram a delas. Me chama no WhatsApp hoje.
+
+**P5 · "Só hoje" + "10 vagas" (usar SOMENTE se for verdade; veja as regras abaixo)**
+Hoje eu vou ativar só mais dez assinaturas do Coursera Plus por duzentos e noventa e sete reais. É o tanto que eu consigo atender com calma, com suporte durante os doze meses para cada um. No site oficial, um ano sai perto de mil e duzentos. A conta é no seu nome, a empresa tem CNPJ ativo e essas são pessoas que já compraram com a gente. Me chama no WhatsApp agora.
+
+### Regras para a P5 ser verdadeira
+- **10 vagas:** o limite precisa ser real. Ao chegar na 10ª venda do dia, você para de vender por esse preço no dia ou pausa o anúncio. O motivo dado no roteiro ("o que eu consigo atender com suporte") também tem que ser verdade.
+- **Só hoje:** se o preço de amanhã for o mesmo, "só hoje" é falso. Duas saídas honestas: (a) usar a P4, contagem até 30/11, trocando o número todo dia; ou (b) criar um bônus que de fato vale só no dia (ex.: ativação em até 1 hora para quem fechar hoje) e cumpri-lo.
+- **Depoimentos:** só prints ou vídeos reais, com autorização do cliente; borrar telefone e sobrenome. Nada de "cliente" interpretado por ator ou voz de IA.
+- **CNPJ:** mostrar o número na tela no fim do vídeo; ele pode ser consultado na Receita.
+
+### Ordem de teste
+1. P1 (A3 + prova): a objeção de confiança é o gargalo, e depoimento real é a prova mais forte que existe.
+2. P4 (contagem real): urgência verdadeira, sem risco de reprovação.
+3. P5: só depois de você confirmar as regras acima.
