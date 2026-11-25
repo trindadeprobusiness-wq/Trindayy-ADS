@@ -19,6 +19,8 @@ Para qualquer pedido de vídeo, anúncio em motion ou referência nova:
 
 12. **Prompt Motion (cérebro dos motions, pedido do usuário, 24/11/2026):** antes de montar o storyboard de qualquer vídeo/anúncio, consulte `motion-library/prompt-motion/PROMPT_MOTION_INDEX.md` (240 prompts) e o guia `motion-library/prompt-motion/COMO_USAR.md`; escolha 1 a 3 prompts pela categoria, use os princípios (não a peça de terceiros) e registre os IDs PM-xxx usados na entrega.
 
+13. **Skill `nexools-ad-motion`** (`.claude/skills/nexools-ad-motion/`, pedido do usuário, 25/11/2026): catálogo das cenas de anúncio 9:16 (hook, É golpe?, preço, depoimentos reais, tela real, selos, só até hoje, CTA WhatsApp), estruturas que já deram certo e o fluxo áudio → vídeo sem metadados. Use em todo anúncio em motion junto com a `premium-motion-director`.
+
 ## Marcas
 - **Moovi** (finanças pessoais pelo WhatsApp): ficha, logos e narrações em `motion-library/brands/moovi/BRAND.md`. Não guarde senhas no repositório.
 

@@ -1,0 +1,104 @@
+#!/usr/bin/env python3
+"""Build + mix + render de um criativo Nexools.
+Uso: python3 tools/build.py GEM-A [--no-render] [--dur 37.8]
+"""
+import json, os, shutil, subprocess, sys
+HERE = os.path.dirname(os.path.abspath(__file__)); P = os.path.dirname(HERE)
+LIB = os.path.normpath(os.path.join(P, "..", ".."))
+ENGINE = os.path.join(LIB, "engine"); HF = os.path.join(ENGINE, "node_modules/.bin/hyperframes")
+BRAND = os.path.join(LIB, "brands/nexools/assets")
+CHROME = os.path.expanduser("~/.cache/hyperframes/chrome/chrome-headless-shell/linux-152.0.7977.30/chrome-headless-shell-linux64/chrome-headless-shell")
+if not os.path.exists(CHROME):
+    import glob as _g
+    _c = _g.glob(os.path.expanduser("~/.cache/**/chrome-headless-shell"), recursive=True) + _g.glob("/opt/pw-browsers/**/chrome-headless-shell", recursive=True)
+    CHROME = next((x for x in _c if os.path.isfile(x)), "/usr/bin/google-chrome")
+SFX = {"whoosh": "sfx_whoosh.wav", "tick": "sfx_tick.wav", "pop": "sfx_pop.wav", "click": "sfx_click.wav", "impact": "sfx_impact.wav",
+       "strike": "sfx_strike.wav", "stamp": "sfx_stamp.wav", "riser": "sfx_riser.wav", "typing": "sfx_typing.wav", "chime": "sfx_chime.wav"}
+
+def run(cmd, **k):
+    r = subprocess.run(cmd, capture_output=True, text=True, **k)
+    if r.returncode: print(r.stdout[-3000:], r.stderr[-3000:]); raise SystemExit(f"falhou: {cmd[0]}")
+    return r.stdout
+
+def main():
+    vid = sys.argv[1]; render = "--no-render" not in sys.argv
+    vo = os.path.join(P, "audio", f"{vid}.mp3")
+    vodur = float(run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", vo]))
+    dur = float(sys.argv[sys.argv.index("--dur") + 1]) if "--dur" in sys.argv else round(vodur + 1.1, 2)
+    B = os.path.join(P, "build", vid)
+    if os.path.exists(B): shutil.rmtree(B)
+    os.makedirs(os.path.join(B, "audio")); os.makedirs(os.path.join(B, "assets"))
+    shutil.copytree(os.path.join(ENGINE, "assets/fonts"), os.path.join(B, "fonts"))
+    for f in ["nexo.css", "nexo.js", "nexo2.js", "nexo3.js", "nexo4.js"]: shutil.copy(os.path.join(P, "shared", f), B)
+    DEP = os.path.join(BRAND, "depoimentos")
+    if os.path.isdir(DEP):
+        for f in os.listdir(DEP):
+            if f.endswith(".png") and "_raw" not in f: shutil.copy(os.path.join(DEP, f), os.path.join(B, "assets"))
+    TELA = os.path.join(BRAND, "tela")
+    if os.path.isdir(TELA):
+        for f in os.listdir(TELA):
+            if f.endswith(".mp4"): shutil.copy(os.path.join(TELA, f), os.path.join(B, "assets"))
+    shutil.copy(os.path.join(ENGINE, "vendor/gsap.min.js"), B)
+    for f in ["hyperframes.json", "meta.json"]: shutil.copy(os.path.join(ENGINE, f), B)
+    for f in os.listdir(BRAND):
+        if f.endswith(".png"): shutil.copy(os.path.join(BRAND, f), os.path.join(B, "assets"))
+    shutil.copy(os.path.join(P, "videos", f"{vid}.js"), os.path.join(B, "video.js"))
+    # envelope da locução (30 fps) para visuais que reagem à voz
+    import numpy as np
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", vo, "-ac", "1", "-ar", "16000", "-f", "f32le", "-"], capture_output=True).stdout
+    y = np.frombuffer(raw, np.float32); hop = 16000 // 30
+    env = [float(np.sqrt(np.mean(y[i:i + hop] ** 2))) for i in range(0, len(y), hop)]
+    m = max(env) or 1; env = [round(min(1, v / m * 1.3), 2) for v in env]
+    open(os.path.join(B, "env.js"), "w").write("window.VO_ENV=" + json.dumps(env) + ";window.VO_FPS=30;")
+    html = open(os.path.join(P, "shared/template.html")).read().replace("{DUR}", str(dur)).replace("{ID}", vid)
+    # vídeos reais declarados no roteiro: // @video <arquivo> id=<id> start=<s> dur=<s> media=<s>
+    import re as _re
+    for m in _re.finditer(r"// @video (\S+) id=(\S+) start=([0-9.]+) dur=([0-9.]+) media=([0-9.]+)", open(os.path.join(P, "videos", f"{vid}.js")).read()):
+        tag = f'<video id="{m.group(2)}" src="assets/{m.group(1)}" muted playsinline data-start="{m.group(3)}" data-duration="{m.group(4)}" data-media-start="{m.group(5)}" data-track-index="2"></video>'
+        html = html.replace('<audio id="mix"', tag + '\n      <audio id="mix"', 1)
+    open(os.path.join(B, "index.html"), "w").write(html)
+    # efeitos sonoros declarados pelas cenas
+    out = json.loads(run(["node", os.path.join(HERE, "cues.mjs"), B, CHROME]).strip().splitlines()[-1])
+    if out["errs"] or not out["timeline"]: raise SystemExit(f"erro na página: {out['errs']}")
+    cues = out["cues"]; json.dump(cues, open(os.path.join(B, "cues.json"), "w"), indent=1)
+    # mix: VO normalizada + trilha com ducking + efeitos
+    A = os.path.join(BRAND, "audio")
+    # trilha de retenção gerada para este vídeo: build antes do CTA e drop no CTA
+    import re
+    m_cta = re.search(r"N\.cta\w*\(tl, \{ t0: ([0-9.]+)", open(os.path.join(P, "videos", f"{vid}.js")).read())
+    bed = os.path.join(B, "audio", "bed.wav")
+    if m_cta:
+        run(["python3", os.path.join(LIB, "tools/audio/synth.py"), "bed", bed, str(dur), m_cta.group(1)])
+        bed_db = -11
+    else:
+        bed = os.path.join(A, "bed_tech.wav"); bed_db = -17
+    ins = ["-i", vo, "-i", bed]
+    fx = [c for c in cues if c["name"] != "bed"]
+    for c in fx: ins += ["-i", os.path.join(A, SFX[c["name"]])]
+    g = [f"[0:a]aresample=44100,aformat=channel_layouts=stereo,loudnorm=I=-16:TP=-2:LRA=7,adelay=0|0,apad=whole_dur={dur}[vo]",
+         "[vo]asplit=2[vo1][vo2]",
+         f"[1:a]aresample=44100,atrim=0:{dur},volume={bed_db}dB,afade=t=out:st={dur-1.6}:d=1.6[bed]",
+         "[bed][vo2]sidechaincompress=threshold=0.05:ratio=4:attack=15:release=300:makeup=1[bedd]"]
+    labels = ["[vo1]", "[bedd]"]
+    for i, c in enumerate(fx):
+        ms = max(0, int(c["t"] * 1000))
+        g.append(f"[{i+2}:a]aformat=channel_layouts=stereo,adelay={ms}|{ms},volume={c['db']-3}dB[f{i}]"); labels.append(f"[f{i}]")
+    g.append("".join(labels) + f"amix=inputs={len(labels)}:normalize=0:duration=longest,atrim=0:{dur},loudnorm=I=-14:TP=-1:LRA=9[out]")
+    mix = os.path.join(B, "audio/mix.wav")
+    run(["ffmpeg", "-y", "-v", "error", *ins, "-filter_complex", ";".join(g), "-map", "[out]", "-ar", "48000", mix])
+    print(f"{vid}: dur {dur}s, {len(fx)} efeitos, mix ok")
+    if render:
+        os.makedirs(os.path.join(P, "renders"), exist_ok=True)
+        ck = subprocess.run([HF, "check"], cwd=B, capture_output=True, text=True)
+        print("CHECK:", "passou" if ck.returncode == 0 else "FALHOU"); print(ck.stdout[-2500:])
+        if ck.returncode and "--force" not in sys.argv: raise SystemExit("check falhou")
+        o = run([HF, "render", "-o", os.path.join(P, "renders", f"NEXOOLS_{vid}.mp4"), "--quality", "high"], cwd=B)
+        print(o[-600:])
+        # entrega limpa: sem metadados, sem assinatura de encoder/renderer (vídeo copiado sem perda)
+        out = os.path.join(P, "renders", f"NEXOOLS_{vid}.mp4"); tmp = out + ".clean.mp4"
+        run(["ffmpeg", "-v", "error", "-y", "-i", out, "-map", "0", "-c:v", "copy", "-bsf:v", "filter_units=remove_types=6",
+             "-c:a", "aac", "-b:a", "192k", "-map_metadata", "-1", "-fflags", "+bitexact", "-flags:v", "+bitexact",
+             "-flags:a", "+bitexact", "-movflags", "+faststart", tmp])
+        os.replace(tmp, out); print("metadados removidos")
+
+main()
